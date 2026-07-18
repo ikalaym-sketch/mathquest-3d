@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "release": "0.23.0",
+  "generatedAt": "2026-07-14T00:30:54.257Z",
+  "canonicalSource": "src/data/regionProductionLayouts.js",
+  "runtimeModules": [
+    "src/services/TraversalSurfaceService.js",
+    "src/components/World/RegionTraversalLayer.jsx",
+    "src/services/TerrainTraversalValidationService.js"
+  ],
+  "scope": {
+    "regions": 8,
+    "subareas": 32,
+    "roads": 48,
+    "roadRuns": 142,
+    "waters": 13,
+    "bridges": 9,
+    "structures": 32,
+    "encounterSpawns": 80
+  },
+  "constraints": {
+    "maxRoadSlopeDegrees": 18,
+    "measuredMaxRoadSlopeDegrees": 13.32,
+    "fullMapColliderAllowed": false,
+    "hiddenWaterFloorAllowed": false,
+    "bridgeRequiredAcrossHazards": true,
+    "swimmingImplemented": false
+  },
+  "regions": [
+    {
+      "regionId": "wind_highlands",
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 14,
+      "waters": [
+        {
+          "id": "sky_stream",
+          "kind": "stream",
+          "behavior": "water",
+          "center": [
+            2,
+            -8
+          ],
+          "size": [
+            8,
+            36
+          ],
+          "rotation": -0.24
+        }
+      ],
+      "bridges": [
+        {
+          "id": "wind_stream_bridge",
+          "waterId": "sky_stream",
+          "width": 4.4,
+          "resolvedLength": 11.2,
+          "deckY": 0.38,
+          "start": [
+            -4.94,
+            -7.33
+          ],
+          "end": [
+            5.94,
+            -4.67
+          ]
+        }
+      ],
+      "structures": 4,
+      "baseRectangles": 4,
+      "terraceRectangles": 4,
+      "status": "PASS"
+    },
+    {
+      "regionId": "snow_valley",
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 17,
+      "waters": [
+        {
+          "id": "mirror_lake_water",
+          "kind": "lake",
+          "behavior": "water",
+          "center": [
+            29,
+            -18
+          ],
+          "size": [
+            20,
+            16
+          ],
+          "rotation": 0.06
+        },
+        {
+          "id": "frozen_river",
+          "kind": "frozen",
+          "behavior": "ice",
+          "center": [
+            2,
+            0
+          ],
+          "size": [
+            7,
+            64
+          ],
+          "rotation": 0.12
+        }
+      ],
+      "bridges": [
+        {
+          "id": "snow_river_bridge",
+          "waterId": "frozen_river",
+          "width": 4.2,
+          "resolvedLength": 10.2,
+          "deckY": 0.38,
+          "start": [
+            -3.06,
+            1.61
+          ],
+          "end": [
+            7.06,
+            0.39
+          ]
+        }
+      ],
+      "structures": 4,
+      "baseRectangles": 7,
+      "terraceRectangles": 7,
+      "status": "PASS"
+    },
+    {
+      "regionId": "farm_plains",
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 15,
+      "waters": [
+        {
+          "id": "plains_river",
+          "kind": "river",
+          "behavior": "water",
+          "center": [
+            -4,
+            11
+          ],
+          "size": [
+            9,
+            70
+          ],
+          "rotation": -0.12
+        },
+        {
+          "id": "orchard_pond",
+          "kind": "pond",
+          "behavior": "water",
+          "center": [
+            -40,
+            -8
+          ],
+          "size": [
+            13,
+            10
+          ],
+          "rotation": 0.2
+        }
+      ],
+      "bridges": [
+        {
+          "id": "plains_river_bridge",
+          "waterId": "plains_river",
+          "width": 4.8,
+          "resolvedLength": 12.2,
+          "deckY": 0.38,
+          "start": [
+            -9.56,
+            8.27
+          ],
+          "end": [
+            2.56,
+            9.73
+          ]
+        }
+      ],
+      "structures": 4,
+      "baseRectangles": 7,
+      "terraceRectangles": 5,
+      "status": "PASS"
+    },
+    {
+      "regionId": "star_village",
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 7,
+      "waters": [
+        {
+          "id": "market_river",
+          "kind": "river",
+          "behavior": "water",
+          "center": [
+            -18,
+            27
+          ],
+          "size": [
+            10,
+            33
+          ],
+          "rotation": 0.05
+        }
+      ],
+      "bridges": [
+        {
+          "id": "market_bridge",
+          "waterId": "market_river",
+          "width": 4.5,
+          "resolvedLength": 13.2,
+          "deckY": 0.63,
+          "start": [
+            -24.59,
+            24.33
+          ],
+          "end": [
+            -11.41,
+            23.67
+          ]
+        }
+      ],
+      "structures": 4,
+      "baseRectangles": 4,
+      "terraceRectangles": 4,
+      "status": "PASS"
+    },
+    {
+      "regionId": "crystal_lake",
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 27,
+      "waters": [
+        {
+          "id": "crystal_main_lake",
+          "kind": "lake",
+          "behavior": "water",
+          "center": [
+            2,
+            -5
+          ],
+          "size": [
+            34,
+            22
+          ],
+          "rotation": 0.12
+        },
+        {
+          "id": "crystal_stream",
+          "kind": "river",
+          "behavior": "water",
+          "center": [
+            -8,
+            19
+          ],
+          "size": [
+            8,
+            45
+          ],
+          "rotation": -0.18
+        }
+      ],
+      "bridges": [
+        {
+          "id": "crystal_lake_bridge",
+          "waterId": "crystal_main_lake",
+          "width": 4.6,
+          "resolvedLength": 25.2,
+          "deckY": 0.38,
+          "start": [
+            -0.51,
+            -16.51
+          ],
+          "end": [
+            2.51,
+            8.51
+          ]
+        },
+        {
+          "id": "crystal_stream_bridge",
+          "waterId": "crystal_stream",
+          "width": 4.2,
+          "resolvedLength": 11.2,
+          "deckY": 1.38,
+          "start": [
+            -13.51,
+            18
+          ],
+          "end": [
+            -2.49,
+            20
+          ]
+        }
+      ],
+      "structures": 4,
+      "baseRectangles": 5,
+      "terraceRectangles": 6,
+      "status": "PASS"
+    },
+    {
+      "regionId": "sun_canyon",
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 15,
+      "waters": [
+        {
+          "id": "canyon_oasis",
+          "kind": "oasis",
+          "behavior": "water",
+          "center": [
+            -18,
+            4
+          ],
+          "size": [
+            15,
+            11
+          ],
+          "rotation": 0.2
+        },
+        {
+          "id": "ravine_gap",
+          "kind": "ravine",
+          "behavior": "ravine",
+          "center": [
+            6,
+            7
+          ],
+          "size": [
+            12,
+            48
+          ],
+          "rotation": -0.05
+        }
+      ],
+      "bridges": [
+        {
+          "id": "canyon_rope_bridge",
+          "waterId": "ravine_gap",
+          "width": 4.2,
+          "resolvedLength": 15.2,
+          "deckY": 0.38,
+          "start": [
+            -1.59,
+            5.62
+          ],
+          "end": [
+            13.59,
+            6.38
+          ]
+        }
+      ],
+      "structures": 4,
+      "baseRectangles": 7,
+      "terraceRectangles": 5,
+      "status": "PASS"
+    },
+    {
+      "regionId": "mushroom_grove",
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 35,
+      "waters": [
+        {
+          "id": "glow_pond_water",
+          "kind": "pond",
+          "behavior": "water",
+          "center": [
+            29,
+            -15
+          ],
+          "size": [
+            18,
+            15
+          ],
+          "rotation": 0.08
+        },
+        {
+          "id": "spore_stream",
+          "kind": "stream",
+          "behavior": "water",
+          "center": [
+            -6,
+            9
+          ],
+          "size": [
+            7,
+            54
+          ],
+          "rotation": 0.15
+        }
+      ],
+      "bridges": [
+        {
+          "id": "spore_stream_bridge",
+          "waterId": "spore_stream",
+          "width": 4.2,
+          "resolvedLength": 10.2,
+          "deckY": 0.38,
+          "start": [
+            -11.04,
+            8.76
+          ],
+          "end": [
+            -0.96,
+            7.24
+          ]
+        }
+      ],
+      "structures": 4,
+      "baseRectangles": 7,
+      "terraceRectangles": 7,
+      "status": "PASS"
+    },
+    {
+      "regionId": "clockwork_ruins",
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 12,
+      "waters": [
+        {
+          "id": "coolant_channel",
+          "kind": "channel",
+          "behavior": "hazard-liquid",
+          "center": [
+            5,
+            5
+          ],
+          "size": [
+            9,
+            61
+          ],
+          "rotation": -0.08
+        }
+      ],
+      "bridges": [
+        {
+          "id": "steam_channel_bridge",
+          "waterId": "coolant_channel",
+          "width": 4.4,
+          "resolvedLength": 12.2,
+          "deckY": 0.38,
+          "start": [
+            -1.08,
+            7.51
+          ],
+          "end": [
+            11.08,
+            8.49
+          ]
+        }
+      ],
+      "structures": 4,
+      "baseRectangles": 4,
+      "terraceRectangles": 4,
+      "status": "PASS"
+    }
+  ]
+}

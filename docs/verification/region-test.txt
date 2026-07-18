@@ -1,0 +1,75 @@
+
+> mathquest-3d@0.18.0 region:test
+> node scripts/run-region-production-tests.mjs
+
+{
+  "generatedAt": "2026-07-13T22:02:05.956Z",
+  "ok": true,
+  "regionProduction": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "regionCount": 8,
+    "subareaCount": 32,
+    "structureCount": 32,
+    "bridgeCount": 9,
+    "layouts": {
+      "wind_highlands": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "snow_valley": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "farm_plains": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "star_village": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "crystal_lake": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "sun_canyon": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "mushroom_grove": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "clockwork_ruins": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    "catalog": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "topology": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "characterPhysical": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "profileCount": 3
+  }
+}

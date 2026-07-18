@@ -1,0 +1,526 @@
+{
+  "schema": "mathquest.release-content.v1",
+  "version": "0.22.0",
+  "combat": {
+    "regionBossProfiles": [
+      {
+        "regionId": "wind_highlands",
+        "phaseIds": [
+          "breeze",
+          "crosswind",
+          "tempest"
+        ],
+        "skillIds": [
+          "gust_ring",
+          "wind_lane",
+          "storm_burst"
+        ],
+        "seal": {
+          "questionCount": 3,
+          "requiredCorrect": 2,
+          "recoveryPercent": 0.2,
+          "title": "風之封印"
+        }
+      },
+      {
+        "regionId": "snow_valley",
+        "phaseIds": [
+          "frost",
+          "mirror",
+          "aurora"
+        ],
+        "skillIds": [
+          "frost_field",
+          "ice_path",
+          "aurora_drop"
+        ],
+        "seal": {
+          "questionCount": 3,
+          "requiredCorrect": 2,
+          "recoveryPercent": 0.2,
+          "title": "極光封印"
+        }
+      },
+      {
+        "regionId": "farm_plains",
+        "phaseIds": [
+          "guard",
+          "charge",
+          "golden"
+        ],
+        "skillIds": [
+          "hoof_stomp",
+          "harvest_lane",
+          "seed_burst"
+        ],
+        "seal": {
+          "questionCount": 3,
+          "requiredCorrect": 2,
+          "recoveryPercent": 0.2,
+          "title": "豐收封印"
+        }
+      },
+      {
+        "regionId": "star_village",
+        "phaseIds": [
+          "starlight",
+          "comet",
+          "constellation"
+        ],
+        "skillIds": [
+          "star_orbit",
+          "comet_lane",
+          "starfall"
+        ],
+        "seal": {
+          "questionCount": 3,
+          "requiredCorrect": 2,
+          "recoveryPercent": 0.2,
+          "title": "星座封印"
+        }
+      },
+      {
+        "regionId": "crystal_lake",
+        "phaseIds": [
+          "reflection",
+          "refraction",
+          "leviathan"
+        ],
+        "skillIds": [
+          "prism_ring",
+          "prism_beam",
+          "echo_drop"
+        ],
+        "seal": {
+          "questionCount": 3,
+          "requiredCorrect": 2,
+          "recoveryPercent": 0.2,
+          "title": "稜鏡封印"
+        }
+      },
+      {
+        "regionId": "sun_canyon",
+        "phaseIds": [
+          "sand",
+          "rope",
+          "solar"
+        ],
+        "skillIds": [
+          "sand_quake",
+          "sun_lane",
+          "solar_mark"
+        ],
+        "seal": {
+          "questionCount": 3,
+          "requiredCorrect": 2,
+          "recoveryPercent": 0.2,
+          "title": "日耀封印"
+        }
+      },
+      {
+        "regionId": "mushroom_grove",
+        "phaseIds": [
+          "spore",
+          "dance",
+          "mooncap"
+        ],
+        "skillIds": [
+          "spore_ring",
+          "glow_lane",
+          "fairy_mark"
+        ],
+        "seal": {
+          "questionCount": 3,
+          "requiredCorrect": 2,
+          "recoveryPercent": 0.2,
+          "title": "月帽封印"
+        }
+      },
+      {
+        "regionId": "clockwork_ruins",
+        "phaseIds": [
+          "tick",
+          "steam",
+          "chrono"
+        ],
+        "skillIds": [
+          "gear_ring",
+          "steam_lane",
+          "time_mark"
+        ],
+        "seal": {
+          "questionCount": 3,
+          "requiredCorrect": 2,
+          "recoveryPercent": 0.2,
+          "title": "時序封印"
+        }
+      }
+    ],
+    "eliteProfiles": [
+      {
+        "regionId": "wind_highlands",
+        "label": "風盾",
+        "barrierHits": 2,
+        "pulseDamage": 5,
+        "pulseRadius": 4.5,
+        "pulseEvery": 5.5,
+        "enrageThreshold": 0.35
+      },
+      {
+        "regionId": "snow_valley",
+        "label": "冰鏡",
+        "barrierHits": 3,
+        "pulseDamage": 4,
+        "pulseRadius": 5,
+        "pulseEvery": 6.2,
+        "enrageThreshold": 0.4
+      },
+      {
+        "regionId": "farm_plains",
+        "label": "豐收護甲",
+        "barrierHits": 2,
+        "pulseDamage": 6,
+        "pulseRadius": 4,
+        "pulseEvery": 5.8,
+        "enrageThreshold": 0.3
+      },
+      {
+        "regionId": "star_village",
+        "label": "星光護符",
+        "barrierHits": 2,
+        "pulseDamage": 5,
+        "pulseRadius": 5.2,
+        "pulseEvery": 5.2,
+        "enrageThreshold": 0.35
+      },
+      {
+        "regionId": "crystal_lake",
+        "label": "稜鏡護盾",
+        "barrierHits": 3,
+        "pulseDamage": 5,
+        "pulseRadius": 4.8,
+        "pulseEvery": 5.8,
+        "enrageThreshold": 0.4
+      },
+      {
+        "regionId": "sun_canyon",
+        "label": "日耀狂熱",
+        "barrierHits": 1,
+        "pulseDamage": 7,
+        "pulseRadius": 4.4,
+        "pulseEvery": 4.8,
+        "enrageThreshold": 0.45
+      },
+      {
+        "regionId": "mushroom_grove",
+        "label": "孢子脈衝",
+        "barrierHits": 2,
+        "pulseDamage": 6,
+        "pulseRadius": 5.4,
+        "pulseEvery": 5.5,
+        "enrageThreshold": 0.38
+      },
+      {
+        "regionId": "clockwork_ruins",
+        "label": "超載裝甲",
+        "barrierHits": 3,
+        "pulseDamage": 6,
+        "pulseRadius": 4.6,
+        "pulseEvery": 5,
+        "enrageThreshold": 0.42
+      }
+    ]
+  },
+  "trialTower": {
+    "arenaThemes": [
+      {
+        "id": "courtyard",
+        "baseShape": "octagon",
+        "obstacleCount": 3
+      },
+      {
+        "id": "workshop",
+        "baseShape": "square",
+        "obstacleCount": 3
+      },
+      {
+        "id": "gallery",
+        "baseShape": "diamond",
+        "obstacleCount": 3
+      },
+      {
+        "id": "market",
+        "baseShape": "square",
+        "obstacleCount": 3
+      },
+      {
+        "id": "garden",
+        "baseShape": "hexagon",
+        "obstacleCount": 3
+      },
+      {
+        "id": "foundry",
+        "baseShape": "rectangle",
+        "obstacleCount": 3
+      },
+      {
+        "id": "skybridge",
+        "baseShape": "bridges",
+        "obstacleCount": 3
+      },
+      {
+        "id": "library",
+        "baseShape": "square",
+        "obstacleCount": 3
+      },
+      {
+        "id": "observatory",
+        "baseShape": "circle",
+        "obstacleCount": 3
+      },
+      {
+        "id": "summit",
+        "baseShape": "terraces",
+        "obstacleCount": 3
+      }
+    ],
+    "roomTypes": [
+      "battle",
+      "swarm",
+      "elite",
+      "trap",
+      "escort",
+      "puzzle",
+      "endurance",
+      "treasure",
+      "rest",
+      "boss"
+    ],
+    "floorCount": 100
+  },
+  "ui": {
+    "defaults": {
+      "textScale": "normal",
+      "hudScale": "normal",
+      "handedness": "right",
+      "compactHud": false,
+      "showMinimap": true,
+      "reducedMotion": false,
+      "highContrast": false,
+      "colorVision": "standard",
+      "subtitles": true,
+      "voiceGuidance": false
+    },
+    "optionValues": {
+      "textScale": [
+        "normal",
+        "large",
+        "xlarge"
+      ],
+      "hudScale": [
+        "small",
+        "normal",
+        "large"
+      ],
+      "handedness": [
+        "left",
+        "right"
+      ],
+      "colorVision": [
+        "standard",
+        "deuteranopia",
+        "protanopia",
+        "tritanopia"
+      ]
+    }
+  },
+  "story": {
+    "chapters": [
+      {
+        "id": "chapter_star",
+        "regionId": "star_village",
+        "order": 1,
+        "title": "第一章｜星圖課堂",
+        "summary": "完成學習花園星圖，守護村外的冒險道路。",
+        "guideNpcId": "guide_star_village",
+        "unlocksRegionId": "farm_plains",
+        "unlockReason": "完成星光村外圍章節，村民將開放通往農業平原的道路。",
+        "questIds": [
+          "chapter_star_explore",
+          "chapter_star_mechanic",
+          "chapter_star_structure",
+          "chapter_star_elite",
+          "chapter_star_boss"
+        ]
+      },
+      {
+        "id": "chapter_farm",
+        "regionId": "farm_plains",
+        "order": 2,
+        "title": "第二章｜豐收方陣",
+        "summary": "協助平原居民恢復灌溉與收穫秩序。",
+        "guideNpcId": "guide_farm_plains",
+        "unlocksRegionId": "wind_highlands",
+        "unlockReason": "完成農業平原章節，修好的運貨路將開通風之高地。",
+        "questIds": [
+          "chapter_farm_explore",
+          "chapter_farm_mechanic",
+          "chapter_farm_structure",
+          "chapter_farm_elite",
+          "chapter_farm_boss"
+        ]
+      },
+      {
+        "id": "chapter_wind",
+        "regionId": "wind_highlands",
+        "order": 3,
+        "title": "第三章｜風之方向",
+        "summary": "修復風車航線，找出雲橋失去平衡的原因。",
+        "guideNpcId": "guide_wind_highlands",
+        "unlocksRegionId": "crystal_lake",
+        "unlockReason": "完成風之高地章節，風向航線將帶你前往水晶湖。",
+        "questIds": [
+          "chapter_wind_explore",
+          "chapter_wind_mechanic",
+          "chapter_wind_structure",
+          "chapter_wind_elite",
+          "chapter_wind_boss"
+        ]
+      },
+      {
+        "id": "chapter_crystal",
+        "regionId": "crystal_lake",
+        "order": 4,
+        "title": "第四章｜稜鏡回聲",
+        "summary": "利用對稱與折射，修復湖心的水晶航道。",
+        "guideNpcId": "guide_crystal_lake",
+        "unlocksRegionId": "mushroom_grove",
+        "unlockReason": "完成水晶湖章節，湖光航道將通往蘑菇濕地。",
+        "questIds": [
+          "chapter_crystal_explore",
+          "chapter_crystal_mechanic",
+          "chapter_crystal_structure",
+          "chapter_crystal_elite",
+          "chapter_crystal_boss"
+        ]
+      },
+      {
+        "id": "chapter_mushroom",
+        "regionId": "mushroom_grove",
+        "order": 5,
+        "title": "第五章｜孢子節拍",
+        "summary": "跟隨倍數節拍，讓巨菇村重新發光。",
+        "guideNpcId": "guide_mushroom_grove",
+        "unlocksRegionId": "sun_canyon",
+        "unlockReason": "完成蘑菇濕地章節，妖精環將指引日光峽谷。",
+        "questIds": [
+          "chapter_mushroom_explore",
+          "chapter_mushroom_mechanic",
+          "chapter_mushroom_structure",
+          "chapter_mushroom_elite",
+          "chapter_mushroom_boss"
+        ]
+      },
+      {
+        "id": "chapter_canyon",
+        "regionId": "sun_canyon",
+        "order": 6,
+        "title": "第六章｜峽谷測量",
+        "summary": "量測橋索與岩壁距離，打開太陽神殿。",
+        "guideNpcId": "guide_sun_canyon",
+        "unlocksRegionId": "snow_valley",
+        "unlockReason": "完成日光峽谷章節，太陽神殿將開啟前往雪光谷的山道。",
+        "questIds": [
+          "chapter_canyon_explore",
+          "chapter_canyon_mechanic",
+          "chapter_canyon_structure",
+          "chapter_canyon_elite",
+          "chapter_canyon_boss"
+        ]
+      },
+      {
+        "id": "chapter_snow",
+        "regionId": "snow_valley",
+        "order": 7,
+        "title": "第七章｜極光之鏡",
+        "summary": "追查鏡湖異常，讓雪光神殿重新映出極光。",
+        "guideNpcId": "guide_snow_valley",
+        "unlocksRegionId": "clockwork_ruins",
+        "unlockReason": "完成雪光谷章節，極光座標將指出機械遺跡。",
+        "questIds": [
+          "chapter_snow_explore",
+          "chapter_snow_mechanic",
+          "chapter_snow_structure",
+          "chapter_snow_elite",
+          "chapter_snow_boss"
+        ]
+      },
+      {
+        "id": "chapter_clockwork",
+        "regionId": "clockwork_ruins",
+        "order": 8,
+        "title": "第八章｜時序核心",
+        "summary": "依正確順序啟動齒輪，阻止時間核心超載。",
+        "guideNpcId": "guide_clockwork_ruins",
+        "unlocksRegionId": null,
+        "unlockReason": "完成時序核心，八區主線正式結束。",
+        "questIds": [
+          "chapter_clockwork_explore",
+          "chapter_clockwork_mechanic",
+          "chapter_clockwork_structure",
+          "chapter_clockwork_elite",
+          "chapter_clockwork_boss"
+        ]
+      }
+    ],
+    "questCount": 40,
+    "questIds": [
+      "chapter_wind_explore",
+      "chapter_wind_mechanic",
+      "chapter_wind_structure",
+      "chapter_wind_elite",
+      "chapter_wind_boss",
+      "chapter_snow_explore",
+      "chapter_snow_mechanic",
+      "chapter_snow_structure",
+      "chapter_snow_elite",
+      "chapter_snow_boss",
+      "chapter_farm_explore",
+      "chapter_farm_mechanic",
+      "chapter_farm_structure",
+      "chapter_farm_elite",
+      "chapter_farm_boss",
+      "chapter_star_explore",
+      "chapter_star_mechanic",
+      "chapter_star_structure",
+      "chapter_star_elite",
+      "chapter_star_boss",
+      "chapter_crystal_explore",
+      "chapter_crystal_mechanic",
+      "chapter_crystal_structure",
+      "chapter_crystal_elite",
+      "chapter_crystal_boss",
+      "chapter_canyon_explore",
+      "chapter_canyon_mechanic",
+      "chapter_canyon_structure",
+      "chapter_canyon_elite",
+      "chapter_canyon_boss",
+      "chapter_mushroom_explore",
+      "chapter_mushroom_mechanic",
+      "chapter_mushroom_structure",
+      "chapter_mushroom_elite",
+      "chapter_mushroom_boss",
+      "chapter_clockwork_explore",
+      "chapter_clockwork_mechanic",
+      "chapter_clockwork_structure",
+      "chapter_clockwork_elite",
+      "chapter_clockwork_boss"
+    ],
+    "npcProfileIds": [
+      "chief",
+      "merchant",
+      "blacksmith",
+      "carpenter"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+
+> mathquest-3d@0.15.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 1544 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                          [39m[1m[2m    1.05 kB[22m[1m[22m[2m │ gzip:   0.52 kB[22m
+[2mdist/[22m[2massets/[22m[35mindex-0RXgdBOx.css           [39m[1m[2m   56.68 kB[22m[1m[22m[2m │ gzip:  10.03 kB[22m
+[2mdist/[22m[2massets/[22m[36mModel-BpMeiAPI.js            [39m[1m[2m    0.85 kB[22m[1m[22m[2m │ gzip:   0.49 kB[22m
+[2mdist/[22m[2massets/[22m[36mSceneProps-B3SfZwBO.js       [39m[1m[2m    2.09 kB[22m[1m[22m[2m │ gzip:   0.72 kB[22m
+[2mdist/[22m[2massets/[22m[36mTrialTowerScene-CSjZ3Ft6.js  [39m[1m[2m    4.13 kB[22m[1m[22m[2m │ gzip:   2.12 kB[22m
+[2mdist/[22m[2massets/[22m[36mWildernessScene--kH2q0zz.js  [39m[1m[2m    7.60 kB[22m[1m[22m[2m │ gzip:   2.79 kB[22m
+[2mdist/[22m[2massets/[22m[36mBoss-CC0k53-B.js             [39m[1m[2m   14.43 kB[22m[1m[22m[2m │ gzip:   5.15 kB[22m
+[2mdist/[22m[2massets/[22m[36mFarmScene-CM3PlRvc.js        [39m[1m[2m   22.74 kB[22m[1m[22m[2m │ gzip:   6.81 kB[22m
+[2mdist/[22m[2massets/[22m[36mRegionScene-svxU7Te7.js      [39m[1m[2m   40.17 kB[22m[1m[22m[2m │ gzip:  12.17 kB[22m
+[2mdist/[22m[2massets/[22m[36mindex-BFs_zP-o.js            [39m[1m[2m  240.75 kB[22m[1m[22m[2m │ gzip:  80.42 kB[22m
+[2mdist/[22m[2massets/[22m[36mcharts-019UXyqI.js           [39m[1m[2m  351.91 kB[22m[1m[22m[2m │ gzip:  97.22 kB[22m
+[2mdist/[22m[2massets/[22m[36mthree-MWt7p63w.js            [39m[1m[2m  683.75 kB[22m[1m[22m[2m │ gzip: 176.25 kB[22m
+[2mdist/[22m[2massets/[22m[36mr3f-CxJm6poj.js              [39m[1m[2m2,458.43 kB[22m[1m[22m[2m │ gzip: 890.61 kB[22m
+[32m✓ built in 7.77s[39m

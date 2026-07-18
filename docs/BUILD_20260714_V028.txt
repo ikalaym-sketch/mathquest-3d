@@ -1,0 +1,22 @@
+
+> mathquest-3d@0.28.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 1638 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                          [39m[1m[2m    1.05 kB[22m[1m[22m[2m │ gzip:   0.51 kB[22m
+[2mdist/[22m[2massets/[22m[35mindex-BSIef8fd.css           [39m[1m[2m   85.74 kB[22m[1m[22m[2m │ gzip:  14.05 kB[22m
+[2mdist/[22m[2massets/[22m[36mModel-DmoeM_id.js            [39m[1m[2m    0.98 kB[22m[1m[22m[2m │ gzip:   0.57 kB[22m
+[2mdist/[22m[2massets/[22m[36mWildernessScene-dVGffyTN.js  [39m[1m[2m    5.05 kB[22m[1m[22m[2m │ gzip:   2.12 kB[22m
+[2mdist/[22m[2massets/[22m[36mTrialTowerScene-Dvn5NlYg.js  [39m[1m[2m   12.02 kB[22m[1m[22m[2m │ gzip:   5.05 kB[22m
+[2mdist/[22m[2massets/[22m[36mBoss-D3lTl0WD.js             [39m[1m[2m   22.40 kB[22m[1m[22m[2m │ gzip:   8.01 kB[22m
+[2mdist/[22m[2massets/[22m[36mFarmScene-CEfXTU71.js        [39m[1m[2m   31.24 kB[22m[1m[22m[2m │ gzip:   9.29 kB[22m
+[2mdist/[22m[2massets/[22m[36mRegionScene-hipmtZKs.js      [39m[1m[2m   86.65 kB[22m[1m[22m[2m │ gzip:  27.28 kB[22m
+[2mdist/[22m[2massets/[22m[36mcharts-AmMtBpjo.js           [39m[1m[2m  351.91 kB[22m[1m[22m[2m │ gzip:  97.22 kB[22m
+[2mdist/[22m[2massets/[22m[36mindex-Cd9n-Zsl.js            [39m[1m[2m  490.90 kB[22m[1m[22m[2m │ gzip: 170.36 kB[22m
+[2mdist/[22m[2massets/[22m[36mthree-DFMh5ah3.js            [39m[1m[2m  683.77 kB[22m[1m[22m[2m │ gzip: 176.27 kB[22m
+[2mdist/[22m[2massets/[22m[36mr3f-CHtA90cP.js              [39m[1m[2m2,460.39 kB[22m[1m[22m[2m │ gzip: 891.20 kB[22m
+[32m✓ built in 9.83s[39m

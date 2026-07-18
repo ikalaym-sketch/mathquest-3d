@@ -1,0 +1,38 @@
+
+> mathquest-3d@0.23.0 region:gameplay:test
+> node scripts/run-region-gameplay-tests.mjs
+
+{
+  "generatedAt": "2026-07-14T00:34:27.427Z",
+  "ok": true,
+  "summary": {
+    "regions": 8,
+    "mechanics": 8,
+    "mechanicNodes": 24,
+    "events": 24,
+    "eventSteps": 72,
+    "structureInteractions": 16,
+    "materials": 8,
+    "keepsakes": 8,
+    "mechanicChallenges": 24,
+    "dailyRiftDeterministic": true,
+    "testedEvents": 24,
+    "testedSteps": 72
+  },
+  "errors": [],
+  "warnings": [],
+  "stateMachine": {
+    "allEventsCompleted": true,
+    "outOfOrderRejected": true
+  },
+  "lootByTier": {
+    "normal": 1,
+    "elite": 2,
+    "boss": 4
+  },
+  "dailyRift": {
+    "dayKey": "2026-07-14",
+    "monsterCount": 6,
+    "deterministic": true
+  }
+}

@@ -1,0 +1,3832 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-13T20:16:49.418Z",
+  "regionCount": 8,
+  "subareaCount": 32,
+  "prefabCount": 15,
+  "regions": [
+    {
+      "id": "wind_highlands",
+      "size": [
+        126,
+        122
+      ],
+      "boundary": "rolling_hills",
+      "subareas": [
+        {
+          "id": "breeze_meadow",
+          "name": "Breeze Meadow",
+          "center": [
+            -31,
+            -20
+          ],
+          "size": [
+            31,
+            27
+          ],
+          "elevation": 0.35,
+          "structureType": "windmill_station",
+          "structureOffset": [
+            -4,
+            -2
+          ]
+        },
+        {
+          "id": "windmill_ridge",
+          "name": "Windmill Ridge",
+          "center": [
+            27,
+            -27
+          ],
+          "size": [
+            32,
+            25
+          ],
+          "elevation": 1.15,
+          "structureType": "windmill_station",
+          "structureOffset": [
+            4,
+            -1
+          ]
+        },
+        {
+          "id": "cloud_bridge",
+          "name": "Cloud Bridge",
+          "center": [
+            28,
+            22
+          ],
+          "size": [
+            31,
+            27
+          ],
+          "elevation": 1.8,
+          "structureType": "cloud_observatory",
+          "structureOffset": [
+            2,
+            2
+          ]
+        },
+        {
+          "id": "sky_observatory",
+          "name": "Sky Observatory",
+          "center": [
+            -27,
+            28
+          ],
+          "size": [
+            31,
+            28
+          ],
+          "elevation": 2.35,
+          "structureType": "cloud_observatory",
+          "structureOffset": [
+            -2,
+            1
+          ]
+        }
+      ],
+      "roads": [
+        {
+          "id": "wind_main_south",
+          "from": [
+            0,
+            8
+          ],
+          "to": [
+            -26,
+            -17
+          ],
+          "width": 6.5,
+          "kind": "main"
+        },
+        {
+          "id": "wind_ridge_curve",
+          "from": [
+            -2,
+            4
+          ],
+          "to": [
+            25,
+            -24
+          ],
+          "width": 5.3,
+          "kind": "main"
+        },
+        {
+          "id": "wind_north_arc",
+          "from": [
+            2,
+            3
+          ],
+          "to": [
+            24,
+            20
+          ],
+          "width": 5.5,
+          "kind": "main"
+        },
+        {
+          "id": "wind_observatory_path",
+          "from": [
+            -4,
+            5
+          ],
+          "to": [
+            -25,
+            26
+          ],
+          "width": 5.2,
+          "kind": "main"
+        },
+        {
+          "id": "wind_cross_link",
+          "from": [
+            -22,
+            -17
+          ],
+          "to": [
+            21,
+            -23
+          ],
+          "width": 4.2,
+          "kind": "secondary"
+        },
+        {
+          "id": "wind_high_link",
+          "from": [
+            -22,
+            24
+          ],
+          "to": [
+            22,
+            18
+          ],
+          "width": 4,
+          "kind": "secondary"
+        }
+      ],
+      "waters": [
+        {
+          "id": "sky_stream",
+          "center": [
+            2,
+            -8
+          ],
+          "size": [
+            8,
+            36
+          ],
+          "rotation": -0.24,
+          "kind": "stream"
+        }
+      ],
+      "bridges": [
+        {
+          "id": "wind_stream_bridge",
+          "center": [
+            0.5,
+            -6
+          ],
+          "length": 9,
+          "width": 4.4,
+          "rotation": -0.24,
+          "waterId": "sky_stream"
+        }
+      ],
+      "structures": [
+        {
+          "id": "wind_station_a",
+          "type": "windmill_station",
+          "position": [
+            -35,
+            0.35,
+            -22
+          ],
+          "rotation": 0.3,
+          "scale": 1,
+          "subareaId": "breeze_meadow",
+          "footprint": [
+            7,
+            7
+          ],
+          "visualPartCount": 11,
+          "colliderCount": 3,
+          "socketCount": 2
+        },
+        {
+          "id": "wind_station_b",
+          "type": "windmill_station",
+          "position": [
+            31,
+            1.15,
+            -29
+          ],
+          "rotation": -0.4,
+          "scale": 1.08,
+          "subareaId": "windmill_ridge",
+          "footprint": [
+            7,
+            7
+          ],
+          "visualPartCount": 11,
+          "colliderCount": 3,
+          "socketCount": 2
+        },
+        {
+          "id": "cloud_station",
+          "type": "cloud_observatory",
+          "position": [
+            30,
+            1.8,
+            24
+          ],
+          "rotation": 0.4,
+          "scale": 0.92,
+          "subareaId": "cloud_bridge",
+          "footprint": [
+            8,
+            8
+          ],
+          "visualPartCount": 9,
+          "colliderCount": 2,
+          "socketCount": 2
+        },
+        {
+          "id": "sky_observatory_main",
+          "type": "cloud_observatory",
+          "position": [
+            -29,
+            2.35,
+            30
+          ],
+          "rotation": -0.2,
+          "scale": 1.15,
+          "subareaId": "sky_observatory",
+          "footprint": [
+            8,
+            8
+          ],
+          "visualPartCount": 9,
+          "colliderCount": 2,
+          "socketCount": 2
+        }
+      ]
+    },
+    {
+      "id": "snow_valley",
+      "size": [
+        124,
+        124
+      ],
+      "boundary": "snow_peaks",
+      "subareas": [
+        {
+          "id": "frostflower_meadow",
+          "name": "Frostflower Meadow",
+          "center": [
+            -30,
+            -25
+          ],
+          "size": [
+            30,
+            28
+          ],
+          "elevation": 0.25,
+          "structureType": "aurora_shrine",
+          "structureOffset": [
+            -4,
+            0
+          ]
+        },
+        {
+          "id": "mirror_lake",
+          "name": "Mirror Lake",
+          "center": [
+            28,
+            -22
+          ],
+          "size": [
+            31,
+            29
+          ],
+          "elevation": 0.55,
+          "structureType": "aurora_shrine",
+          "structureOffset": [
+            4,
+            -2
+          ]
+        },
+        {
+          "id": "aurora_observatory",
+          "name": "Aurora Observatory",
+          "center": [
+            -24,
+            27
+          ],
+          "size": [
+            29,
+            29
+          ],
+          "elevation": 2.1,
+          "structureType": "cloud_observatory",
+          "structureOffset": [
+            -2,
+            2
+          ]
+        },
+        {
+          "id": "snowlight_shrine",
+          "name": "Snowlight Shrine",
+          "center": [
+            30,
+            28
+          ],
+          "size": [
+            31,
+            29
+          ],
+          "elevation": 1.35,
+          "structureType": "aurora_shrine",
+          "structureOffset": [
+            2,
+            2
+          ]
+        }
+      ],
+      "roads": [
+        {
+          "id": "snow_south_path",
+          "from": [
+            0,
+            9
+          ],
+          "to": [
+            -27,
+            -21
+          ],
+          "width": 6.2,
+          "kind": "main"
+        },
+        {
+          "id": "snow_lake_path",
+          "from": [
+            1,
+            6
+          ],
+          "to": [
+            25,
+            -18
+          ],
+          "width": 5.7,
+          "kind": "main"
+        },
+        {
+          "id": "snow_observatory_path",
+          "from": [
+            -4,
+            5
+          ],
+          "to": [
+            -22,
+            24
+          ],
+          "width": 5,
+          "kind": "main"
+        },
+        {
+          "id": "snow_shrine_path",
+          "from": [
+            4,
+            4
+          ],
+          "to": [
+            27,
+            24
+          ],
+          "width": 5.3,
+          "kind": "main"
+        },
+        {
+          "id": "snow_lake_ring",
+          "from": [
+            22,
+            -18
+          ],
+          "to": [
+            31,
+            -8
+          ],
+          "width": 3.8,
+          "kind": "secondary"
+        },
+        {
+          "id": "snow_north_link",
+          "from": [
+            -20,
+            24
+          ],
+          "to": [
+            25,
+            24
+          ],
+          "width": 4,
+          "kind": "secondary"
+        }
+      ],
+      "waters": [
+        {
+          "id": "mirror_lake_water",
+          "center": [
+            29,
+            -18
+          ],
+          "size": [
+            20,
+            16
+          ],
+          "rotation": 0.06,
+          "kind": "lake"
+        },
+        {
+          "id": "frozen_river",
+          "center": [
+            2,
+            0
+          ],
+          "size": [
+            7,
+            64
+          ],
+          "rotation": 0.12,
+          "kind": "river"
+        }
+      ],
+      "bridges": [
+        {
+          "id": "snow_river_bridge",
+          "center": [
+            2,
+            1
+          ],
+          "length": 9.5,
+          "width": 4.2,
+          "rotation": 0.12,
+          "waterId": "frozen_river"
+        }
+      ],
+      "structures": [
+        {
+          "id": "frostflower_altar",
+          "type": "aurora_shrine",
+          "position": [
+            -34,
+            0.25,
+            -25
+          ],
+          "rotation": 0.15,
+          "scale": 0.8,
+          "subareaId": "frostflower_meadow",
+          "footprint": [
+            8,
+            7
+          ],
+          "visualPartCount": 10,
+          "colliderCount": 4,
+          "socketCount": 1
+        },
+        {
+          "id": "mirror_lake_gate",
+          "type": "aurora_shrine",
+          "position": [
+            39,
+            0.55,
+            -30
+          ],
+          "rotation": -0.3,
+          "scale": 0.82,
+          "subareaId": "mirror_lake",
+          "footprint": [
+            8,
+            7
+          ],
+          "visualPartCount": 10,
+          "colliderCount": 4,
+          "socketCount": 1
+        },
+        {
+          "id": "aurora_observatory_main",
+          "type": "cloud_observatory",
+          "position": [
+            -26,
+            2.1,
+            30
+          ],
+          "rotation": 0.35,
+          "scale": 1.08,
+          "subareaId": "aurora_observatory",
+          "footprint": [
+            8,
+            8
+          ],
+          "visualPartCount": 9,
+          "colliderCount": 2,
+          "socketCount": 2
+        },
+        {
+          "id": "snowlight_shrine_main",
+          "type": "aurora_shrine",
+          "position": [
+            33,
+            1.35,
+            30
+          ],
+          "rotation": -0.25,
+          "scale": 1.15,
+          "subareaId": "snowlight_shrine",
+          "footprint": [
+            8,
+            7
+          ],
+          "visualPartCount": 10,
+          "colliderCount": 4,
+          "socketCount": 1
+        }
+      ]
+    },
+    {
+      "id": "farm_plains",
+      "size": [
+        128,
+        122
+      ],
+      "boundary": "orchard_fence",
+      "subareas": [
+        {
+          "id": "sunny_orchard",
+          "name": "Sunny Orchard",
+          "center": [
+            -33,
+            -22
+          ],
+          "size": [
+            34,
+            28
+          ],
+          "elevation": 0.2,
+          "structureType": "orchard_barn",
+          "structureOffset": [
+            -4,
+            -1
+          ]
+        },
+        {
+          "id": "shepherd_hill",
+          "name": "Shepherd Hill",
+          "center": [
+            28,
+            -27
+          ],
+          "size": [
+            31,
+            26
+          ],
+          "elevation": 0.85,
+          "structureType": "beekeeper_pavilion",
+          "structureOffset": [
+            3,
+            -2
+          ]
+        },
+        {
+          "id": "riverside_field",
+          "name": "Riverside Field",
+          "center": [
+            -28,
+            27
+          ],
+          "size": [
+            33,
+            29
+          ],
+          "elevation": 0.4,
+          "structureType": "beekeeper_pavilion",
+          "structureOffset": [
+            -3,
+            2
+          ]
+        },
+        {
+          "id": "harvest_square",
+          "name": "Harvest Square",
+          "center": [
+            30,
+            26
+          ],
+          "size": [
+            32,
+            30
+          ],
+          "elevation": 0.25,
+          "structureType": "orchard_barn",
+          "structureOffset": [
+            3,
+            2
+          ]
+        }
+      ],
+      "roads": [
+        {
+          "id": "farm_plains_main",
+          "from": [
+            0,
+            9
+          ],
+          "to": [
+            -29,
+            -18
+          ],
+          "width": 7,
+          "kind": "main"
+        },
+        {
+          "id": "farm_plains_market",
+          "from": [
+            0,
+            8
+          ],
+          "to": [
+            27,
+            22
+          ],
+          "width": 6.4,
+          "kind": "main"
+        },
+        {
+          "id": "farm_shepherd_path",
+          "from": [
+            1,
+            6
+          ],
+          "to": [
+            25,
+            -24
+          ],
+          "width": 5,
+          "kind": "main"
+        },
+        {
+          "id": "farm_river_path",
+          "from": [
+            -2,
+            5
+          ],
+          "to": [
+            -25,
+            24
+          ],
+          "width": 5.3,
+          "kind": "main"
+        },
+        {
+          "id": "farm_south_link",
+          "from": [
+            -25,
+            -18
+          ],
+          "to": [
+            22,
+            -23
+          ],
+          "width": 4.2,
+          "kind": "secondary"
+        },
+        {
+          "id": "farm_north_link",
+          "from": [
+            -23,
+            23
+          ],
+          "to": [
+            25,
+            21
+          ],
+          "width": 4.4,
+          "kind": "secondary"
+        }
+      ],
+      "waters": [
+        {
+          "id": "plains_river",
+          "center": [
+            -4,
+            11
+          ],
+          "size": [
+            9,
+            70
+          ],
+          "rotation": -0.12,
+          "kind": "river"
+        },
+        {
+          "id": "orchard_pond",
+          "center": [
+            -40,
+            -8
+          ],
+          "size": [
+            13,
+            10
+          ],
+          "rotation": 0.2,
+          "kind": "pond"
+        }
+      ],
+      "bridges": [
+        {
+          "id": "plains_river_bridge",
+          "center": [
+            -3.5,
+            9
+          ],
+          "length": 10,
+          "width": 4.8,
+          "rotation": -0.12,
+          "waterId": "plains_river"
+        }
+      ],
+      "structures": [
+        {
+          "id": "sunny_orchard_barn",
+          "type": "orchard_barn",
+          "position": [
+            -37,
+            0.2,
+            -23
+          ],
+          "rotation": 0.18,
+          "scale": 1,
+          "subareaId": "sunny_orchard",
+          "footprint": [
+            9,
+            8
+          ],
+          "visualPartCount": 11,
+          "colliderCount": 6,
+          "socketCount": 2
+        },
+        {
+          "id": "shepherd_bee_pavilion",
+          "type": "beekeeper_pavilion",
+          "position": [
+            31,
+            0.85,
+            -29
+          ],
+          "rotation": -0.25,
+          "scale": 1,
+          "subareaId": "shepherd_hill",
+          "footprint": [
+            7,
+            7
+          ],
+          "visualPartCount": 13,
+          "colliderCount": 4,
+          "socketCount": 1
+        },
+        {
+          "id": "river_bee_pavilion",
+          "type": "beekeeper_pavilion",
+          "position": [
+            -31,
+            0.4,
+            30
+          ],
+          "rotation": 0.2,
+          "scale": 0.9,
+          "subareaId": "riverside_field",
+          "footprint": [
+            7,
+            7
+          ],
+          "visualPartCount": 13,
+          "colliderCount": 4,
+          "socketCount": 1
+        },
+        {
+          "id": "harvest_barn",
+          "type": "orchard_barn",
+          "position": [
+            33,
+            0.25,
+            28
+          ],
+          "rotation": -0.15,
+          "scale": 1.08,
+          "subareaId": "harvest_square",
+          "footprint": [
+            9,
+            8
+          ],
+          "visualPartCount": 11,
+          "colliderCount": 6,
+          "socketCount": 2
+        }
+      ]
+    },
+    {
+      "id": "star_village",
+      "size": [
+        124,
+        122
+      ],
+      "boundary": "garden_wall",
+      "subareas": [
+        {
+          "id": "village_outskirts",
+          "name": "Village Outskirts",
+          "center": [
+            -32,
+            -24
+          ],
+          "size": [
+            32,
+            28
+          ],
+          "elevation": 0.2,
+          "structureType": "adventure_lodge",
+          "structureOffset": [
+            -4,
+            -2
+          ]
+        },
+        {
+          "id": "learning_garden",
+          "name": "Learning Garden",
+          "center": [
+            28,
+            -24
+          ],
+          "size": [
+            32,
+            28
+          ],
+          "elevation": 0.35,
+          "structureType": "star_learning_hall",
+          "structureOffset": [
+            3,
+            -1
+          ]
+        },
+        {
+          "id": "river_market",
+          "name": "River Market",
+          "center": [
+            -29,
+            27
+          ],
+          "size": [
+            31,
+            29
+          ],
+          "elevation": 0.25,
+          "structureType": "crystal_dock",
+          "structureOffset": [
+            -2,
+            2
+          ]
+        },
+        {
+          "id": "adventure_meadow",
+          "name": "Adventure Meadow",
+          "center": [
+            29,
+            28
+          ],
+          "size": [
+            32,
+            29
+          ],
+          "elevation": 0.65,
+          "structureType": "adventure_lodge",
+          "structureOffset": [
+            3,
+            2
+          ]
+        }
+      ],
+      "roads": [
+        {
+          "id": "star_outskirts_road",
+          "from": [
+            0,
+            9
+          ],
+          "to": [
+            -29,
+            -20
+          ],
+          "width": 6.8,
+          "kind": "main"
+        },
+        {
+          "id": "star_learning_road",
+          "from": [
+            0,
+            8
+          ],
+          "to": [
+            25,
+            -20
+          ],
+          "width": 6.2,
+          "kind": "main"
+        },
+        {
+          "id": "star_market_road",
+          "from": [
+            -2,
+            5
+          ],
+          "to": [
+            -26,
+            24
+          ],
+          "width": 5.4,
+          "kind": "main"
+        },
+        {
+          "id": "star_meadow_road",
+          "from": [
+            3,
+            5
+          ],
+          "to": [
+            26,
+            24
+          ],
+          "width": 5.4,
+          "kind": "main"
+        },
+        {
+          "id": "star_south_boulevard",
+          "from": [
+            -25,
+            -19
+          ],
+          "to": [
+            22,
+            -19
+          ],
+          "width": 4.4,
+          "kind": "secondary"
+        },
+        {
+          "id": "star_north_boulevard",
+          "from": [
+            -23,
+            23
+          ],
+          "to": [
+            24,
+            23
+          ],
+          "width": 4.4,
+          "kind": "secondary"
+        }
+      ],
+      "waters": [
+        {
+          "id": "market_river",
+          "center": [
+            -18,
+            27
+          ],
+          "size": [
+            10,
+            33
+          ],
+          "rotation": 0.05,
+          "kind": "river"
+        }
+      ],
+      "bridges": [
+        {
+          "id": "market_bridge",
+          "center": [
+            -18,
+            24
+          ],
+          "length": 10,
+          "width": 4.5,
+          "rotation": 0.05,
+          "waterId": "market_river"
+        }
+      ],
+      "structures": [
+        {
+          "id": "outskirts_lodge",
+          "type": "adventure_lodge",
+          "position": [
+            -36,
+            0.2,
+            -26
+          ],
+          "rotation": 0.15,
+          "scale": 1,
+          "subareaId": "village_outskirts",
+          "footprint": [
+            9,
+            8
+          ],
+          "visualPartCount": 9,
+          "colliderCount": 3,
+          "socketCount": 2
+        },
+        {
+          "id": "learning_hall",
+          "type": "star_learning_hall",
+          "position": [
+            31,
+            0.35,
+            -25
+          ],
+          "rotation": -0.15,
+          "scale": 1.05,
+          "subareaId": "learning_garden",
+          "footprint": [
+            10,
+            8
+          ],
+          "visualPartCount": 9,
+          "colliderCount": 2,
+          "socketCount": 2
+        },
+        {
+          "id": "river_market_dock",
+          "type": "crystal_dock",
+          "position": [
+            -30,
+            0.25,
+            29
+          ],
+          "rotation": 0.1,
+          "scale": 0.95,
+          "subareaId": "river_market",
+          "footprint": [
+            10,
+            7
+          ],
+          "visualPartCount": 19,
+          "colliderCount": 5,
+          "socketCount": 2
+        },
+        {
+          "id": "meadow_lodge",
+          "type": "adventure_lodge",
+          "position": [
+            32,
+            0.65,
+            30
+          ],
+          "rotation": -0.25,
+          "scale": 1.02,
+          "subareaId": "adventure_meadow",
+          "footprint": [
+            9,
+            8
+          ],
+          "visualPartCount": 9,
+          "colliderCount": 3,
+          "socketCount": 2
+        }
+      ]
+    },
+    {
+      "id": "crystal_lake",
+      "size": [
+        126,
+        124
+      ],
+      "boundary": "crystal_ridge",
+      "subareas": [
+        {
+          "id": "shimmering_shore",
+          "name": "Shimmering Shore",
+          "center": [
+            -31,
+            -24
+          ],
+          "size": [
+            31,
+            27
+          ],
+          "elevation": 0.25,
+          "structureType": "crystal_dock",
+          "structureOffset": [
+            -3,
+            -1
+          ]
+        },
+        {
+          "id": "island_garden",
+          "name": "Island Garden",
+          "center": [
+            27,
+            -24
+          ],
+          "size": [
+            30,
+            27
+          ],
+          "elevation": 0.55,
+          "structureType": "prism_sanctuary",
+          "structureOffset": [
+            2,
+            -1
+          ]
+        },
+        {
+          "id": "crystal_bridge",
+          "name": "Crystal Bridge",
+          "center": [
+            -25,
+            28
+          ],
+          "size": [
+            31,
+            28
+          ],
+          "elevation": 1,
+          "structureType": "crystal_dock",
+          "structureOffset": [
+            -2,
+            2
+          ]
+        },
+        {
+          "id": "echo_grotto",
+          "name": "Echo Grotto",
+          "center": [
+            30,
+            29
+          ],
+          "size": [
+            31,
+            28
+          ],
+          "elevation": 1.55,
+          "structureType": "prism_sanctuary",
+          "structureOffset": [
+            2,
+            2
+          ]
+        }
+      ],
+      "roads": [
+        {
+          "id": "crystal_shore_path",
+          "from": [
+            0,
+            8
+          ],
+          "to": [
+            -28,
+            -20
+          ],
+          "width": 6.2,
+          "kind": "main"
+        },
+        {
+          "id": "crystal_island_path",
+          "from": [
+            1,
+            7
+          ],
+          "to": [
+            24,
+            -20
+          ],
+          "width": 5.8,
+          "kind": "main"
+        },
+        {
+          "id": "crystal_bridge_path",
+          "from": [
+            -2,
+            5
+          ],
+          "to": [
+            -22,
+            24
+          ],
+          "width": 5,
+          "kind": "main"
+        },
+        {
+          "id": "crystal_grotto_path",
+          "from": [
+            3,
+            4
+          ],
+          "to": [
+            27,
+            25
+          ],
+          "width": 5,
+          "kind": "main"
+        },
+        {
+          "id": "crystal_south_link",
+          "from": [
+            -23,
+            -18
+          ],
+          "to": [
+            20,
+            -18
+          ],
+          "width": 4,
+          "kind": "secondary"
+        },
+        {
+          "id": "crystal_north_link",
+          "from": [
+            -19,
+            22
+          ],
+          "to": [
+            23,
+            23
+          ],
+          "width": 4,
+          "kind": "secondary"
+        }
+      ],
+      "waters": [
+        {
+          "id": "crystal_main_lake",
+          "center": [
+            2,
+            -5
+          ],
+          "size": [
+            34,
+            22
+          ],
+          "rotation": 0.12,
+          "kind": "lake"
+        },
+        {
+          "id": "crystal_stream",
+          "center": [
+            -8,
+            19
+          ],
+          "size": [
+            8,
+            45
+          ],
+          "rotation": -0.18,
+          "kind": "river"
+        }
+      ],
+      "bridges": [
+        {
+          "id": "crystal_lake_bridge",
+          "center": [
+            1,
+            -4
+          ],
+          "length": 18,
+          "width": 4.6,
+          "rotation": 0.12,
+          "waterId": "crystal_main_lake"
+        },
+        {
+          "id": "crystal_stream_bridge",
+          "center": [
+            -8,
+            19
+          ],
+          "length": 9,
+          "width": 4.2,
+          "rotation": -0.18,
+          "waterId": "crystal_stream"
+        }
+      ],
+      "structures": [
+        {
+          "id": "shimmering_dock",
+          "type": "crystal_dock",
+          "position": [
+            -34,
+            0.25,
+            -25
+          ],
+          "rotation": 0.2,
+          "scale": 1,
+          "subareaId": "shimmering_shore",
+          "footprint": [
+            10,
+            7
+          ],
+          "visualPartCount": 19,
+          "colliderCount": 5,
+          "socketCount": 2
+        },
+        {
+          "id": "island_prism",
+          "type": "prism_sanctuary",
+          "position": [
+            30,
+            0.55,
+            -25
+          ],
+          "rotation": -0.2,
+          "scale": 0.95,
+          "subareaId": "island_garden",
+          "footprint": [
+            9,
+            9
+          ],
+          "visualPartCount": 13,
+          "colliderCount": 7,
+          "socketCount": 1
+        },
+        {
+          "id": "bridge_dock",
+          "type": "crystal_dock",
+          "position": [
+            -27,
+            1,
+            30
+          ],
+          "rotation": 0.15,
+          "scale": 0.9,
+          "subareaId": "crystal_bridge",
+          "footprint": [
+            10,
+            7
+          ],
+          "visualPartCount": 19,
+          "colliderCount": 5,
+          "socketCount": 2
+        },
+        {
+          "id": "grotto_sanctuary",
+          "type": "prism_sanctuary",
+          "position": [
+            33,
+            1.55,
+            31
+          ],
+          "rotation": -0.1,
+          "scale": 1.08,
+          "subareaId": "echo_grotto",
+          "footprint": [
+            9,
+            9
+          ],
+          "visualPartCount": 13,
+          "colliderCount": 7,
+          "socketCount": 1
+        }
+      ]
+    },
+    {
+      "id": "sun_canyon",
+      "size": [
+        128,
+        124
+      ],
+      "boundary": "canyon_walls",
+      "subareas": [
+        {
+          "id": "golden_ravine",
+          "name": "Golden Ravine",
+          "center": [
+            -34,
+            -22
+          ],
+          "size": [
+            34,
+            27
+          ],
+          "elevation": 0.35,
+          "structureType": "canyon_forge",
+          "structureOffset": [
+            -4,
+            -1
+          ]
+        },
+        {
+          "id": "rope_bridge",
+          "name": "Rope Bridge",
+          "center": [
+            28,
+            -27
+          ],
+          "size": [
+            31,
+            26
+          ],
+          "elevation": 1.5,
+          "structureType": "rope_bridge_station",
+          "structureOffset": [
+            2,
+            -1
+          ]
+        },
+        {
+          "id": "cactus_camp",
+          "name": "Cactus Camp",
+          "center": [
+            -27,
+            28
+          ],
+          "size": [
+            32,
+            29
+          ],
+          "elevation": 0.75,
+          "structureType": "rope_bridge_station",
+          "structureOffset": [
+            -2,
+            2
+          ]
+        },
+        {
+          "id": "sun_temple",
+          "name": "Sun Temple",
+          "center": [
+            31,
+            29
+          ],
+          "size": [
+            32,
+            29
+          ],
+          "elevation": 2.1,
+          "structureType": "canyon_forge",
+          "structureOffset": [
+            3,
+            2
+          ]
+        }
+      ],
+      "roads": [
+        {
+          "id": "canyon_ravine_path",
+          "from": [
+            0,
+            8
+          ],
+          "to": [
+            -30,
+            -18
+          ],
+          "width": 6.2,
+          "kind": "main"
+        },
+        {
+          "id": "canyon_rope_path",
+          "from": [
+            2,
+            7
+          ],
+          "to": [
+            25,
+            -23
+          ],
+          "width": 5.2,
+          "kind": "main"
+        },
+        {
+          "id": "canyon_camp_path",
+          "from": [
+            -3,
+            5
+          ],
+          "to": [
+            -24,
+            25
+          ],
+          "width": 5,
+          "kind": "main"
+        },
+        {
+          "id": "canyon_temple_path",
+          "from": [
+            4,
+            4
+          ],
+          "to": [
+            28,
+            25
+          ],
+          "width": 5,
+          "kind": "main"
+        },
+        {
+          "id": "canyon_south_ridge",
+          "from": [
+            -26,
+            -17
+          ],
+          "to": [
+            22,
+            -21
+          ],
+          "width": 4,
+          "kind": "secondary"
+        },
+        {
+          "id": "canyon_north_ridge",
+          "from": [
+            -21,
+            23
+          ],
+          "to": [
+            24,
+            23
+          ],
+          "width": 4,
+          "kind": "secondary"
+        }
+      ],
+      "waters": [
+        {
+          "id": "canyon_oasis",
+          "center": [
+            -18,
+            4
+          ],
+          "size": [
+            15,
+            11
+          ],
+          "rotation": 0.2,
+          "kind": "oasis"
+        },
+        {
+          "id": "ravine_gap",
+          "center": [
+            6,
+            7
+          ],
+          "size": [
+            12,
+            48
+          ],
+          "rotation": -0.05,
+          "kind": "ravine"
+        }
+      ],
+      "bridges": [
+        {
+          "id": "canyon_rope_bridge",
+          "center": [
+            6,
+            6
+          ],
+          "length": 14,
+          "width": 4.2,
+          "rotation": -0.05,
+          "waterId": "ravine_gap"
+        }
+      ],
+      "structures": [
+        {
+          "id": "ravine_forge",
+          "type": "canyon_forge",
+          "position": [
+            -38,
+            0.35,
+            -23
+          ],
+          "rotation": 0.2,
+          "scale": 1,
+          "subareaId": "golden_ravine",
+          "footprint": [
+            10,
+            8
+          ],
+          "visualPartCount": 9,
+          "colliderCount": 4,
+          "socketCount": 2
+        },
+        {
+          "id": "rope_station",
+          "type": "rope_bridge_station",
+          "position": [
+            31,
+            1.5,
+            -29
+          ],
+          "rotation": -0.3,
+          "scale": 1.02,
+          "subareaId": "rope_bridge",
+          "footprint": [
+            8,
+            7
+          ],
+          "visualPartCount": 13,
+          "colliderCount": 5,
+          "socketCount": 1
+        },
+        {
+          "id": "camp_station",
+          "type": "rope_bridge_station",
+          "position": [
+            -29,
+            0.75,
+            30
+          ],
+          "rotation": 0.2,
+          "scale": 0.9,
+          "subareaId": "cactus_camp",
+          "footprint": [
+            8,
+            7
+          ],
+          "visualPartCount": 13,
+          "colliderCount": 5,
+          "socketCount": 1
+        },
+        {
+          "id": "sun_forge_temple",
+          "type": "canyon_forge",
+          "position": [
+            35,
+            2.1,
+            31
+          ],
+          "rotation": -0.15,
+          "scale": 1.12,
+          "subareaId": "sun_temple",
+          "footprint": [
+            10,
+            8
+          ],
+          "visualPartCount": 9,
+          "colliderCount": 4,
+          "socketCount": 2
+        }
+      ]
+    },
+    {
+      "id": "mushroom_grove",
+      "size": [
+        124,
+        124
+      ],
+      "boundary": "root_ring",
+      "subareas": [
+        {
+          "id": "bubblecap_trail",
+          "name": "Bubblecap Trail",
+          "center": [
+            -31,
+            -25
+          ],
+          "size": [
+            31,
+            28
+          ],
+          "elevation": 0.25,
+          "structureType": "mushroom_house",
+          "structureOffset": [
+            -3,
+            -1
+          ]
+        },
+        {
+          "id": "glow_pond",
+          "name": "Glow Pond",
+          "center": [
+            28,
+            -24
+          ],
+          "size": [
+            31,
+            28
+          ],
+          "elevation": 0.45,
+          "structureType": "glow_pavilion",
+          "structureOffset": [
+            2,
+            -1
+          ]
+        },
+        {
+          "id": "fairy_ring",
+          "name": "Fairy Ring",
+          "center": [
+            -26,
+            28
+          ],
+          "size": [
+            30,
+            29
+          ],
+          "elevation": 0.8,
+          "structureType": "glow_pavilion",
+          "structureOffset": [
+            -2,
+            2
+          ]
+        },
+        {
+          "id": "giant_cap_village",
+          "name": "Giant Cap Village",
+          "center": [
+            30,
+            29
+          ],
+          "size": [
+            32,
+            29
+          ],
+          "elevation": 1,
+          "structureType": "mushroom_house",
+          "structureOffset": [
+            3,
+            2
+          ]
+        }
+      ],
+      "roads": [
+        {
+          "id": "mushroom_trail",
+          "from": [
+            0,
+            8
+          ],
+          "to": [
+            -28,
+            -21
+          ],
+          "width": 6,
+          "kind": "main"
+        },
+        {
+          "id": "mushroom_pond_path",
+          "from": [
+            1,
+            7
+          ],
+          "to": [
+            25,
+            -20
+          ],
+          "width": 5.4,
+          "kind": "main"
+        },
+        {
+          "id": "mushroom_fairy_path",
+          "from": [
+            -3,
+            5
+          ],
+          "to": [
+            -23,
+            25
+          ],
+          "width": 5,
+          "kind": "main"
+        },
+        {
+          "id": "mushroom_village_path",
+          "from": [
+            3,
+            4
+          ],
+          "to": [
+            27,
+            25
+          ],
+          "width": 5.2,
+          "kind": "main"
+        },
+        {
+          "id": "mushroom_south_arc",
+          "from": [
+            -24,
+            -18
+          ],
+          "to": [
+            21,
+            -18
+          ],
+          "width": 4,
+          "kind": "secondary"
+        },
+        {
+          "id": "mushroom_north_arc",
+          "from": [
+            -20,
+            23
+          ],
+          "to": [
+            23,
+            23
+          ],
+          "width": 4,
+          "kind": "secondary"
+        }
+      ],
+      "waters": [
+        {
+          "id": "glow_pond_water",
+          "center": [
+            29,
+            -15
+          ],
+          "size": [
+            18,
+            15
+          ],
+          "rotation": 0.08,
+          "kind": "pond"
+        },
+        {
+          "id": "spore_stream",
+          "center": [
+            -6,
+            9
+          ],
+          "size": [
+            7,
+            54
+          ],
+          "rotation": 0.15,
+          "kind": "stream"
+        }
+      ],
+      "bridges": [
+        {
+          "id": "spore_stream_bridge",
+          "center": [
+            -6,
+            8
+          ],
+          "length": 9,
+          "width": 4.2,
+          "rotation": 0.15,
+          "waterId": "spore_stream"
+        }
+      ],
+      "structures": [
+        {
+          "id": "bubblecap_house",
+          "type": "mushroom_house",
+          "position": [
+            -34,
+            0.25,
+            -27
+          ],
+          "rotation": 0.2,
+          "scale": 0.95,
+          "subareaId": "bubblecap_trail",
+          "footprint": [
+            7,
+            7
+          ],
+          "visualPartCount": 10,
+          "colliderCount": 2,
+          "socketCount": 1
+        },
+        {
+          "id": "glow_pond_pavilion",
+          "type": "glow_pavilion",
+          "position": [
+            31,
+            0.45,
+            -25
+          ],
+          "rotation": -0.2,
+          "scale": 1,
+          "subareaId": "glow_pond",
+          "footprint": [
+            8,
+            8
+          ],
+          "visualPartCount": 17,
+          "colliderCount": 7,
+          "socketCount": 1
+        },
+        {
+          "id": "fairy_ring_pavilion",
+          "type": "glow_pavilion",
+          "position": [
+            -28,
+            0.8,
+            30
+          ],
+          "rotation": 0.25,
+          "scale": 1.05,
+          "subareaId": "fairy_ring",
+          "footprint": [
+            8,
+            8
+          ],
+          "visualPartCount": 17,
+          "colliderCount": 7,
+          "socketCount": 1
+        },
+        {
+          "id": "giant_cap_home",
+          "type": "mushroom_house",
+          "position": [
+            33,
+            1,
+            31
+          ],
+          "rotation": -0.15,
+          "scale": 1.12,
+          "subareaId": "giant_cap_village",
+          "footprint": [
+            7,
+            7
+          ],
+          "visualPartCount": 10,
+          "colliderCount": 2,
+          "socketCount": 1
+        }
+      ]
+    },
+    {
+      "id": "clockwork_ruins",
+      "size": [
+        126,
+        124
+      ],
+      "boundary": "machine_wall",
+      "subareas": [
+        {
+          "id": "gear_courtyard",
+          "name": "Gear Courtyard",
+          "center": [
+            -32,
+            -24
+          ],
+          "size": [
+            32,
+            28
+          ],
+          "elevation": 0.35,
+          "structureType": "gear_workshop",
+          "structureOffset": [
+            -3,
+            -1
+          ]
+        },
+        {
+          "id": "puzzle_hall",
+          "name": "Puzzle Hall",
+          "center": [
+            28,
+            -25
+          ],
+          "size": [
+            31,
+            28
+          ],
+          "elevation": 0.65,
+          "structureType": "clock_core",
+          "structureOffset": [
+            2,
+            -1
+          ]
+        },
+        {
+          "id": "steam_bridge",
+          "name": "Steam Bridge",
+          "center": [
+            -27,
+            28
+          ],
+          "size": [
+            31,
+            29
+          ],
+          "elevation": 1.2,
+          "structureType": "gear_workshop",
+          "structureOffset": [
+            -2,
+            2
+          ]
+        },
+        {
+          "id": "clock_core",
+          "name": "Clock Core",
+          "center": [
+            30,
+            29
+          ],
+          "size": [
+            32,
+            29
+          ],
+          "elevation": 2,
+          "structureType": "clock_core",
+          "structureOffset": [
+            3,
+            2
+          ]
+        }
+      ],
+      "roads": [
+        {
+          "id": "gear_courtyard_path",
+          "from": [
+            0,
+            8
+          ],
+          "to": [
+            -29,
+            -20
+          ],
+          "width": 6.2,
+          "kind": "main"
+        },
+        {
+          "id": "puzzle_hall_path",
+          "from": [
+            1,
+            7
+          ],
+          "to": [
+            25,
+            -21
+          ],
+          "width": 5.8,
+          "kind": "main"
+        },
+        {
+          "id": "steam_bridge_path",
+          "from": [
+            -3,
+            5
+          ],
+          "to": [
+            -24,
+            25
+          ],
+          "width": 5.1,
+          "kind": "main"
+        },
+        {
+          "id": "clock_core_path",
+          "from": [
+            4,
+            4
+          ],
+          "to": [
+            30,
+            19
+          ],
+          "width": 5.1,
+          "kind": "main"
+        },
+        {
+          "id": "clock_south_link",
+          "from": [
+            -24,
+            -18
+          ],
+          "to": [
+            22,
+            -19
+          ],
+          "width": 4,
+          "kind": "secondary"
+        },
+        {
+          "id": "clock_north_link",
+          "from": [
+            -21,
+            23
+          ],
+          "to": [
+            24,
+            28
+          ],
+          "width": 4,
+          "kind": "secondary"
+        }
+      ],
+      "waters": [
+        {
+          "id": "coolant_channel",
+          "center": [
+            5,
+            5
+          ],
+          "size": [
+            9,
+            61
+          ],
+          "rotation": -0.08,
+          "kind": "channel"
+        }
+      ],
+      "bridges": [
+        {
+          "id": "steam_channel_bridge",
+          "center": [
+            5,
+            8
+          ],
+          "length": 10,
+          "width": 4.4,
+          "rotation": -0.08,
+          "waterId": "coolant_channel"
+        }
+      ],
+      "structures": [
+        {
+          "id": "gear_workshop_main",
+          "type": "gear_workshop",
+          "position": [
+            -35,
+            0.35,
+            -25
+          ],
+          "rotation": 0.2,
+          "scale": 1,
+          "subareaId": "gear_courtyard",
+          "footprint": [
+            10,
+            9
+          ],
+          "visualPartCount": 17,
+          "colliderCount": 3,
+          "socketCount": 2
+        },
+        {
+          "id": "puzzle_clock",
+          "type": "clock_core",
+          "position": [
+            31,
+            0.65,
+            -27
+          ],
+          "rotation": -0.2,
+          "scale": 0.9,
+          "subareaId": "puzzle_hall",
+          "footprint": [
+            9,
+            9
+          ],
+          "visualPartCount": 9,
+          "colliderCount": 2,
+          "socketCount": 2
+        },
+        {
+          "id": "steam_workshop",
+          "type": "gear_workshop",
+          "position": [
+            -29,
+            1.2,
+            30
+          ],
+          "rotation": 0.2,
+          "scale": 0.92,
+          "subareaId": "steam_bridge",
+          "footprint": [
+            10,
+            9
+          ],
+          "visualPartCount": 17,
+          "colliderCount": 3,
+          "socketCount": 2
+        },
+        {
+          "id": "clock_core_main",
+          "type": "clock_core",
+          "position": [
+            34,
+            2,
+            31
+          ],
+          "rotation": -0.15,
+          "scale": 1.12,
+          "subareaId": "clock_core",
+          "footprint": [
+            9,
+            9
+          ],
+          "visualPartCount": 9,
+          "colliderCount": 2,
+          "socketCount": 2
+        }
+      ]
+    }
+  ],
+  "prefabs": {
+    "windmill_station": {
+      "label": "Windmill Station",
+      "footprint": [
+        7,
+        7
+      ],
+      "visualParts": [
+        {
+          "id": "foundation",
+          "shape": "cylinder",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "tower",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "roof",
+          "shape": "cone",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "hub",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "blade_0",
+          "shape": "box",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "blade_1",
+          "shape": "box",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "blade_2",
+          "shape": "box",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "blade_3",
+          "shape": "box",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "door_frame",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "door",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "balcony",
+          "shape": "box",
+          "colorSlot": "dark"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "foundation_collider",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "tower_collider",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "balcony_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "entry",
+          "position": [
+            0,
+            0,
+            2.7
+          ],
+          "type": "interaction"
+        },
+        {
+          "id": "blade_hub",
+          "position": [
+            0,
+            4.2,
+            1.75
+          ],
+          "type": "motion"
+        }
+      ]
+    },
+    "cloud_observatory": {
+      "label": "Cloud Observatory",
+      "footprint": [
+        8,
+        8
+      ],
+      "visualParts": [
+        {
+          "id": "platform",
+          "shape": "cylinder",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "main_tower",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "dome",
+          "shape": "sphere",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "telescope_base",
+          "shape": "cylinder",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "telescope_tube",
+          "shape": "cylinder",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "door_frame",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "door",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "side_window_-1",
+          "shape": "box",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "side_window_1",
+          "shape": "box",
+          "colorSlot": "glow"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "platform_collider",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "tower_collider",
+          "shape": "cylinder",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "entry",
+          "position": [
+            0,
+            0,
+            3.15
+          ],
+          "type": "interaction"
+        },
+        {
+          "id": "telescope",
+          "position": [
+            2.5,
+            6.25,
+            0
+          ],
+          "type": "interaction"
+        }
+      ]
+    },
+    "aurora_shrine": {
+      "label": "Aurora Shrine",
+      "footprint": [
+        8,
+        7
+      ],
+      "visualParts": [
+        {
+          "id": "foundation",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "pillar_-2.2",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pillar_0",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pillar_2.2",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "crossbeam",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "roof_left",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "roof_right",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "aurora_crystal",
+          "shape": "octahedron",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "side_crystal_-2.2",
+          "shape": "octahedron",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "side_crystal_2.2",
+          "shape": "octahedron",
+          "colorSlot": "trim"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "foundation_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_-2.2",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_0",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_2.2",
+          "shape": "cylinder",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "altar",
+          "position": [
+            0,
+            1,
+            1.7
+          ],
+          "type": "interaction"
+        }
+      ]
+    },
+    "orchard_barn": {
+      "label": "Orchard Barn",
+      "footprint": [
+        9,
+        8
+      ],
+      "visualParts": [
+        {
+          "id": "foundation",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "left_wall",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "right_wall",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "back_wall",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "front_left",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "front_right",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "roof_left",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "roof_right",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "door_left",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "door_right",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "hay_loft",
+          "shape": "box",
+          "colorSlot": "dark"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "foundation_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "left_wall_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "right_wall_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "back_wall_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "front_left_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "front_right_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "entry",
+          "position": [
+            0,
+            0,
+            4
+          ],
+          "type": "interaction"
+        },
+        {
+          "id": "loft",
+          "position": [
+            0,
+            3.25,
+            -0.4
+          ],
+          "type": "storage"
+        }
+      ]
+    },
+    "beekeeper_pavilion": {
+      "label": "Beekeeper Pavilion",
+      "footprint": [
+        7,
+        7
+      ],
+      "visualParts": [
+        {
+          "id": "deck",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "post_0",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "post_1",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "post_2",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "post_3",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "roof",
+          "shape": "cone",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "hive_-1.8",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "hive_0",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "hive_1.8",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "hive_lid_-1.8",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "hive_lid_0",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "hive_lid_1.8",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "honey_sign",
+          "shape": "torus",
+          "colorSlot": "glow"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "deck_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "hive_collider_-1.8",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "hive_collider_0",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "hive_collider_1.8",
+          "shape": "cuboid",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "honey_counter",
+          "position": [
+            0,
+            1,
+            -2.1
+          ],
+          "type": "interaction"
+        }
+      ]
+    },
+    "crystal_dock": {
+      "label": "Crystal Dock",
+      "footprint": [
+        10,
+        7
+      ],
+      "visualParts": [
+        {
+          "id": "dock_deck",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "pile_0_0",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pile_0_1",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pile_1_0",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pile_1_1",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pile_2_0",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pile_2_1",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pile_3_0",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pile_3_1",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pile_4_0",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pile_4_1",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "crystal_-3.2",
+          "shape": "octahedron",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "crystal_0",
+          "shape": "octahedron",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "crystal_3.2",
+          "shape": "octahedron",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "canopy_top",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "canopy_post_0_0",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "canopy_post_0_1",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "canopy_post_1_0",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "canopy_post_1_1",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "dock_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "post_collider_0_0",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "post_collider_0_1",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "post_collider_1_0",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "post_collider_1_1",
+          "shape": "cylinder",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "fishing",
+          "position": [
+            0,
+            0.85,
+            2.2
+          ],
+          "type": "interaction"
+        },
+        {
+          "id": "boat",
+          "position": [
+            4.8,
+            0,
+            0
+          ],
+          "type": "vehicle"
+        }
+      ]
+    },
+    "prism_sanctuary": {
+      "label": "Prism Sanctuary",
+      "footprint": [
+        9,
+        9
+      ],
+      "visualParts": [
+        {
+          "id": "base",
+          "shape": "cylinder",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "pillar_0",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pillar_1",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pillar_2",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pillar_3",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pillar_4",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "pillar_5",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "upper_ring",
+          "shape": "torus",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "core",
+          "shape": "octahedron",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "satellite_0",
+          "shape": "octahedron",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "satellite_1",
+          "shape": "octahedron",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "satellite_2",
+          "shape": "octahedron",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "satellite_3",
+          "shape": "octahedron",
+          "colorSlot": "roof"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "base_collider",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_0",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_1",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_2",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_3",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_4",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_5",
+          "shape": "cylinder",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "core_interaction",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "type": "interaction"
+        }
+      ]
+    },
+    "canyon_forge": {
+      "label": "Canyon Forge",
+      "footprint": [
+        10,
+        8
+      ],
+      "visualParts": [
+        {
+          "id": "foundation",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "main_hall",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "roof",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "chimney",
+          "shape": "cylinder",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "furnace",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "furnace_glow",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "anvil_base",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "anvil_top",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "door",
+          "shape": "box",
+          "colorSlot": "dark"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "foundation_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "hall_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "furnace_collider",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "anvil_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "forge",
+          "position": [
+            2.6,
+            1,
+            1.8
+          ],
+          "type": "interaction"
+        },
+        {
+          "id": "anvil",
+          "position": [
+            1.1,
+            1,
+            -1.3
+          ],
+          "type": "interaction"
+        }
+      ]
+    },
+    "rope_bridge_station": {
+      "label": "Rope Bridge Station",
+      "footprint": [
+        8,
+        7
+      ],
+      "visualParts": [
+        {
+          "id": "platform",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "tower_0_0",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "tower_0_1",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "tower_1_0",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "tower_1_1",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "crossbeam_-1.8",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "crossbeam_1.8",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "plank_-2.4",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "plank_-1.2",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "plank_0",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "plank_1.2",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "plank_2.4",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "canopy",
+          "shape": "box",
+          "colorSlot": "roof"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "platform_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "tower_collider_0_0",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "tower_collider_0_1",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "tower_collider_1_0",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "tower_collider_1_1",
+          "shape": "cylinder",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "bridge_entry",
+          "position": [
+            0,
+            0.85,
+            3.6
+          ],
+          "type": "path"
+        }
+      ]
+    },
+    "mushroom_house": {
+      "label": "Mushroom House",
+      "footprint": [
+        7,
+        7
+      ],
+      "visualParts": [
+        {
+          "id": "stem_house",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "cap",
+          "shape": "sphere",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "cap_spot_0",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "cap_spot_1",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "cap_spot_2",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "door_frame",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "door",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "window_-1",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "window_1",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "porch",
+          "shape": "box",
+          "colorSlot": "dark"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "house_collider",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "porch_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "entry",
+          "position": [
+            0,
+            0,
+            3.6
+          ],
+          "type": "interaction"
+        }
+      ]
+    },
+    "glow_pavilion": {
+      "label": "Glow Pavilion",
+      "footprint": [
+        8,
+        8
+      ],
+      "visualParts": [
+        {
+          "id": "base",
+          "shape": "cylinder",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "pillar_0",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "pillar_1",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "pillar_2",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "pillar_3",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "pillar_4",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "pillar_5",
+          "shape": "cylinder",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "roof",
+          "shape": "cone",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "glow_orb",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "spore_0",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "spore_1",
+          "shape": "sphere",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "spore_2",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "spore_3",
+          "shape": "sphere",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "spore_4",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "spore_5",
+          "shape": "sphere",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "spore_6",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "spore_7",
+          "shape": "sphere",
+          "colorSlot": "trim"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "base_collider",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_0",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_1",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_2",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_3",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_4",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "pillar_collider_5",
+          "shape": "cylinder",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "glow_orb",
+          "position": [
+            0,
+            1.2,
+            0
+          ],
+          "type": "interaction"
+        }
+      ]
+    },
+    "gear_workshop": {
+      "label": "Gear Workshop",
+      "footprint": [
+        10,
+        9
+      ],
+      "visualParts": [
+        {
+          "id": "foundation",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "main_hall",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "roof",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "gear_large",
+          "shape": "torus",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "tooth_0",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "tooth_1",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "tooth_2",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "tooth_3",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "tooth_4",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "tooth_5",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "tooth_6",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "tooth_7",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "tooth_8",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "tooth_9",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "steam_pipe",
+          "shape": "cylinder",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "door",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "core_lamp",
+          "shape": "sphere",
+          "colorSlot": "glow"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "foundation_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "hall_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "gear_collider",
+          "shape": "cylinder",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "entry",
+          "position": [
+            -1,
+            0,
+            4.2
+          ],
+          "type": "interaction"
+        },
+        {
+          "id": "gear_console",
+          "position": [
+            2.8,
+            1,
+            2.4
+          ],
+          "type": "interaction"
+        }
+      ]
+    },
+    "clock_core": {
+      "label": "Clock Core",
+      "footprint": [
+        9,
+        9
+      ],
+      "visualParts": [
+        {
+          "id": "base",
+          "shape": "cylinder",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "tower",
+          "shape": "cylinder",
+          "colorSlot": "base"
+        },
+        {
+          "id": "clock_ring",
+          "shape": "torus",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "clock_face",
+          "shape": "cylinder",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "hour_hand",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "minute_hand",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "spire",
+          "shape": "cone",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "door_side_-1",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "door_side_1",
+          "shape": "box",
+          "colorSlot": "trim"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "base_collider",
+          "shape": "cylinder",
+          "role": "solid"
+        },
+        {
+          "id": "tower_collider",
+          "shape": "cylinder",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "clock_console",
+          "position": [
+            0,
+            0.8,
+            3.2
+          ],
+          "type": "interaction"
+        },
+        {
+          "id": "clock_face",
+          "position": [
+            0,
+            3.7,
+            3
+          ],
+          "type": "visual"
+        }
+      ]
+    },
+    "star_learning_hall": {
+      "label": "Star Learning Hall",
+      "footprint": [
+        10,
+        8
+      ],
+      "visualParts": [
+        {
+          "id": "foundation",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "main_hall",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "roof_left",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "roof_right",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "star_emblem",
+          "shape": "octahedron",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "door_frame",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "door",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "window_-2.45",
+          "shape": "box",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "window_2.45",
+          "shape": "box",
+          "colorSlot": "glow"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "foundation_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "hall_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "entry",
+          "position": [
+            0,
+            0,
+            4.1
+          ],
+          "type": "interaction"
+        },
+        {
+          "id": "lesson_board",
+          "position": [
+            0,
+            1.2,
+            -2.6
+          ],
+          "type": "interaction"
+        }
+      ]
+    },
+    "adventure_lodge": {
+      "label": "Adventure Lodge",
+      "footprint": [
+        9,
+        8
+      ],
+      "visualParts": [
+        {
+          "id": "foundation",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "main_body",
+          "shape": "box",
+          "colorSlot": "base"
+        },
+        {
+          "id": "roof_left",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "roof_right",
+          "shape": "box",
+          "colorSlot": "roof"
+        },
+        {
+          "id": "chimney",
+          "shape": "cylinder",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "porch",
+          "shape": "box",
+          "colorSlot": "trim"
+        },
+        {
+          "id": "door",
+          "shape": "box",
+          "colorSlot": "dark"
+        },
+        {
+          "id": "window_-2.2",
+          "shape": "box",
+          "colorSlot": "glow"
+        },
+        {
+          "id": "window_2.2",
+          "shape": "box",
+          "colorSlot": "glow"
+        }
+      ],
+      "colliders": [
+        {
+          "id": "foundation_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "body_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        },
+        {
+          "id": "porch_collider",
+          "shape": "cuboid",
+          "role": "solid"
+        }
+      ],
+      "sockets": [
+        {
+          "id": "entry",
+          "position": [
+            0,
+            0,
+            4.8
+          ],
+          "type": "interaction"
+        },
+        {
+          "id": "quest_board",
+          "position": [
+            2.7,
+            1.2,
+            3.9
+          ],
+          "type": "interaction"
+        }
+      ]
+    }
+  }
+}

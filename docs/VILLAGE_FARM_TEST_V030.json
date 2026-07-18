@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-07-15T01:24:28.286Z",
+  "version": "0.30.0-village-farm-hero-art",
+  "ok": true,
+  "cases": [
+    {
+      "id": "canonical_asset_allocation",
+      "status": "PASSED",
+      "result": {
+        "canonical": 282,
+        "village": 80,
+        "farm": 80,
+        "newAssets": 148
+      }
+    },
+    {
+      "id": "canonical_files_exist",
+      "status": "PASSED",
+      "result": {
+        "files": 282,
+        "bytes": 9561488
+      }
+    },
+    {
+      "id": "scene_runtime_wiring",
+      "status": "PASSED",
+      "result": {
+        "villageBuildings": 11,
+        "seedStageMappings": 40,
+        "formalFarmTools": 8,
+        "genericModelLodSwitch": true
+      }
+    },
+    {
+      "id": "mobile_bundle_limits",
+      "status": "PASSED",
+      "result": {
+        "village": {
+          "coreAssetCount": 16,
+          "zoneBundleIds": {
+            "plaza": "scene:village:zone:plaza",
+            "market": "scene:village:zone:market",
+            "workshop": "scene:village:zone:workshop",
+            "residential": "scene:village:zone:residential",
+            "learning": "scene:village:zone:learning",
+            "portal": "scene:village:zone:portal"
+          },
+          "maxSimultaneousAssets": 26
+        },
+        "farm": {
+          "coreAssetCount": 12,
+          "largestZoneAssetCount": 9,
+          "maxSimultaneousAssets": 30
+        }
+      }
+    },
+    {
+      "id": "player_weapon_animation_contract",
+      "status": "PASSED",
+      "result": {
+        "required": 68,
+        "actualClips": 75
+      }
+    },
+    {
+      "id": "runtime_atlas_files",
+      "status": "PASSED",
+      "result": {
+        "atlases": 3,
+        "channelPairs": 13
+      }
+    }
+  ],
+  "errors": []
+}

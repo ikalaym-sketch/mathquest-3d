@@ -1,0 +1,72 @@
+Baseline: mathquest-3d-v0.16.0-world-simulation-engineering-build.zip
+Target: mathquest-3d-v0.17.0-region-character-production-engineering-build.zip
+Generated: 2026-07-14T04:45:00+08:00
+Added: 37
+Modified: 11
+Deleted: 11
+Unchanged: 255
+
+[ADDED]
+dist/assets/Boss-DQY-FcG0.js
+dist/assets/FarmScene-YldvRsp1.js
+dist/assets/Model-BCh7aUL8.js
+dist/assets/RegionScene-BpF_flKf.js
+dist/assets/TrialTowerScene-BaQQWfYm.js
+dist/assets/WildernessScene-B1xgFyG7.js
+dist/assets/charts-DZKEgNDf.js
+dist/assets/index-C5DUJBSk.css
+dist/assets/index-ChQjlqSW.js
+dist/assets/r3f-B4m_cUmN.js
+dist/manifests/character-production-manifest.json
+dist/manifests/region-production-manifest.json
+docs/BASELINE_LOCK_V017.json
+docs/BUILD_20260714_V017.txt
+docs/CHANGESET_20260714_V017_REGION_CHARACTER_PRODUCTION.md
+docs/CHARACTER_PHYSICAL_MATRIX.csv
+docs/DEPENDENCY_AUDIT_20260714_V017.json
+docs/PACKAGE_VERIFICATION_20260714_V017.txt
+docs/REGION_PRODUCTION_MATRIX.csv
+docs/REGION_PRODUCTION_TEST_20260714_V017.json
+docs/REMAINING_SCOPE_20260714_V017.md
+docs/RUNTIME_20260714_V017.md
+docs/RUNTIME_HTTP_20260714_V017.txt
+docs/SIMULATION_20260714_V017.json
+docs/SIMULATION_20260714_V017.txt
+docs/VALIDATION_20260714_V017.json
+public/manifests/character-production-manifest.json
+public/manifests/region-production-manifest.json
+scripts/export-production-manifests.mjs
+scripts/run-region-production-tests.mjs
+src/components/3D/CharacterActorRig.jsx
+src/components/World/RegionProductionKit.jsx
+src/data/characterPhysicalProfiles.js
+src/data/physicalObjectCatalog.js
+src/data/regionProductionLayouts.js
+src/services/CharacterPhysicalValidationService.js
+src/services/RegionProductionValidationService.js
+
+[MODIFIED]
+dist/index.html
+docs/WORK_LEDGER.csv
+package-lock.json
+package.json
+scripts/run-audit.mjs
+scripts/runtime-qa.mjs
+src/components/3D/PlayerAvatar.jsx
+src/components/NPC/VillageLifeNPCs.jsx
+src/components/NPC/VillageNPCs.jsx
+src/components/Scenes/RegionScene.jsx
+src/data/worldRegions.js
+
+[DELETED]
+dist/assets/Boss-DvCEWDw8.js
+dist/assets/FarmScene-6CrHnXAG.js
+dist/assets/Model-BpMeiAPI.js
+dist/assets/RegionScene-CuXvzE9i.js
+dist/assets/SceneProps-BXhJD17j.js
+dist/assets/TrialTowerScene-CK4rr-_Y.js
+dist/assets/WildernessScene-hggGVWKc.js
+dist/assets/charts-019UXyqI.js
+dist/assets/index-BzQrlfm_.js
+dist/assets/index-dpBw18ff.css
+dist/assets/r3f-CxJm6poj.js

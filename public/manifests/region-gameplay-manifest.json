@@ -1,0 +1,1969 @@
+{
+  "schemaVersion": "1.0.0",
+  "packageVersion": "0.19.0",
+  "generatedAt": "2026-07-13T22:52:21.729Z",
+  "validation": {
+    "regions": 8,
+    "mechanics": 8,
+    "mechanicNodes": 24,
+    "events": 24,
+    "eventSteps": 72,
+    "structureInteractions": 16,
+    "materials": 8,
+    "keepsakes": 8,
+    "mechanicChallenges": 24,
+    "dailyRiftDeterministic": true
+  },
+  "materials": [
+    {
+      "id": "mat_wind_feather",
+      "name": "風羽",
+      "type": "region",
+      "sellPrice": 18,
+      "icon": "🪶",
+      "regionId": "wind_highlands"
+    },
+    {
+      "id": "mat_ice_crystal",
+      "name": "冰晶",
+      "type": "region",
+      "sellPrice": 22,
+      "icon": "❄️",
+      "regionId": "snow_valley"
+    },
+    {
+      "id": "mat_fresh_produce",
+      "name": "豐收作物",
+      "type": "region",
+      "sellPrice": 16,
+      "icon": "🥕",
+      "regionId": "farm_plains"
+    },
+    {
+      "id": "mat_star_dust",
+      "name": "星塵",
+      "type": "region",
+      "sellPrice": 20,
+      "icon": "✨",
+      "regionId": "star_village"
+    },
+    {
+      "id": "mat_lake_crystal",
+      "name": "湖光水晶",
+      "type": "region",
+      "sellPrice": 24,
+      "icon": "💎",
+      "regionId": "crystal_lake"
+    },
+    {
+      "id": "mat_sun_ore",
+      "name": "日耀礦",
+      "type": "region",
+      "sellPrice": 26,
+      "icon": "☀️",
+      "regionId": "sun_canyon"
+    },
+    {
+      "id": "mat_glow_spore",
+      "name": "螢光孢子",
+      "type": "region",
+      "sellPrice": 21,
+      "icon": "🍄",
+      "regionId": "mushroom_grove"
+    },
+    {
+      "id": "mat_ancient_gear",
+      "name": "古代齒輪",
+      "type": "region",
+      "sellPrice": 28,
+      "icon": "⚙️",
+      "regionId": "clockwork_ruins"
+    }
+  ],
+  "keepsakes": [
+    {
+      "id": "item_wind_compass",
+      "name": "風向羅盤",
+      "type": "keepsake",
+      "rarity": "Blue",
+      "regionId": "wind_highlands",
+      "description": "記錄高地風向的冒險紀念品。"
+    },
+    {
+      "id": "item_aurora_lantern",
+      "name": "極光提燈",
+      "type": "keepsake",
+      "rarity": "Blue",
+      "regionId": "snow_valley",
+      "description": "以冰晶保存柔和極光。"
+    },
+    {
+      "id": "item_harvest_badge",
+      "name": "豐收徽章",
+      "type": "keepsake",
+      "rarity": "Blue",
+      "regionId": "farm_plains",
+      "description": "完成農業平原探索後製作的徽章。"
+    },
+    {
+      "id": "item_star_notebook",
+      "name": "星光學習冊",
+      "type": "keepsake",
+      "rarity": "Blue",
+      "regionId": "star_village",
+      "description": "會記住冒險規律的星光筆記本。"
+    },
+    {
+      "id": "item_prism_charm",
+      "name": "稜鏡吊飾",
+      "type": "keepsake",
+      "rarity": "Blue",
+      "regionId": "crystal_lake",
+      "description": "能把日光分成七色的水晶吊飾。"
+    },
+    {
+      "id": "item_canyon_measure",
+      "name": "峽谷測距尺",
+      "type": "keepsake",
+      "rarity": "Blue",
+      "regionId": "sun_canyon",
+      "description": "用來測量峽谷與橋索距離。"
+    },
+    {
+      "id": "item_spore_music_box",
+      "name": "孢子音樂盒",
+      "type": "keepsake",
+      "rarity": "Blue",
+      "regionId": "mushroom_grove",
+      "description": "輕觸後會發出森林節拍。"
+    },
+    {
+      "id": "item_clockwork_token",
+      "name": "時序代幣",
+      "type": "keepsake",
+      "rarity": "Blue",
+      "regionId": "clockwork_ruins",
+      "description": "刻有正確齒輪序列的古代代幣。"
+    }
+  ],
+  "mechanicChallenges": {
+    "wind_vane_meadow": {
+      "type": "wind",
+      "prompt": "把草原風向標轉到 45°。",
+      "startAngle": 0,
+      "targetAngle": 45,
+      "step": 15
+    },
+    "wind_vane_ridge": {
+      "type": "wind",
+      "prompt": "把山脊葉片轉到 90°，讓風穿過葉片。",
+      "startAngle": 30,
+      "targetAngle": 90,
+      "step": 15
+    },
+    "wind_vane_cloud": {
+      "type": "wind",
+      "prompt": "把雲橋氣流閥轉到 135°。",
+      "startAngle": 60,
+      "targetAngle": 135,
+      "step": 15
+    },
+    "snow_heat_flower": {
+      "type": "snow",
+      "prompt": "把霜花周圍調到 -4°C。",
+      "startTemperature": 4,
+      "targetTemperature": -4,
+      "step": 2,
+      "min": -16,
+      "max": 10
+    },
+    "snow_mirror_crystal": {
+      "type": "snow",
+      "prompt": "把鏡湖安全冰層調到 -8°C。",
+      "startTemperature": 0,
+      "targetTemperature": -8,
+      "step": 2,
+      "min": -18,
+      "max": 8
+    },
+    "snow_aurora_lens": {
+      "type": "snow",
+      "prompt": "把極光鏡片冷卻到 -12°C。",
+      "startTemperature": -2,
+      "targetTemperature": -12,
+      "step": 2,
+      "min": -20,
+      "max": 6
+    },
+    "farm_orchard_rows": {
+      "type": "farm",
+      "prompt": "果樹排成 3 排，每排 4 棵，共有幾棵？",
+      "rows": 3,
+      "columns": 4,
+      "answer": 12,
+      "choices": [
+        7,
+        12,
+        14
+      ]
+    },
+    "farm_hive_counter": {
+      "type": "farm",
+      "prompt": "蜂箱排成 4 排，每排 5 個，共有幾個？",
+      "rows": 4,
+      "columns": 5,
+      "answer": 20,
+      "choices": [
+        18,
+        20,
+        24
+      ]
+    },
+    "farm_market_crates": {
+      "type": "farm",
+      "prompt": "貨箱排成 5 排，每排 6 箱，共有幾箱？",
+      "rows": 5,
+      "columns": 6,
+      "answer": 30,
+      "choices": [
+        28,
+        30,
+        35
+      ]
+    },
+    "star_outskirts_marker": {
+      "type": "star",
+      "prompt": "找出下一個數字。",
+      "sequence": [
+        2,
+        4,
+        6
+      ],
+      "answer": 8,
+      "choices": [
+        7,
+        8,
+        10
+      ]
+    },
+    "star_learning_pattern": {
+      "type": "star",
+      "prompt": "星光每次增加 3，下一個數字是？",
+      "sequence": [
+        3,
+        6,
+        9
+      ],
+      "answer": 12,
+      "choices": [
+        10,
+        11,
+        12
+      ]
+    },
+    "star_meadow_constellation": {
+      "type": "star",
+      "prompt": "星光依倍數排列，下一個數字是？",
+      "sequence": [
+        2,
+        4,
+        8
+      ],
+      "answer": 16,
+      "choices": [
+        12,
+        14,
+        16
+      ]
+    },
+    "crystal_shore_prism": {
+      "type": "crystal",
+      "prompt": "鏡面在中間，選出左右鏡像。",
+      "sourceShape": "◢",
+      "answer": "◣",
+      "choices": [
+        "◣",
+        "◤",
+        "◥"
+      ],
+      "axis": "垂直"
+    },
+    "crystal_island_prism": {
+      "type": "crystal",
+      "prompt": "鏡面在中間，選出上下鏡像。",
+      "sourceShape": "◢",
+      "answer": "◥",
+      "choices": [
+        "◥",
+        "◣",
+        "◤"
+      ],
+      "axis": "水平"
+    },
+    "crystal_grotto_echo": {
+      "type": "crystal",
+      "prompt": "光線穿過兩面鏡子後，選出正確方向。",
+      "sourceShape": "◢",
+      "answer": "◤",
+      "choices": [
+        "◣",
+        "◤",
+        "◥"
+      ],
+      "axis": "雙重"
+    },
+    "canyon_ravine_measure": {
+      "type": "canyon",
+      "prompt": "兩段橋索長 12m 與 8m，總長多少？",
+      "segments": [
+        12,
+        8
+      ],
+      "answer": 20,
+      "choices": [
+        18,
+        20,
+        22
+      ]
+    },
+    "canyon_bridge_anchor": {
+      "type": "canyon",
+      "prompt": "三段繩索長 7m、9m、6m，總長多少？",
+      "segments": [
+        7,
+        9,
+        6
+      ],
+      "answer": 22,
+      "choices": [
+        20,
+        22,
+        24
+      ]
+    },
+    "canyon_temple_shadow": {
+      "type": "canyon",
+      "prompt": "日影分成 15m 與 12m，總長多少？",
+      "segments": [
+        15,
+        12
+      ],
+      "answer": 27,
+      "choices": [
+        25,
+        27,
+        30
+      ]
+    },
+    "mushroom_bubblecap_beat": {
+      "type": "mushroom",
+      "prompt": "節拍是 2、4、6，下一拍要敲幾下？",
+      "pattern": [
+        2,
+        4,
+        6
+      ],
+      "targetTaps": 8
+    },
+    "mushroom_pond_beat": {
+      "type": "mushroom",
+      "prompt": "節拍是 3、6、9，下一拍要敲幾下？",
+      "pattern": [
+        3,
+        6,
+        9
+      ],
+      "targetTaps": 12
+    },
+    "mushroom_fairy_beat": {
+      "type": "mushroom",
+      "prompt": "節拍是 4、8、12，下一拍要敲幾下？",
+      "pattern": [
+        4,
+        8,
+        12
+      ],
+      "targetTaps": 16
+    },
+    "clockwork_courtyard_gear": {
+      "type": "clockwork",
+      "prompt": "依序啟動：中齒輪 → 小齒輪 → 大齒輪。",
+      "gears": [
+        "小齒輪",
+        "中齒輪",
+        "大齒輪"
+      ],
+      "sequence": [
+        "中齒輪",
+        "小齒輪",
+        "大齒輪"
+      ]
+    },
+    "clockwork_puzzle_sequence": {
+      "type": "clockwork",
+      "prompt": "依序啟動：大齒輪 → 中齒輪 → 小齒輪。",
+      "gears": [
+        "小齒輪",
+        "中齒輪",
+        "大齒輪"
+      ],
+      "sequence": [
+        "大齒輪",
+        "中齒輪",
+        "小齒輪"
+      ]
+    },
+    "clockwork_steam_valve": {
+      "type": "clockwork",
+      "prompt": "依序啟動：小齒輪 → 大齒輪 → 中齒輪。",
+      "gears": [
+        "小齒輪",
+        "中齒輪",
+        "大齒輪"
+      ],
+      "sequence": [
+        "小齒輪",
+        "大齒輪",
+        "中齒輪"
+      ]
+    }
+  },
+  "regions": [
+    {
+      "regionId": "wind_highlands",
+      "materialId": "mat_wind_feather",
+      "keepsakeId": "item_wind_compass",
+      "skillContext": "region_wind_angles",
+      "mechanic": {
+        "id": "wind_alignment",
+        "variant": "wind",
+        "title": "風向校準",
+        "description": "依序校準三座風向標，讓上升氣流重新連通。",
+        "nodes": [
+          {
+            "id": "wind_vane_meadow",
+            "label": "草原風向標",
+            "position": [
+              -34,
+              0.4,
+              -21
+            ],
+            "subareaId": "breeze_meadow",
+            "icon": "🌬️",
+            "color": "#78d7ef",
+            "order": 1
+          },
+          {
+            "id": "wind_vane_ridge",
+            "label": "山脊葉片角度",
+            "position": [
+              30,
+              1.1,
+              -24
+            ],
+            "subareaId": "windmill_ridge",
+            "icon": "🌀",
+            "color": "#4fb7dc",
+            "order": 2
+          },
+          {
+            "id": "wind_vane_cloud",
+            "label": "雲橋氣流閥",
+            "position": [
+              28,
+              1.8,
+              23
+            ],
+            "subareaId": "cloud_bridge",
+            "icon": "☁️",
+            "color": "#bdeeff",
+            "order": 3
+          }
+        ]
+      },
+      "guide": {
+        "name": "風語員小嵐",
+        "position": [
+          -30,
+          0.5,
+          -24
+        ],
+        "outfitColor": "#4fa9cf",
+        "trimColor": "#fff0a5",
+        "role": "guide"
+      },
+      "structureInteractions": [
+        {
+          "structureId": "wind_station_a",
+          "socketId": "entry",
+          "label": "風車補給台",
+          "icon": "🪶",
+          "action": "workshop",
+          "targetId": "wind_station_a:entry"
+        },
+        {
+          "structureId": "sky_observatory_main",
+          "socketId": "telescope",
+          "label": "天空觀測任務",
+          "icon": "🔭",
+          "action": "challenge",
+          "targetId": "sky_observatory_main:telescope"
+        }
+      ],
+      "events": [
+        {
+          "id": "runaway_kite",
+          "name": "逃走的風箏",
+          "description": "先找到風箏，再校準草原風向標並蒐集風羽。",
+          "rewardGold": 120,
+          "steps": [
+            {
+              "id": "find_kite",
+              "type": "beacon",
+              "targetId": "runaway_kite",
+              "label": "在微風草原找到風箏",
+              "target": 1,
+              "position": [
+                -27,
+                0.6,
+                -15
+              ]
+            },
+            {
+              "id": "align_meadow",
+              "type": "mechanic",
+              "targetId": "wind_vane_meadow",
+              "label": "完成草原風向校準",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "collect_feather",
+              "type": "collect",
+              "targetId": "mat_wind_feather",
+              "label": "蒐集風羽",
+              "target": 2,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "wind_crystal",
+          "name": "風之水晶",
+          "description": "觀測風向、啟動山脊葉片，再回報天空觀測站。",
+          "rewardGold": 135,
+          "steps": [
+            {
+              "id": "find_crystal",
+              "type": "beacon",
+              "targetId": "wind_crystal",
+              "label": "找到漂浮的風之水晶",
+              "target": 1,
+              "position": [
+                24,
+                1.4,
+                -18
+              ]
+            },
+            {
+              "id": "align_ridge",
+              "type": "mechanic",
+              "targetId": "wind_vane_ridge",
+              "label": "校準山脊葉片",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "report_telescope",
+              "type": "structure",
+              "targetId": "sky_observatory_main:telescope",
+              "label": "使用天空望遠鏡完成觀測",
+              "target": 1,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "sky_race",
+          "name": "雲端接力",
+          "description": "穿越雲橋，啟動氣流閥並擊退高地怪物。",
+          "rewardGold": 150,
+          "steps": [
+            {
+              "id": "start_race",
+              "type": "beacon",
+              "targetId": "sky_race",
+              "label": "在雲橋起點開始接力",
+              "target": 1,
+              "position": [
+                -18,
+                1.7,
+                25
+              ]
+            },
+            {
+              "id": "align_cloud",
+              "type": "mechanic",
+              "targetId": "wind_vane_cloud",
+              "label": "啟動雲橋氣流閥",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "defeat_wind",
+              "type": "defeat",
+              "targetId": "normal",
+              "label": "擊退高地怪物",
+              "target": 2,
+              "position": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regionId": "snow_valley",
+      "materialId": "mat_ice_crystal",
+      "keepsakeId": "item_aurora_lantern",
+      "skillContext": "region_snow_temperature",
+      "mechanic": {
+        "id": "thermal_crystals",
+        "variant": "snow",
+        "title": "冰晶溫度平衡",
+        "description": "依序調整三枚冰晶，使道路維持安全溫度。",
+        "nodes": [
+          {
+            "id": "snow_heat_flower",
+            "label": "霜花保溫晶",
+            "position": [
+              -32,
+              0.5,
+              -22
+            ],
+            "subareaId": "frostflower_meadow",
+            "icon": "🌡️",
+            "color": "#bcefff",
+            "order": 1
+          },
+          {
+            "id": "snow_mirror_crystal",
+            "label": "鏡湖冰層晶",
+            "position": [
+              28,
+              0.6,
+              -28
+            ],
+            "subareaId": "mirror_lake",
+            "icon": "🧊",
+            "color": "#8dd8ef",
+            "order": 2
+          },
+          {
+            "id": "snow_aurora_lens",
+            "label": "極光折射晶",
+            "position": [
+              -25,
+              1.4,
+              28
+            ],
+            "subareaId": "aurora_observatory",
+            "icon": "🌌",
+            "color": "#b8a9ff",
+            "order": 3
+          }
+        ]
+      },
+      "guide": {
+        "name": "雪谷巡護員米雅",
+        "position": [
+          -29,
+          0.5,
+          -25
+        ],
+        "outfitColor": "#7cc6df",
+        "trimColor": "#e9fbff",
+        "role": "guide"
+      },
+      "structureInteractions": [
+        {
+          "structureId": "frostflower_altar",
+          "socketId": "altar",
+          "label": "冰晶工坊",
+          "icon": "❄️",
+          "action": "workshop",
+          "targetId": "frostflower_altar:altar"
+        },
+        {
+          "structureId": "aurora_observatory_main",
+          "socketId": "telescope",
+          "label": "極光觀測任務",
+          "icon": "🌌",
+          "action": "challenge",
+          "targetId": "aurora_observatory_main:telescope"
+        }
+      ],
+      "events": [
+        {
+          "id": "warm_the_cub",
+          "name": "溫暖小獸",
+          "description": "找出迷路小獸、啟動保溫晶並取得冰晶。",
+          "rewardGold": 120,
+          "steps": [
+            {
+              "id": "find_cub",
+              "type": "beacon",
+              "targetId": "warm_the_cub",
+              "label": "在霜花草原找到小獸",
+              "target": 1,
+              "position": [
+                -23,
+                0.5,
+                -15
+              ]
+            },
+            {
+              "id": "heat_flower",
+              "type": "mechanic",
+              "targetId": "snow_heat_flower",
+              "label": "調整霜花保溫晶",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "collect_ice",
+              "type": "collect",
+              "targetId": "mat_ice_crystal",
+              "label": "蒐集冰晶",
+              "target": 2,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "frozen_bell",
+          "name": "冰封鐘聲",
+          "description": "修正鏡湖冰層後，前往神殿敲響安全鐘。",
+          "rewardGold": 135,
+          "steps": [
+            {
+              "id": "find_bell",
+              "type": "beacon",
+              "targetId": "frozen_bell",
+              "label": "找到被冰封的鐘槌",
+              "target": 1,
+              "position": [
+                23,
+                0.7,
+                -10
+              ]
+            },
+            {
+              "id": "mirror_safe",
+              "type": "mechanic",
+              "targetId": "snow_mirror_crystal",
+              "label": "計算鏡湖安全冰層",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "shrine_altar",
+              "type": "structure",
+              "targetId": "frostflower_altar:altar",
+              "label": "回到神殿回報",
+              "target": 1,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "aurora_treasure",
+          "name": "極光寶藏",
+          "description": "校準極光折射晶，再完成觀測站記錄。",
+          "rewardGold": 150,
+          "steps": [
+            {
+              "id": "find_aurora_map",
+              "type": "beacon",
+              "targetId": "aurora_treasure",
+              "label": "取得極光座標圖",
+              "target": 1,
+              "position": [
+                -19,
+                1.3,
+                24
+              ]
+            },
+            {
+              "id": "aurora_lens",
+              "type": "mechanic",
+              "targetId": "snow_aurora_lens",
+              "label": "校準極光折射晶",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "aurora_report",
+              "type": "structure",
+              "targetId": "aurora_observatory_main:telescope",
+              "label": "完成極光觀測記錄",
+              "target": 1,
+              "position": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regionId": "farm_plains",
+      "materialId": "mat_fresh_produce",
+      "keepsakeId": "item_harvest_badge",
+      "skillContext": "region_farm_arrays",
+      "mechanic": {
+        "id": "harvest_planning",
+        "variant": "farm",
+        "title": "田列規劃",
+        "description": "依序計算果樹、蜂箱與市集貨箱的行列數量。",
+        "nodes": [
+          {
+            "id": "farm_orchard_rows",
+            "label": "果園行列牌",
+            "position": [
+              -35,
+              0.5,
+              -20
+            ],
+            "subareaId": "sunny_orchard",
+            "icon": "🍎",
+            "color": "#efb64c",
+            "order": 1
+          },
+          {
+            "id": "farm_hive_counter",
+            "label": "蜂箱數量台",
+            "position": [
+              29,
+              0.9,
+              -20
+            ],
+            "subareaId": "shepherd_hill",
+            "icon": "🐝",
+            "color": "#ffd95c",
+            "order": 2
+          },
+          {
+            "id": "farm_market_crates",
+            "label": "豐收貨箱表",
+            "position": [
+              29,
+              0.5,
+              26
+            ],
+            "subareaId": "harvest_square",
+            "icon": "📦",
+            "color": "#dc9443",
+            "order": 3
+          }
+        ]
+      },
+      "guide": {
+        "name": "農務隊長阿禾",
+        "position": [
+          -31,
+          0.5,
+          -24
+        ],
+        "outfitColor": "#76ad55",
+        "trimColor": "#ffd46b",
+        "role": "farmer"
+      },
+      "structureInteractions": [
+        {
+          "structureId": "sunny_orchard_barn",
+          "socketId": "entry",
+          "label": "農產加工台",
+          "icon": "🌾",
+          "action": "workshop",
+          "targetId": "sunny_orchard_barn:entry"
+        },
+        {
+          "structureId": "shepherd_bee_pavilion",
+          "socketId": "honey_counter",
+          "label": "蜂蜜分裝任務",
+          "icon": "🍯",
+          "action": "challenge",
+          "targetId": "shepherd_bee_pavilion:honey_counter"
+        }
+      ],
+      "events": [
+        {
+          "id": "runaway_chicken",
+          "name": "走失的小雞",
+          "description": "找到小雞、完成果園行列計算並蒐集作物。",
+          "rewardGold": 110,
+          "steps": [
+            {
+              "id": "find_chicken",
+              "type": "beacon",
+              "targetId": "runaway_chicken",
+              "label": "在果園找到小雞",
+              "target": 1,
+              "position": [
+                -27,
+                0.5,
+                -14
+              ]
+            },
+            {
+              "id": "orchard_rows",
+              "type": "mechanic",
+              "targetId": "farm_orchard_rows",
+              "label": "完成果園行列牌",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "collect_produce",
+              "type": "collect",
+              "targetId": "mat_fresh_produce",
+              "label": "蒐集豐收作物",
+              "target": 2,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "golden_turnip",
+          "name": "金色蕪菁",
+          "description": "完成蜂箱計數，並在蜂亭確認安全存放。",
+          "rewardGold": 130,
+          "steps": [
+            {
+              "id": "find_turnip",
+              "type": "beacon",
+              "targetId": "golden_turnip",
+              "label": "找到金色蕪菁",
+              "target": 1,
+              "position": [
+                22,
+                0.8,
+                -18
+              ]
+            },
+            {
+              "id": "count_hives",
+              "type": "mechanic",
+              "targetId": "farm_hive_counter",
+              "label": "完成蜂箱數量台",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "honey_counter",
+              "type": "structure",
+              "targetId": "shepherd_bee_pavilion:honey_counter",
+              "label": "在蜂亭完成分裝",
+              "target": 1,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "cart_repair",
+          "name": "修理運貨車",
+          "description": "確認市集貨箱數量，並擊退妨礙運輸的怪物。",
+          "rewardGold": 145,
+          "steps": [
+            {
+              "id": "find_cart",
+              "type": "beacon",
+              "targetId": "cart_repair",
+              "label": "在豐收廣場找到貨車",
+              "target": 1,
+              "position": [
+                22,
+                0.5,
+                23
+              ]
+            },
+            {
+              "id": "count_crates",
+              "type": "mechanic",
+              "targetId": "farm_market_crates",
+              "label": "完成貨箱表",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "clear_road",
+              "type": "defeat",
+              "targetId": "normal",
+              "label": "清除道路怪物",
+              "target": 2,
+              "position": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regionId": "star_village",
+      "materialId": "mat_star_dust",
+      "keepsakeId": "item_star_notebook",
+      "skillContext": "region_star_patterns",
+      "mechanic": {
+        "id": "constellation_learning",
+        "variant": "star",
+        "title": "星座規律連線",
+        "description": "依照規律點亮三座學習星標。",
+        "nodes": [
+          {
+            "id": "star_outskirts_marker",
+            "label": "外圍第一星",
+            "position": [
+              -33,
+              0.5,
+              -20
+            ],
+            "subareaId": "village_outskirts",
+            "icon": "⭐",
+            "color": "#ffd458",
+            "order": 1
+          },
+          {
+            "id": "star_learning_pattern",
+            "label": "學習花園星圖",
+            "position": [
+              29,
+              0.7,
+              -20
+            ],
+            "subareaId": "learning_garden",
+            "icon": "📚",
+            "color": "#f6b94b",
+            "order": 2
+          },
+          {
+            "id": "star_meadow_constellation",
+            "label": "冒險草原星座",
+            "position": [
+              28,
+              1,
+              26
+            ],
+            "subareaId": "adventure_meadow",
+            "icon": "🌟",
+            "color": "#e68cff",
+            "order": 3
+          }
+        ]
+      },
+      "guide": {
+        "name": "星圖老師露露",
+        "position": [
+          26,
+          0.6,
+          -24
+        ],
+        "outfitColor": "#786fd0",
+        "trimColor": "#ffd65e",
+        "role": "scholar"
+      },
+      "structureInteractions": [
+        {
+          "structureId": "learning_hall",
+          "socketId": "entry",
+          "label": "星光學習工坊",
+          "icon": "📘",
+          "action": "workshop",
+          "targetId": "learning_hall:entry"
+        },
+        {
+          "structureId": "meadow_lodge",
+          "socketId": "quest_board",
+          "label": "冒險任務板",
+          "icon": "📜",
+          "action": "challenge",
+          "targetId": "meadow_lodge:quest_board"
+        }
+      ],
+      "events": [
+        {
+          "id": "parcel_delivery",
+          "name": "星光包裹",
+          "description": "找到包裹、點亮外圍星標並收集星塵。",
+          "rewardGold": 110,
+          "steps": [
+            {
+              "id": "find_parcel",
+              "type": "beacon",
+              "targetId": "parcel_delivery",
+              "label": "在村莊外圍找到包裹",
+              "target": 1,
+              "position": [
+                -25,
+                0.5,
+                -14
+              ]
+            },
+            {
+              "id": "light_outskirts",
+              "type": "mechanic",
+              "targetId": "star_outskirts_marker",
+              "label": "點亮外圍第一星",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "collect_stardust",
+              "type": "collect",
+              "targetId": "mat_star_dust",
+              "label": "蒐集星塵",
+              "target": 2,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "math_picnic",
+          "name": "數學野餐",
+          "description": "完成學習花園星圖，再到冒險旅舍取得野餐清單。",
+          "rewardGold": 130,
+          "steps": [
+            {
+              "id": "find_picnic",
+              "type": "beacon",
+              "targetId": "math_picnic",
+              "label": "找到野餐籃",
+              "target": 1,
+              "position": [
+                22,
+                0.7,
+                -12
+              ]
+            },
+            {
+              "id": "learning_pattern",
+              "type": "mechanic",
+              "targetId": "star_learning_pattern",
+              "label": "完成學習花園星圖",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "quest_board",
+              "type": "structure",
+              "targetId": "meadow_lodge:quest_board",
+              "label": "讀取冒險任務板",
+              "target": 1,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "hidden_star",
+          "name": "隱藏之星",
+          "description": "完成草原星座後，擊退守在附近的怪物。",
+          "rewardGold": 145,
+          "steps": [
+            {
+              "id": "find_hidden_star",
+              "type": "beacon",
+              "targetId": "hidden_star",
+              "label": "在冒險草原尋找隱藏之星",
+              "target": 1,
+              "position": [
+                21,
+                1,
+                22
+              ]
+            },
+            {
+              "id": "meadow_constellation",
+              "type": "mechanic",
+              "targetId": "star_meadow_constellation",
+              "label": "完成草原星座",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "defeat_star",
+              "type": "defeat",
+              "targetId": "normal",
+              "label": "擊退草原怪物",
+              "target": 2,
+              "position": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regionId": "crystal_lake",
+      "materialId": "mat_lake_crystal",
+      "keepsakeId": "item_prism_charm",
+      "skillContext": "region_crystal_symmetry",
+      "mechanic": {
+        "id": "prism_light_path",
+        "variant": "crystal",
+        "title": "稜鏡光路",
+        "description": "利用對稱與角度讓三道光束抵達洞窟。",
+        "nodes": [
+          {
+            "id": "crystal_shore_prism",
+            "label": "湖岸稜鏡",
+            "position": [
+              -32,
+              0.6,
+              -20
+            ],
+            "subareaId": "shimmering_shore",
+            "icon": "🔷",
+            "color": "#64e4e0",
+            "order": 1
+          },
+          {
+            "id": "crystal_island_prism",
+            "label": "島嶼折射鏡",
+            "position": [
+              29,
+              0.9,
+              -18
+            ],
+            "subareaId": "island_garden",
+            "icon": "🌈",
+            "color": "#78c7ff",
+            "order": 2
+          },
+          {
+            "id": "crystal_grotto_echo",
+            "label": "回音洞光門",
+            "position": [
+              29,
+              1.9,
+              27
+            ],
+            "subareaId": "echo_grotto",
+            "icon": "💠",
+            "color": "#8c8cff",
+            "order": 3
+          }
+        ]
+      },
+      "guide": {
+        "name": "湖光研究員希雅",
+        "position": [
+          -29,
+          0.6,
+          -24
+        ],
+        "outfitColor": "#4cb8b3",
+        "trimColor": "#d8ffff",
+        "role": "scholar"
+      },
+      "structureInteractions": [
+        {
+          "structureId": "shimmering_dock",
+          "socketId": "fishing",
+          "label": "湖光素材工坊",
+          "icon": "💎",
+          "action": "workshop",
+          "targetId": "shimmering_dock:fishing"
+        },
+        {
+          "structureId": "grotto_sanctuary",
+          "socketId": "core_interaction",
+          "label": "稜鏡核心任務",
+          "icon": "🔮",
+          "action": "challenge",
+          "targetId": "grotto_sanctuary:core_interaction"
+        }
+      ],
+      "events": [
+        {
+          "id": "singing_crystal",
+          "name": "歌唱水晶",
+          "description": "找到聲音來源、調整湖岸稜鏡並蒐集水晶。",
+          "rewardGold": 125,
+          "steps": [
+            {
+              "id": "find_singing",
+              "type": "beacon",
+              "targetId": "singing_crystal",
+              "label": "找到歌唱水晶",
+              "target": 1,
+              "position": [
+                -24,
+                0.6,
+                -13
+              ]
+            },
+            {
+              "id": "shore_prism",
+              "type": "mechanic",
+              "targetId": "crystal_shore_prism",
+              "label": "調整湖岸稜鏡",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "collect_lake_crystal",
+              "type": "collect",
+              "targetId": "mat_lake_crystal",
+              "label": "蒐集湖光水晶",
+              "target": 2,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "lost_boat",
+          "name": "迷航小船",
+          "description": "修正島嶼折射鏡，並在碼頭確認航線。",
+          "rewardGold": 140,
+          "steps": [
+            {
+              "id": "find_boat",
+              "type": "beacon",
+              "targetId": "lost_boat",
+              "label": "在島嶼花園找到航線圖",
+              "target": 1,
+              "position": [
+                20,
+                0.9,
+                -11
+              ]
+            },
+            {
+              "id": "island_prism",
+              "type": "mechanic",
+              "targetId": "crystal_island_prism",
+              "label": "調整島嶼折射鏡",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "dock_report",
+              "type": "structure",
+              "targetId": "shimmering_dock:fishing",
+              "label": "回碼頭確認航線",
+              "target": 1,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "rainbow_fish",
+          "name": "彩虹魚群",
+          "description": "打開洞窟光門，並擊退影響魚群的怪物。",
+          "rewardGold": 155,
+          "steps": [
+            {
+              "id": "find_fish",
+              "type": "beacon",
+              "targetId": "rainbow_fish",
+              "label": "在回音洞附近找到魚群",
+              "target": 1,
+              "position": [
+                21,
+                1.8,
+                23
+              ]
+            },
+            {
+              "id": "grotto_echo",
+              "type": "mechanic",
+              "targetId": "crystal_grotto_echo",
+              "label": "打開回音洞光門",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "defeat_lake",
+              "type": "defeat",
+              "targetId": "normal",
+              "label": "擊退湖畔怪物",
+              "target": 2,
+              "position": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regionId": "sun_canyon",
+      "materialId": "mat_sun_ore",
+      "keepsakeId": "item_canyon_measure",
+      "skillContext": "region_canyon_measurement",
+      "mechanic": {
+        "id": "bridge_tension",
+        "variant": "canyon",
+        "title": "繩橋張力測量",
+        "description": "測量三個橋索錨點，避免繩橋在熱風中失衡。",
+        "nodes": [
+          {
+            "id": "canyon_ravine_measure",
+            "label": "峽谷距離樁",
+            "position": [
+              -35,
+              0.7,
+              -19
+            ],
+            "subareaId": "golden_ravine",
+            "icon": "📏",
+            "color": "#efad54",
+            "order": 1
+          },
+          {
+            "id": "canyon_bridge_anchor",
+            "label": "繩橋張力錨",
+            "position": [
+              29,
+              1.8,
+              -22
+            ],
+            "subareaId": "rope_bridge",
+            "icon": "🪢",
+            "color": "#d96d39",
+            "order": 2
+          },
+          {
+            "id": "canyon_temple_shadow",
+            "label": "神殿日影尺",
+            "position": [
+              31,
+              2.4,
+              26
+            ],
+            "subareaId": "sun_temple",
+            "icon": "☀️",
+            "color": "#ffd05a",
+            "order": 3
+          }
+        ]
+      },
+      "guide": {
+        "name": "峽谷測量員塔克",
+        "position": [
+          -31,
+          0.7,
+          -23
+        ],
+        "outfitColor": "#bd7040",
+        "trimColor": "#ffd178",
+        "role": "carpenter"
+      },
+      "structureInteractions": [
+        {
+          "structureId": "ravine_forge",
+          "socketId": "forge",
+          "label": "日耀礦工坊",
+          "icon": "🔥",
+          "action": "workshop",
+          "targetId": "ravine_forge:forge"
+        },
+        {
+          "structureId": "rope_station",
+          "socketId": "bridge_entry",
+          "label": "繩橋安全任務",
+          "icon": "🌉",
+          "action": "challenge",
+          "targetId": "rope_station:bridge_entry"
+        }
+      ],
+      "events": [
+        {
+          "id": "oasis_rescue",
+          "name": "綠洲救援",
+          "description": "找到求救信號、完成距離樁測量並蒐集日耀礦。",
+          "rewardGold": 130,
+          "steps": [
+            {
+              "id": "find_oasis",
+              "type": "beacon",
+              "targetId": "oasis_rescue",
+              "label": "找到綠洲求救信號",
+              "target": 1,
+              "position": [
+                -25,
+                0.7,
+                -12
+              ]
+            },
+            {
+              "id": "ravine_measure",
+              "type": "mechanic",
+              "targetId": "canyon_ravine_measure",
+              "label": "完成峽谷距離測量",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "collect_sun_ore",
+              "type": "collect",
+              "targetId": "mat_sun_ore",
+              "label": "蒐集日耀礦",
+              "target": 2,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "rolling_boulder",
+          "name": "滾石警報",
+          "description": "調整繩橋張力，並在橋站確認封鎖。",
+          "rewardGold": 145,
+          "steps": [
+            {
+              "id": "find_boulder",
+              "type": "beacon",
+              "targetId": "rolling_boulder",
+              "label": "發現滾石路線",
+              "target": 1,
+              "position": [
+                21,
+                1.8,
+                -14
+              ]
+            },
+            {
+              "id": "bridge_anchor",
+              "type": "mechanic",
+              "targetId": "canyon_bridge_anchor",
+              "label": "調整繩橋張力",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "bridge_report",
+              "type": "structure",
+              "targetId": "rope_station:bridge_entry",
+              "label": "在橋站完成安全確認",
+              "target": 1,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "desert_compass",
+          "name": "沙漠羅盤",
+          "description": "利用神殿日影定向，並擊退守護怪物。",
+          "rewardGold": 160,
+          "steps": [
+            {
+              "id": "find_compass",
+              "type": "beacon",
+              "targetId": "desert_compass",
+              "label": "在太陽神殿找到羅盤",
+              "target": 1,
+              "position": [
+                24,
+                2.4,
+                22
+              ]
+            },
+            {
+              "id": "temple_shadow",
+              "type": "mechanic",
+              "targetId": "canyon_temple_shadow",
+              "label": "完成神殿日影計算",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "defeat_canyon",
+              "type": "defeat",
+              "targetId": "normal",
+              "label": "擊退峽谷怪物",
+              "target": 2,
+              "position": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regionId": "mushroom_grove",
+      "materialId": "mat_glow_spore",
+      "keepsakeId": "item_spore_music_box",
+      "skillContext": "region_mushroom_multiples",
+      "mechanic": {
+        "id": "mushroom_rhythm",
+        "variant": "mushroom",
+        "title": "蘑菇節拍",
+        "description": "依倍數規律敲響三座彈跳菇。",
+        "nodes": [
+          {
+            "id": "mushroom_bubblecap_beat",
+            "label": "泡泡菇第一拍",
+            "position": [
+              -32,
+              0.6,
+              -20
+            ],
+            "subareaId": "bubblecap_trail",
+            "icon": "🍄",
+            "color": "#ea79bd",
+            "order": 1
+          },
+          {
+            "id": "mushroom_pond_beat",
+            "label": "螢光池倍數拍",
+            "position": [
+              29,
+              0.8,
+              -26
+            ],
+            "subareaId": "glow_pond",
+            "icon": "🫧",
+            "color": "#7ce6cf",
+            "order": 2
+          },
+          {
+            "id": "mushroom_fairy_beat",
+            "label": "妖精環節奏門",
+            "position": [
+              -25,
+              1.1,
+              27
+            ],
+            "subareaId": "fairy_ring",
+            "icon": "🧚",
+            "color": "#c395ff",
+            "order": 3
+          }
+        ]
+      },
+      "guide": {
+        "name": "孢子樂師波波",
+        "position": [
+          -29,
+          0.6,
+          -24
+        ],
+        "outfitColor": "#b65a9b",
+        "trimColor": "#c8ffe8",
+        "role": "guide"
+      },
+      "structureInteractions": [
+        {
+          "structureId": "bubblecap_house",
+          "socketId": "entry",
+          "label": "孢子素材工坊",
+          "icon": "🍄",
+          "action": "workshop",
+          "targetId": "bubblecap_house:entry"
+        },
+        {
+          "structureId": "fairy_ring_pavilion",
+          "socketId": "glow_orb",
+          "label": "妖精環任務",
+          "icon": "🧚",
+          "action": "challenge",
+          "targetId": "fairy_ring_pavilion:glow_orb"
+        }
+      ],
+      "events": [
+        {
+          "id": "dancing_spores",
+          "name": "跳舞孢子",
+          "description": "找到節拍、敲響泡泡菇並蒐集孢子。",
+          "rewardGold": 125,
+          "steps": [
+            {
+              "id": "find_spores",
+              "type": "beacon",
+              "targetId": "dancing_spores",
+              "label": "找到跳舞孢子",
+              "target": 1,
+              "position": [
+                -24,
+                0.6,
+                -13
+              ]
+            },
+            {
+              "id": "bubblecap_beat",
+              "type": "mechanic",
+              "targetId": "mushroom_bubblecap_beat",
+              "label": "完成泡泡菇第一拍",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "collect_spore",
+              "type": "collect",
+              "targetId": "mat_glow_spore",
+              "label": "蒐集螢光孢子",
+              "target": 2,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "fairy_tea",
+          "name": "妖精茶會",
+          "description": "完成螢光池倍數拍，再到妖精亭回報。",
+          "rewardGold": 140,
+          "steps": [
+            {
+              "id": "find_tea",
+              "type": "beacon",
+              "targetId": "fairy_tea",
+              "label": "找到茶會邀請",
+              "target": 1,
+              "position": [
+                21,
+                0.8,
+                -27
+              ]
+            },
+            {
+              "id": "pond_beat",
+              "type": "mechanic",
+              "targetId": "mushroom_pond_beat",
+              "label": "完成螢光池倍數拍",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "fairy_orb",
+              "type": "structure",
+              "targetId": "fairy_ring_pavilion:glow_orb",
+              "label": "啟動妖精亭光球",
+              "target": 1,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "mushroom_parade",
+          "name": "巨菇遊行",
+          "description": "開啟妖精環節奏門，並擊退阻擋遊行的怪物。",
+          "rewardGold": 155,
+          "steps": [
+            {
+              "id": "find_parade",
+              "type": "beacon",
+              "targetId": "mushroom_parade",
+              "label": "找到遊行起點",
+              "target": 1,
+              "position": [
+                -18,
+                1.1,
+                22
+              ]
+            },
+            {
+              "id": "fairy_beat",
+              "type": "mechanic",
+              "targetId": "mushroom_fairy_beat",
+              "label": "開啟妖精環節奏門",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "defeat_mushroom",
+              "type": "defeat",
+              "targetId": "normal",
+              "label": "擊退濕地怪物",
+              "target": 2,
+              "position": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regionId": "clockwork_ruins",
+      "materialId": "mat_ancient_gear",
+      "keepsakeId": "item_clockwork_token",
+      "skillContext": "region_clockwork_sequence",
+      "mechanic": {
+        "id": "gear_sequence",
+        "variant": "clockwork",
+        "title": "齒輪時序",
+        "description": "依正確時序啟動三組齒輪與蒸汽閥。",
+        "nodes": [
+          {
+            "id": "clockwork_courtyard_gear",
+            "label": "庭院主齒輪",
+            "position": [
+              -33,
+              0.7,
+              -20
+            ],
+            "subareaId": "gear_courtyard",
+            "icon": "⚙️",
+            "color": "#d7a24e",
+            "order": 1
+          },
+          {
+            "id": "clockwork_puzzle_sequence",
+            "label": "謎題大廳序列盤",
+            "position": [
+              29,
+              1,
+              -20
+            ],
+            "subareaId": "puzzle_hall",
+            "icon": "🔢",
+            "color": "#aebcbe",
+            "order": 2
+          },
+          {
+            "id": "clockwork_steam_valve",
+            "label": "蒸汽橋時間閥",
+            "position": [
+              -26,
+              1.5,
+              27
+            ],
+            "subareaId": "steam_bridge",
+            "icon": "♨️",
+            "color": "#e58a4f",
+            "order": 3
+          }
+        ]
+      },
+      "guide": {
+        "name": "機械修復師柯格",
+        "position": [
+          -30,
+          0.7,
+          -24
+        ],
+        "outfitColor": "#7c8c86",
+        "trimColor": "#e5ad52",
+        "role": "blacksmith"
+      },
+      "structureInteractions": [
+        {
+          "structureId": "gear_workshop_main",
+          "socketId": "gear_console",
+          "label": "齒輪零件工坊",
+          "icon": "⚙️",
+          "action": "workshop",
+          "targetId": "gear_workshop_main:gear_console"
+        },
+        {
+          "structureId": "clock_core_main",
+          "socketId": "clock_console",
+          "label": "時鐘核心任務",
+          "icon": "🕰️",
+          "action": "challenge",
+          "targetId": "clock_core_main:clock_console"
+        }
+      ],
+      "events": [
+        {
+          "id": "broken_automaton",
+          "name": "故障機器人",
+          "description": "找到零件、啟動庭院主齒輪並蒐集古代齒輪。",
+          "rewardGold": 135,
+          "steps": [
+            {
+              "id": "find_automaton",
+              "type": "beacon",
+              "targetId": "broken_automaton",
+              "label": "找到故障機器人",
+              "target": 1,
+              "position": [
+                -25,
+                0.7,
+                -13
+              ]
+            },
+            {
+              "id": "courtyard_gear",
+              "type": "mechanic",
+              "targetId": "clockwork_courtyard_gear",
+              "label": "啟動庭院主齒輪",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "collect_gear",
+              "type": "collect",
+              "targetId": "mat_ancient_gear",
+              "label": "蒐集古代齒輪",
+              "target": 2,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "time_puzzle",
+          "name": "時間謎題",
+          "description": "完成序列盤，並在時鐘核心輸入答案。",
+          "rewardGold": 150,
+          "steps": [
+            {
+              "id": "find_time_note",
+              "type": "beacon",
+              "targetId": "time_puzzle",
+              "label": "找到時間筆記",
+              "target": 1,
+              "position": [
+                21,
+                1,
+                -12
+              ]
+            },
+            {
+              "id": "puzzle_sequence",
+              "type": "mechanic",
+              "targetId": "clockwork_puzzle_sequence",
+              "label": "完成謎題大廳序列盤",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "clock_console",
+              "type": "structure",
+              "targetId": "clock_core_main:clock_console",
+              "label": "操作時鐘核心控制台",
+              "target": 1,
+              "position": null
+            }
+          ]
+        },
+        {
+          "id": "gearstorm",
+          "name": "齒輪風暴",
+          "description": "關閉蒸汽橋時間閥，並擊退失控機械怪物。",
+          "rewardGold": 165,
+          "steps": [
+            {
+              "id": "find_gearstorm",
+              "type": "beacon",
+              "targetId": "gearstorm",
+              "label": "找到齒輪風暴源頭",
+              "target": 1,
+              "position": [
+                -19,
+                1.5,
+                23
+              ]
+            },
+            {
+              "id": "steam_valve",
+              "type": "mechanic",
+              "targetId": "clockwork_steam_valve",
+              "label": "關閉蒸汽橋時間閥",
+              "target": 1,
+              "position": null
+            },
+            {
+              "id": "defeat_clockwork",
+              "type": "defeat",
+              "targetId": "normal",
+              "label": "擊退機械怪物",
+              "target": 2,
+              "position": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

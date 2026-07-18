@@ -1,0 +1,22 @@
+{
+  "version": "0.28.0",
+  "baselineVersion": "0.27.0",
+  "baselineArtifact": "mathquest-3d-v0.27.0-life-simulation-core-truth-engineering-build.zip",
+  "baselineSha256": "19b80a2f9e6343f30b2fa5485ea41b544a966c1612e310a4d79ed9af2d2147bd",
+  "scope": [
+    "Stage C village relationships and life cycle",
+    "Stage D animal guardian companion system"
+  ],
+  "canonicalRules": {
+    "legacyPetRuntimeDisabled": true,
+    "residentSource": "src/data/villageResidentProfiles.js",
+    "companionSource": "src/data/companionProfiles.js",
+    "companionAssetContract": "MathQuestCompanionV1"
+  },
+  "blocked": [
+    "managed Chromium multi-device WebGL visual acceptance",
+    "final commissioned companion and resident art",
+    "physical device balance acceptance",
+    "historical v0.17 sealing work"
+  ]
+}

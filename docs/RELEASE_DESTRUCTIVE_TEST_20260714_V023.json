@@ -1,0 +1,99 @@
+
+> mathquest-3d@0.23.0 release:test
+> node scripts/run-release-022-tests.mjs
+
+{
+  "generatedAt": "2026-07-14T00:34:27.707Z",
+  "version": "0.22.0",
+  "release": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "summary": {
+      "regionBossProfiles": 8,
+      "bossPhases": 24,
+      "eliteProfiles": 8,
+      "towerThemes": 10,
+      "towerRoomTypes": 10,
+      "towerFloors": 100,
+      "storyChapters": 8,
+      "storyQuests": 40,
+      "villageNpcProfiles": 4,
+      "uiPreferenceKeys": 10
+    }
+  },
+  "destructiveChecks": [
+    {
+      "name": "舊存檔接受五條章節任務",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "舊存檔回填探索／機制／Socket／Boss",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "精英沒有唯一舊證據時不得誤判完成",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "精英 Signal 完成精英任務",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "章節五任務完成後標記章節",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "任務獎勵使用 Canonical 金額",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "重複 Signal 不重複獎勵",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "線型預警朝目標方向旋轉",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "預警方向內命中",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "預警方向外不命中",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "圓形邊界內命中",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "圓形邊界外不命中",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "UI 非法列舉回復預設值",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "UI 合法值保留",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "failureCount": 0,
+  "ok": true
+}

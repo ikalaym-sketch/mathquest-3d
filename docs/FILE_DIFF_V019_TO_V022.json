@@ -1,0 +1,1313 @@
+{
+  "baselineVersion": "0.19.0",
+  "releaseVersion": "0.22.0",
+  "baselinePackageSha256": "ecdd01d4b5c5c6112212739f9b03e702026f0b16c6579ebc8c6a7114f33e2d5f",
+  "counts": {
+    "added": 55,
+    "modified": 48,
+    "deleted": 8,
+    "unchanged": 451
+  },
+  "added": [
+    {
+      "path": "dist/assets/Boss-CWPL0A86.js",
+      "sha256": "463c8f11d65ad5eab7715fa0235f8cbafa0578b39ca257a22f4b7ed5ce00f544",
+      "bytes": 19107
+    },
+    {
+      "path": "dist/assets/FarmScene-3ffMnXJK.js",
+      "sha256": "53c7885e6035b21bc17c16fc7a0974b5039a618a010965ed9d6b42404813bb77",
+      "bytes": 30570
+    },
+    {
+      "path": "dist/assets/Model-BCsoROu0.js",
+      "sha256": "f42fc8018e1a393e2e2551444fc7f67c2948d2a8b4a07179441e7ba0cbba24fe",
+      "bytes": 984
+    },
+    {
+      "path": "dist/assets/RegionScene-BED_vysH.js",
+      "sha256": "2f0485cca355cc89a039c1573268ecea6d24b539a6aff2780964134c64b741c5",
+      "bytes": 57951
+    },
+    {
+      "path": "dist/assets/TrialTowerScene-C9IeoxyH.js",
+      "sha256": "3e96365aabf121034b41753a21bff5971f628e76053d3c1b6c92a642d05f341d",
+      "bytes": 12575
+    },
+    {
+      "path": "dist/assets/WildernessScene-C3VVRBAX.js",
+      "sha256": "15be79d384d4ac3740302727dda560d6d91ee7ddca43efc0dc3a81ddd054bf6c",
+      "bytes": 5114
+    },
+    {
+      "path": "dist/assets/index-BbuI9tRv.css",
+      "sha256": "358bf55fd387e925d47a732572fd97c948050945a4dd721d4dc3e134e83f10e9",
+      "bytes": 73698
+    },
+    {
+      "path": "dist/assets/index-e-2Fu5Oq.js",
+      "sha256": "c966779f3053a3020212985685178e2415d63b513c138d7e179743a1c50d8d91",
+      "bytes": 391397
+    },
+    {
+      "path": "dist/manifests/release-content-manifest.json",
+      "sha256": "2b1151c33688766e3eb369513cdca0ee145eabd04642d402a47952fb7700141e",
+      "bytes": 13511
+    },
+    {
+      "path": "docs/BASELINE_LOCK_V022.json",
+      "sha256": "c4c962f61c1cd80de039330617e2973248ff8e2e18368b0db01b2bbbe12bd9bc",
+      "bytes": 444
+    },
+    {
+      "path": "docs/BUILD_20260714_V022.txt",
+      "sha256": "065f5faa9c673676b71b9dc0c8d84b0bb20d677b20e808c1f81afd00bc294605",
+      "bytes": 1806
+    },
+    {
+      "path": "docs/COMBAT_BOSS_ELITE_MATRIX.csv",
+      "sha256": "d3e2dac465b1b7bb08ee37dbcb7601a4d22d9cf180e46d689c4fcace37c9676c",
+      "bytes": 3267
+    },
+    {
+      "path": "docs/DEPENDENCY_AUDIT_FULL_20260714_V022.json",
+      "sha256": "47b7259936251604b3d9bd7cbd22b55130c04ecbcab8b259ef0a20bf5098da26",
+      "bytes": 3119
+    },
+    {
+      "path": "docs/DEPENDENCY_AUDIT_PRODUCTION_20260714_V022.json",
+      "sha256": "8fee35452794eef584a48a7a8e7ec55e5654348f7c9a15a42edf89b7de312425",
+      "bytes": 365
+    },
+    {
+      "path": "docs/DESTRUCTIVE_QA_0.22.0.md",
+      "sha256": "f3444e3766e3659598e775f0ab8cd767eec7994bdd435b01f68af6bf0f71902f",
+      "bytes": 1286
+    },
+    {
+      "path": "docs/FILE_DIFF_V019_TO_V022.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "bytes": 3
+    },
+    {
+      "path": "docs/FILE_DIFF_V019_TO_V022.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "docs/FILE_INVENTORY_V022_SHA256.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "docs/PRODUCTION_RUNTIME_TEST_20260714_V022.json",
+      "sha256": "0c4961e06c8ab4fc4030a43c23fad9f77246cb22731de7cf1d55b85713ac621e",
+      "bytes": 17850
+    },
+    {
+      "path": "docs/REGION_GAMEPLAY_TEST_20260714_V022.json",
+      "sha256": "b3018b71a0572862ad7c28207d76df3a2c93d6dee20dd1cd640c8f26bc24f98a",
+      "bytes": 661
+    },
+    {
+      "path": "docs/REGION_PRODUCTION_TEST_20260714_V022.json",
+      "sha256": "7e46d9008050bbdf7954229b04f87695cfe6439c7e75e53cbc6289270023cb4a",
+      "bytes": 1321
+    },
+    {
+      "path": "docs/RELEASE_022_VALIDATION.json",
+      "sha256": "30782b0930e9915a4531cba0e48476b46e3ddcad2a6860f086583268b46c8f94",
+      "bytes": 322
+    },
+    {
+      "path": "docs/RELEASE_DESTRUCTIVE_TEST_20260714_V022.json",
+      "sha256": "9aaa1c603509a71aeffb7b835871107e87ff18194c256f6c0efaa78d2ac41c86",
+      "bytes": 1913
+    },
+    {
+      "path": "docs/RELEASE_NOTES_0.22.0.md",
+      "sha256": "050adfcd1c34af1edb386c27fb366a17f596a1f7b8e2940b51be643769a11092",
+      "bytes": 3861
+    },
+    {
+      "path": "docs/REMAINING_SCOPE_0.22.0.md",
+      "sha256": "b21e36db7e883bc3b297f2d5741e81d7c7950059a12e306890539b9d9246f316",
+      "bytes": 1303
+    },
+    {
+      "path": "docs/RUNTIME_HTTP_20260714_V022.txt",
+      "sha256": "76bbfde21f67c03ad0bb1956c41e229ace6302355e28130ecc49782824e59c47",
+      "bytes": 163
+    },
+    {
+      "path": "docs/RUNTIME_QA_STATUS_V022.md",
+      "sha256": "a798cce64f2950f48a99b7aea2ff1e865ed5e612feead83a4070c415bfae9f1e",
+      "bytes": 499
+    },
+    {
+      "path": "docs/SIMULATION_20260714_V022.json",
+      "sha256": "69a584c3e73e43c3b98f9084126468e9be69d4c434770e8846b098eaeceaa8ef",
+      "bytes": 645
+    },
+    {
+      "path": "docs/STATIC_AUDIT_20260714_V022.json",
+      "sha256": "b503fa459c4f6e3c2b46475406792f2e967508d2dc20d50ede4c8831e2f6249f",
+      "bytes": 12783
+    },
+    {
+      "path": "docs/STORY_QUEST_MATRIX.csv",
+      "sha256": "a2adb67b753121c3518b70f844cbe31580cc3717b2635a67cb99cb983bd6d469",
+      "bytes": 7431
+    },
+    {
+      "path": "docs/TRIAL_TOWER_100_FLOOR_MATRIX.csv",
+      "sha256": "a0bb7df34529e69227bc88d6bff9977fda38db38009d2d5a4d0cb260af9782c9",
+      "bytes": 9187
+    },
+    {
+      "path": "docs/UI_ACCESSIBILITY_MATRIX.csv",
+      "sha256": "a2a54d73e5a14a05cac710b3c8272bf55b7e2b513b6b7bf1779ae6c2d16f0fcc",
+      "bytes": 436
+    },
+    {
+      "path": "public/manifests/release-content-manifest.json",
+      "sha256": "2b1151c33688766e3eb369513cdca0ee145eabd04642d402a47952fb7700141e",
+      "bytes": 13511
+    },
+    {
+      "path": "scripts/export-release-022-evidence.mjs",
+      "sha256": "eecd62a641e7d3b5b53718a1180b3217ddddeab832816376c53d13aaf72dc850",
+      "bytes": 3595
+    },
+    {
+      "path": "scripts/export-release-022-manifest.mjs",
+      "sha256": "daf823a95b6ade60d1b3ccbbe586015bb98d2317fdf5f05193ccb873a46fefc8",
+      "bytes": 2001
+    },
+    {
+      "path": "scripts/run-release-022-tests.mjs",
+      "sha256": "adb582aabad1010f7f91743303012c3e12b3b1f1c96b7f8ac021ed6a184bc99f",
+      "bytes": 3992
+    },
+    {
+      "path": "src/components/Combat/BossPhaseBanner.jsx",
+      "sha256": "6aa33df2589975b0eaab439fd26876a6354457b9eb9c43ba8812760f083deffa",
+      "bytes": 654
+    },
+    {
+      "path": "src/components/Combat/BossSkillTelegraph.jsx",
+      "sha256": "e2b8cb013e9276fc8654714cc3f6b7fc2c8e7c6b160832acf19c10041e7a0005",
+      "bytes": 1433
+    },
+    {
+      "path": "src/components/Story/NPCDialoguePanel.jsx",
+      "sha256": "a5e01cd8f07d412ce4ff658988f8b0adc97f49ad3ca3359ec98633d4e70c885c",
+      "bytes": 2289
+    },
+    {
+      "path": "src/components/Story/StoryJournalSection.jsx",
+      "sha256": "dac1bda95309a2f1ff3c583e044bf8a4f62c003878465183bec67649da9c220e",
+      "bytes": 2239
+    },
+    {
+      "path": "src/components/Trial/TrialRoomMechanic.jsx",
+      "sha256": "ee6289916c12899534e1cf85df4a1fd81ca1da745e949aa31702459c0e9e45e8",
+      "bytes": 4149
+    },
+    {
+      "path": "src/components/Trial/TrialTowerArena.jsx",
+      "sha256": "539523445764227844e714ca7465c366c6979ce447f84435cc764d0267f6788b",
+      "bytes": 4400
+    },
+    {
+      "path": "src/components/UI/AccessibilitySettingsPanel.jsx",
+      "sha256": "0b39a8bd21220fe891787435cb627a8937722e45497722e65872bc63a01fa33e",
+      "bytes": 4309
+    },
+    {
+      "path": "src/components/UI/GameIcon.jsx",
+      "sha256": "3682713c5185d145d91cb96fca497caa22e8158274c7729c56048af78343b341",
+      "bytes": 2087
+    },
+    {
+      "path": "src/components/UI/HUDLayoutManager.jsx",
+      "sha256": "3a7bf782c7726117d34d39c9abbb7e38fe667511066d068c4ddcb5f904bdcf47",
+      "bytes": 1271
+    },
+    {
+      "path": "src/components/UI/VoiceGuidanceController.jsx",
+      "sha256": "21b4e1e0ab6868873d474e37932aa4f4e14e38c222d047ccf8bfee29ae527d3f",
+      "bytes": 1408
+    },
+    {
+      "path": "src/data/combatEncounterProfiles.js",
+      "sha256": "77096255f4d1321ee3baa714cda383d5c7683a979d02d2d11509ef518b6249b4",
+      "bytes": 7387
+    },
+    {
+      "path": "src/data/npcStoryProfiles.js",
+      "sha256": "324b66832aa1bceaa9826aec8bc138b530287e590ced6464e727fa05f21a3c91",
+      "bytes": 2344
+    },
+    {
+      "path": "src/data/storyContent.js",
+      "sha256": "9f734dacf68c64160ab3ab26d145401ba3211e73e3c3c59868e41e11b7e1d6ca",
+      "bytes": 6820
+    },
+    {
+      "path": "src/data/trialTowerRooms.js",
+      "sha256": "76c9ee63fa6016467a2ddff2f9494a375e22baa9946030ed7361daa2674a9356",
+      "bytes": 4599
+    },
+    {
+      "path": "src/data/uiSystem.js",
+      "sha256": "d85f676b4ac2feeeab081e0fba9a94cb1585f48bd65394bf5da3dad8cc28822d",
+      "bytes": 998
+    },
+    {
+      "path": "src/i18n/zhTW.js",
+      "sha256": "8f8aecfe5181d8365d9bc2890c0f4bb3a449d98939c596cf7716743369bd9ff9",
+      "bytes": 1115
+    },
+    {
+      "path": "src/services/CombatGeometryService.js",
+      "sha256": "4b872ad9cf1e5c7ba65f552345efa54e9f90ecaaf77c3f911f062bf86172cde3",
+      "bytes": 952
+    },
+    {
+      "path": "src/services/Release022ValidationService.js",
+      "sha256": "07d53d3a2d644aed548d2ad4f838400bd50f871bb6a1197ef6ae3775ffd25a34",
+      "bytes": 6914
+    },
+    {
+      "path": "src/services/StoryProgressService.js",
+      "sha256": "b5a61665d597bc77e6f8942997a571b183e408d63dc4517a94af9473da40474e",
+      "bytes": 4590
+    }
+  ],
+  "modified": [
+    {
+      "path": "dist/index.html",
+      "before": {
+        "sha256": "419433f578a9bb509e574d07cfb4b1b7c97e40705779ab55e13d317ca328b48a",
+        "bytes": 1059
+      },
+      "after": {
+        "sha256": "3379ebec73b23cf0a58452395863e313f188b198e5771d03c97c1d81fa7f1fee",
+        "bytes": 1059
+      }
+    },
+    {
+      "path": "docs/runtime-production-qa/runtime-report.json",
+      "before": {
+        "sha256": "401d6041344d2805315f364f4e7430c25a43463bd07448ed3def998a8aa9d5ef",
+        "bytes": 984
+      },
+      "after": {
+        "sha256": "374943fa17ff934cf8e3133e316605b9d92687549becdebe72a8cb7aa25cbfc3",
+        "bytes": 984
+      }
+    },
+    {
+      "path": "package-lock.json",
+      "before": {
+        "sha256": "fab031bbd16fe695bf3cd8144a7323bab87817bd81b9b4532212df728716182d",
+        "bytes": 146861
+      },
+      "after": {
+        "sha256": "08382beff8fdc0f45ea95c98ab1d68f8ccafb5aeefd4ac58c7a9934a047817bf",
+        "bytes": 146861
+      }
+    },
+    {
+      "path": "package.json",
+      "before": {
+        "sha256": "6b42cbb0206c1b0ffc80f0ba4cb1cbb326ace3664408f3c52767f9f9cd7b3431",
+        "bytes": 1573
+      },
+      "after": {
+        "sha256": "2741507e87f4e39e58f439d53c1d993cd9b9d1abcf7b9e8004c81f09c0199d17",
+        "bytes": 1831
+      }
+    },
+    {
+      "path": "scripts/run-audit.mjs",
+      "before": {
+        "sha256": "1063d807bc95d89693d6ba310cd7351b3b00771a673eb4fc371fa079181f24e9",
+        "bytes": 12124
+      },
+      "after": {
+        "sha256": "fefba90d2b9977ef658412da01445cb6735c87008a8e1733c8977bcf99412350",
+        "bytes": 16644
+      }
+    },
+    {
+      "path": "src/App.jsx",
+      "before": {
+        "sha256": "710409ccb6e5ba53d9ae2e92977f007dc1e9689991b228178bae0d5e2f543c22",
+        "bytes": 7832
+      },
+      "after": {
+        "sha256": "972a99daa61eea8d150f85127e2264914c1caa8d69cd72499b828fa823557237",
+        "bytes": 8297
+      }
+    },
+    {
+      "path": "src/components/3D/Player.jsx",
+      "before": {
+        "sha256": "a50cd49c249dae60602047d97a49ca829b45249e8fcbce3cddd2e89d57b0fe99",
+        "bytes": 9502
+      },
+      "after": {
+        "sha256": "afd2b2dbe64368791e0649c7a78188d44d129a542bb607fd5234271ae662a743",
+        "bytes": 9506
+      }
+    },
+    {
+      "path": "src/components/Entities/Boss.jsx",
+      "before": {
+        "sha256": "3164564e253a9a389a41278dc8bf094a2a6bf4d6886d38bf0460bd036ec26be1",
+        "bytes": 7224
+      },
+      "after": {
+        "sha256": "65f41416b1b3eaccfa518f8cebdcefaeba89a288bb6aecc5c7b189c0b3a3e9e0",
+        "bytes": 11843
+      }
+    },
+    {
+      "path": "src/components/Entities/Chest.jsx",
+      "before": {
+        "sha256": "01d580adb8f80df9bb690fe43dca137981234c52699068ca5f83ff037368bf57",
+        "bytes": 2842
+      },
+      "after": {
+        "sha256": "ddc5eba4d345c58725831da51968cc178c7bbd9a51bbd9ea4654512cc8e03d78",
+        "bytes": 2844
+      }
+    },
+    {
+      "path": "src/components/Entities/Monsters.jsx",
+      "before": {
+        "sha256": "9d52ac0bdba58edf41e2c97c90fec77f7722307b1c712f6d97fed1c0d9a239ca",
+        "bytes": 17172
+      },
+      "after": {
+        "sha256": "72630e2c54b5df314ca4b6f3d83b971e46f414851bdfb860833bf1b7bc7d5ec1",
+        "bytes": 19015
+      }
+    },
+    {
+      "path": "src/components/Entities/ReturnPortal.jsx",
+      "before": {
+        "sha256": "0d3b1579d4732717665c164d42085757c0d1bcd2283431d835d41fd8ed233318",
+        "bytes": 1394
+      },
+      "after": {
+        "sha256": "a7db692dd99ae2f63a4a8c32b04f3643300f66a914eb83e15dcf27248a7ad64a",
+        "bytes": 1390
+      }
+    },
+    {
+      "path": "src/components/Entities/TrialFloorController.jsx",
+      "before": {
+        "sha256": "6d7c942e143bad4856f0aa10563e28455359f39afbec4687d4a350102c4c8ff8",
+        "bytes": 3434
+      },
+      "after": {
+        "sha256": "cae32cff1848f69d9c6eede47514f69381edf115bab0712400392fe395df8166",
+        "bytes": 4039
+      }
+    },
+    {
+      "path": "src/components/Minigames/BossSealModal.jsx",
+      "before": {
+        "sha256": "26c113375af0705c23fd2668649c787e62c35c385bcdb7b5b59a1c3d921a84b7",
+        "bytes": 3712
+      },
+      "after": {
+        "sha256": "286d29b6c1fd9ac280a1d160bdcdb7dedab19197dac5a60700852eb1f6984ea7",
+        "bytes": 3704
+      }
+    },
+    {
+      "path": "src/components/NPC/VillageNPCs.jsx",
+      "before": {
+        "sha256": "8524567e36be58da3f63a6b9b60a8a7e9262e30bbf5a859f82c0ddb548a0132d",
+        "bytes": 4507
+      },
+      "after": {
+        "sha256": "4097a308d1341bcf10ab396b9f81c12d46d1f1f0a28a252eb362ca1bdcbac7c1",
+        "bytes": 4485
+      }
+    },
+    {
+      "path": "src/components/NPC/WanderingNPC.jsx",
+      "before": {
+        "sha256": "3a2aa6476ebb18be2e4290e7754cee0906852a525728fa16b15b60ff02f6dbd4",
+        "bytes": 2403
+      },
+      "after": {
+        "sha256": "fdfd9557ce7e9e00c008ef5cc60ce513289a3ca57a08ed28b4c2550655321d5d",
+        "bytes": 2415
+      }
+    },
+    {
+      "path": "src/components/Scenes/BiomeEvent.jsx",
+      "before": {
+        "sha256": "557d863da963ac0407248c0e05571b4a108bc9ed08c817cf6283738749a1325e",
+        "bytes": 2482
+      },
+      "after": {
+        "sha256": "979756568801ca24685a58a64a1c9e9aadfb7d39b6b8191c08dfe37b6211b699",
+        "bytes": 2485
+      }
+    },
+    {
+      "path": "src/components/Scenes/RegionScene.jsx",
+      "before": {
+        "sha256": "8d8925dffca1f42a5632bb0390b4a2cccc84b129f7d6ba524b2c80f3635d780b",
+        "bytes": 2440
+      },
+      "after": {
+        "sha256": "6c64e76925f230544bc603f16535f94c1ff5abfafda5986143140063bafefe5d",
+        "bytes": 2649
+      }
+    },
+    {
+      "path": "src/components/Scenes/TrialTowerScene.jsx",
+      "before": {
+        "sha256": "a600d3a71b90eaabe7867075a348904b386c87025a5ad53632d47a6052f232b3",
+        "bytes": 4051
+      },
+      "after": {
+        "sha256": "3bd91b5e108fa870515018edf11e94fe2f7f3ec38fbd2a7bb45d593ede8ccb93",
+        "bytes": 3329
+      }
+    },
+    {
+      "path": "src/components/UI/AudioToggle.jsx",
+      "before": {
+        "sha256": "8803fdb17eadbf197783b16b53ba498a83ca4a74bdb10cf38c378efc7d82f6ad",
+        "bytes": 1706
+      },
+      "after": {
+        "sha256": "95b532eb1946285cc19cb263c0d3eb0f1bfdd6ef3037f975ccc92e83d57cdb4b",
+        "bytes": 1706
+      }
+    },
+    {
+      "path": "src/components/UI/BlacksmithPanel.jsx",
+      "before": {
+        "sha256": "8dcfc225b85d2c7cb1b133a6233cfefe002b66c1053251f05d9bda74423b450f",
+        "bytes": 5623
+      },
+      "after": {
+        "sha256": "ca0f9798cf4f56eb9692fe8955714020228df834e00fcef9071d4f30b2053256",
+        "bytes": 5633
+      }
+    },
+    {
+      "path": "src/components/UI/DailyRiftHUD.jsx",
+      "before": {
+        "sha256": "937dab7f3e0d6d8e6f910d0685a68cbf7044e66b5c86cea5ef0d838861af6471",
+        "bytes": 1443
+      },
+      "after": {
+        "sha256": "0a4150a98a9b84652d7ee0282f58828030889fe2c8637b4c9206b830944cbd8f",
+        "bytes": 1442
+      }
+    },
+    {
+      "path": "src/components/UI/FairyGuide.jsx",
+      "before": {
+        "sha256": "c4c6a6c6d4b705c989e733a785fc3c1d2ec514fe1ae75917f44658e39fdac7be",
+        "bytes": 3641
+      },
+      "after": {
+        "sha256": "80821a655e3fca309e1363ab28964ff162ac37a2ca5249669c3d47872711209f",
+        "bytes": 3625
+      }
+    },
+    {
+      "path": "src/components/UI/GameMenu.jsx",
+      "before": {
+        "sha256": "a66ad299ef67bb8de39be8e26d5267c92f6d3d572144a2fe83f0e95369b5e6a8",
+        "bytes": 2315
+      },
+      "after": {
+        "sha256": "32eb89319ba3c7c46a39ba79beee5d12b824cef1476651e0ab96f056766958d3",
+        "bytes": 2125
+      }
+    },
+    {
+      "path": "src/components/UI/HUD.jsx",
+      "before": {
+        "sha256": "6a6499734389470516310226640a7f05a52267e1cb9f88fda0fc45d4c1921e6d",
+        "bytes": 3255
+      },
+      "after": {
+        "sha256": "724613c1fff230e57554740dee2c73963f91449f722324671107ebe1cee88c4b",
+        "bytes": 3256
+      }
+    },
+    {
+      "path": "src/components/UI/InventoryPanel.jsx",
+      "before": {
+        "sha256": "9b7916fe00f5a8661cf8c5b4c444307dc0d3b74989ffa1eef65ef30d8de162d8",
+        "bytes": 4651
+      },
+      "after": {
+        "sha256": "3a01316ab86f03bc69c5e4ca9c51d7e98e0cb6408358d97b3fde305406c8d427",
+        "bytes": 4661
+      }
+    },
+    {
+      "path": "src/components/UI/JournalPanel.jsx",
+      "before": {
+        "sha256": "48b191675342420a2a1c6d9febb029d7ba68bd942eb7d67d1d5e2e0daf533955",
+        "bytes": 5892
+      },
+      "after": {
+        "sha256": "e85037d09170fb9dec6e0ca1789ad1fb78f644dbe2e75984ab21e25b06cb13f2",
+        "bytes": 5233
+      }
+    },
+    {
+      "path": "src/components/UI/Joystick.jsx",
+      "before": {
+        "sha256": "827896ddc3d7033fed8d3ee2a83180d70e59740fef2c017494c113dfb15f2542",
+        "bytes": 3764
+      },
+      "after": {
+        "sha256": "fe722db788c5197907b79fd9f99a6be7cb12d45450949005afa8ed2c962e93da",
+        "bytes": 3798
+      }
+    },
+    {
+      "path": "src/components/UI/LearningReport.jsx",
+      "before": {
+        "sha256": "9406abe34b480a3a3cca8642a529ca917c2e59d15d4062c2cbe1836921fd1dbb",
+        "bytes": 2974
+      },
+      "after": {
+        "sha256": "87ce08a579f2f47425469dca028ccc4711e394f25205ae596a3bd1c8125df8ac",
+        "bytes": 4187
+      }
+    },
+    {
+      "path": "src/components/UI/LoadingScreen.jsx",
+      "before": {
+        "sha256": "686afbbe89ab8e519a087b0cf7978571328a1025d83cc3e033a02a99a315c30f",
+        "bytes": 3504
+      },
+      "after": {
+        "sha256": "5f97a1754dcd0aee0454718e71d9dd55a0d7bed47798694d75b7046bd7138a46",
+        "bytes": 3526
+      }
+    },
+    {
+      "path": "src/components/UI/MachinePanel.jsx",
+      "before": {
+        "sha256": "851ce7d1154597078789e093390b6dd26131a70221f00362ddebe179016f081a",
+        "bytes": 2554
+      },
+      "after": {
+        "sha256": "2d95fc9a507c37ad3a827ad056ea871737932327f3b780388dca96db988e8aa5",
+        "bytes": 2556
+      }
+    },
+    {
+      "path": "src/components/UI/Minimap.jsx",
+      "before": {
+        "sha256": "692adbb89a334958b17631b5cfa322bd8f9f26700cb37ccc97deec8e0e629837",
+        "bytes": 3380
+      },
+      "after": {
+        "sha256": "b03e12131387511e82c440bafe2a9f3eccfd4d513f997d9cf191ae482ed2188e",
+        "bytes": 3472
+      }
+    },
+    {
+      "path": "src/components/UI/Panel.jsx",
+      "before": {
+        "sha256": "563ff24dcd42d3833b9ae822c2351a240c12ec95167d7906d79f5149674bce2f",
+        "bytes": 1370
+      },
+      "after": {
+        "sha256": "81eeb0259e9c5f3db607f36f39c9057c39326fbcbf7c25b6cb6cbd18f56a82ed",
+        "bytes": 1628
+      }
+    },
+    {
+      "path": "src/components/UI/PanelHost.jsx",
+      "before": {
+        "sha256": "b53e7bf78d271e980ff43b8c7de4845ea9c90e02fa5373af4c471f6e78d0e543",
+        "bytes": 1812
+      },
+      "after": {
+        "sha256": "6d7be59ae0a268e76ff079eb9caf5252102db7317a5920203b59eb78ad35ed6f",
+        "bytes": 1958
+      }
+    },
+    {
+      "path": "src/components/UI/QuestTracker.jsx",
+      "before": {
+        "sha256": "968c07c6df40f36266c1ee8123f36b4a363a117435970f5e8e6c1251ab3c4fe5",
+        "bytes": 2846
+      },
+      "after": {
+        "sha256": "308d1cad02b0a5f46b684a4ac7f1159a3c281a0331b0429f8099f71f85a7dfad",
+        "bytes": 2844
+      }
+    },
+    {
+      "path": "src/components/UI/QuickItemBar.jsx",
+      "before": {
+        "sha256": "4d439691328db13516238e4278df7454cc5a7cd04aa8f61427a686d1f967ab11",
+        "bytes": 1851
+      },
+      "after": {
+        "sha256": "b8e51acb57cbd0bfbe6b7269cc105c14da411a324afed9bac1fd5dafc7b591e6",
+        "bytes": 1850
+      }
+    },
+    {
+      "path": "src/components/UI/RegionHUD.jsx",
+      "before": {
+        "sha256": "375e7843d25d688c541ea30a497932ba75851ab4e4172f227a0e065b9b467048",
+        "bytes": 5819
+      },
+      "after": {
+        "sha256": "e04871ee902ea4865bb799a1e753540415984b2834fce0e43e4ca65982621513",
+        "bytes": 5817
+      }
+    },
+    {
+      "path": "src/components/UI/SceneNav.jsx",
+      "before": {
+        "sha256": "066c36f881ecdbaad054bbc8843ba381a1e6f184b41aeae2dded67438170d15e",
+        "bytes": 1017
+      },
+      "after": {
+        "sha256": "b21afbd84d6ff471558ba665df59ff16caa54aa3651bcee10d34990368cdd280",
+        "bytes": 1021
+      }
+    },
+    {
+      "path": "src/components/UI/ShopPanel.jsx",
+      "before": {
+        "sha256": "6ce9791626ffeba17855bd207fb9ae4939640a1aa85a4a291cf37dff890fbb97",
+        "bytes": 4861
+      },
+      "after": {
+        "sha256": "3dd1fec02c875ef44bf69c51817c8832b8400c1fe8dcf90e8fd087697bcf6687",
+        "bytes": 4859
+      }
+    },
+    {
+      "path": "src/components/UI/TrialTowerHUD.jsx",
+      "before": {
+        "sha256": "65bdabb69c8bd733aa20dc5ad81fa6541fe56ad5a28e386512aac890f6951eb0",
+        "bytes": 1969
+      },
+      "after": {
+        "sha256": "43c7603323aba84e51705d063b350e9f30eb58c64391d2486bb8228763e6896e",
+        "bytes": 1934
+      }
+    },
+    {
+      "path": "src/components/UI/WorldClockWidget.jsx",
+      "before": {
+        "sha256": "8d1f6ee16a93e3f82a1f216efcb15b54b6f8a8d149e9de6bfe820a93ae824ecc",
+        "bytes": 1115
+      },
+      "after": {
+        "sha256": "23f448a278d6c8c46f026a7ee1a8e823c5fd6cbd7817d32841cf4c2541d5df50",
+        "bytes": 1110
+      }
+    },
+    {
+      "path": "src/components/UI/WorldHint.jsx",
+      "before": {
+        "sha256": "3ee2996d9ed006a8bf883009ba120681c32b40d5c408b2c73b5af82cd8ebeed1",
+        "bytes": 459
+      },
+      "after": {
+        "sha256": "746f3ce5b5568aa408f43bec136b5bdc9ff6ba1dd246830cebcad5f8cb13fba0",
+        "bytes": 570
+      }
+    },
+    {
+      "path": "src/components/UI/WorldMapPanel.jsx",
+      "before": {
+        "sha256": "a5d1a7d7ab1d2eb71e4c4da3ed27b46bad160dacb0a050fa81855ff7261a75ff",
+        "bytes": 5959
+      },
+      "after": {
+        "sha256": "aeda62d3fdadff1fb5651fa9f11d7a7f0d5ce8a6cf45b23e658093329b858736",
+        "bytes": 6186
+      }
+    },
+    {
+      "path": "src/components/World/RegionStructureInteractionLayer.jsx",
+      "before": {
+        "sha256": "a6621d8b4f0b91a491cbc483e86561841368023f5ca95f713a27f2ad42fe563e",
+        "bytes": 3873
+      },
+      "after": {
+        "sha256": "829173f9c4b9b82f2bd06c6f026df2078dc921f9b83f7679c2c73b5b8d363d16",
+        "bytes": 4022
+      }
+    },
+    {
+      "path": "src/data/regionEncounters.js",
+      "before": {
+        "sha256": "366b482afde1fda91c1e6a2441b6fbc04c367b4689893970c2d5cebcc8c096a4",
+        "bytes": 5821
+      },
+      "after": {
+        "sha256": "2aa74aea5806f732293fb5061bf5a1221102547e31a84c4980689d89246fb6af",
+        "bytes": 5937
+      }
+    },
+    {
+      "path": "src/data/trialTower.js",
+      "before": {
+        "sha256": "2643fb3e674f045a660e79c979d3807bb6d012ba41b816e654964b756ad6d528",
+        "bytes": 5171
+      },
+      "after": {
+        "sha256": "11f98096b1d1667259620b1970b5089aa8707ef96e1f8ca592fb8d534a5954c0",
+        "bytes": 5792
+      }
+    },
+    {
+      "path": "src/data/worldRegions.js",
+      "before": {
+        "sha256": "d6b8a61ed20006336658029a2da8b7e4759962dad6f65fd1430c09fa6d69ecdc",
+        "bytes": 4452
+      },
+      "after": {
+        "sha256": "8b46d5deea2dde5e273d28e784428c7b851268636349701ef936bafd2851de36",
+        "bytes": 4361
+      }
+    },
+    {
+      "path": "src/index.css",
+      "before": {
+        "sha256": "3a9a3e9b5296157ccc30bea3a3016aa05ce2f25cbad270bf4b3df96724f63f73",
+        "bytes": 345
+      },
+      "after": {
+        "sha256": "3cc3cbd0b30f8843a512cb397bee9226d32f4f10c1787860299202f9967a2ab0",
+        "bytes": 5344
+      }
+    },
+    {
+      "path": "src/store/useStore.js",
+      "before": {
+        "sha256": "40a53ad2f4857eb24944adc311a8be76cb3f55d2e74a9ed733a7ab3b6a226032",
+        "bytes": 50432
+      },
+      "after": {
+        "sha256": "33539648c768d736465692afed80e0114654b2e331b6cb85a16dbf48c5b17217",
+        "bytes": 58886
+      }
+    }
+  ],
+  "deleted": [
+    {
+      "path": "dist/assets/Boss-B-PMd8d5.js",
+      "sha256": "aec52fc7ad60b97a29d5bf1359fe929df98470d97f81ea6eb1120fd991691ff9",
+      "bytes": 13411
+    },
+    {
+      "path": "dist/assets/FarmScene-_j6AW4z2.js",
+      "sha256": "0fd2caf2ec9b1b817acc2242c8784d295df7d27a5c95fb5300ffb5c384653efc",
+      "bytes": 30570
+    },
+    {
+      "path": "dist/assets/Model-4RcnPWTU.js",
+      "sha256": "eab0ecd1c243ca3e667e2b9e7d5fbe621b73c50dff8d8f0b88d63e276ca0cb6b",
+      "bytes": 984
+    },
+    {
+      "path": "dist/assets/RegionScene-DipkS6pC.js",
+      "sha256": "022bae0072bd145785acfe8cb72d6eeeaea1cb74fca1eaa2a5c9bec3ffcfde48",
+      "bytes": 57793
+    },
+    {
+      "path": "dist/assets/TrialTowerScene-Bf4ip_jT.js",
+      "sha256": "5df37d8dc27d0f9a92a2e4276fbdec37d1dc386ca750d1fc79ce45130dd03a94",
+      "bytes": 4269
+    },
+    {
+      "path": "dist/assets/WildernessScene-Dm9Kw1Lx.js",
+      "sha256": "f0620def7d76a2314742b3e20932c5163289e491f2e30e003d77682301b21f97",
+      "bytes": 5106
+    },
+    {
+      "path": "dist/assets/index-Db0Zw45k.css",
+      "sha256": "1ff4e9d0bafedd288f37a4531aad4c20ec1f7a8aa7ed9c9ef2f2878b521c4b4d",
+      "bytes": 65957
+    },
+    {
+      "path": "dist/assets/index-DrFqVxkd.js",
+      "sha256": "3055579f49406f0502d4e725534bf4610f3915e26a66231b137ab64b7bf28ab0",
+      "bytes": 358544
+    }
+  ],
+  "unchanged": [
+    ".gitignore",
+    "2026-07-12_0836_v0.8.0_LOG.md",
+    "2026-07-12_1810_v0.10.0_PHASE3_LOG.md",
+    "2026-07-12_1930_v0.11.0_PHASE1_RESTART_LOG.md",
+    "2026-07-13_0615_v0.12.0_PHASE2_FARM_HOME_LOG.md",
+    "2026-07-13_0735_v0.13.0_PHASE3_FOREST_RUINS_LOG.md",
+    "2026-07-13_v0.14.0_PHASE45_FOUNDATION_CHECKPOINT.md",
+    "README.md",
+    "dist/assets/charts-AmMtBpjo.js",
+    "dist/assets/r3f-CHtA90cP.js",
+    "dist/assets/three-DFMh5ah3.js",
+    "dist/manifests/character-production-manifest.json",
+    "dist/manifests/farm-manifest.json",
+    "dist/manifests/region-gameplay-manifest.json",
+    "dist/manifests/region-production-manifest.json",
+    "dist/manifests/runtime-production-manifest.json",
+    "dist/manifests/village-manifest.json",
+    "dist/models/README.md",
+    "dist/models/characters/npc_adult.glb",
+    "dist/models/characters/npc_child.glb",
+    "dist/models/characters/player_child.glb",
+    "dist/models/farm/barn.glb",
+    "dist/models/farm/bridge.glb",
+    "dist/models/farm/chicken.glb",
+    "dist/models/farm/cow.glb",
+    "dist/models/farm/farmer.glb",
+    "dist/models/farm/farmhouse.glb",
+    "dist/models/farm/fruit_tree.glb",
+    "dist/models/farm/hay_bale.glb",
+    "dist/models/farm/mailbox.glb",
+    "dist/models/farm/sheep.glb",
+    "dist/models/farm/water_tower.glb",
+    "dist/models/farm/windmill.glb",
+    "dist/models/forest/ancient_gate.glb",
+    "dist/models/forest/blossom_trap.glb",
+    "dist/models/forest/fern_cluster.glb",
+    "dist/models/forest/forest_bridge.glb",
+    "dist/models/forest/forest_guardian.glb",
+    "dist/models/forest/great_tree.glb",
+    "dist/models/forest/lantern_post.glb",
+    "dist/models/forest/leaf_slime.glb",
+    "dist/models/forest/mossy_shrine.glb",
+    "dist/models/forest/mushroom_cluster.glb",
+    "dist/models/forest/stone_totem.glb",
+    "dist/models/forest/treasure_altar.glb",
+    "dist/models/forest/twig_goblin.glb",
+    "dist/models/forest/vine_arch.glb",
+    "dist/models/forest/waterfall_cliff.glb",
+    "dist/models/regions/bosses/canyon_boss.glb",
+    "dist/models/regions/bosses/clockwork_boss.glb",
+    "dist/models/regions/bosses/crystal_boss.glb",
+    "dist/models/regions/bosses/farm_boss.glb",
+    "dist/models/regions/bosses/mushroom_boss.glb",
+    "dist/models/regions/bosses/snow_boss.glb",
+    "dist/models/regions/bosses/star_boss.glb",
+    "dist/models/regions/bosses/wind_boss.glb",
+    "dist/models/regions/elites/canyon_elite.glb",
+    "dist/models/regions/elites/clockwork_elite.glb",
+    "dist/models/regions/elites/crystal_elite.glb",
+    "dist/models/regions/elites/farm_elite.glb",
+    "dist/models/regions/elites/mushroom_elite.glb",
+    "dist/models/regions/elites/snow_elite.glb",
+    "dist/models/regions/elites/star_elite.glb",
+    "dist/models/regions/elites/wind_elite.glb",
+    "dist/models/regions/monsters/canyon_monster_1.glb",
+    "dist/models/regions/monsters/canyon_monster_2.glb",
+    "dist/models/regions/monsters/canyon_monster_3.glb",
+    "dist/models/regions/monsters/clockwork_monster_1.glb",
+    "dist/models/regions/monsters/clockwork_monster_2.glb",
+    "dist/models/regions/monsters/clockwork_monster_3.glb",
+    "dist/models/regions/monsters/crystal_monster_1.glb",
+    "dist/models/regions/monsters/crystal_monster_2.glb",
+    "dist/models/regions/monsters/crystal_monster_3.glb",
+    "dist/models/regions/monsters/farm_monster_1.glb",
+    "dist/models/regions/monsters/farm_monster_2.glb",
+    "dist/models/regions/monsters/farm_monster_3.glb",
+    "dist/models/regions/monsters/mushroom_monster_1.glb",
+    "dist/models/regions/monsters/mushroom_monster_2.glb",
+    "dist/models/regions/monsters/mushroom_monster_3.glb",
+    "dist/models/regions/monsters/snow_monster_1.glb",
+    "dist/models/regions/monsters/snow_monster_2.glb",
+    "dist/models/regions/monsters/snow_monster_3.glb",
+    "dist/models/regions/monsters/star_monster_1.glb",
+    "dist/models/regions/monsters/star_monster_2.glb",
+    "dist/models/regions/monsters/star_monster_3.glb",
+    "dist/models/regions/monsters/wind_monster_1.glb",
+    "dist/models/regions/monsters/wind_monster_2.glb",
+    "dist/models/regions/monsters/wind_monster_3.glb",
+    "dist/models/regions/structures/adventure_lodge.glb",
+    "dist/models/regions/structures/aurora_shrine.glb",
+    "dist/models/regions/structures/beekeeper_pavilion.glb",
+    "dist/models/regions/structures/canonical_bridge.glb",
+    "dist/models/regions/structures/canyon_forge.glb",
+    "dist/models/regions/structures/clock_core.glb",
+    "dist/models/regions/structures/cloud_observatory.glb",
+    "dist/models/regions/structures/crystal_dock.glb",
+    "dist/models/regions/structures/gear_workshop.glb",
+    "dist/models/regions/structures/glow_pavilion.glb",
+    "dist/models/regions/structures/mushroom_house.glb",
+    "dist/models/regions/structures/orchard_barn.glb",
+    "dist/models/regions/structures/prism_sanctuary.glb",
+    "dist/models/regions/structures/rope_bridge_station.glb",
+    "dist/models/regions/structures/star_learning_hall.glb",
+    "dist/models/regions/structures/windmill_station.glb",
+    "docs/BASELINE_LOCK.json",
+    "docs/BASELINE_LOCK_V016.json",
+    "docs/BASELINE_LOCK_V017.json",
+    "docs/BASELINE_LOCK_V018.json",
+    "docs/BASELINE_LOCK_V019.json",
+    "docs/BUILD_20260714_V017.txt",
+    "docs/BUILD_20260714_V019.txt",
+    "docs/BUILD_20260714_qa01.txt",
+    "docs/BUILD_20260714_qa02.txt",
+    "docs/BUILD_20260714_qa03.txt",
+    "docs/BUILD_20260714_qa04.txt",
+    "docs/BUILD_20260714_qa05.txt",
+    "docs/BUILD_20260714_qa06.txt",
+    "docs/BUILD_20260714_qa07.txt",
+    "docs/BUILD_20260714_qa08.txt",
+    "docs/BUILD_20260714_v016.txt",
+    "docs/CHANGESET_20260714_P1P5.md",
+    "docs/CHANGESET_20260714_V016_WORLD_SIMULATION.md",
+    "docs/CHANGESET_20260714_V017_REGION_CHARACTER_PRODUCTION.md",
+    "docs/CHARACTER_PHYSICAL_MATRIX.csv",
+    "docs/DEPENDENCY_AUDIT_20260714_V017.json",
+    "docs/DEPENDENCY_AUDIT_20260714_qa01.json",
+    "docs/DEPENDENCY_AUDIT_20260714_qa06.json",
+    "docs/DEPENDENCY_AUDIT_20260714_qa07.json",
+    "docs/DEPENDENCY_AUDIT_20260714_qa08.json",
+    "docs/DEPENDENCY_AUDIT_20260714_v016.json",
+    "docs/DEPENDENCY_AUDIT_FULL_20260714_V019.json",
+    "docs/DEPENDENCY_AUDIT_PRODUCTION_20260714_V019.json",
+    "docs/FILE_DIFF_20260714_P1P5.json",
+    "docs/FILE_DIFF_20260714_P1P5.txt",
+    "docs/FILE_DIFF_20260714_V016.json",
+    "docs/FILE_DIFF_20260714_V016.txt",
+    "docs/FILE_DIFF_20260714_V017.json",
+    "docs/FILE_DIFF_20260714_V017.txt",
+    "docs/FILE_DIFF_V017_TO_V018.json",
+    "docs/FILE_DIFF_V017_TO_V018.txt",
+    "docs/FILE_DIFF_V018_TO_V019.json",
+    "docs/FILE_DIFF_V018_TO_V019.txt",
+    "docs/FILE_INVENTORY_SHA256.txt",
+    "docs/FILE_INVENTORY_V017_SHA256.txt",
+    "docs/FILE_INVENTORY_V019_SHA256.txt",
+    "docs/FINAL_VERIFICATION_SUMMARY.json",
+    "docs/PACKAGE_VERIFICATION_20260714_V017.txt",
+    "docs/PRODUCTION_RUNTIME_TEST_20260714_V019.json",
+    "docs/PRODUCTION_RUNTIME_VALIDATION.json",
+    "docs/RECOVERY_BUILD_STATUS.md",
+    "docs/REGION_ENCOUNTER_MATRIX.csv",
+    "docs/REGION_GAMEPLAY_MATRIX.csv",
+    "docs/REGION_GAMEPLAY_VALIDATION.json",
+    "docs/REGION_PRODUCTION_MATRIX.csv",
+    "docs/REGION_PRODUCTION_TEST_20260714_V017.json",
+    "docs/REGION_PRODUCTION_TEST_20260714_V019.json",
+    "docs/RELEASE_NOTES_0.18.0.md",
+    "docs/RELEASE_NOTES_0.19.0.md",
+    "docs/REMAINING_SCOPE_0.19.0.md",
+    "docs/REMAINING_SCOPE_20260714.md",
+    "docs/REMAINING_SCOPE_20260714_V016.md",
+    "docs/REMAINING_SCOPE_20260714_V017.md",
+    "docs/RUNTIME_20260714_BLOCKED.md",
+    "docs/RUNTIME_20260714_V017.md",
+    "docs/RUNTIME_ATTEMPT_20260714_v016.txt",
+    "docs/RUNTIME_HTTP_20260714_V017.txt",
+    "docs/RUNTIME_HTTP_20260714_V019.txt",
+    "docs/RUNTIME_PRODUCTION_QA_BLOCKED.md",
+    "docs/RUNTIME_QA_STATUS_V019.md",
+    "docs/RUNTIME_SCRIPT_CHECK_20260714.txt",
+    "docs/SIMULATION_20260714_V017.json",
+    "docs/SIMULATION_20260714_V017.txt",
+    "docs/SIMULATION_20260714_V019.json",
+    "docs/SIMULATION_20260714_v016.txt",
+    "docs/STATIC_AUDIT_20260714_V019.json",
+    "docs/V016_STATUS.md",
+    "docs/VALIDATION_20260714_V017.json",
+    "docs/VALIDATION_20260714_qa01.txt",
+    "docs/VALIDATION_20260714_qa02.txt",
+    "docs/VALIDATION_20260714_qa03.txt",
+    "docs/VALIDATION_20260714_qa04.txt",
+    "docs/VALIDATION_20260714_qa05.txt",
+    "docs/VALIDATION_20260714_qa06.txt",
+    "docs/VALIDATION_20260714_qa07.txt",
+    "docs/VALIDATION_20260714_qa08.txt",
+    "docs/VALIDATION_20260714_v016.txt",
+    "docs/WORK_LEDGER.csv",
+    "docs/verification/assets-generate.txt",
+    "docs/verification/dependency-audit-full.json",
+    "docs/verification/dependency-audit-production.json",
+    "docs/verification/dependency-audit-status.txt",
+    "docs/verification/production-build-final.txt",
+    "docs/verification/production-build.txt",
+    "docs/verification/region-test-final.txt",
+    "docs/verification/region-test.txt",
+    "docs/verification/runtime-http.txt",
+    "docs/verification/runtime-manifest-export.txt",
+    "docs/verification/runtime-production-test-final.txt",
+    "docs/verification/runtime-production-test.txt",
+    "docs/verification/runtime-qa-cdp.txt",
+    "docs/verification/simulation-test-final.txt",
+    "docs/verification/simulation-test.txt",
+    "docs/verification/static-audit-final.txt",
+    "docs/verification/static-audit.txt",
+    "docs/verification/vite-server.log",
+    "index.html",
+    "postcss.config.js",
+    "public/manifests/character-production-manifest.json",
+    "public/manifests/farm-manifest.json",
+    "public/manifests/region-gameplay-manifest.json",
+    "public/manifests/region-production-manifest.json",
+    "public/manifests/runtime-production-manifest.json",
+    "public/manifests/village-manifest.json",
+    "public/models/README.md",
+    "public/models/characters/npc_adult.glb",
+    "public/models/characters/npc_child.glb",
+    "public/models/characters/player_child.glb",
+    "public/models/farm/barn.glb",
+    "public/models/farm/bridge.glb",
+    "public/models/farm/chicken.glb",
+    "public/models/farm/cow.glb",
+    "public/models/farm/farmer.glb",
+    "public/models/farm/farmhouse.glb",
+    "public/models/farm/fruit_tree.glb",
+    "public/models/farm/hay_bale.glb",
+    "public/models/farm/mailbox.glb",
+    "public/models/farm/sheep.glb",
+    "public/models/farm/water_tower.glb",
+    "public/models/farm/windmill.glb",
+    "public/models/forest/ancient_gate.glb",
+    "public/models/forest/blossom_trap.glb",
+    "public/models/forest/fern_cluster.glb",
+    "public/models/forest/forest_bridge.glb",
+    "public/models/forest/forest_guardian.glb",
+    "public/models/forest/great_tree.glb",
+    "public/models/forest/lantern_post.glb",
+    "public/models/forest/leaf_slime.glb",
+    "public/models/forest/mossy_shrine.glb",
+    "public/models/forest/mushroom_cluster.glb",
+    "public/models/forest/stone_totem.glb",
+    "public/models/forest/treasure_altar.glb",
+    "public/models/forest/twig_goblin.glb",
+    "public/models/forest/vine_arch.glb",
+    "public/models/forest/waterfall_cliff.glb",
+    "public/models/regions/bosses/canyon_boss.glb",
+    "public/models/regions/bosses/clockwork_boss.glb",
+    "public/models/regions/bosses/crystal_boss.glb",
+    "public/models/regions/bosses/farm_boss.glb",
+    "public/models/regions/bosses/mushroom_boss.glb",
+    "public/models/regions/bosses/snow_boss.glb",
+    "public/models/regions/bosses/star_boss.glb",
+    "public/models/regions/bosses/wind_boss.glb",
+    "public/models/regions/elites/canyon_elite.glb",
+    "public/models/regions/elites/clockwork_elite.glb",
+    "public/models/regions/elites/crystal_elite.glb",
+    "public/models/regions/elites/farm_elite.glb",
+    "public/models/regions/elites/mushroom_elite.glb",
+    "public/models/regions/elites/snow_elite.glb",
+    "public/models/regions/elites/star_elite.glb",
+    "public/models/regions/elites/wind_elite.glb",
+    "public/models/regions/monsters/canyon_monster_1.glb",
+    "public/models/regions/monsters/canyon_monster_2.glb",
+    "public/models/regions/monsters/canyon_monster_3.glb",
+    "public/models/regions/monsters/clockwork_monster_1.glb",
+    "public/models/regions/monsters/clockwork_monster_2.glb",
+    "public/models/regions/monsters/clockwork_monster_3.glb",
+    "public/models/regions/monsters/crystal_monster_1.glb",
+    "public/models/regions/monsters/crystal_monster_2.glb",
+    "public/models/regions/monsters/crystal_monster_3.glb",
+    "public/models/regions/monsters/farm_monster_1.glb",
+    "public/models/regions/monsters/farm_monster_2.glb",
+    "public/models/regions/monsters/farm_monster_3.glb",
+    "public/models/regions/monsters/mushroom_monster_1.glb",
+    "public/models/regions/monsters/mushroom_monster_2.glb",
+    "public/models/regions/monsters/mushroom_monster_3.glb",
+    "public/models/regions/monsters/snow_monster_1.glb",
+    "public/models/regions/monsters/snow_monster_2.glb",
+    "public/models/regions/monsters/snow_monster_3.glb",
+    "public/models/regions/monsters/star_monster_1.glb",
+    "public/models/regions/monsters/star_monster_2.glb",
+    "public/models/regions/monsters/star_monster_3.glb",
+    "public/models/regions/monsters/wind_monster_1.glb",
+    "public/models/regions/monsters/wind_monster_2.glb",
+    "public/models/regions/monsters/wind_monster_3.glb",
+    "public/models/regions/structures/adventure_lodge.glb",
+    "public/models/regions/structures/aurora_shrine.glb",
+    "public/models/regions/structures/beekeeper_pavilion.glb",
+    "public/models/regions/structures/canonical_bridge.glb",
+    "public/models/regions/structures/canyon_forge.glb",
+    "public/models/regions/structures/clock_core.glb",
+    "public/models/regions/structures/cloud_observatory.glb",
+    "public/models/regions/structures/crystal_dock.glb",
+    "public/models/regions/structures/gear_workshop.glb",
+    "public/models/regions/structures/glow_pavilion.glb",
+    "public/models/regions/structures/mushroom_house.glb",
+    "public/models/regions/structures/orchard_barn.glb",
+    "public/models/regions/structures/prism_sanctuary.glb",
+    "public/models/regions/structures/rope_bridge_station.glb",
+    "public/models/regions/structures/star_learning_hall.glb",
+    "public/models/regions/structures/windmill_station.glb",
+    "scripts/export-production-manifests.mjs",
+    "scripts/export-region-gameplay-manifest.mjs",
+    "scripts/export-runtime-production-manifest.mjs",
+    "scripts/generate-production-assets.mjs",
+    "scripts/run-production-runtime-tests.mjs",
+    "scripts/run-region-gameplay-tests.mjs",
+    "scripts/run-region-production-tests.mjs",
+    "scripts/run-simulation-tests.mjs",
+    "scripts/runtime-qa-cdp.mjs",
+    "scripts/runtime-qa.mjs",
+    "src/audio/AudioEngine.js",
+    "src/audio/music.js",
+    "src/audio/sfx.js",
+    "src/audio/themes.js",
+    "src/components/3D/AnimatedProductionModel.jsx",
+    "src/components/3D/CharacterActorRig.jsx",
+    "src/components/3D/CombatFX.jsx",
+    "src/components/3D/ErrorBoundary.jsx",
+    "src/components/3D/FairyCompanion.jsx",
+    "src/components/3D/LockOnReticle.jsx",
+    "src/components/3D/Model.jsx",
+    "src/components/3D/Outlined.jsx",
+    "src/components/3D/PhysicsReadyProbe.jsx",
+    "src/components/3D/PlayerAvatar.jsx",
+    "src/components/3D/ReadyProbe.jsx",
+    "src/components/3D/RuntimeAcceptanceProbe.jsx",
+    "src/components/3D/SceneChunkFallback.jsx",
+    "src/components/3D/WorldAmbience.jsx",
+    "src/components/Entities/RegionEncounterLayer.jsx",
+    "src/components/Entities/RespawnMonsterField.jsx",
+    "src/components/Entities/TrialController.jsx",
+    "src/components/Environment/SkyWeatherLayer.jsx",
+    "src/components/Environment/SurfaceDetailLayer.jsx",
+    "src/components/Environment/WorldEnvironment.jsx",
+    "src/components/Farm/CraftingSystem.jsx",
+    "src/components/Farm/FarmScene.jsx",
+    "src/components/Minigames/BalloonShooter.jsx",
+    "src/components/Minigames/MathModal.jsx",
+    "src/components/NPC/FarmLifeNPCs.jsx",
+    "src/components/NPC/VillageLifeNPCs.jsx",
+    "src/components/RegionMechanics/CanyonMeasurementChallenge.jsx",
+    "src/components/RegionMechanics/ClockworkSequenceChallenge.jsx",
+    "src/components/RegionMechanics/CrystalSymmetryChallenge.jsx",
+    "src/components/RegionMechanics/FarmArrayChallenge.jsx",
+    "src/components/RegionMechanics/MushroomRhythmChallenge.jsx",
+    "src/components/RegionMechanics/RegionMechanicChallengePanel.jsx",
+    "src/components/RegionMechanics/SnowTemperatureChallenge.jsx",
+    "src/components/RegionMechanics/StarPatternChallenge.jsx",
+    "src/components/RegionMechanics/WindAngleChallenge.jsx",
+    "src/components/Scenes/ForestRuinsScene.jsx",
+    "src/components/Scenes/SceneProps.jsx",
+    "src/components/Scenes/VillageScene.jsx",
+    "src/components/Scenes/WildernessScene.jsx",
+    "src/components/UI/AudioController.jsx",
+    "src/components/UI/BuildPanel.jsx",
+    "src/components/UI/CameraInput.jsx",
+    "src/components/UI/CarpenterPanel.jsx",
+    "src/components/UI/CharacterCreationPanel.jsx",
+    "src/components/UI/DailyReward.jsx",
+    "src/components/UI/DefeatPanel.jsx",
+    "src/components/UI/EquipmentPanel.jsx",
+    "src/components/UI/HomeDecorPanel.jsx",
+    "src/components/UI/HomeInteriorPanel.jsx",
+    "src/components/UI/ItemIcon.jsx",
+    "src/components/UI/PaperDollAvatar.jsx",
+    "src/components/UI/RegionWorkshopPanel.jsx",
+    "src/components/UI/RenderSettingsPanel.jsx",
+    "src/components/UI/SceneLoadOverlay.jsx",
+    "src/components/UI/SeedPickerPanel.jsx",
+    "src/components/UI/TransitionManager.jsx",
+    "src/components/UI/TrialHUD.jsx",
+    "src/components/World/FarmKit.jsx",
+    "src/components/World/ForestRuinsKit.jsx",
+    "src/components/World/RegionGameplayLayer.jsx",
+    "src/components/World/RegionGuideNPC.jsx",
+    "src/components/World/RegionMechanicLayer.jsx",
+    "src/components/World/RegionProductionKit.jsx",
+    "src/components/World/RegionProps.jsx",
+    "src/components/World/RegionSubareaTracker.jsx",
+    "src/components/World/RegionalEvent.jsx",
+    "src/components/World/TeleportGate.jsx",
+    "src/components/World/VillageActivityProps.jsx",
+    "src/components/World/VillageKit.jsx",
+    "src/data/achievements.js",
+    "src/data/armors.js",
+    "src/data/biomes.js",
+    "src/data/characterPhysicalProfiles.js",
+    "src/data/dailyRift.js",
+    "src/data/farmLayout.js",
+    "src/data/farmProgression.js",
+    "src/data/forestMonsters.js",
+    "src/data/forestRuinsLayout.js",
+    "src/data/index.js",
+    "src/data/indoorZones.js",
+    "src/data/interiorDefinitions.js",
+    "src/data/itemsPets.js",
+    "src/data/physicalObjectCatalog.js",
+    "src/data/productionAssetCatalog.js",
+    "src/data/quests.js",
+    "src/data/regionGameplayProfiles.js",
+    "src/data/regionMechanicChallenges.js",
+    "src/data/regionProductionLayouts.js",
+    "src/data/sceneRuntime.js",
+    "src/data/skillGraph.js",
+    "src/data/villageLayout.js",
+    "src/data/weaponsMelee.js",
+    "src/data/weaponsRanged.js",
+    "src/docs/PHASE45_GOVERNANCE.md",
+    "src/hooks/useGamepad.js",
+    "src/hooks/useKeyboard.js",
+    "src/input/cameraState.js",
+    "src/input/combat.js",
+    "src/input/fx.js",
+    "src/input/inputState.js",
+    "src/input/loadProgress.js",
+    "src/input/playerPos.js",
+    "src/input/pois.js",
+    "src/input/runtimeAcceptance.js",
+    "src/input/worldTime.js",
+    "src/main.jsx",
+    "src/qa/QaBridge.jsx",
+    "src/services/CharacterPhysicalValidationService.js",
+    "src/services/FarmAssetService.js",
+    "src/services/FarmProgressionValidationService.js",
+    "src/services/FarmSceneValidationService.js",
+    "src/services/ForestAssetService.js",
+    "src/services/ForestSceneValidationService.js",
+    "src/services/InteriorValidationService.js",
+    "src/services/PlacementValidationService.js",
+    "src/services/ProductionRuntimeValidationService.js",
+    "src/services/RegionGameplayService.js",
+    "src/services/RegionGameplayValidationService.js",
+    "src/services/RegionProductionValidationService.js",
+    "src/services/SceneValidationService.js",
+    "src/services/SkillGraphValidationService.js",
+    "src/services/TrialTowerValidationService.js",
+    "src/store/farmStore.js",
+    "src/systems/farmSimulation.js",
+    "src/systems/npcSchedule.js",
+    "src/systems/regionLoot.js",
+    "src/systems/timeWeatherConfig.js",
+    "src/utils/MathEngine.js",
+    "src/utils/combatProfile.js",
+    "src/utils/crypto.js",
+    "src/utils/equipmentPresentation.js",
+    "src/utils/inventory.js",
+    "src/utils/placementGeometry.js",
+    "src/utils/renderQuality.js",
+    "src/utils/toon.js",
+    "tailwind.config.js",
+    "vite.config.js"
+  ]
+}

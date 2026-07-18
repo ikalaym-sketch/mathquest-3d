@@ -1,0 +1,1788 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-13T22:02:05.413Z",
+  "assets": {
+    "characters": {
+      "player_child": {
+        "url": "/models/characters/player_child.glb",
+        "requiredClips": [
+          "Idle",
+          "Walk",
+          "Run",
+          "Attack",
+          "Interact",
+          "Hurt",
+          "Defeat"
+        ],
+        "fallbackProfileId": "player_child"
+      },
+      "npc_adult": {
+        "url": "/models/characters/npc_adult.glb",
+        "requiredClips": [
+          "Idle",
+          "Walk",
+          "Interact"
+        ],
+        "fallbackProfileId": "npc_adult"
+      },
+      "npc_child": {
+        "url": "/models/characters/npc_child.glb",
+        "requiredClips": [
+          "Idle",
+          "Walk",
+          "Interact"
+        ],
+        "fallbackProfileId": "npc_child"
+      }
+    },
+    "structures": {
+      "windmill_station": {
+        "url": "/models/regions/structures/windmill_station.glb",
+        "fallbackPrefabType": "windmill_station"
+      },
+      "cloud_observatory": {
+        "url": "/models/regions/structures/cloud_observatory.glb",
+        "fallbackPrefabType": "cloud_observatory"
+      },
+      "aurora_shrine": {
+        "url": "/models/regions/structures/aurora_shrine.glb",
+        "fallbackPrefabType": "aurora_shrine"
+      },
+      "orchard_barn": {
+        "url": "/models/regions/structures/orchard_barn.glb",
+        "fallbackPrefabType": "orchard_barn"
+      },
+      "beekeeper_pavilion": {
+        "url": "/models/regions/structures/beekeeper_pavilion.glb",
+        "fallbackPrefabType": "beekeeper_pavilion"
+      },
+      "crystal_dock": {
+        "url": "/models/regions/structures/crystal_dock.glb",
+        "fallbackPrefabType": "crystal_dock"
+      },
+      "prism_sanctuary": {
+        "url": "/models/regions/structures/prism_sanctuary.glb",
+        "fallbackPrefabType": "prism_sanctuary"
+      },
+      "canyon_forge": {
+        "url": "/models/regions/structures/canyon_forge.glb",
+        "fallbackPrefabType": "canyon_forge"
+      },
+      "rope_bridge_station": {
+        "url": "/models/regions/structures/rope_bridge_station.glb",
+        "fallbackPrefabType": "rope_bridge_station"
+      },
+      "mushroom_house": {
+        "url": "/models/regions/structures/mushroom_house.glb",
+        "fallbackPrefabType": "mushroom_house"
+      },
+      "glow_pavilion": {
+        "url": "/models/regions/structures/glow_pavilion.glb",
+        "fallbackPrefabType": "glow_pavilion"
+      },
+      "gear_workshop": {
+        "url": "/models/regions/structures/gear_workshop.glb",
+        "fallbackPrefabType": "gear_workshop"
+      },
+      "clock_core": {
+        "url": "/models/regions/structures/clock_core.glb",
+        "fallbackPrefabType": "clock_core"
+      },
+      "star_learning_hall": {
+        "url": "/models/regions/structures/star_learning_hall.glb",
+        "fallbackPrefabType": "star_learning_hall"
+      },
+      "adventure_lodge": {
+        "url": "/models/regions/structures/adventure_lodge.glb",
+        "fallbackPrefabType": "adventure_lodge"
+      }
+    },
+    "bridge": {
+      "url": "/models/regions/structures/canonical_bridge.glb"
+    },
+    "encounters": {
+      "wind_monster_1": {
+        "regionId": "wind_highlands",
+        "tier": "normal",
+        "url": "/models/regions/monsters/wind_monster_1.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "wind_monster_2": {
+        "regionId": "wind_highlands",
+        "tier": "normal",
+        "url": "/models/regions/monsters/wind_monster_2.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "wind_monster_3": {
+        "regionId": "wind_highlands",
+        "tier": "normal",
+        "url": "/models/regions/monsters/wind_monster_3.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "wind_elite": {
+        "regionId": "wind_highlands",
+        "tier": "elite",
+        "url": "/models/regions/elites/wind_elite.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "wind_boss": {
+        "regionId": "wind_highlands",
+        "tier": "boss",
+        "url": "/models/regions/bosses/wind_boss.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "snow_monster_1": {
+        "regionId": "snow_valley",
+        "tier": "normal",
+        "url": "/models/regions/monsters/snow_monster_1.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "snow_monster_2": {
+        "regionId": "snow_valley",
+        "tier": "normal",
+        "url": "/models/regions/monsters/snow_monster_2.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "snow_monster_3": {
+        "regionId": "snow_valley",
+        "tier": "normal",
+        "url": "/models/regions/monsters/snow_monster_3.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "snow_elite": {
+        "regionId": "snow_valley",
+        "tier": "elite",
+        "url": "/models/regions/elites/snow_elite.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "snow_boss": {
+        "regionId": "snow_valley",
+        "tier": "boss",
+        "url": "/models/regions/bosses/snow_boss.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "farm_monster_1": {
+        "regionId": "farm_plains",
+        "tier": "normal",
+        "url": "/models/regions/monsters/farm_monster_1.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "farm_monster_2": {
+        "regionId": "farm_plains",
+        "tier": "normal",
+        "url": "/models/regions/monsters/farm_monster_2.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "farm_monster_3": {
+        "regionId": "farm_plains",
+        "tier": "normal",
+        "url": "/models/regions/monsters/farm_monster_3.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "farm_elite": {
+        "regionId": "farm_plains",
+        "tier": "elite",
+        "url": "/models/regions/elites/farm_elite.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "farm_boss": {
+        "regionId": "farm_plains",
+        "tier": "boss",
+        "url": "/models/regions/bosses/farm_boss.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "star_monster_1": {
+        "regionId": "star_village",
+        "tier": "normal",
+        "url": "/models/regions/monsters/star_monster_1.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "star_monster_2": {
+        "regionId": "star_village",
+        "tier": "normal",
+        "url": "/models/regions/monsters/star_monster_2.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "star_monster_3": {
+        "regionId": "star_village",
+        "tier": "normal",
+        "url": "/models/regions/monsters/star_monster_3.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "star_elite": {
+        "regionId": "star_village",
+        "tier": "elite",
+        "url": "/models/regions/elites/star_elite.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "star_boss": {
+        "regionId": "star_village",
+        "tier": "boss",
+        "url": "/models/regions/bosses/star_boss.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "crystal_monster_1": {
+        "regionId": "crystal_lake",
+        "tier": "normal",
+        "url": "/models/regions/monsters/crystal_monster_1.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "crystal_monster_2": {
+        "regionId": "crystal_lake",
+        "tier": "normal",
+        "url": "/models/regions/monsters/crystal_monster_2.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "crystal_monster_3": {
+        "regionId": "crystal_lake",
+        "tier": "normal",
+        "url": "/models/regions/monsters/crystal_monster_3.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "crystal_elite": {
+        "regionId": "crystal_lake",
+        "tier": "elite",
+        "url": "/models/regions/elites/crystal_elite.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "crystal_boss": {
+        "regionId": "crystal_lake",
+        "tier": "boss",
+        "url": "/models/regions/bosses/crystal_boss.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "canyon_monster_1": {
+        "regionId": "sun_canyon",
+        "tier": "normal",
+        "url": "/models/regions/monsters/canyon_monster_1.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "canyon_monster_2": {
+        "regionId": "sun_canyon",
+        "tier": "normal",
+        "url": "/models/regions/monsters/canyon_monster_2.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "canyon_monster_3": {
+        "regionId": "sun_canyon",
+        "tier": "normal",
+        "url": "/models/regions/monsters/canyon_monster_3.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "canyon_elite": {
+        "regionId": "sun_canyon",
+        "tier": "elite",
+        "url": "/models/regions/elites/canyon_elite.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "canyon_boss": {
+        "regionId": "sun_canyon",
+        "tier": "boss",
+        "url": "/models/regions/bosses/canyon_boss.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "mushroom_monster_1": {
+        "regionId": "mushroom_grove",
+        "tier": "normal",
+        "url": "/models/regions/monsters/mushroom_monster_1.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "mushroom_monster_2": {
+        "regionId": "mushroom_grove",
+        "tier": "normal",
+        "url": "/models/regions/monsters/mushroom_monster_2.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "mushroom_monster_3": {
+        "regionId": "mushroom_grove",
+        "tier": "normal",
+        "url": "/models/regions/monsters/mushroom_monster_3.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "mushroom_elite": {
+        "regionId": "mushroom_grove",
+        "tier": "elite",
+        "url": "/models/regions/elites/mushroom_elite.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "mushroom_boss": {
+        "regionId": "mushroom_grove",
+        "tier": "boss",
+        "url": "/models/regions/bosses/mushroom_boss.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "clockwork_monster_1": {
+        "regionId": "clockwork_ruins",
+        "tier": "normal",
+        "url": "/models/regions/monsters/clockwork_monster_1.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "clockwork_monster_2": {
+        "regionId": "clockwork_ruins",
+        "tier": "normal",
+        "url": "/models/regions/monsters/clockwork_monster_2.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "clockwork_monster_3": {
+        "regionId": "clockwork_ruins",
+        "tier": "normal",
+        "url": "/models/regions/monsters/clockwork_monster_3.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "clockwork_elite": {
+        "regionId": "clockwork_ruins",
+        "tier": "elite",
+        "url": "/models/regions/elites/clockwork_elite.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      },
+      "clockwork_boss": {
+        "regionId": "clockwork_ruins",
+        "tier": "boss",
+        "url": "/models/regions/bosses/clockwork_boss.glb",
+        "clips": [
+          "Idle",
+          "Move",
+          "Attack",
+          "Hurt",
+          "Defeat"
+        ]
+      }
+    }
+  },
+  "encounters": {
+    "wind_highlands": {
+      "regionId": "wind_highlands",
+      "normal": [
+        {
+          "id": "wind_monster_1",
+          "name": "Gale Puff",
+          "tier": "normal",
+          "behavior": "hop",
+          "hp": 34,
+          "atk": 6,
+          "speed": 1.55,
+          "color": "#72d7ef",
+          "aggroRange": 7,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/wind_monster_1.glb",
+          "modelScale": 0.9,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "wind_monster_2",
+          "name": "Kite Raider",
+          "tier": "normal",
+          "behavior": "kite",
+          "hp": 42,
+          "atk": 8,
+          "speed": 1.85,
+          "color": "#7ddaf0",
+          "aggroRange": 8.5,
+          "atkRange": 7,
+          "ranged": true,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/wind_monster_2.glb",
+          "modelScale": 0.9500000000000001,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "wind_monster_3",
+          "name": "Cloud Manta",
+          "tier": "normal",
+          "behavior": "weave",
+          "hp": 50,
+          "atk": 10,
+          "speed": 2.15,
+          "color": "#89ddf2",
+          "aggroRange": 10,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/wind_monster_3.glb",
+          "modelScale": 1,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        }
+      ],
+      "elite": {
+        "id": "wind_elite",
+        "name": "Storm Warden",
+        "tier": "elite",
+        "behavior": "tank",
+        "hp": 135,
+        "atk": 14,
+        "speed": 1.05,
+        "color": "#62b9ce",
+        "aggroRange": 10,
+        "atkRange": 1.8,
+        "ranged": false,
+        "weak": "lightning",
+        "modelUrl": "/models/regions/elites/wind_elite.glb",
+        "modelScale": 1.25,
+        "modelPosition": [
+          0,
+          -0.65,
+          0
+        ]
+      },
+      "boss": {
+        "id": "wind_boss",
+        "name": "Tempest Roc",
+        "tier": "boss",
+        "hp": 340,
+        "atk": 21,
+        "color": "#4ea8d8",
+        "modelUrl": "/models/regions/bosses/wind_boss.glb",
+        "modelScale": 1.65,
+        "modelPosition": [
+          0,
+          -1.15,
+          0
+        ]
+      },
+      "normalSpawns": [
+        [
+          -35,
+          -24
+        ],
+        [
+          -21,
+          -15
+        ],
+        [
+          29,
+          -28
+        ],
+        [
+          35,
+          18
+        ],
+        [
+          24,
+          28
+        ],
+        [
+          -27,
+          31
+        ],
+        [
+          -14,
+          20
+        ],
+        [
+          16,
+          13
+        ]
+      ],
+      "eliteSpawn": [
+        0,
+        0.8,
+        34
+      ],
+      "bossSpawn": [
+        0,
+        1.2,
+        -43
+      ],
+      "respawnMs": 11000,
+      "eliteRespawnMs": 65000
+    },
+    "snow_valley": {
+      "regionId": "snow_valley",
+      "normal": [
+        {
+          "id": "snow_monster_1",
+          "name": "Frost Wisp",
+          "tier": "normal",
+          "behavior": "weave",
+          "hp": 41,
+          "atk": 7,
+          "speed": 1.52,
+          "color": "#bfeeff",
+          "aggroRange": 7,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "fire",
+          "modelUrl": "/models/regions/monsters/snow_monster_1.glb",
+          "modelScale": 0.9,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "snow_monster_2",
+          "name": "Ice Tusk",
+          "tier": "normal",
+          "behavior": "shield",
+          "hp": 49,
+          "atk": 9,
+          "speed": 1.82,
+          "color": "#c4efff",
+          "aggroRange": 8.5,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "fire",
+          "modelUrl": "/models/regions/monsters/snow_monster_2.glb",
+          "modelScale": 0.9500000000000001,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "snow_monster_3",
+          "name": "Aurora Sentinel",
+          "tier": "normal",
+          "behavior": "weeping",
+          "hp": 57,
+          "atk": 11,
+          "speed": 2.12,
+          "color": "#c9f1ff",
+          "aggroRange": 10,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "fire",
+          "modelUrl": "/models/regions/monsters/snow_monster_3.glb",
+          "modelScale": 1,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        }
+      ],
+      "elite": {
+        "id": "snow_elite",
+        "name": "Mirror Lake Knight",
+        "tier": "elite",
+        "behavior": "tank",
+        "hp": 163,
+        "atk": 16,
+        "speed": 1.08,
+        "color": "#a4cddb",
+        "aggroRange": 10,
+        "atkRange": 1.8,
+        "ranged": false,
+        "weak": "fire",
+        "modelUrl": "/models/regions/elites/snow_elite.glb",
+        "modelScale": 1.25,
+        "modelPosition": [
+          0,
+          -0.65,
+          0
+        ]
+      },
+      "boss": {
+        "id": "snow_boss",
+        "name": "Aurora Stag",
+        "tier": "boss",
+        "hp": 395,
+        "atk": 24,
+        "color": "#75cdec",
+        "modelUrl": "/models/regions/bosses/snow_boss.glb",
+        "modelScale": 1.65,
+        "modelPosition": [
+          0,
+          -1.15,
+          0
+        ]
+      },
+      "normalSpawns": [
+        [
+          -32,
+          -27
+        ],
+        [
+          -18,
+          -18
+        ],
+        [
+          25,
+          -29
+        ],
+        [
+          34,
+          18
+        ],
+        [
+          24,
+          30
+        ],
+        [
+          -27,
+          26
+        ],
+        [
+          -12,
+          20
+        ],
+        [
+          16,
+          9
+        ]
+      ],
+      "eliteSpawn": [
+        0,
+        0.8,
+        34
+      ],
+      "bossSpawn": [
+        0,
+        1.2,
+        -43
+      ],
+      "respawnMs": 11000,
+      "eliteRespawnMs": 65000
+    },
+    "farm_plains": {
+      "regionId": "farm_plains",
+      "normal": [
+        {
+          "id": "farm_monster_1",
+          "name": "Hay Sprout",
+          "tier": "normal",
+          "behavior": "hop",
+          "hp": 48,
+          "atk": 8,
+          "speed": 1.49,
+          "color": "#e3bd55",
+          "aggroRange": 7,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "fire",
+          "modelUrl": "/models/regions/monsters/farm_monster_1.glb",
+          "modelScale": 0.9,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "farm_monster_2",
+          "name": "Orchard Bandit",
+          "tier": "normal",
+          "behavior": "flee",
+          "hp": 56,
+          "atk": 10,
+          "speed": 1.79,
+          "color": "#e5c263",
+          "aggroRange": 8.5,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "fire",
+          "modelUrl": "/models/regions/monsters/farm_monster_2.glb",
+          "modelScale": 0.9500000000000001,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "farm_monster_3",
+          "name": "Burrow Mole",
+          "tier": "normal",
+          "behavior": "burrow",
+          "hp": 64,
+          "atk": 12,
+          "speed": 2.09,
+          "color": "#e7c870",
+          "aggroRange": 10,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "fire",
+          "modelUrl": "/models/regions/monsters/farm_monster_3.glb",
+          "modelScale": 1,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        }
+      ],
+      "elite": {
+        "id": "farm_elite",
+        "name": "Harvest Guardian",
+        "tier": "elite",
+        "behavior": "shield",
+        "hp": 191,
+        "atk": 18,
+        "speed": 1.11,
+        "color": "#c3a349",
+        "aggroRange": 10,
+        "atkRange": 1.8,
+        "ranged": false,
+        "weak": "fire",
+        "modelUrl": "/models/regions/elites/farm_elite.glb",
+        "modelScale": 1.25,
+        "modelPosition": [
+          0,
+          -0.65,
+          0
+        ]
+      },
+      "boss": {
+        "id": "farm_boss",
+        "name": "Golden Horn Boar",
+        "tier": "boss",
+        "hp": 450,
+        "atk": 27,
+        "color": "#bd7a3f",
+        "modelUrl": "/models/regions/bosses/farm_boss.glb",
+        "modelScale": 1.65,
+        "modelPosition": [
+          0,
+          -1.15,
+          0
+        ]
+      },
+      "normalSpawns": [
+        [
+          -34,
+          -25
+        ],
+        [
+          -21,
+          -12
+        ],
+        [
+          29,
+          -26
+        ],
+        [
+          35,
+          19
+        ],
+        [
+          20,
+          31
+        ],
+        [
+          -29,
+          28
+        ],
+        [
+          -11,
+          20
+        ],
+        [
+          14,
+          12
+        ]
+      ],
+      "eliteSpawn": [
+        0,
+        0.8,
+        34
+      ],
+      "bossSpawn": [
+        0,
+        1.2,
+        -43
+      ],
+      "respawnMs": 11000,
+      "eliteRespawnMs": 65000
+    },
+    "star_village": {
+      "regionId": "star_village",
+      "normal": [
+        {
+          "id": "star_monster_1",
+          "name": "Star Jelly",
+          "tier": "normal",
+          "behavior": "hop",
+          "hp": 55,
+          "atk": 9,
+          "speed": 1.46,
+          "color": "#f5cc58",
+          "aggroRange": 7,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/star_monster_1.glb",
+          "modelScale": 0.9,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "star_monster_2",
+          "name": "Book Mimic",
+          "tier": "normal",
+          "behavior": "lure",
+          "hp": 63,
+          "atk": 11,
+          "speed": 1.76,
+          "color": "#f6d065",
+          "aggroRange": 8.5,
+          "atkRange": 3,
+          "ranged": false,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/star_monster_2.glb",
+          "modelScale": 0.9500000000000001,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "star_monster_3",
+          "name": "Meadow Rascal",
+          "tier": "normal",
+          "behavior": "flee",
+          "hp": 71,
+          "atk": 13,
+          "speed": 2.06,
+          "color": "#f7d473",
+          "aggroRange": 10,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/star_monster_3.glb",
+          "modelScale": 1,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        }
+      ],
+      "elite": {
+        "id": "star_elite",
+        "name": "Learning Garden Keeper",
+        "tier": "elite",
+        "behavior": "tank",
+        "hp": 219,
+        "atk": 20,
+        "speed": 1.1400000000000001,
+        "color": "#d3af4c",
+        "aggroRange": 10,
+        "atkRange": 1.8,
+        "ranged": false,
+        "weak": "lightning",
+        "modelUrl": "/models/regions/elites/star_elite.glb",
+        "modelScale": 1.25,
+        "modelPosition": [
+          0,
+          -0.65,
+          0
+        ]
+      },
+      "boss": {
+        "id": "star_boss",
+        "name": "Comet Lion",
+        "tier": "boss",
+        "hp": 505,
+        "atk": 30,
+        "color": "#d789d7",
+        "modelUrl": "/models/regions/bosses/star_boss.glb",
+        "modelScale": 1.65,
+        "modelPosition": [
+          0,
+          -1.15,
+          0
+        ]
+      },
+      "normalSpawns": [
+        [
+          -31,
+          -24
+        ],
+        [
+          -19,
+          -13
+        ],
+        [
+          28,
+          -24
+        ],
+        [
+          34,
+          17
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          -26,
+          29
+        ],
+        [
+          -12,
+          19
+        ],
+        [
+          14,
+          10
+        ]
+      ],
+      "eliteSpawn": [
+        0,
+        0.8,
+        34
+      ],
+      "bossSpawn": [
+        0,
+        1.2,
+        -43
+      ],
+      "respawnMs": 11000,
+      "eliteRespawnMs": 65000
+    },
+    "crystal_lake": {
+      "regionId": "crystal_lake",
+      "normal": [
+        {
+          "id": "crystal_monster_1",
+          "name": "Prism Slime",
+          "tier": "normal",
+          "behavior": "hop",
+          "hp": 62,
+          "atk": 10,
+          "speed": 1.4300000000000002,
+          "color": "#53ddd8",
+          "aggroRange": 7,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/crystal_monster_1.glb",
+          "modelScale": 0.9,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "crystal_monster_2",
+          "name": "Lake Skimmer",
+          "tier": "normal",
+          "behavior": "weave",
+          "hp": 70,
+          "atk": 12,
+          "speed": 1.73,
+          "color": "#61e0db",
+          "aggroRange": 8.5,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/crystal_monster_2.glb",
+          "modelScale": 0.9500000000000001,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "crystal_monster_3",
+          "name": "Echo Shell",
+          "tier": "normal",
+          "behavior": "shield",
+          "hp": 78,
+          "atk": 14,
+          "speed": 2.03,
+          "color": "#6fe2de",
+          "aggroRange": 10,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/crystal_monster_3.glb",
+          "modelScale": 1,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        }
+      ],
+      "elite": {
+        "id": "crystal_elite",
+        "name": "Prism Warden",
+        "tier": "elite",
+        "behavior": "tank",
+        "hp": 247,
+        "atk": 22,
+        "speed": 1.17,
+        "color": "#47beba",
+        "aggroRange": 10,
+        "atkRange": 1.8,
+        "ranged": false,
+        "weak": "lightning",
+        "modelUrl": "/models/regions/elites/crystal_elite.glb",
+        "modelScale": 1.25,
+        "modelPosition": [
+          0,
+          -0.65,
+          0
+        ]
+      },
+      "boss": {
+        "id": "crystal_boss",
+        "name": "Crystal Leviathan",
+        "tier": "boss",
+        "hp": 560,
+        "atk": 33,
+        "color": "#4fb5dc",
+        "modelUrl": "/models/regions/bosses/crystal_boss.glb",
+        "modelScale": 1.65,
+        "modelPosition": [
+          0,
+          -1.15,
+          0
+        ]
+      },
+      "normalSpawns": [
+        [
+          -35,
+          -26
+        ],
+        [
+          -23,
+          -14
+        ],
+        [
+          30,
+          -25
+        ],
+        [
+          36,
+          17
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          -28,
+          30
+        ],
+        [
+          -13,
+          22
+        ],
+        [
+          16,
+          11
+        ]
+      ],
+      "eliteSpawn": [
+        0,
+        0.8,
+        34
+      ],
+      "bossSpawn": [
+        0,
+        1.2,
+        -43
+      ],
+      "respawnMs": 11000,
+      "eliteRespawnMs": 65000
+    },
+    "sun_canyon": {
+      "regionId": "sun_canyon",
+      "normal": [
+        {
+          "id": "canyon_monster_1",
+          "name": "Cactus Hopper",
+          "tier": "normal",
+          "behavior": "hop",
+          "hp": 69,
+          "atk": 11,
+          "speed": 1.4000000000000001,
+          "color": "#e18a45",
+          "aggroRange": 7,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "ice",
+          "modelUrl": "/models/regions/monsters/canyon_monster_1.glb",
+          "modelScale": 0.9,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "canyon_monster_2",
+          "name": "Sand Scorpion",
+          "tier": "normal",
+          "behavior": "burrow",
+          "hp": 77,
+          "atk": 13,
+          "speed": 1.7000000000000002,
+          "color": "#e39354",
+          "aggroRange": 8.5,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "ice",
+          "modelUrl": "/models/regions/monsters/canyon_monster_2.glb",
+          "modelScale": 0.9500000000000001,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "canyon_monster_3",
+          "name": "Sun Bomb",
+          "tier": "normal",
+          "behavior": "explode",
+          "hp": 85,
+          "atk": 15,
+          "speed": 2,
+          "color": "#e69d63",
+          "aggroRange": 10,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "ice",
+          "modelUrl": "/models/regions/monsters/canyon_monster_3.glb",
+          "modelScale": 1,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        }
+      ],
+      "elite": {
+        "id": "canyon_elite",
+        "name": "Rope Bridge Marauder",
+        "tier": "elite",
+        "behavior": "shield",
+        "hp": 275,
+        "atk": 24,
+        "speed": 1.2,
+        "color": "#c2773b",
+        "aggroRange": 10,
+        "atkRange": 1.8,
+        "ranged": false,
+        "weak": "ice",
+        "modelUrl": "/models/regions/elites/canyon_elite.glb",
+        "modelScale": 1.25,
+        "modelPosition": [
+          0,
+          -0.65,
+          0
+        ]
+      },
+      "boss": {
+        "id": "canyon_boss",
+        "name": "Solar Sandwyrm",
+        "tier": "boss",
+        "hp": 615,
+        "atk": 36,
+        "color": "#cc5d32",
+        "modelUrl": "/models/regions/bosses/canyon_boss.glb",
+        "modelScale": 1.65,
+        "modelPosition": [
+          0,
+          -1.15,
+          0
+        ]
+      },
+      "normalSpawns": [
+        [
+          -36,
+          -26
+        ],
+        [
+          -24,
+          -13
+        ],
+        [
+          28,
+          -29
+        ],
+        [
+          37,
+          18
+        ],
+        [
+          24,
+          31
+        ],
+        [
+          -30,
+          28
+        ],
+        [
+          -13,
+          20
+        ],
+        [
+          17,
+          11
+        ]
+      ],
+      "eliteSpawn": [
+        0,
+        0.8,
+        34
+      ],
+      "bossSpawn": [
+        0,
+        1.2,
+        -43
+      ],
+      "respawnMs": 11000,
+      "eliteRespawnMs": 65000
+    },
+    "mushroom_grove": {
+      "regionId": "mushroom_grove",
+      "normal": [
+        {
+          "id": "mushroom_monster_1",
+          "name": "Bubblecap Slime",
+          "tier": "normal",
+          "behavior": "hop",
+          "hp": 76,
+          "atk": 12,
+          "speed": 1.37,
+          "color": "#dc72bd",
+          "aggroRange": 7,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "fire",
+          "modelUrl": "/models/regions/monsters/mushroom_monster_1.glb",
+          "modelScale": 0.9,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "mushroom_monster_2",
+          "name": "Spore Dancer",
+          "tier": "normal",
+          "behavior": "weave",
+          "hp": 84,
+          "atk": 14,
+          "speed": 1.6700000000000002,
+          "color": "#df7dc2",
+          "aggroRange": 8.5,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "fire",
+          "modelUrl": "/models/regions/monsters/mushroom_monster_2.glb",
+          "modelScale": 0.9500000000000001,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "mushroom_monster_3",
+          "name": "Glow Maw",
+          "tier": "normal",
+          "behavior": "lure",
+          "hp": 92,
+          "atk": 16,
+          "speed": 1.97,
+          "color": "#e289c8",
+          "aggroRange": 10,
+          "atkRange": 3,
+          "ranged": false,
+          "weak": "fire",
+          "modelUrl": "/models/regions/monsters/mushroom_monster_3.glb",
+          "modelScale": 1,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        }
+      ],
+      "elite": {
+        "id": "mushroom_elite",
+        "name": "Fairy Ring Guardian",
+        "tier": "elite",
+        "behavior": "tank",
+        "hp": 303,
+        "atk": 26,
+        "speed": 1.23,
+        "color": "#bd62a3",
+        "aggroRange": 10,
+        "atkRange": 1.8,
+        "ranged": false,
+        "weak": "fire",
+        "modelUrl": "/models/regions/elites/mushroom_elite.glb",
+        "modelScale": 1.25,
+        "modelPosition": [
+          0,
+          -0.65,
+          0
+        ]
+      },
+      "boss": {
+        "id": "mushroom_boss",
+        "name": "Elder Mooncap",
+        "tier": "boss",
+        "hp": 670,
+        "atk": 39,
+        "color": "#9b68d1",
+        "modelUrl": "/models/regions/bosses/mushroom_boss.glb",
+        "modelScale": 1.65,
+        "modelPosition": [
+          0,
+          -1.15,
+          0
+        ]
+      },
+      "normalSpawns": [
+        [
+          -33,
+          -25
+        ],
+        [
+          -21,
+          -14
+        ],
+        [
+          27,
+          -27
+        ],
+        [
+          35,
+          18
+        ],
+        [
+          23,
+          30
+        ],
+        [
+          -28,
+          28
+        ],
+        [
+          -12,
+          21
+        ],
+        [
+          15,
+          11
+        ]
+      ],
+      "eliteSpawn": [
+        0,
+        0.8,
+        34
+      ],
+      "bossSpawn": [
+        0,
+        1.2,
+        -43
+      ],
+      "respawnMs": 11000,
+      "eliteRespawnMs": 65000
+    },
+    "clockwork_ruins": {
+      "regionId": "clockwork_ruins",
+      "normal": [
+        {
+          "id": "clockwork_monster_1",
+          "name": "Gearling",
+          "tier": "normal",
+          "behavior": "flee",
+          "hp": 83,
+          "atk": 13,
+          "speed": 1.34,
+          "color": "#c28c48",
+          "aggroRange": 7,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/clockwork_monster_1.glb",
+          "modelScale": 0.9,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "clockwork_monster_2",
+          "name": "Steam Drone",
+          "tier": "normal",
+          "behavior": "kite",
+          "hp": 91,
+          "atk": 15,
+          "speed": 1.6400000000000001,
+          "color": "#c79557",
+          "aggroRange": 8.5,
+          "atkRange": 7,
+          "ranged": true,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/clockwork_monster_2.glb",
+          "modelScale": 0.9500000000000001,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        },
+        {
+          "id": "clockwork_monster_3",
+          "name": "Clock Knight",
+          "tier": "normal",
+          "behavior": "tank",
+          "hp": 99,
+          "atk": 17,
+          "speed": 1.94,
+          "color": "#cc9e65",
+          "aggroRange": 10,
+          "atkRange": 1.5,
+          "ranged": false,
+          "weak": "lightning",
+          "modelUrl": "/models/regions/monsters/clockwork_monster_3.glb",
+          "modelScale": 1,
+          "modelPosition": [
+            0,
+            -0.5,
+            0
+          ]
+        }
+      ],
+      "elite": {
+        "id": "clockwork_elite",
+        "name": "Puzzle Hall Executor",
+        "tier": "elite",
+        "behavior": "weeping",
+        "hp": 331,
+        "atk": 28,
+        "speed": 1.26,
+        "color": "#a7783e",
+        "aggroRange": 10,
+        "atkRange": 1.8,
+        "ranged": false,
+        "weak": "lightning",
+        "modelUrl": "/models/regions/elites/clockwork_elite.glb",
+        "modelScale": 1.25,
+        "modelPosition": [
+          0,
+          -0.65,
+          0
+        ]
+      },
+      "boss": {
+        "id": "clockwork_boss",
+        "name": "Chrono Colossus",
+        "tier": "boss",
+        "hp": 725,
+        "atk": 42,
+        "color": "#7a8582",
+        "modelUrl": "/models/regions/bosses/clockwork_boss.glb",
+        "modelScale": 1.65,
+        "modelPosition": [
+          0,
+          -1.15,
+          0
+        ]
+      },
+      "normalSpawns": [
+        [
+          -34,
+          -28
+        ],
+        [
+          -22,
+          -15
+        ],
+        [
+          29,
+          -29
+        ],
+        [
+          36,
+          19
+        ],
+        [
+          25,
+          31
+        ],
+        [
+          -29,
+          29
+        ],
+        [
+          -14,
+          21
+        ],
+        [
+          17,
+          10
+        ]
+      ],
+      "eliteSpawn": [
+        0,
+        0.8,
+        34
+      ],
+      "bossSpawn": [
+        0,
+        1.2,
+        -43
+      ],
+      "respawnMs": 11000,
+      "eliteRespawnMs": 65000
+    }
+  }
+}

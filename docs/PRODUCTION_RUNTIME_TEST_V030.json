@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-07-15T01:24:27.378Z",
+  "version": "0.30.0-village-farm-hero-art",
+  "ok": true,
+  "contract": {
+    "canonicalAssets": 282,
+    "regions": 8,
+    "normalMonsters": 24,
+    "elites": 8,
+    "bosses": 8,
+    "structureAssets": 15,
+    "characterAssets": 3,
+    "encounterAssets": 40,
+    "categoryCounts": {
+      "character": 3,
+      "region-structure": 15,
+      "bridge": 1,
+      "monster": 24,
+      "elite": 8,
+      "boss": 8,
+      "region-environment": 40,
+      "companion": 8,
+      "farm": 80,
+      "forest": 15,
+      "village": 80
+    },
+    "artTarget": 800
+  },
+  "assetFiles": 282,
+  "totals": {
+    "bytes": 9561488,
+    "vertices": 125970,
+    "materials": 285,
+    "animations": 353,
+    "skins": 3,
+    "images": 0,
+    "textures": 0
+  },
+  "byCategory": {
+    "character": 3,
+    "region-structure": 15,
+    "bridge": 1,
+    "monster": 24,
+    "elite": 8,
+    "boss": 8,
+    "region-environment": 40,
+    "companion": 8,
+    "farm": 80,
+    "forest": 15,
+    "village": 80
+  },
+  "byTier": {
+    "hero": 78,
+    "gameplay": 122,
+    "modular": 46,
+    "ambient": 36
+  },
+  "byArtStatus": {
+    "replace": 28,
+    "rework": 82,
+    "keep": 24,
+    "new": 148
+  },
+  "lodSummary": {
+    "assets": 188,
+    "averageLod0Vertices": 265,
+    "averageLod1Ratio": 0.532,
+    "averageLod2Ratio": 0.201
+  },
+  "errors": [],
+  "warnings": []
+}

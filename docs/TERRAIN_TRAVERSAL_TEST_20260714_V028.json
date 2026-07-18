@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-07-14T06:55:30.389Z",
+  "ok": true,
+  "version": "0.23.0",
+  "regions": 8,
+  "subareas": 32,
+  "roads": 48,
+  "roadRuns": 142,
+  "waters": 13,
+  "bridges": 9,
+  "structures": 32,
+  "baseRectangles": 45,
+  "terraceRectangles": 42,
+  "encounterSpawns": 80,
+  "maxRoadSlopeDegrees": 13.32,
+  "regionReports": [
+    {
+      "regionId": "wind_highlands",
+      "ok": true,
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 14,
+      "waters": 1,
+      "bridges": 1,
+      "structures": 4,
+      "baseRectangles": 4,
+      "terraceRectangles": 4
+    },
+    {
+      "regionId": "snow_valley",
+      "ok": true,
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 17,
+      "waters": 2,
+      "bridges": 1,
+      "structures": 4,
+      "baseRectangles": 7,
+      "terraceRectangles": 7
+    },
+    {
+      "regionId": "farm_plains",
+      "ok": true,
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 15,
+      "waters": 2,
+      "bridges": 1,
+      "structures": 4,
+      "baseRectangles": 7,
+      "terraceRectangles": 5
+    },
+    {
+      "regionId": "star_village",
+      "ok": true,
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 7,
+      "waters": 1,
+      "bridges": 1,
+      "structures": 4,
+      "baseRectangles": 4,
+      "terraceRectangles": 4
+    },
+    {
+      "regionId": "crystal_lake",
+      "ok": true,
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 27,
+      "waters": 2,
+      "bridges": 2,
+      "structures": 4,
+      "baseRectangles": 5,
+      "terraceRectangles": 6
+    },
+    {
+      "regionId": "sun_canyon",
+      "ok": true,
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 15,
+      "waters": 2,
+      "bridges": 1,
+      "structures": 4,
+      "baseRectangles": 7,
+      "terraceRectangles": 5
+    },
+    {
+      "regionId": "mushroom_grove",
+      "ok": true,
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 35,
+      "waters": 2,
+      "bridges": 1,
+      "structures": 4,
+      "baseRectangles": 7,
+      "terraceRectangles": 7
+    },
+    {
+      "regionId": "clockwork_ruins",
+      "ok": true,
+      "subareas": 4,
+      "roads": 6,
+      "roadRuns": 12,
+      "waters": 1,
+      "bridges": 1,
+      "structures": 4,
+      "baseRectangles": 4,
+      "terraceRectangles": 4
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "destructiveChecks": [
+    {
+      "name": "RegionProductionTerrain no longer mounts BaseTerrain",
+      "ok": true
+    },
+    {
+      "name": "Traversal layer does not create one full-map CuboidCollider",
+      "ok": true
+    },
+    {
+      "name": "Water uses sensors and only explicit wade/ice floor colliders",
+      "ok": true
+    },
+    {
+      "name": "Ravine has dedicated non-water rendering",
+      "ok": true
+    },
+    {
+      "name": "Player uses sampled traversal height for grounded",
+      "ok": true
+    },
+    {
+      "name": "Monster movement uses shared traversal projection",
+      "ok": true
+    },
+    {
+      "name": "Boss movement uses shared traversal projection",
+      "ok": true
+    },
+    {
+      "name": "Road routing uses safe polyline pathfinding",
+      "ok": true
+    }
+  ],
+  "failureCount": 0
+}

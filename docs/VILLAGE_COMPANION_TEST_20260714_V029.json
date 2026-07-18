@@ -1,0 +1,181 @@
+{
+  "ok": true,
+  "residentCount": 10,
+  "companionCount": 8,
+  "caseCount": 10,
+  "cases": [
+    {
+      "id": "ten_named_residents_have_30_dialogue_lines_and_three_events",
+      "status": "PASSED"
+    },
+    {
+      "id": "resident_gift_preferences_reference_real_items",
+      "status": "PASSED"
+    },
+    {
+      "id": "daily_talk_gift_and_relation_event_are_defensive",
+      "status": "PASSED"
+    },
+    {
+      "id": "weekly_weather_schedules_cover_work_rest_and_shelter",
+      "status": "PASSED"
+    },
+    {
+      "id": "shipment_changes_market_tier_stock_and_weekly_commissions",
+      "status": "PASSED"
+    },
+    {
+      "id": "four_season_festivals_have_active_window_and_requirements",
+      "status": "PASSED"
+    },
+    {
+      "id": "eight_companions_have_three_starters_unique_acquisition_and_four_skills",
+      "status": "PASSED"
+    },
+    {
+      "id": "starter_selection_legacy_migration_and_daily_interaction_are_safe",
+      "status": "PASSED"
+    },
+    {
+      "id": "all_five_nonstarter_acquisition_routes_unlock_only_on_matching_event",
+      "status": "PASSED"
+    },
+    {
+      "id": "active_companion_runtime_scales_numeric_modifiers",
+      "status": "PASSED"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "assetCount": 8,
+  "assets": [
+    {
+      "id": "companion_tanuki",
+      "file": "public/models/companions/tanuki.glb",
+      "bytes": 72964,
+      "nodes": 25,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Happy",
+        "Skill",
+        "Sleep",
+        "Swim",
+        "Find",
+        "Greet"
+      ]
+    },
+    {
+      "id": "companion_rabbit",
+      "file": "public/models/companions/rabbit.glb",
+      "bytes": 61028,
+      "nodes": 24,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Happy",
+        "Skill",
+        "Sleep",
+        "Swim",
+        "Find",
+        "Greet"
+      ]
+    },
+    {
+      "id": "companion_fox",
+      "file": "public/models/companions/fox.glb",
+      "bytes": 58452,
+      "nodes": 22,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Happy",
+        "Skill",
+        "Sleep",
+        "Swim",
+        "Find",
+        "Greet"
+      ]
+    },
+    {
+      "id": "companion_cat",
+      "file": "public/models/companions/cat.glb",
+      "bytes": 56648,
+      "nodes": 22,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Happy",
+        "Skill",
+        "Sleep",
+        "Swim",
+        "Find",
+        "Greet"
+      ]
+    },
+    {
+      "id": "companion_otter",
+      "file": "public/models/companions/otter.glb",
+      "bytes": 64020,
+      "nodes": 23,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Happy",
+        "Skill",
+        "Sleep",
+        "Swim",
+        "Find",
+        "Greet"
+      ]
+    },
+    {
+      "id": "companion_squirrel",
+      "file": "public/models/companions/squirrel.glb",
+      "bytes": 61916,
+      "nodes": 23,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Happy",
+        "Skill",
+        "Sleep",
+        "Swim",
+        "Find",
+        "Greet"
+      ]
+    },
+    {
+      "id": "companion_chick",
+      "file": "public/models/companions/chick.glb",
+      "bytes": 58716,
+      "nodes": 23,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Happy",
+        "Skill",
+        "Sleep",
+        "Swim",
+        "Find",
+        "Greet"
+      ]
+    },
+    {
+      "id": "companion_red_panda",
+      "file": "public/models/companions/red_panda.glb",
+      "bytes": 72968,
+      "nodes": 25,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Happy",
+        "Skill",
+        "Sleep",
+        "Swim",
+        "Find",
+        "Greet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Root redirect: HTTP 302
+Application: HTTP 200
+URL: http://127.0.0.1:4176/mathquest-3d/

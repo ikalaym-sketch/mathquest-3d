@@ -1,0 +1,33 @@
+Region_ID,Subarea_ID,Subarea_Name,Elevation,Structure_ID,Prefab_Type,Visual_Parts,Colliders,Sockets,Water_Count,Bridge_Count,Road_Count
+wind_highlands,breeze_meadow,Breeze Meadow,0.35,wind_station_a,windmill_station,11,3,2,1,1,6
+wind_highlands,windmill_ridge,Windmill Ridge,1.15,wind_station_b,windmill_station,11,3,2,1,1,6
+wind_highlands,cloud_bridge,Cloud Bridge,1.8,cloud_station,cloud_observatory,9,2,2,1,1,6
+wind_highlands,sky_observatory,Sky Observatory,2.35,sky_observatory_main,cloud_observatory,9,2,2,1,1,6
+snow_valley,frostflower_meadow,Frostflower Meadow,0.25,frostflower_altar,aurora_shrine,10,4,1,2,1,6
+snow_valley,mirror_lake,Mirror Lake,0.55,mirror_lake_gate,aurora_shrine,10,4,1,2,1,6
+snow_valley,aurora_observatory,Aurora Observatory,2.1,aurora_observatory_main,cloud_observatory,9,2,2,2,1,6
+snow_valley,snowlight_shrine,Snowlight Shrine,1.35,snowlight_shrine_main,aurora_shrine,10,4,1,2,1,6
+farm_plains,sunny_orchard,Sunny Orchard,0.2,sunny_orchard_barn,orchard_barn,11,6,2,2,1,6
+farm_plains,shepherd_hill,Shepherd Hill,0.85,shepherd_bee_pavilion,beekeeper_pavilion,13,4,1,2,1,6
+farm_plains,riverside_field,Riverside Field,0.4,river_bee_pavilion,beekeeper_pavilion,13,4,1,2,1,6
+farm_plains,harvest_square,Harvest Square,0.25,harvest_barn,orchard_barn,11,6,2,2,1,6
+star_village,village_outskirts,Village Outskirts,0.2,outskirts_lodge,adventure_lodge,9,3,2,1,1,6
+star_village,learning_garden,Learning Garden,0.35,learning_hall,star_learning_hall,9,2,2,1,1,6
+star_village,river_market,River Market,0.25,river_market_dock,crystal_dock,19,5,2,1,1,6
+star_village,adventure_meadow,Adventure Meadow,0.65,meadow_lodge,adventure_lodge,9,3,2,1,1,6
+crystal_lake,shimmering_shore,Shimmering Shore,0.25,shimmering_dock,crystal_dock,19,5,2,2,2,6
+crystal_lake,island_garden,Island Garden,0.55,island_prism,prism_sanctuary,13,7,1,2,2,6
+crystal_lake,crystal_bridge,Crystal Bridge,1,bridge_dock,crystal_dock,19,5,2,2,2,6
+crystal_lake,echo_grotto,Echo Grotto,1.55,grotto_sanctuary,prism_sanctuary,13,7,1,2,2,6
+sun_canyon,golden_ravine,Golden Ravine,0.35,ravine_forge,canyon_forge,9,4,2,2,1,6
+sun_canyon,rope_bridge,Rope Bridge,1.5,rope_station,rope_bridge_station,13,5,1,2,1,6
+sun_canyon,cactus_camp,Cactus Camp,0.75,camp_station,rope_bridge_station,13,5,1,2,1,6
+sun_canyon,sun_temple,Sun Temple,2.1,sun_forge_temple,canyon_forge,9,4,2,2,1,6
+mushroom_grove,bubblecap_trail,Bubblecap Trail,0.25,bubblecap_house,mushroom_house,10,2,1,2,1,6
+mushroom_grove,glow_pond,Glow Pond,0.45,glow_pond_pavilion,glow_pavilion,17,7,1,2,1,6
+mushroom_grove,fairy_ring,Fairy Ring,0.8,fairy_ring_pavilion,glow_pavilion,17,7,1,2,1,6
+mushroom_grove,giant_cap_village,Giant Cap Village,1,giant_cap_home,mushroom_house,10,2,1,2,1,6
+clockwork_ruins,gear_courtyard,Gear Courtyard,0.35,gear_workshop_main,gear_workshop,17,3,2,1,1,6
+clockwork_ruins,puzzle_hall,Puzzle Hall,0.65,puzzle_clock,clock_core,9,2,2,1,1,6
+clockwork_ruins,steam_bridge,Steam Bridge,1.2,steam_workshop,gear_workshop,17,3,2,1,1,6
+clockwork_ruins,clock_core,Clock Core,2,clock_core_main,clock_core,9,2,2,1,1,6

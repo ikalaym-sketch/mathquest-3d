@@ -1,0 +1,575 @@
+{
+  "generatedAt": "2026-07-14T06:55:32.645Z",
+  "version": "0.26.0",
+  "ok": true,
+  "content": {
+    "regions": 8,
+    "waters": 13,
+    "waterModes": {
+      "wade": 5,
+      "swim": 5,
+      "ice": 1,
+      "ravine": 1,
+      "hazard": 1
+    },
+    "environmentAssets": 40,
+    "lifeNpcs": 24,
+    "critters": 16,
+    "storyProps": 16,
+    "interiors": 32,
+    "furnitureItems": 384,
+    "interiorInteractions": 96
+  },
+  "glbAssets": {
+    "count": 40,
+    "totalProjectCount": 134,
+    "invalidProjectHeaders": [],
+    "totalBytes": 1283584,
+    "averageBytes": 32090,
+    "files": [
+      {
+        "id": "wind_grass_patch",
+        "regionId": "wind_highlands",
+        "bytes": 30776,
+        "nodes": 18,
+        "meshes": 12,
+        "materials": 1,
+        "primitiveCount": 12
+      },
+      {
+        "id": "wind_banner",
+        "regionId": "wind_highlands",
+        "bytes": 35400,
+        "nodes": 17,
+        "meshes": 11,
+        "materials": 4,
+        "primitiveCount": 11
+      },
+      {
+        "id": "wind_rock_arch",
+        "regionId": "wind_highlands",
+        "bytes": 43408,
+        "nodes": 15,
+        "meshes": 9,
+        "materials": 2,
+        "primitiveCount": 9
+      },
+      {
+        "id": "wind_cloud_crystal",
+        "regionId": "wind_highlands",
+        "bytes": 19328,
+        "nodes": 16,
+        "meshes": 10,
+        "materials": 3,
+        "primitiveCount": 10
+      },
+      {
+        "id": "wind_fence",
+        "regionId": "wind_highlands",
+        "bytes": 28172,
+        "nodes": 21,
+        "meshes": 15,
+        "materials": 2,
+        "primitiveCount": 15
+      },
+      {
+        "id": "snow_bank",
+        "regionId": "snow_valley",
+        "bytes": 46364,
+        "nodes": 16,
+        "meshes": 10,
+        "materials": 2,
+        "primitiveCount": 10
+      },
+      {
+        "id": "ice_crystal_cluster",
+        "regionId": "snow_valley",
+        "bytes": 19328,
+        "nodes": 16,
+        "meshes": 10,
+        "materials": 3,
+        "primitiveCount": 10
+      },
+      {
+        "id": "snow_lantern",
+        "regionId": "snow_valley",
+        "bytes": 30068,
+        "nodes": 14,
+        "meshes": 8,
+        "materials": 3,
+        "primitiveCount": 8
+      },
+      {
+        "id": "snow_pine_cluster",
+        "regionId": "snow_valley",
+        "bytes": 26076,
+        "nodes": 16,
+        "meshes": 10,
+        "materials": 4,
+        "primitiveCount": 10
+      },
+      {
+        "id": "frozen_marker",
+        "regionId": "snow_valley",
+        "bytes": 19312,
+        "nodes": 16,
+        "meshes": 10,
+        "materials": 3,
+        "primitiveCount": 10
+      },
+      {
+        "id": "orchard_row",
+        "regionId": "farm_plains",
+        "bytes": 26048,
+        "nodes": 16,
+        "meshes": 10,
+        "materials": 4,
+        "primitiveCount": 10
+      },
+      {
+        "id": "field_crate",
+        "regionId": "farm_plains",
+        "bytes": 14092,
+        "nodes": 13,
+        "meshes": 7,
+        "materials": 2,
+        "primitiveCount": 7
+      },
+      {
+        "id": "hay_cart",
+        "regionId": "farm_plains",
+        "bytes": 62792,
+        "nodes": 17,
+        "meshes": 11,
+        "materials": 3,
+        "primitiveCount": 11
+      },
+      {
+        "id": "irrigation_gate",
+        "regionId": "farm_plains",
+        "bytes": 28188,
+        "nodes": 21,
+        "meshes": 15,
+        "materials": 2,
+        "primitiveCount": 15
+      },
+      {
+        "id": "scarecrow",
+        "regionId": "farm_plains",
+        "bytes": 20456,
+        "nodes": 13,
+        "meshes": 7,
+        "materials": 1,
+        "primitiveCount": 7
+      },
+      {
+        "id": "garden_arch",
+        "regionId": "star_village",
+        "bytes": 43396,
+        "nodes": 15,
+        "meshes": 9,
+        "materials": 2,
+        "primitiveCount": 9
+      },
+      {
+        "id": "market_stall",
+        "regionId": "star_village",
+        "bytes": 26116,
+        "nodes": 20,
+        "meshes": 14,
+        "materials": 2,
+        "primitiveCount": 14
+      },
+      {
+        "id": "star_lamp_cluster",
+        "regionId": "star_village",
+        "bytes": 30084,
+        "nodes": 14,
+        "meshes": 8,
+        "materials": 3,
+        "primitiveCount": 8
+      },
+      {
+        "id": "traveler_camp",
+        "regionId": "star_village",
+        "bytes": 14100,
+        "nodes": 13,
+        "meshes": 7,
+        "materials": 2,
+        "primitiveCount": 7
+      },
+      {
+        "id": "study_marker",
+        "regionId": "star_village",
+        "bytes": 26116,
+        "nodes": 20,
+        "meshes": 14,
+        "materials": 2,
+        "primitiveCount": 14
+      },
+      {
+        "id": "shoreline_crystal",
+        "regionId": "crystal_lake",
+        "bytes": 19324,
+        "nodes": 16,
+        "meshes": 10,
+        "materials": 3,
+        "primitiveCount": 10
+      },
+      {
+        "id": "prism_reed",
+        "regionId": "crystal_lake",
+        "bytes": 19296,
+        "nodes": 16,
+        "meshes": 10,
+        "materials": 3,
+        "primitiveCount": 10
+      },
+      {
+        "id": "dock_supply",
+        "regionId": "crystal_lake",
+        "bytes": 14092,
+        "nodes": 13,
+        "meshes": 7,
+        "materials": 2,
+        "primitiveCount": 7
+      },
+      {
+        "id": "cave_stalagmite",
+        "regionId": "crystal_lake",
+        "bytes": 46392,
+        "nodes": 16,
+        "meshes": 10,
+        "materials": 2,
+        "primitiveCount": 10
+      },
+      {
+        "id": "water_lily",
+        "regionId": "crystal_lake",
+        "bytes": 30748,
+        "nodes": 18,
+        "meshes": 12,
+        "materials": 1,
+        "primitiveCount": 12
+      },
+      {
+        "id": "canyon_strata",
+        "regionId": "sun_canyon",
+        "bytes": 46380,
+        "nodes": 16,
+        "meshes": 10,
+        "materials": 2,
+        "primitiveCount": 10
+      },
+      {
+        "id": "rope_anchor",
+        "regionId": "sun_canyon",
+        "bytes": 35384,
+        "nodes": 17,
+        "meshes": 11,
+        "materials": 4,
+        "primitiveCount": 11
+      },
+      {
+        "id": "cactus_cluster",
+        "regionId": "sun_canyon",
+        "bytes": 20476,
+        "nodes": 13,
+        "meshes": 7,
+        "materials": 1,
+        "primitiveCount": 7
+      },
+      {
+        "id": "camp_supply",
+        "regionId": "sun_canyon",
+        "bytes": 14088,
+        "nodes": 13,
+        "meshes": 7,
+        "materials": 2,
+        "primitiveCount": 7
+      },
+      {
+        "id": "sun_obelisk",
+        "regionId": "sun_canyon",
+        "bytes": 13464,
+        "nodes": 12,
+        "meshes": 6,
+        "materials": 2,
+        "primitiveCount": 6
+      },
+      {
+        "id": "giant_mushroom_cluster",
+        "regionId": "mushroom_grove",
+        "bytes": 61964,
+        "nodes": 20,
+        "meshes": 14,
+        "materials": 3,
+        "primitiveCount": 14
+      },
+      {
+        "id": "spore_lantern",
+        "regionId": "mushroom_grove",
+        "bytes": 30072,
+        "nodes": 14,
+        "meshes": 8,
+        "materials": 3,
+        "primitiveCount": 8
+      },
+      {
+        "id": "fairy_stone",
+        "regionId": "mushroom_grove",
+        "bytes": 46380,
+        "nodes": 16,
+        "meshes": 10,
+        "materials": 2,
+        "primitiveCount": 10
+      },
+      {
+        "id": "wetland_reeds",
+        "regionId": "mushroom_grove",
+        "bytes": 30764,
+        "nodes": 18,
+        "meshes": 12,
+        "materials": 1,
+        "primitiveCount": 12
+      },
+      {
+        "id": "mushroom_fence",
+        "regionId": "mushroom_grove",
+        "bytes": 28188,
+        "nodes": 21,
+        "meshes": 15,
+        "materials": 2,
+        "primitiveCount": 15
+      },
+      {
+        "id": "gear_console",
+        "regionId": "clockwork_ruins",
+        "bytes": 83416,
+        "nodes": 33,
+        "meshes": 27,
+        "materials": 3,
+        "primitiveCount": 27
+      },
+      {
+        "id": "steam_pipe_cluster",
+        "regionId": "clockwork_ruins",
+        "bytes": 27828,
+        "nodes": 12,
+        "meshes": 6,
+        "materials": 3,
+        "primitiveCount": 6
+      },
+      {
+        "id": "coolant_barrier",
+        "regionId": "clockwork_ruins",
+        "bytes": 28192,
+        "nodes": 21,
+        "meshes": 15,
+        "materials": 2,
+        "primitiveCount": 15
+      },
+      {
+        "id": "clock_pillar",
+        "regionId": "clockwork_ruins",
+        "bytes": 83416,
+        "nodes": 33,
+        "meshes": 27,
+        "materials": 3,
+        "primitiveCount": 27
+      },
+      {
+        "id": "scrap_crate",
+        "regionId": "clockwork_ruins",
+        "bytes": 14100,
+        "nodes": 13,
+        "meshes": 7,
+        "materials": 2,
+        "primitiveCount": 7
+      }
+    ]
+  },
+  "sourceChecks": [
+    {
+      "name": "Player 具 Wade/Swim/Ice/Hazard/Ravine 狀態",
+      "ok": true
+    },
+    {
+      "name": "深水具氧氣與安全上岸",
+      "ok": true
+    },
+    {
+      "name": "水域使用 Sensor Collider",
+      "ok": true
+    },
+    {
+      "name": "生活 NPC 使用 Kinematic RigidBody",
+      "ok": true
+    },
+    {
+      "name": "室內使用獨立 Pocket Runtime",
+      "ok": true
+    },
+    {
+      "name": "環境 GLB 使用 LOD Runtime",
+      "ok": true
+    },
+    {
+      "name": "水下覆蓋層已接入 App",
+      "ok": true
+    },
+    {
+      "name": "冰面具穩定度與安全救援",
+      "ok": true
+    },
+    {
+      "name": "區域環境音依場景切換",
+      "ok": true
+    }
+  ],
+  "destructiveChecks": [
+    {
+      "name": "wind_highlands/sky_stream 狀態分類",
+      "ok": true,
+      "actual": "wade",
+      "expected": "wade"
+    },
+    {
+      "name": "snow_valley/mirror_lake_water 狀態分類",
+      "ok": true,
+      "actual": "swim",
+      "expected": "swim"
+    },
+    {
+      "name": "snow_valley/mirror_lake_water 至少兩個安全上岸點",
+      "ok": true,
+      "exitCount": 4
+    },
+    {
+      "name": "snow_valley/mirror_lake_water 游泳動力限制",
+      "ok": true
+    },
+    {
+      "name": "snow_valley/frozen_river 狀態分類",
+      "ok": true,
+      "actual": "ice",
+      "expected": "ice"
+    },
+    {
+      "name": "snow_valley/frozen_river 冰面牽引力",
+      "ok": true
+    },
+    {
+      "name": "farm_plains/plains_river 狀態分類",
+      "ok": true,
+      "actual": "swim",
+      "expected": "swim"
+    },
+    {
+      "name": "farm_plains/plains_river 至少兩個安全上岸點",
+      "ok": true,
+      "exitCount": 4
+    },
+    {
+      "name": "farm_plains/plains_river 游泳動力限制",
+      "ok": true
+    },
+    {
+      "name": "farm_plains/orchard_pond 狀態分類",
+      "ok": true,
+      "actual": "wade",
+      "expected": "wade"
+    },
+    {
+      "name": "star_village/market_river 狀態分類",
+      "ok": true,
+      "actual": "swim",
+      "expected": "swim"
+    },
+    {
+      "name": "star_village/market_river 至少兩個安全上岸點",
+      "ok": true,
+      "exitCount": 4
+    },
+    {
+      "name": "star_village/market_river 游泳動力限制",
+      "ok": true
+    },
+    {
+      "name": "crystal_lake/crystal_main_lake 狀態分類",
+      "ok": true,
+      "actual": "swim",
+      "expected": "swim"
+    },
+    {
+      "name": "crystal_lake/crystal_main_lake 至少兩個安全上岸點",
+      "ok": true,
+      "exitCount": 4
+    },
+    {
+      "name": "crystal_lake/crystal_main_lake 游泳動力限制",
+      "ok": true
+    },
+    {
+      "name": "crystal_lake/crystal_stream 狀態分類",
+      "ok": true,
+      "actual": "swim",
+      "expected": "swim"
+    },
+    {
+      "name": "crystal_lake/crystal_stream 至少兩個安全上岸點",
+      "ok": true,
+      "exitCount": 3
+    },
+    {
+      "name": "crystal_lake/crystal_stream 游泳動力限制",
+      "ok": true
+    },
+    {
+      "name": "sun_canyon/canyon_oasis 狀態分類",
+      "ok": true,
+      "actual": "wade",
+      "expected": "wade"
+    },
+    {
+      "name": "sun_canyon/ravine_gap 狀態分類",
+      "ok": true,
+      "actual": "ravine",
+      "expected": "ravine"
+    },
+    {
+      "name": "sun_canyon/ravine_gap 裂縫禁止游泳",
+      "ok": true
+    },
+    {
+      "name": "mushroom_grove/glow_pond_water 狀態分類",
+      "ok": true,
+      "actual": "wade",
+      "expected": "wade"
+    },
+    {
+      "name": "mushroom_grove/spore_stream 狀態分類",
+      "ok": true,
+      "actual": "wade",
+      "expected": "wade"
+    },
+    {
+      "name": "clockwork_ruins/coolant_channel 狀態分類",
+      "ok": true,
+      "actual": "hazard",
+      "expected": "hazard"
+    },
+    {
+      "name": "clockwork_ruins/coolant_channel 危險液體具傷害與快速救援",
+      "ok": true
+    },
+    {
+      "name": "離開水域後只產生一次 Exit 狀態",
+      "ok": true
+    }
+  ],
+  "failureCount": 0,
+  "warningCount": 0,
+  "errors": [],
+  "warnings": []
+}

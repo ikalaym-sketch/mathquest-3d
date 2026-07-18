@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-07-14T13:08:16.097081+00:00",
+  "version": "0.29.0",
+  "ok": true,
+  "tests": {
+    "artFoundationGenerate": "PASSED",
+    "artGovernance": "PASSED",
+    "productionRuntime134Glb": "PASSED",
+    "simulation": "PASSED",
+    "regionProduction": "PASSED",
+    "regionGameplay": "PASSED",
+    "releaseDestructive": "PASSED",
+    "terrainTraversal": "PASSED",
+    "environmentLife": "PASSED",
+    "lifeSimulationCore": "PASSED",
+    "villageCompanion": "PASSED",
+    "viteBuild": "PASSED",
+    "staticAudit": "PASSED"
+  },
+  "dependencyAudit": {
+    "productionVulnerabilities": 0,
+    "developmentVulnerabilities": 2,
+    "moderate": 1,
+    "high": 1,
+    "affected": [
+      "esbuild",
+      "vite"
+    ],
+    "automatedFixRequiresMajorUpgrade": "vite 8.1.4"
+  },
+  "truthBoundary": {
+    "staticAndNodeValidationComplete": true,
+    "physicalRuntimeAcceptanceComplete": false,
+    "target800GlbComplete": false,
+    "existing134GlbTextured": false,
+    "ktx2Complete": false
+  },
+  "diffSummary": {
+    "added": 63,
+    "modified": 49,
+    "deleted": 0
+  },
+  "canonicalGlbCount": 134,
+  "targetGlbCount": 800
+}

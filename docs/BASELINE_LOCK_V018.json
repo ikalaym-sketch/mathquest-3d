@@ -1,0 +1,8 @@
+{
+  "baselineFile": "mathquest-3d-v0.17.0-region-character-production-engineering-build.zip",
+  "baselineSha256": "aaddf91ced42eefaff742cb4c225ef84e456a2ffcc3d32f52696473d0c316669",
+  "targetVersion": "0.18.0",
+  "scope": "production-runtime-content-engineering-build",
+  "createdAt": "2026-07-14T06:05:00+08:00",
+  "classification": "ENGINEERING_BUILD_RUNTIME_QA_BLOCKED"
+}

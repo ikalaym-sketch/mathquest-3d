@@ -1,0 +1,4 @@
+Profile_ID,Height,Radius,Visual_Part_Count,Collider_Shape,Socket_Count,Hurt_Volume_Count
+player_child,2.05,0.34,17,capsule,6,2
+npc_adult,2,0.34,17,capsule,5,0
+npc_child,1.65,0.3,17,capsule,2,0

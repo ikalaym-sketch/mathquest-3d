@@ -1,0 +1,33 @@
+{
+  "sceneId": "starlight_farm",
+  "version": "1.0.0",
+  "assetGroups": [
+    {
+      "id": "farm-buildings",
+      "assets": [
+        "models/farm/farmhouse.glb",
+        "models/farm/barn.glb",
+        "models/farm/windmill.glb",
+        "models/farm/water_tower.glb"
+      ]
+    },
+    {
+      "id": "farm-life",
+      "assets": [
+        "models/farm/farmer.glb",
+        "models/farm/cow.glb",
+        "models/farm/sheep.glb",
+        "models/farm/chicken.glb"
+      ]
+    },
+    {
+      "id": "farm-props",
+      "assets": [
+        "models/farm/fruit_tree.glb",
+        "models/farm/hay_bale.glb",
+        "models/farm/mailbox.glb",
+        "models/farm/bridge.glb"
+      ]
+    }
+  ]
+}

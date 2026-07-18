@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-07-15T21:11:27.172Z",
+  "version": "0.35.0-canonical-800",
+  "baseUrl": "http://127.0.0.1:4174/mathquest-3d/",
+  "ok": true,
+  "cases": [
+    {
+      "id": "production_index",
+      "status": "PASSED",
+      "result": {
+        "status": 200,
+        "contentType": "text/html",
+        "contentLength": 0
+      }
+    },
+    {
+      "id": "base_path_and_hashed_entry",
+      "status": "PASSED",
+      "result": {
+        "basePath": "/mathquest-3d/",
+        "entry": "/mathquest-3d/assets/index-DkVC3U64.js"
+      }
+    },
+    {
+      "id": "hashed_entry_bundle",
+      "status": "PASSED",
+      "result": {
+        "status": 200,
+        "contentType": "text/javascript",
+        "contentLength": 0
+      }
+    },
+    {
+      "id": "canonical_event_glb",
+      "status": "PASSED",
+      "result": {
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 44832
+      }
+    },
+    {
+      "id": "canonical_glb_binary_header",
+      "status": "PASSED",
+      "result": {
+        "bytes": 44832,
+        "magic": "glTF"
+      }
+    },
+    {
+      "id": "ktx2_atlas",
+      "status": "PASSED",
+      "result": {
+        "status": 200,
+        "contentType": "image/ktx2",
+        "contentLength": 147921
+      }
+    },
+    {
+      "id": "ktx2_binary_header",
+      "status": "PASSED",
+      "result": {
+        "bytes": 147921
+      }
+    },
+    {
+      "id": "png_fallback_atlas",
+      "status": "PASSED",
+      "result": {
+        "status": 200,
+        "contentType": "image/png",
+        "contentLength": 940780
+      }
+    },
+    {
+      "id": "png_fallback_binary_header",
+      "status": "PASSED",
+      "result": {
+        "bytes": 940780
+      }
+    },
+    {
+      "id": "atlas_manifest",
+      "status": "PASSED",
+      "result": {
+        "status": 200,
+        "contentType": "application/json",
+        "contentLength": 0
+      }
+    },
+    {
+      "id": "atlas_release_manifest",
+      "status": "PASSED",
+      "result": {
+        "release": "v0.35.0",
+        "atlases": 16,
+        "channelPairs": 73
+      }
+    }
+  ],
+  "errors": [],
+  "serverOutput": "➜  Local:   http://127.0.0.1:4174/mathquest-3d/"
+}

@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-07-15T01:19:51.889Z",
+  "baseUrl": "http://127.0.0.1:4173/mathquest-3d/?qa=1",
+  "profiles": [
+    {
+      "id": "desktop",
+      "viewport": {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900,
+        "deviceScaleFactor": 1,
+        "mobile": false,
+        "touch": false
+      },
+      "cases": [],
+      "errors": []
+    }
+  ],
+  "errors": [
+    "Error: ENVIRONMENT_URL_BLOCKLIST: 127.0.0.1 is blocked\n\nYour organization doesn’t allow you to view this site"
+  ],
+  "plan": {
+    "profiles": [
+      {
+        "id": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "id": "tablet",
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "id": "mobile",
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "regions": 8,
+    "cases": 24
+  },
+  "ok": false,
+  "summary": {
+    "profiles": 1,
+    "cases": 0,
+    "passed": 0,
+    "failed": 0,
+    "plannedCases": 24
+  }
+}

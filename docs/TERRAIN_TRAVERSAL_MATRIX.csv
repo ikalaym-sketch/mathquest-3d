@@ -1,0 +1,9 @@
+Region_ID,Region_Label,Subareas,Roads,Road_Runs,Waters,Water_Behaviors,Bridges,Structures,Base_Rectangles,Terrace_Rectangles,Max_Road_Slope_Degrees,Status
+wind_highlands,,4,6,14,1,water,1,4,4,4,13.32,PASS
+snow_valley,,4,6,17,2,water|ice,1,4,7,7,13.32,PASS
+farm_plains,,4,6,15,2,water,1,4,7,5,13.32,PASS
+star_village,,4,6,7,1,water,1,4,4,4,13.32,PASS
+crystal_lake,,4,6,27,2,water,2,4,5,6,13.32,PASS
+sun_canyon,,4,6,15,2,water|ravine,1,4,7,5,13.32,PASS
+mushroom_grove,,4,6,35,2,water,1,4,7,7,13.32,PASS
+clockwork_ruins,,4,6,12,1,hazard-liquid,1,4,4,4,13.32,PASS

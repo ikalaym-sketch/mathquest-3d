@@ -1,0 +1,11 @@
+MathQuest 3D v0.23.0 Runtime HTTP Check
+URL: http://127.0.0.1:48723/mathquest-3d/
+HTTP_STATUS: 200
+INDEX_BYTES: 1059
+RESULT: PASS
+--- Preview Log ---
+
+> mathquest-3d@0.23.0 preview
+> vite preview --host 127.0.0.1 --port 48723 --strictPort
+
+  ➜  Local:   http://127.0.0.1:48723/mathquest-3d/

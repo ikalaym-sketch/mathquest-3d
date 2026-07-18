@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-07-14T00:00:00+08:00",
+  "version": "0.28.0",
+  "baseline": "0.27.0",
+  "releaseName": "Village Bonds & Guardian Companions",
+  "ok": true,
+  "build": {
+    "ok": true,
+    "modulesTransformed": 1638
+  },
+  "stageC": {
+    "residents": 10,
+    "conditionalDialogueMinimumPerResident": 30,
+    "relationshipEventsPerResident": 3,
+    "relationshipEventsTotal": 30,
+    "seasonalFestivals": 4,
+    "weeklyCommissions": 4,
+    "dynamicMarket": true,
+    "testCases": 10
+  },
+  "stageD": {
+    "companions": 8,
+    "starterChoices": 3,
+    "nonStarterAcquisitionRoutes": 5,
+    "glbAssets": 8,
+    "clipsPerCompanion": 8,
+    "totalProjectGlbs": 134,
+    "testCases": 10
+  },
+  "regression": {
+    "lifeSimulationCoreCases": 17,
+    "simulationCases": 7,
+    "regions": 8,
+    "subareas": 32,
+    "coreRuntimeGlbs": 59,
+    "regionGameplayEvents": 24,
+    "releaseDestructiveCases": 14,
+    "terrainRoadRuns": 142,
+    "waterRavineAreas": 13,
+    "staticAuditFailures": 0,
+    "staticAuditWarnings": 0
+  },
+  "dependencies": {
+    "productionVulnerabilities": 0,
+    "fullDevelopmentVulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 1,
+      "high": 1,
+      "critical": 0,
+      "total": 2
+    }
+  },
+  "http": {
+    "ok": true
+  },
+  "diff": {
+    "added": 71,
+    "modified": 27,
+    "deleted": 8,
+    "unchanged": 691
+  },
+  "deferred": [
+    "Managed Chromium multi-device WebGL visual acceptance is BLOCKED by URLBlocklist=[\"*\"] and is not marked PASS.",
+    "Full development dependency audit retains 1 moderate and 1 high Vite/esbuild vulnerability.",
+    "Companion GLBs are replaceable low-poly engineering assets, not final commissioned art.",
+    "Physical-device acceptance and v0.17 sealing defects remain deferred."
+  ]
+}

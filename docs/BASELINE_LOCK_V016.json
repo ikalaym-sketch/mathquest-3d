@@ -1,0 +1,7 @@
+{
+  "baseline_file": "mathquest-3d-v0.15.0-p1p5-recovery-build.zip",
+  "baseline_sha256": "452df13ecf6fe619efad8d84f7dab9cda03d02b2829fb6556072cbaf40d8ae63",
+  "target_version": "0.16.0",
+  "scope": "World simulation, farm Lv1-Lv5, farmhouse interaction, sky weather presentation and deterministic simulation QA",
+  "created_at": "2026-07-14T00:00:00+08:00"
+}

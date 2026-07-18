@@ -1,0 +1,63 @@
+
+> mathquest-3d@0.15.0 audit
+> node scripts/run-audit.mjs
+
+{
+  "generatedAt": "2026-07-13T17:33:44.645Z",
+  "version": "0.15.0-p1p5-integration",
+  "ok": true,
+  "failureCount": 0,
+  "warningCount": 0,
+  "failures": [],
+  "warnings": [],
+  "checks": {
+    "village": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "placement": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "farm": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "forest": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "interiors": {
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "counts": {
+        "village": 11,
+        "farm": 2
+      }
+    },
+    "requiredFiles": {
+      "ok": true,
+      "files": {
+        "src/components/Environment/SurfaceDetailLayer.jsx": true,
+        "src/data/indoorZones.js": true,
+        "src/systems/npcSchedule.js": true,
+        "src/services/InteriorValidationService.js": true,
+        "src/data/interiorDefinitions.js": true,
+        "src/utils/placementGeometry.js": true,
+        "docs/BASELINE_LOCK.json": true,
+        "docs/WORK_LEDGER.csv": true
+      }
+    },
+    "bossClickDamageRemoved": {
+      "ok": true
+    },
+    "globalWorldEnvironment": {
+      "ok": true
+    }
+  }
+}

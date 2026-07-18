@@ -1,0 +1,61 @@
+{
+  "version": "0.27.0",
+  "classification": "ENGINEERING_BUILD_RUNTIME_VISUAL_QA_BLOCKED",
+  "generatedAt": "2026-07-14T12:00:00+08:00",
+  "baseline": {
+    "version": "0.26.0",
+    "sha256": "2484d2bb2317207d04d1609f3a6469c1597d4a045d6ff870e1e7b814ce5e3770"
+  },
+  "build": {
+    "status": "PASS",
+    "modulesTransformed": 1624
+  },
+  "lifeSimulationCore": {
+    "status": "PASS",
+    "items": 10,
+    "weapons": 20,
+    "armorPieces": 40,
+    "armorSets": 10,
+    "farmTools": 8,
+    "seasons": 4,
+    "destructiveCases": 17,
+    "errors": 0,
+    "warnings": 0
+  },
+  "farmRuntime": {
+    "qualityLevels": 4,
+    "worldTimeProcessing": true,
+    "legacyProductMigration": true,
+    "animalCare": true,
+    "materialConstruction": true,
+    "newFieldsRequireHoe": true
+  },
+  "regression": {
+    "terrainTraversal": true,
+    "simulation": "7/7 PASS",
+    "regionProduction": true,
+    "productionRuntime59Glb": true,
+    "regionGameplay": true,
+    "releaseDestructive": true,
+    "environmentLife": true,
+    "staticAudit": true
+  },
+  "dependencies": {
+    "production": { "total": 0 },
+    "development": { "moderate": 1, "high": 1, "total": 2 },
+    "developmentFixDeferred": true
+  },
+  "runtimeViewportQA": {
+    "status": "BLOCKED",
+    "plannedCases": 24,
+    "reason": "Managed Chromium policy URLBlocklist=[\"*\"]"
+  },
+  "deferred": [
+    "village relationship and weekly life system",
+    "animal guardian companion system",
+    "final commissioned art and animations",
+    "physical-device WebGL acceptance",
+    "development dependency remediation",
+    "v0.17 final sealing corrections"
+  ]
+}

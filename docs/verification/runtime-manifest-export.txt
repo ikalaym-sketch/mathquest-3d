@@ -1,0 +1,9 @@
+
+> mathquest-3d@0.18.0 runtime:manifest:export
+> node scripts/export-runtime-production-manifest.mjs
+
+{
+  "manifest": "public/manifests/runtime-production-manifest.json",
+  "matrix": "docs/REGION_ENCOUNTER_MATRIX.csv",
+  "rows": 40
+}

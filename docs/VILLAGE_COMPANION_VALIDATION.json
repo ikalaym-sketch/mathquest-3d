@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-07-14T06:52:01.886Z",
+  "version": "0.28.0",
+  "ok": true,
+  "residentCount": 10,
+  "companionCount": 8,
+  "caseCount": 10,
+  "cases": [
+    {
+      "id": "ten_named_residents_have_30_dialogue_lines_and_three_events",
+      "status": "PASSED"
+    },
+    {
+      "id": "resident_gift_preferences_reference_real_items",
+      "status": "PASSED"
+    },
+    {
+      "id": "daily_talk_gift_and_relation_event_are_defensive",
+      "status": "PASSED"
+    },
+    {
+      "id": "weekly_weather_schedules_cover_work_rest_and_shelter",
+      "status": "PASSED"
+    },
+    {
+      "id": "shipment_changes_market_tier_stock_and_weekly_commissions",
+      "status": "PASSED"
+    },
+    {
+      "id": "four_season_festivals_have_active_window_and_requirements",
+      "status": "PASSED"
+    },
+    {
+      "id": "eight_companions_have_three_starters_unique_acquisition_and_four_skills",
+      "status": "PASSED"
+    },
+    {
+      "id": "starter_selection_legacy_migration_and_daily_interaction_are_safe",
+      "status": "PASSED"
+    },
+    {
+      "id": "all_five_nonstarter_acquisition_routes_unlock_only_on_matching_event",
+      "status": "PASSED"
+    },
+    {
+      "id": "active_companion_runtime_scales_numeric_modifiers",
+      "status": "PASSED"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

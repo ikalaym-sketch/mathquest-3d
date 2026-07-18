@@ -1,0 +1,18 @@
+{
+  "version": "0.30.0-village-farm-hero-art",
+  "sourceArchive": "mathquest-3d-v0.30.0-village-farm-hero-art.preverify.zip",
+  "cleanExtraction": "PASSED",
+  "nodeModulesIncludedInArchive": false,
+  "npmCi": "PASSED",
+  "canonicalArtPipeline": "PASSED",
+  "foundationIntegration": "PASSED",
+  "environmentLife": "PASSED",
+  "simulation": "PASSED",
+  "regionProduction": "PASSED",
+  "regionGameplay": "PASSED",
+  "releaseRegression": "PASSED",
+  "terrainTraversal": "PASSED",
+  "productionBuild": "PASSED",
+  "npmAuditVulnerabilities": 0,
+  "note": "整體連續驗證命令在最後Build轉換階段達到執行控制器總時限；Build與npm audit其後於同一乾淨解壓目錄單獨重跑並通過。"
+}

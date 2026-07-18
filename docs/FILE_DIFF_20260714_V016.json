@@ -1,0 +1,393 @@
+{
+  "generatedAt": "2026-07-14T02:00:10+08:00",
+  "baseline": "mathquest-3d-v0.15.0-p1p5-recovery-build.zip",
+  "target": "mathquest-3d-v0.16.0-world-simulation-engineering-build.zip",
+  "comparisonRules": {
+    "excludedDirectories": [
+      "node_modules/**",
+      ".git/**"
+    ],
+    "excludedSelfReferentialEvidence": [
+      "docs/FILE_DIFF_20260714_V016.json",
+      "docs/FILE_DIFF_20260714_V016.txt"
+    ]
+  },
+  "counts": {
+    "baseline_files": 260,
+    "target_files": 275,
+    "added": 23,
+    "modified": 19,
+    "deleted": 8,
+    "unchanged": 233
+  },
+  "added": [
+    {
+      "path": "dist/assets/Boss-DvCEWDw8.js",
+      "size": 14467,
+      "sha256": "d4662113e99117c64157092e4aa46c83a8a90a3394b55468c966a95740a8d184"
+    },
+    {
+      "path": "dist/assets/FarmScene-6CrHnXAG.js",
+      "size": 30570,
+      "sha256": "5f97495852e575aefb7bb225817fd199e312a6e30d06f44c981a204ea0d0a7b3"
+    },
+    {
+      "path": "dist/assets/RegionScene-CuXvzE9i.js",
+      "size": 40702,
+      "sha256": "4f443e6531234ee9850c61b21d10fa861eb4eff11f288ec003d02c69e6a39157"
+    },
+    {
+      "path": "dist/assets/SceneProps-BXhJD17j.js",
+      "size": 2088,
+      "sha256": "141ace3a3aea707ccd9d03012b9b9f88615eb790d8fd089ca6d5288b24678953"
+    },
+    {
+      "path": "dist/assets/TrialTowerScene-CK4rr-_Y.js",
+      "size": 4297,
+      "sha256": "1c8fe32322abba558f193e02820851c6ed7227faa9bd5956a8d8f2e954853b1a"
+    },
+    {
+      "path": "dist/assets/WildernessScene-hggGVWKc.js",
+      "size": 7597,
+      "sha256": "5721b9d27172a821ff4d1646650a59f59d78ba5bf0e5b37aceee981007e31846"
+    },
+    {
+      "path": "dist/assets/index-BzQrlfm_.js",
+      "size": 264877,
+      "sha256": "3ba13741202784a4bf4953295e001df0f7b955bafdf9fdc57a295adb3ab256c1"
+    },
+    {
+      "path": "dist/assets/index-dpBw18ff.css",
+      "size": 58728,
+      "sha256": "9d49db2fd4fc94442141161cc7379b4ced23cd013a6c929cbe5b567efbce9122"
+    },
+    {
+      "path": "docs/BASELINE_LOCK_V016.json",
+      "size": 360,
+      "sha256": "98143c3bf725a905717c0effd568f38a559c72e44191c2f4163c5fb7b8179db4"
+    },
+    {
+      "path": "docs/BUILD_20260714_v016.txt",
+      "size": 1939,
+      "sha256": "77602321add7d4a5a33b57e819d65625e431b0761465fbe0e7e73875aa8ff87d"
+    },
+    {
+      "path": "docs/CHANGESET_20260714_V016_WORLD_SIMULATION.md",
+      "size": 2577,
+      "sha256": "3bb5eafca36ed29deecb42820beee654f1f94899071ce0945fc5ff1e532ebd7d"
+    },
+    {
+      "path": "docs/DEPENDENCY_AUDIT_20260714_v016.json",
+      "size": 365,
+      "sha256": "8fee35452794eef584a48a7a8e7ec55e5654348f7c9a15a42edf89b7de312425"
+    },
+    {
+      "path": "docs/REMAINING_SCOPE_20260714_V016.md",
+      "size": 1364,
+      "sha256": "8e4f201ca0f1672f2eb2a4a0ded525a3b4b895d2d4d605bf935e87398ca58e22"
+    },
+    {
+      "path": "docs/RUNTIME_ATTEMPT_20260714_v016.txt",
+      "size": 284,
+      "sha256": "194cabb52626f2178b2312ce4ecc190381bb6398ba1d3183b884c9ee972b792e"
+    },
+    {
+      "path": "docs/SIMULATION_20260714_v016.txt",
+      "size": 725,
+      "sha256": "c8d5496a0a57806c857064c245ae7297b7c8b78ec7ff9449379482622fb009ce"
+    },
+    {
+      "path": "docs/V016_STATUS.md",
+      "size": 863,
+      "sha256": "06b7095faaa2b0ee3847700ae94c673f2b45baca2aa69aa3860eee6343697c34"
+    },
+    {
+      "path": "docs/VALIDATION_20260714_v016.txt",
+      "size": 2957,
+      "sha256": "07e9baaefb154515c33ba4feb8f72a527271580a8f36d5405024f655f6ecb1d3"
+    },
+    {
+      "path": "scripts/run-simulation-tests.mjs",
+      "size": 3703,
+      "sha256": "2ed07cc4cf430169fdd7d65bd8538e021aa61b8a82a3407047e07a94663c1d09"
+    },
+    {
+      "path": "src/components/Environment/SkyWeatherLayer.jsx",
+      "size": 2142,
+      "sha256": "a1c5985fa72cfc5a748e7912c1549bb77837adadcbef661ba62519ae239fac60"
+    },
+    {
+      "path": "src/components/UI/HomeInteriorPanel.jsx",
+      "size": 6543,
+      "sha256": "23efceddc431b659d5fa29344c8caa583e2c38ab83e43b6188dacab7531a0435"
+    },
+    {
+      "path": "src/data/farmProgression.js",
+      "size": 3134,
+      "sha256": "60ebeb1e05ead73342c165045d8acb6343e205fd6975d2094eddb8eacbd01a95"
+    },
+    {
+      "path": "src/services/FarmProgressionValidationService.js",
+      "size": 2285,
+      "sha256": "61711927d1d6ec5f0d1fae2a3ec1d054fbd43ead479625fae61ba4f4c6b190fe"
+    },
+    {
+      "path": "src/systems/farmSimulation.js",
+      "size": 8094,
+      "sha256": "a87dcf968ce8b14a2e5f6f1713a6f1961779feb2a2b0a228ac71196cc25d1a02"
+    }
+  ],
+  "modified": [
+    {
+      "path": "dist/index.html",
+      "before": {
+        "size": 1059,
+        "sha256": "e06b954ac95c6da5199bbedf62b31d1b96ddfc6f39fd1b7439b8de08067fce72"
+      },
+      "after": {
+        "size": 1059,
+        "sha256": "a13f7f2e075e8c5575dbdb1b6d6c8e8261fb4ad19ba6eea17c3e824d2fb72804"
+      }
+    },
+    {
+      "path": "docs/WORK_LEDGER.csv",
+      "before": {
+        "size": 4815,
+        "sha256": "e2767913a8185ab32f29069f1f56d6370654de60204bbc3529c0824171dd84ba"
+      },
+      "after": {
+        "size": 7323,
+        "sha256": "734cbb593712c4cc3e7436a4c9fb22ee053a6d4d6279d11a80c2d4680a5e9807"
+      }
+    },
+    {
+      "path": "package-lock.json",
+      "before": {
+        "size": 146861,
+        "sha256": "105fd935b4961c2d160aaa3eee47d76c1680bd0ec83094a803b74b659435a7c3"
+      },
+      "after": {
+        "size": 146861,
+        "sha256": "152f49157b7c21848f8c27ffb2eab7a9e7bfeb56f632942ee547b38a018fc046"
+      }
+    },
+    {
+      "path": "package.json",
+      "before": {
+        "size": 816,
+        "sha256": "6f20c80c5be327a4b475c1d163f3152918068eafb73f87f174e34096e6759a77"
+      },
+      "after": {
+        "size": 880,
+        "sha256": "ebaa00273f1bbba7ea0129fdcd646b44654f0dbdbca8c5b4767e651dffc3ff90"
+      }
+    },
+    {
+      "path": "scripts/run-audit.mjs",
+      "before": {
+        "size": 5197,
+        "sha256": "3c3f2de5a996d2cac5b1622bec34182f7e9f2dd67b923ac57e3c00046c694a56"
+      },
+      "after": {
+        "size": 5823,
+        "sha256": "269bf06db317b5bd1880169081e83cd9c5a2193c656016073925b6f815914f13"
+      }
+    },
+    {
+      "path": "scripts/runtime-qa.mjs",
+      "before": {
+        "size": 4477,
+        "sha256": "7f5518483dc54d347190e92e9aada80bc497f41340abcba18c2a1f00ef33e90b"
+      },
+      "after": {
+        "size": 5497,
+        "sha256": "b55872edb1ea70b6799e3f346489cd34c444f5ebfcc1bda90962075a3301ffae"
+      }
+    },
+    {
+      "path": "src/components/Environment/WorldEnvironment.jsx",
+      "before": {
+        "size": 5568,
+        "sha256": "16da7e240f02af51d8c6c6bd35feb0625d2963e5117bea3a3798b7956192382c"
+      },
+      "after": {
+        "size": 6046,
+        "sha256": "34ed64840d7792f9d16fd4079642f89fcd1e39202ea6f2ddbc8842e9dbde242f"
+      }
+    },
+    {
+      "path": "src/components/Farm/FarmScene.jsx",
+      "before": {
+        "size": 11207,
+        "sha256": "09260490fcf120d6f2579204b3ce7384f66d581a0e3da77d589a019021663df4"
+      },
+      "after": {
+        "size": 14377,
+        "sha256": "f2250f7f86bb1490a5cf8e6ea3ed4ff58bcb89e793e6aae29dae0b6c2b7543d5"
+      }
+    },
+    {
+      "path": "src/components/UI/BuildPanel.jsx",
+      "before": {
+        "size": 4778,
+        "sha256": "7f62b0f438e15ba70f8e636983c8ed819622fa6db1fb4d0f85019ab339fbe83e"
+      },
+      "after": {
+        "size": 5333,
+        "sha256": "dbf333a3e15df0d14a83409370b8e2760543096c5869bef27d49c8ab095e95b9"
+      }
+    },
+    {
+      "path": "src/components/UI/CarpenterPanel.jsx",
+      "before": {
+        "size": 1938,
+        "sha256": "0da77d181ea343b695d345a5af001c9461204934934623ce6650206044f9bfe0"
+      },
+      "after": {
+        "size": 2586,
+        "sha256": "6febb6fc0894f2c0f93f20268ae6b6df61e7cd98c5eb4a90cb07c82ffe6aee90"
+      }
+    },
+    {
+      "path": "src/components/UI/CharacterCreationPanel.jsx",
+      "before": {
+        "size": 6587,
+        "sha256": "a3d5b0ea0c929de101862251b9526fdb7d0d8b0b77c754b3ef0d0f4509a8fde7"
+      },
+      "after": {
+        "size": 7246,
+        "sha256": "afb6ce7f6348e9c36affa4c52acd5d27e596e4a98592bc318606e8982cd5d770"
+      }
+    },
+    {
+      "path": "src/components/UI/GameMenu.jsx",
+      "before": {
+        "size": 2312,
+        "sha256": "25fc7af7e8538ee91d41abdb82c24ce45e1063ff8b64ceab74b74b68a41e5997"
+      },
+      "after": {
+        "size": 2315,
+        "sha256": "a66ad299ef67bb8de39be8e26d5267c92f6d3d572144a2fe83f0e95369b5e6a8"
+      }
+    },
+    {
+      "path": "src/components/UI/HomeDecorPanel.jsx",
+      "before": {
+        "size": 2898,
+        "sha256": "c09490250ddb7cf1ce7eaa70ada37d800aabc74fadef334c714812ca7be31eae"
+      },
+      "after": {
+        "size": 2427,
+        "sha256": "75c428c69f4b4b5dbfb04d8b8a6a2ffc3a179443760f8df9108888a57f0b0a78"
+      }
+    },
+    {
+      "path": "src/components/UI/PanelHost.jsx",
+      "before": {
+        "size": 1398,
+        "sha256": "69d816eccdbbd41425989dae86734a6732c4f5764e030c428d6f8c025fc1437d"
+      },
+      "after": {
+        "size": 1516,
+        "sha256": "38c6374ce69689f307b045633d3deea647de5c812bf4eaa45834c21cea5d7548"
+      }
+    },
+    {
+      "path": "src/components/UI/SeedPickerPanel.jsx",
+      "before": {
+        "size": 2024,
+        "sha256": "f0edbdc2b838e3a8f75aff7e1c1b83901f2b87aeb15ef66432551f0d2bb2592f"
+      },
+      "after": {
+        "size": 2413,
+        "sha256": "c4dd4500180763f145d5003c588e9104c24172184ff8da03d8c93fd4a148a8fb"
+      }
+    },
+    {
+      "path": "src/components/World/FarmKit.jsx",
+      "before": {
+        "size": 19350,
+        "sha256": "99a0af7f76a40705c848263567e81ef0f67ec04f95761bf776569f61199e2bc5"
+      },
+      "after": {
+        "size": 25851,
+        "sha256": "7dd6ce85d5b454ebe33eee4024bf8d83d80351f5bca55438c7725411fd78483f"
+      }
+    },
+    {
+      "path": "src/qa/QaBridge.jsx",
+      "before": {
+        "size": 2232,
+        "sha256": "6b35fe6524891678c5fae6981527c3196af90cc262a2b27f23fb06749828c158"
+      },
+      "after": {
+        "size": 3879,
+        "sha256": "11c42f9205c6cea688081b5e87898bd20a71a161a761ae9129a4a87aa2d7851b"
+      }
+    },
+    {
+      "path": "src/store/farmStore.js",
+      "before": {
+        "size": 10234,
+        "sha256": "3cbf0951ed9188e77d08ede69c7fd9957e857580e37a596f820239fa0560264c"
+      },
+      "after": {
+        "size": 13786,
+        "sha256": "6f8a7a713987ad1a66f229946a20cb0ce72bb147c4c2fb4ada3ca52f0a4528ba"
+      }
+    },
+    {
+      "path": "src/store/useStore.js",
+      "before": {
+        "size": 38972,
+        "sha256": "22f265f04c9b1219dfe16a0bb0e4d424f08fa82a15cdab8191678bfee09fe7ce"
+      },
+      "after": {
+        "size": 40310,
+        "sha256": "398211fe06b83e351d382fb549cb0a9a6895645ac233758116864690cfd2a489"
+      }
+    }
+  ],
+  "deleted": [
+    {
+      "path": "dist/assets/Boss-CC0k53-B.js",
+      "size": 14467,
+      "sha256": "195beb9b760c2170da2c5c968f969d96720028016987ae6bcb124eb2b24e2f5f"
+    },
+    {
+      "path": "dist/assets/FarmScene-CM3PlRvc.js",
+      "size": 22785,
+      "sha256": "fe82526f3e9dce2b64297f24eba96aec466957d0ae4ce6a6cfaeeeebefded285"
+    },
+    {
+      "path": "dist/assets/RegionScene-svxU7Te7.js",
+      "size": 40702,
+      "sha256": "abbac6cd4db6585e4ff7f683e1c3ead70041493ebcf5d2b20d5847151a902baf"
+    },
+    {
+      "path": "dist/assets/SceneProps-B3SfZwBO.js",
+      "size": 2088,
+      "sha256": "7cc509afa36dce944b65f9183f491469d569882e53e65c58f4e92e3c3163a4d8"
+    },
+    {
+      "path": "dist/assets/TrialTowerScene-CSjZ3Ft6.js",
+      "size": 4297,
+      "sha256": "2ef31043c943be16ccdcb3a5ee662c63f03d539c1b0eccc8f68782c23f890abe"
+    },
+    {
+      "path": "dist/assets/WildernessScene--kH2q0zz.js",
+      "size": 7597,
+      "sha256": "9dfe21a466a6b64f7f271fc58dda305584c7491e633951b4bb801b20f101d662"
+    },
+    {
+      "path": "dist/assets/index-0RXgdBOx.css",
+      "size": 56677,
+      "sha256": "e9654acd37f5e2d34ea8c7712e802a24c3f3667036ad899489944c6d449673b7"
+    },
+    {
+      "path": "dist/assets/index-BFs_zP-o.js",
+      "size": 247615,
+      "sha256": "f71def8550ea57ec5ecf45844722dc51bd9f75607f1116498ccbbbae31567085"
+    }
+  ]
+}

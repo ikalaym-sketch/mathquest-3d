@@ -1,0 +1,7 @@
+{
+  "baselineFile": "mathquest-3d-v0.16.0-world-simulation-engineering-build.zip",
+  "baselineSha256": "c9fc76f23fd783f3a8f122ebe030c8d960bcc7f2856ec1ebdbbf20a797f4ccc8",
+  "targetVersion": "0.17.0",
+  "scope": "region-character-production-engineering-build",
+  "createdAt": "2026-07-14T04:00:00+08:00"
+}

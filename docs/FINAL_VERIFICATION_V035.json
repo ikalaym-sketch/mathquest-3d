@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-07-15T23:50:08.527Z",
+  "version": "0.35.0-canonical-800",
+  "status": "PASSED_FOR_V035_RELEASE",
+  "ok": true,
+  "cases": [
+    {
+      "id": "release_version_and_frozen_target",
+      "status": "PASSED",
+      "result": {
+        "packageVersion": "0.35.0",
+        "publicRegistryLock": true,
+        "artTargetVersion": "v0.35",
+        "target": 800,
+        "remaining": 0
+      }
+    },
+    {
+      "id": "canonical_registry_and_public_files",
+      "status": "PASSED",
+      "result": {
+        "registry": 800,
+        "publicFiles": 800,
+        "bytes": 25116764,
+        "invalidHeaders": 0,
+        "missing": 0,
+        "extra": 0
+      }
+    },
+    {
+      "id": "public_dist_asset_parity",
+      "status": "PASSED",
+      "result": {
+        "publicCanonical": 800,
+        "distBuildCopies": 800,
+        "countedCanonical": 800,
+        "hashMismatches": 0
+      }
+    },
+    {
+      "id": "twelve_category_distribution",
+      "status": "PASSED",
+      "result": {
+        "actual": {
+          "characters": 80,
+          "companions": 32,
+          "equipment": 140,
+          "village": 80,
+          "farm": 80,
+          "forest": 45,
+          "regions": 120,
+          "creatures": 72,
+          "interiors": 60,
+          "tower": 36,
+          "events": 35,
+          "effects": 20
+        },
+        "expected": {
+          "characters": 80,
+          "companions": 32,
+          "equipment": 140,
+          "village": 80,
+          "farm": 80,
+          "forest": 45,
+          "regions": 120,
+          "creatures": 72,
+          "interiors": 60,
+          "tower": 36,
+          "events": 35,
+          "effects": 20
+        },
+        "total": 800
+      }
+    },
+    {
+      "id": "legacy_disposition_and_net_new",
+      "status": "PASSED",
+      "result": {
+        "keep": 24,
+        "rework": 82,
+        "replace": 28,
+        "new": 666
+      }
+    },
+    {
+      "id": "runtime_atlas_release",
+      "status": "PASSED",
+      "result": {
+        "release": "v0.35.0",
+        "atlases": 16,
+        "channelPairs": 73,
+        "runtimeFiles": 146,
+        "missing": 0
+      }
+    },
+    {
+      "id": "meshopt_safe_adoption_gate",
+      "status": "PASSED",
+      "result": {
+        "encoderVersion": "1.1.1",
+        "auditedAssets": 96,
+        "accessors": 5286,
+        "candidateRatio": 0.615,
+        "runtimeExtensionRequired": false,
+        "physicalCompatibilityGate": "v0.36"
+      }
+    },
+    {
+      "id": "production_http_smoke",
+      "status": "PASSED",
+      "result": {
+        "cases": 11,
+        "passed": 11,
+        "basePath": "/mathquest-3d/"
+      }
+    },
+    {
+      "id": "headless_webgl_viewport_region_matrix",
+      "status": "PASSED",
+      "result": {
+        "profiles": 3,
+        "regions": 8,
+        "cases": 24,
+        "passed": 24,
+        "failed": 0,
+        "browserErrors": 0,
+        "screenshots": 24
+      }
+    },
+    {
+      "id": "production_build_base_path",
+      "status": "PASSED",
+      "result": {
+        "basePath": "/mathquest-3d/",
+        "hashedEntry": "/mathquest-3d/assets/index-DkVC3U64.js",
+        "distCanonicalCopies": 800
+      }
+    }
+  ],
+  "errors": [],
+  "physicalAcceptance": {
+    "status": "NOT_STARTED",
+    "scheduledVersion": "v0.36",
+    "notClaimed": [
+      "physical Android phone FPS, GPU memory, thermals or long-session stability",
+      "physical Android tablet acceptance",
+      "physical desktop GPU acceptance",
+      "mandatory EXT_meshopt_compression runtime compatibility"
+    ]
+  }
+}

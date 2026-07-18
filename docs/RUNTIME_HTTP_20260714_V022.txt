@@ -1,0 +1,5 @@
+MathQuest 3D v0.22.0 Runtime HTTP Check
+URL: http://127.0.0.1:4188/mathquest-3d/
+Result: HTTP 200
+Mode: vite preview, production dist
+Date: 2026-07-14 Asia/Taipei

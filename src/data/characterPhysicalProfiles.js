@@ -1,0 +1,85 @@
+// v0.29.1 角色實體結構規格。
+// 視覺部位、碰撞、互動與裝備 Socket 分離；程序化 Rig 與正式 Skinned GLB 必須共用相同命名。
+
+export const PLAYER_EQUIPMENT_SOCKET_IDS = Object.freeze([
+  'head',
+  'body',
+  'hands',
+  'legs',
+  'feet',
+  'main_hand',
+  'off_hand',
+  'back',
+  'waist',
+  'face',
+  'hair',
+  'accessory',
+  'aura',
+  'costume_override',
+  'interaction_origin',
+]);
+
+export const CHARACTER_PHYSICAL_PROFILES = {
+  player_child: {
+    id: 'player_child', height: 2.05, radius: 0.34,
+    visualParts: ['pelvis', 'torso', 'neck', 'head', 'hair', 'upper_arm_l', 'lower_arm_l', 'hand_l', 'upper_arm_r', 'lower_arm_r', 'hand_r', 'upper_leg_l', 'lower_leg_l', 'foot_l', 'upper_leg_r', 'lower_leg_r', 'foot_r'],
+    collider: { shape: 'capsule', halfHeight: 0.68, radius: 0.34, position: [0, 1.02, 0] },
+    hurtVolumes: [
+      { id: 'head', shape: 'sphere', radius: 0.34, position: [0, 1.73, 0] },
+      { id: 'torso', shape: 'capsule', halfHeight: 0.38, radius: 0.32, position: [0, 1.12, 0] },
+    ],
+    sockets: [
+      { id: 'head', position: [0, 2.08, 0] },
+      { id: 'body', position: [0, 1.18, 0] },
+      { id: 'hands', position: [0, 0.82, 0] },
+      { id: 'legs', position: [0, 0.46, 0] },
+      { id: 'feet', position: [0, 0.08, 0] },
+      { id: 'main_hand', position: [0.52, 0.82, 0] },
+      { id: 'off_hand', position: [-0.52, 0.82, 0] },
+      { id: 'back', position: [0, 1.36, -0.28] },
+      { id: 'waist', position: [0, 0.84, 0] },
+      { id: 'face', position: [0, 1.82, 0.34] },
+      { id: 'hair', position: [0, 2.06, 0] },
+      { id: 'accessory', position: [0, 1.12, 0.35] },
+      { id: 'aura', position: [0, 0.05, 0] },
+      { id: 'costume_override', position: [0, 1.05, 0] },
+      { id: 'fairy', position: [-0.75, 1.75, -0.15] },
+      { id: 'interaction_origin', position: [0, 1.05, 0.45] },
+    ],
+  },
+  npc_adult: {
+    id: 'npc_adult', height: 2.0, radius: 0.34,
+    visualParts: ['pelvis', 'torso', 'neck', 'head', 'hair', 'upper_arm_l', 'lower_arm_l', 'hand_l', 'upper_arm_r', 'lower_arm_r', 'hand_r', 'upper_leg_l', 'lower_leg_l', 'foot_l', 'upper_leg_r', 'lower_leg_r', 'foot_r'],
+    collider: { shape: 'capsule', halfHeight: 0.64, radius: 0.34, position: [0, 1.0, 0] },
+    sockets: [
+      { id: 'head', position: [0, 2.02, 0] },
+      { id: 'main_hand', position: [0.52, 0.8, 0] },
+      { id: 'off_hand', position: [-0.52, 0.8, 0] },
+      { id: 'back', position: [0, 1.32, -0.28] },
+      { id: 'waist', position: [0, 0.82, 0] },
+      { id: 'face', position: [0, 1.78, 0.34] },
+      { id: 'hair', position: [0, 2.02, 0] },
+      { id: 'accessory', position: [0, 1.08, 0.34] },
+      { id: 'dialogue', position: [0, 2.3, 0] },
+      { id: 'interaction_origin', position: [0, 1.0, 0.45] },
+      { id: 'work_tool', position: [0.5, 0.86, 0.05] },
+    ],
+  },
+  npc_child: {
+    id: 'npc_child', height: 1.65, radius: 0.3,
+    visualParts: ['pelvis', 'torso', 'neck', 'head', 'hair', 'upper_arm_l', 'lower_arm_l', 'hand_l', 'upper_arm_r', 'lower_arm_r', 'hand_r', 'upper_leg_l', 'lower_leg_l', 'foot_l', 'upper_leg_r', 'lower_leg_r', 'foot_r'],
+    collider: { shape: 'capsule', halfHeight: 0.5, radius: 0.3, position: [0, 0.82, 0] },
+    sockets: [
+      { id: 'head', position: [0, 1.7, 0] },
+      { id: 'main_hand', position: [0.43, 0.68, 0] },
+      { id: 'off_hand', position: [-0.43, 0.68, 0] },
+      { id: 'back', position: [0, 1.1, -0.24] },
+      { id: 'dialogue', position: [0, 1.95, 0] },
+      { id: 'interaction_origin', position: [0, 0.82, 0.38] },
+    ],
+  },
+};
+
+export function getCharacterPhysicalProfile(profileId) {
+  return CHARACTER_PHYSICAL_PROFILES[profileId] || CHARACTER_PHYSICAL_PROFILES.npc_adult;
+}

@@ -1,0 +1,4 @@
+{
+  "url": "http://127.0.0.1:4173/mathquest-3d/?qa=1",
+  "error": "Error('Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:4173/mathquest-3d/?qa=1\\nCall log:\\n  - navigating to \"http://127.0.0.1:4173/mathquest-3d/?qa=1\", waiting until \"domcontentloaded\"\\n')"
+}

@@ -1,0 +1,884 @@
+
+> mathquest-3d@0.23.0 runtime:production:test
+> node scripts/run-production-runtime-tests.mjs
+
+{
+  "generatedAt": "2026-07-14T00:34:27.134Z",
+  "ok": true,
+  "contract": {
+    "regions": 8,
+    "normalMonsters": 24,
+    "elites": 8,
+    "bosses": 8,
+    "structureAssets": 15,
+    "characterAssets": 3,
+    "encounterAssets": 40
+  },
+  "assetFiles": 59,
+  "totalBytes": 1702012,
+  "byKind": {
+    "character": 3,
+    "structure": 16,
+    "normal": 24,
+    "elite": 8,
+    "boss": 8
+  },
+  "errors": [],
+  "warnings": [],
+  "files": [
+    {
+      "kind": "character",
+      "id": "player_child",
+      "url": "/models/characters/player_child.glb",
+      "bytes": 85644,
+      "nodes": 45,
+      "meshes": 19,
+      "skins": 1,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Attack",
+        "Interact",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "character",
+      "id": "npc_adult",
+      "url": "/models/characters/npc_adult.glb",
+      "bytes": 85608,
+      "nodes": 45,
+      "meshes": 19,
+      "skins": 1,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Attack",
+        "Interact",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "character",
+      "id": "npc_child",
+      "url": "/models/characters/npc_child.glb",
+      "bytes": 85652,
+      "nodes": 45,
+      "meshes": 19,
+      "skins": 1,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Attack",
+        "Interact",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "structure",
+      "id": "windmill_station",
+      "url": "/models/regions/structures/windmill_station.glb",
+      "bytes": 27840,
+      "nodes": 17,
+      "meshes": 11,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "cloud_observatory",
+      "url": "/models/regions/structures/cloud_observatory.glb",
+      "bytes": 35220,
+      "nodes": 14,
+      "meshes": 9,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "aurora_shrine",
+      "url": "/models/regions/structures/aurora_shrine.glb",
+      "bytes": 23428,
+      "nodes": 16,
+      "meshes": 10,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "orchard_barn",
+      "url": "/models/regions/structures/orchard_barn.glb",
+      "bytes": 22956,
+      "nodes": 20,
+      "meshes": 11,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "beekeeper_pavilion",
+      "url": "/models/regions/structures/beekeeper_pavilion.glb",
+      "bytes": 37964,
+      "nodes": 19,
+      "meshes": 13,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "crystal_dock",
+      "url": "/models/regions/structures/crystal_dock.glb",
+      "bytes": 52944,
+      "nodes": 27,
+      "meshes": 19,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "prism_sanctuary",
+      "url": "/models/regions/structures/prism_sanctuary.glb",
+      "bytes": 50004,
+      "nodes": 22,
+      "meshes": 13,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "canyon_forge",
+      "url": "/models/regions/structures/canyon_forge.glb",
+      "bytes": 27292,
+      "nodes": 16,
+      "meshes": 9,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "rope_bridge_station",
+      "url": "/models/regions/structures/rope_bridge_station.glb",
+      "bytes": 30880,
+      "nodes": 20,
+      "meshes": 13,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "mushroom_house",
+      "url": "/models/regions/structures/mushroom_house.glb",
+      "bytes": 47680,
+      "nodes": 14,
+      "meshes": 10,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "glow_pavilion",
+      "url": "/models/regions/structures/glow_pavilion.glb",
+      "bytes": 72068,
+      "nodes": 26,
+      "meshes": 17,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "gear_workshop",
+      "url": "/models/regions/structures/gear_workshop.glb",
+      "bytes": 48564,
+      "nodes": 23,
+      "meshes": 17,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "clock_core",
+      "url": "/models/regions/structures/clock_core.glb",
+      "bytes": 39136,
+      "nodes": 14,
+      "meshes": 9,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "star_learning_hall",
+      "url": "/models/regions/structures/star_learning_hall.glb",
+      "bytes": 18128,
+      "nodes": 14,
+      "meshes": 9,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "adventure_lodge",
+      "url": "/models/regions/structures/adventure_lodge.glb",
+      "bytes": 19508,
+      "nodes": 15,
+      "meshes": 9,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "structure",
+      "id": "canonical_bridge",
+      "url": "/models/regions/structures/canonical_bridge.glb",
+      "bytes": 46880,
+      "nodes": 29,
+      "meshes": 26,
+      "skins": 0,
+      "animations": []
+    },
+    {
+      "kind": "normal",
+      "id": "wind_monster_1",
+      "url": "/models/regions/monsters/wind_monster_1.glb",
+      "bytes": 23800,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "wind_monster_2",
+      "url": "/models/regions/monsters/wind_monster_2.glb",
+      "bytes": 21884,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "wind_monster_3",
+      "url": "/models/regions/monsters/wind_monster_3.glb",
+      "bytes": 20368,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "elite",
+      "id": "wind_elite",
+      "url": "/models/regions/elites/wind_elite.glb",
+      "bytes": 17724,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "boss",
+      "id": "wind_boss",
+      "url": "/models/regions/bosses/wind_boss.glb",
+      "bytes": 24152,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "snow_monster_1",
+      "url": "/models/regions/monsters/snow_monster_1.glb",
+      "bytes": 20332,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "snow_monster_2",
+      "url": "/models/regions/monsters/snow_monster_2.glb",
+      "bytes": 17652,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "snow_monster_3",
+      "url": "/models/regions/monsters/snow_monster_3.glb",
+      "bytes": 17580,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "elite",
+      "id": "snow_elite",
+      "url": "/models/regions/elites/snow_elite.glb",
+      "bytes": 17720,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "boss",
+      "id": "snow_boss",
+      "url": "/models/regions/bosses/snow_boss.glb",
+      "bytes": 24148,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "farm_monster_1",
+      "url": "/models/regions/monsters/farm_monster_1.glb",
+      "bytes": 23800,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "farm_monster_2",
+      "url": "/models/regions/monsters/farm_monster_2.glb",
+      "bytes": 20364,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "farm_monster_3",
+      "url": "/models/regions/monsters/farm_monster_3.glb",
+      "bytes": 24404,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "elite",
+      "id": "farm_elite",
+      "url": "/models/regions/elites/farm_elite.glb",
+      "bytes": 17724,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "boss",
+      "id": "farm_boss",
+      "url": "/models/regions/bosses/farm_boss.glb",
+      "bytes": 24152,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "star_monster_1",
+      "url": "/models/regions/monsters/star_monster_1.glb",
+      "bytes": 23800,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "star_monster_2",
+      "url": "/models/regions/monsters/star_monster_2.glb",
+      "bytes": 20368,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "star_monster_3",
+      "url": "/models/regions/monsters/star_monster_3.glb",
+      "bytes": 20368,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "elite",
+      "id": "star_elite",
+      "url": "/models/regions/elites/star_elite.glb",
+      "bytes": 17720,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "boss",
+      "id": "star_boss",
+      "url": "/models/regions/bosses/star_boss.glb",
+      "bytes": 24148,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "crystal_monster_1",
+      "url": "/models/regions/monsters/crystal_monster_1.glb",
+      "bytes": 23800,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "crystal_monster_2",
+      "url": "/models/regions/monsters/crystal_monster_2.glb",
+      "bytes": 20372,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "crystal_monster_3",
+      "url": "/models/regions/monsters/crystal_monster_3.glb",
+      "bytes": 17692,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "elite",
+      "id": "crystal_elite",
+      "url": "/models/regions/elites/crystal_elite.glb",
+      "bytes": 17724,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "boss",
+      "id": "crystal_boss",
+      "url": "/models/regions/bosses/crystal_boss.glb",
+      "bytes": 24152,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "canyon_monster_1",
+      "url": "/models/regions/monsters/canyon_monster_1.glb",
+      "bytes": 23804,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "canyon_monster_2",
+      "url": "/models/regions/monsters/canyon_monster_2.glb",
+      "bytes": 24408,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "canyon_monster_3",
+      "url": "/models/regions/monsters/canyon_monster_3.glb",
+      "bytes": 20368,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "elite",
+      "id": "canyon_elite",
+      "url": "/models/regions/elites/canyon_elite.glb",
+      "bytes": 17724,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "boss",
+      "id": "canyon_boss",
+      "url": "/models/regions/bosses/canyon_boss.glb",
+      "bytes": 24156,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "mushroom_monster_1",
+      "url": "/models/regions/monsters/mushroom_monster_1.glb",
+      "bytes": 23804,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "mushroom_monster_2",
+      "url": "/models/regions/monsters/mushroom_monster_2.glb",
+      "bytes": 20372,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "mushroom_monster_3",
+      "url": "/models/regions/monsters/mushroom_monster_3.glb",
+      "bytes": 20372,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "elite",
+      "id": "mushroom_elite",
+      "url": "/models/regions/elites/mushroom_elite.glb",
+      "bytes": 17728,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "boss",
+      "id": "mushroom_boss",
+      "url": "/models/regions/bosses/mushroom_boss.glb",
+      "bytes": 24152,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "clockwork_monster_1",
+      "url": "/models/regions/monsters/clockwork_monster_1.glb",
+      "bytes": 20376,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "clockwork_monster_2",
+      "url": "/models/regions/monsters/clockwork_monster_2.glb",
+      "bytes": 21892,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "normal",
+      "id": "clockwork_monster_3",
+      "url": "/models/regions/monsters/clockwork_monster_3.glb",
+      "bytes": 17700,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "elite",
+      "id": "clockwork_elite",
+      "url": "/models/regions/elites/clockwork_elite.glb",
+      "bytes": 17652,
+      "nodes": 7,
+      "meshes": 4,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    },
+    {
+      "kind": "boss",
+      "id": "clockwork_boss",
+      "url": "/models/regions/bosses/clockwork_boss.glb",
+      "bytes": 24160,
+      "nodes": 9,
+      "meshes": 6,
+      "skins": 0,
+      "animations": [
+        "Idle",
+        "Move",
+        "Attack",
+        "Hurt",
+        "Defeat"
+      ]
+    }
+  ]
+}

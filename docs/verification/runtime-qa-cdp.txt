@@ -1,0 +1,22 @@
+
+> mathquest-3d@0.18.0 runtime:qa:cdp
+> node scripts/runtime-qa-cdp.mjs
+
+QA base URL: http://172.26.36.23:4173/mathquest-3d/?qa=1
+Waiting for Vite...
+Vite ready. Waiting for Chromium CDP...
+Chromium CDP ready. Creating target...
+Target created: 71BB798D1CA4BB5A75A679F119A49592
+CDP connected. Enabling domains...
+CDP domains enabled.
+Profile start: desktop
+Navigating...
+Navigation command returned. Checking browser policy...
+Browser processes terminated.
+{
+  "profiles": 1,
+  "cases": 0,
+  "passed": 0,
+  "failed": 0,
+  "plannedCases": 24
+}

@@ -1,0 +1,24 @@
+{
+  "version": "0.27.0",
+  "baselineVersion": "0.26.0",
+  "baselineArtifact": "mathquest-3d-v0.26.0-water-assets-life-interiors-engineering-build.zip",
+  "baselineSha256": "2484d2bb2317207d04d1609f3a6469c1597d4a045d6ff870e1e7b814ce5e3770",
+  "canonicalRuntimeOnly": true,
+  "scope": [
+    "equipment and item runtime truth",
+    "farm tools and stamina",
+    "seasonal crops",
+    "quality product instances",
+    "animal care",
+    "world-time processing",
+    "material-based one-day farm construction"
+  ],
+  "deferred": [
+    "village relationship system",
+    "animal guardian companions",
+    "final commissioned art",
+    "physical-device WebGL acceptance",
+    "development dependency remediation",
+    "v0.17 sealing corrections"
+  ]
+}

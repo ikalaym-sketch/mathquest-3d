@@ -1,0 +1,41 @@
+Region_ID,Tier,Actor_ID,Name,Behavior,HP,ATK,Weakness,Model_URL,Spawn_Count
+wind_highlands,normal,wind_monster_1,Gale Puff,hop,34,6,lightning,/models/regions/monsters/wind_monster_1.glb,8
+wind_highlands,normal,wind_monster_2,Kite Raider,kite,42,8,lightning,/models/regions/monsters/wind_monster_2.glb,8
+wind_highlands,normal,wind_monster_3,Cloud Manta,weave,50,10,lightning,/models/regions/monsters/wind_monster_3.glb,8
+wind_highlands,elite,wind_elite,Storm Warden,tank,135,14,lightning,/models/regions/elites/wind_elite.glb,1
+wind_highlands,boss,wind_boss,Tempest Roc,boss,340,21,,/models/regions/bosses/wind_boss.glb,1
+snow_valley,normal,snow_monster_1,Frost Wisp,weave,41,7,fire,/models/regions/monsters/snow_monster_1.glb,8
+snow_valley,normal,snow_monster_2,Ice Tusk,shield,49,9,fire,/models/regions/monsters/snow_monster_2.glb,8
+snow_valley,normal,snow_monster_3,Aurora Sentinel,weeping,57,11,fire,/models/regions/monsters/snow_monster_3.glb,8
+snow_valley,elite,snow_elite,Mirror Lake Knight,tank,163,16,fire,/models/regions/elites/snow_elite.glb,1
+snow_valley,boss,snow_boss,Aurora Stag,boss,395,24,,/models/regions/bosses/snow_boss.glb,1
+farm_plains,normal,farm_monster_1,Hay Sprout,hop,48,8,fire,/models/regions/monsters/farm_monster_1.glb,8
+farm_plains,normal,farm_monster_2,Orchard Bandit,flee,56,10,fire,/models/regions/monsters/farm_monster_2.glb,8
+farm_plains,normal,farm_monster_3,Burrow Mole,burrow,64,12,fire,/models/regions/monsters/farm_monster_3.glb,8
+farm_plains,elite,farm_elite,Harvest Guardian,shield,191,18,fire,/models/regions/elites/farm_elite.glb,1
+farm_plains,boss,farm_boss,Golden Horn Boar,boss,450,27,,/models/regions/bosses/farm_boss.glb,1
+star_village,normal,star_monster_1,Star Jelly,hop,55,9,lightning,/models/regions/monsters/star_monster_1.glb,8
+star_village,normal,star_monster_2,Book Mimic,lure,63,11,lightning,/models/regions/monsters/star_monster_2.glb,8
+star_village,normal,star_monster_3,Meadow Rascal,flee,71,13,lightning,/models/regions/monsters/star_monster_3.glb,8
+star_village,elite,star_elite,Learning Garden Keeper,tank,219,20,lightning,/models/regions/elites/star_elite.glb,1
+star_village,boss,star_boss,Comet Lion,boss,505,30,,/models/regions/bosses/star_boss.glb,1
+crystal_lake,normal,crystal_monster_1,Prism Slime,hop,62,10,lightning,/models/regions/monsters/crystal_monster_1.glb,8
+crystal_lake,normal,crystal_monster_2,Lake Skimmer,weave,70,12,lightning,/models/regions/monsters/crystal_monster_2.glb,8
+crystal_lake,normal,crystal_monster_3,Echo Shell,shield,78,14,lightning,/models/regions/monsters/crystal_monster_3.glb,8
+crystal_lake,elite,crystal_elite,Prism Warden,tank,247,22,lightning,/models/regions/elites/crystal_elite.glb,1
+crystal_lake,boss,crystal_boss,Crystal Leviathan,boss,560,33,,/models/regions/bosses/crystal_boss.glb,1
+sun_canyon,normal,canyon_monster_1,Cactus Hopper,hop,69,11,ice,/models/regions/monsters/canyon_monster_1.glb,8
+sun_canyon,normal,canyon_monster_2,Sand Scorpion,burrow,77,13,ice,/models/regions/monsters/canyon_monster_2.glb,8
+sun_canyon,normal,canyon_monster_3,Sun Bomb,explode,85,15,ice,/models/regions/monsters/canyon_monster_3.glb,8
+sun_canyon,elite,canyon_elite,Rope Bridge Marauder,shield,275,24,ice,/models/regions/elites/canyon_elite.glb,1
+sun_canyon,boss,canyon_boss,Solar Sandwyrm,boss,615,36,,/models/regions/bosses/canyon_boss.glb,1
+mushroom_grove,normal,mushroom_monster_1,Bubblecap Slime,hop,76,12,fire,/models/regions/monsters/mushroom_monster_1.glb,8
+mushroom_grove,normal,mushroom_monster_2,Spore Dancer,weave,84,14,fire,/models/regions/monsters/mushroom_monster_2.glb,8
+mushroom_grove,normal,mushroom_monster_3,Glow Maw,lure,92,16,fire,/models/regions/monsters/mushroom_monster_3.glb,8
+mushroom_grove,elite,mushroom_elite,Fairy Ring Guardian,tank,303,26,fire,/models/regions/elites/mushroom_elite.glb,1
+mushroom_grove,boss,mushroom_boss,Elder Mooncap,boss,670,39,,/models/regions/bosses/mushroom_boss.glb,1
+clockwork_ruins,normal,clockwork_monster_1,Gearling,flee,83,13,lightning,/models/regions/monsters/clockwork_monster_1.glb,8
+clockwork_ruins,normal,clockwork_monster_2,Steam Drone,kite,91,15,lightning,/models/regions/monsters/clockwork_monster_2.glb,8
+clockwork_ruins,normal,clockwork_monster_3,Clock Knight,tank,99,17,lightning,/models/regions/monsters/clockwork_monster_3.glb,8
+clockwork_ruins,elite,clockwork_elite,Puzzle Hall Executor,weeping,331,28,lightning,/models/regions/elites/clockwork_elite.glb,1
+clockwork_ruins,boss,clockwork_boss,Chrono Colossus,boss,725,42,,/models/regions/bosses/clockwork_boss.glb,1

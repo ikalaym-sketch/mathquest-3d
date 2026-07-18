@@ -1,0 +1,15 @@
+{
+  "release": "0.23.0",
+  "baseline_release": "0.22.0",
+  "baseline_artifact": "mathquest-3d-v0.22.0-combat-ui-story-learning-engineering-build.zip",
+  "baseline_sha256": "4ef06d8b74c6441e2eac0596e2b51c76f6955e68663a582f91910e3c4b259f50",
+  "scope": [
+    "segmented region terrain colliders",
+    "height-aware safe road routing",
+    "bridge bank connectivity",
+    "water and ravine traversal exclusion",
+    "player grounded and safe recovery",
+    "enemy shared traversal projection"
+  ],
+  "deferred": "swimming and environmental water behaviors are v0.24; v0.17 sealing defects remain deferred by user instruction"
+}

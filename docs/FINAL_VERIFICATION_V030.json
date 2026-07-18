@@ -1,0 +1,82 @@
+{
+  "version": "0.30.0-village-farm-hero-art",
+  "generatedAt": "2026-07-15T01:21:00.000Z",
+  "status": "PASSED_WITH_ENVIRONMENT_LIMITATION",
+  "canonical": {
+    "glb": 282,
+    "previous": 134,
+    "new": 148,
+    "target": 800,
+    "remaining": 518,
+    "village": 80,
+    "farm": 80
+  },
+  "runtime": {
+    "bytes": 9561488,
+    "vertices": 125970,
+    "materials": 285,
+    "animations": 353,
+    "skins": 3,
+    "errors": 0,
+    "warnings": 0
+  },
+  "lod": {
+    "assets": 188,
+    "averageLod1Ratio": 0.532,
+    "averageLod2Ratio": 0.201,
+    "genericModelRuntimeSwitch": true
+  },
+  "atlas": {
+    "governedProfiles": 16,
+    "runtimeAtlases": 3,
+    "ktx2Files": 13,
+    "pngFallback": true
+  },
+  "animation": {
+    "baseCombatArchetypes": 12,
+    "requiredWeaponClips": 68,
+    "actualPlayerClips": 75
+  },
+  "sceneBundles": {
+    "villageMaxSimultaneousAssets": 26,
+    "farmMaxSimultaneousAssets": 30
+  },
+  "tests": {
+    "audit": "PASSED",
+    "simulation": "PASSED",
+    "regionProduction": "PASSED",
+    "regionGameplay": "PASSED",
+    "releaseRegression": "PASSED",
+    "terrainTraversal": "PASSED",
+    "environmentLife": "PASSED",
+    "lifeCore": "PASSED",
+    "villageCompanion": "PASSED",
+    "artGovernance": "PASSED",
+    "villageFarm": "PASSED",
+    "productionRuntime": "PASSED",
+    "foundationIntegration": "PASSED",
+    "productionBuild": "PASSED",
+    "npmAuditVulnerabilities": 0
+  },
+  "browserAcceptance": {
+    "plannedCases": 24,
+    "executedCases": 0,
+    "status": "BLOCKED_BY_ORGANIZATION_URL_POLICY",
+    "evidence": "docs/runtime-v030-qa/runtime-report.json"
+  },
+  "notClaimed": [
+    "physical Android FPS and GPU memory acceptance",
+    "physical tablet acceptance",
+    "physical desktop GPU acceptance",
+    "all 16 atlas profiles produced as runtime KTX2",
+    "manual visual art acceptance for every new model"
+  ],
+  "cleanArchiveVerification": {
+    "npmCi": "PASSED",
+    "canonicalArtPipeline": "PASSED",
+    "foundationIntegration": "PASSED",
+    "productionBuild": "PASSED",
+    "npmAuditVulnerabilities": 0,
+    "evidence": "docs/CLEAN_INSTALL_VERIFICATION_V030.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-07-14T06:55:27.828Z",
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "items": 10,
+    "weapons": 20,
+    "armorPieces": 40,
+    "armorSets": 10,
+    "farmTools": 8,
+    "seasons": 4,
+    "destructiveCases": 17
+  },
+  "cases": [
+    {
+      "id": "all_10_items_have_registered_runtime_handler",
+      "status": "PASSED"
+    },
+    {
+      "id": "armor_set_requires_exact_four_matching_pieces",
+      "status": "PASSED"
+    },
+    {
+      "id": "equipment_slot_and_ownership_are_defensive",
+      "status": "PASSED"
+    },
+    {
+      "id": "all_20_weapons_have_effective_lv5_profile",
+      "status": "PASSED"
+    },
+    {
+      "id": "mage_spell_cost_and_full_set_runtime",
+      "status": "PASSED"
+    },
+    {
+      "id": "spell_cost_blocks_cast_when_mp_is_insufficient",
+      "status": "PASSED"
+    },
+    {
+      "id": "guardian_and_mirror_counter_use_correct_damage_source",
+      "status": "PASSED"
+    },
+    {
+      "id": "growth_powder_is_not_consumed_without_target_crop",
+      "status": "PASSED"
+    },
+    {
+      "id": "quality_product_metadata_and_shipment_value_are_preserved",
+      "status": "PASSED"
+    },
+    {
+      "id": "legacy_crop_ids_migrate_without_quantity_loss",
+      "status": "PASSED"
+    },
+    {
+      "id": "four_seasons_and_greenhouse_rules",
+      "status": "PASSED"
+    },
+    {
+      "id": "new_field_requires_hoe_before_planting",
+      "status": "PASSED"
+    },
+    {
+      "id": "all_farm_actions_require_correct_tool_and_stamina",
+      "status": "PASSED"
+    },
+    {
+      "id": "animal_care_changes_quality_and_blocks_repeat_actions",
+      "status": "PASSED"
+    },
+    {
+      "id": "machine_legacy_time_migration_uses_world_clock",
+      "status": "PASSED"
+    },
+    {
+      "id": "farm_upgrades_require_materials_and_one_day",
+      "status": "PASSED"
+    },
+    {
+      "id": "animal_feed_is_a_real_inventory_item",
+      "status": "PASSED"
+    }
+  ]
+}

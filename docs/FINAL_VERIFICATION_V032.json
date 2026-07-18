@@ -1,0 +1,104 @@
+{
+  "version": "0.32.0-equipment-combat",
+  "generatedAt": "2026-07-15T20:03:00.000Z",
+  "status": "PASSED_WITH_EXTERNAL_PACKAGE_REGISTRY_LIMITATION",
+  "canonical": {
+    "glb": 523,
+    "previous": 383,
+    "new": 140,
+    "target": 800,
+    "remaining": 277,
+    "equipment": 140,
+    "allocation": {
+      "weapon": 20,
+      "delivery": 20,
+      "impact": 20,
+      "coreArmor": 40,
+      "feetAndAccessory": 20,
+      "offHand": 20
+    }
+  },
+  "runtime": {
+    "bytes": 13069228,
+    "vertices": 181944,
+    "materials": 531,
+    "animations": 436,
+    "skins": 8,
+    "embeddedImages": 0,
+    "embeddedTextures": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "equipmentCombat": {
+    "equipmentGlbBytes": 1693216,
+    "equipmentGlbMaterials": 140,
+    "inventoryDefinitions": 100,
+    "weaponItems": 20,
+    "baseCombatArchetypes": 12,
+    "equipmentSlots": 8,
+    "maximumResidentLoadoutAssets": 10,
+    "projectileDamageResolvesAtImpact": true,
+    "allEquipmentSlotsRenderCanonicalGlb": true
+  },
+  "atlas": {
+    "governedProfiles": 16,
+    "runtimeAtlases": 8,
+    "ktx2Files": 34,
+    "pngFallback": true,
+    "equipmentMetal": true,
+    "equipmentCloth": true
+  },
+  "mobileResidencyBudget": {
+    "maximumDetailedVillageResidents": 2,
+    "maximumEquipmentAssets": 10,
+    "estimatedPeakGlb": 68,
+    "budgetGlb": 70
+  },
+  "tests": {
+    "equipmentCombatCases": 8,
+    "equipmentCombat": "PASSED",
+    "artGovernance": "PASSED",
+    "productionRuntime": "PASSED",
+    "villageFarmRegression": "PASSED",
+    "charactersCompanionsRegression": "PASSED",
+    "foundationIntegration": "PASSED",
+    "legacyAuditMatrix": "PASSED",
+    "simulation": "PASSED",
+    "regionProduction": "PASSED",
+    "regionGameplay": "PASSED",
+    "releaseRegression": "PASSED",
+    "terrainTraversal": "PASSED",
+    "environmentLife": "PASSED",
+    "productionBuild": "PASSED",
+    "npmAuditVulnerabilities": 0
+  },
+  "deploymentAcceptance": {
+    "basePath": "/mathquest-3d/",
+    "httpCases": 3,
+    "httpPassed": 3,
+    "index": "HTTP_200_HTML",
+    "equipmentGlb": "HTTP_200_GLTF_BINARY_SIGNATURE_VALID",
+    "equipmentKtx2": "HTTP_200_KTX2_SIGNATURE_VALID",
+    "publicFilesComparedToDist": 624,
+    "publicDistMismatches": 0
+  },
+  "cleanInstallVerification": {
+    "sourceCopyExcludedNodeModules": true,
+    "npmCi": "BLOCKED_BY_EXTERNAL_PACKAGE_REGISTRY_502",
+    "retryOutsideSandbox": "SAME_EXTERNAL_502",
+    "interpretation": "This is an external dependency download limitation, not a passed clean-install claim. Installed-workspace tests and production build passed independently."
+  },
+  "physicalAcceptance": {
+    "desktopBrowser": "NOT_EXECUTED",
+    "androidPhone": "NOT_EXECUTED",
+    "androidTablet": "NOT_EXECUTED",
+    "scheduledVersion": "0.36"
+  },
+  "notClaimed": [
+    "physical Android FPS, GPU memory or thermal acceptance",
+    "physical tablet acceptance",
+    "physical desktop GPU acceptance",
+    "manual visual art acceptance for every one of the 140 new GLB",
+    "clean npm ci verification while the external package registry returns HTTP 502"
+  ]
+}

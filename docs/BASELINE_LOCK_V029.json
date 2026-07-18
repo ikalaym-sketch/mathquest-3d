@@ -1,0 +1,26 @@
+{
+  "version": "0.29.0",
+  "generatedAt": "2026-07-14T13:08:16.097081+00:00",
+  "canonicalRuntime": {
+    "canonicalGlbCount": 134,
+    "targetGlbCount": 800,
+    "plannedCapacity": 666,
+    "generatedProceduralTextures": 10,
+    "generatedSvgSources": 8,
+    "shaderProfiles": 14,
+    "existingGlbImageCount": 0,
+    "existingGlbTextureCount": 0,
+    "saveSchemaVersion": 6,
+    "equipmentSlots": 8,
+    "appearanceSlots": 6
+  },
+  "sourceAndEvidenceFileCountExcludingDistNodeModulesAndInventory": 695,
+  "artFoundationManifestSha256": "b74186d50607e4c45775142cd27bb9038cc90119dd3f427d3e9377134cb9f389",
+  "knownLimitations": [
+    "800 GLB bulk production not started",
+    "existing 134 GLB not yet texture-embedded",
+    "KTX2/BasisU not complete",
+    "Meshopt not complete",
+    "physical Android/tablet/desktop acceptance not executed"
+  ]
+}

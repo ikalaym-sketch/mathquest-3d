@@ -1,0 +1,67 @@
+MathQuest 3D v0.15.0 -> v0.16.0 exact file diff
+
+Self-referential diff evidence files are excluded from their own hash comparison.
+node_modules and .git are excluded.
+
+baseline_files: 260
+target_files: 275
+added: 23
+modified: 19
+deleted: 8
+unchanged: 233
+
+ADDED
++ dist/assets/Boss-DvCEWDw8.js | 14467 bytes | d4662113e99117c64157092e4aa46c83a8a90a3394b55468c966a95740a8d184
++ dist/assets/FarmScene-6CrHnXAG.js | 30570 bytes | 5f97495852e575aefb7bb225817fd199e312a6e30d06f44c981a204ea0d0a7b3
++ dist/assets/RegionScene-CuXvzE9i.js | 40702 bytes | 4f443e6531234ee9850c61b21d10fa861eb4eff11f288ec003d02c69e6a39157
++ dist/assets/SceneProps-BXhJD17j.js | 2088 bytes | 141ace3a3aea707ccd9d03012b9b9f88615eb790d8fd089ca6d5288b24678953
++ dist/assets/TrialTowerScene-CK4rr-_Y.js | 4297 bytes | 1c8fe32322abba558f193e02820851c6ed7227faa9bd5956a8d8f2e954853b1a
++ dist/assets/WildernessScene-hggGVWKc.js | 7597 bytes | 5721b9d27172a821ff4d1646650a59f59d78ba5bf0e5b37aceee981007e31846
++ dist/assets/index-BzQrlfm_.js | 264877 bytes | 3ba13741202784a4bf4953295e001df0f7b955bafdf9fdc57a295adb3ab256c1
++ dist/assets/index-dpBw18ff.css | 58728 bytes | 9d49db2fd4fc94442141161cc7379b4ced23cd013a6c929cbe5b567efbce9122
++ docs/BASELINE_LOCK_V016.json | 360 bytes | 98143c3bf725a905717c0effd568f38a559c72e44191c2f4163c5fb7b8179db4
++ docs/BUILD_20260714_v016.txt | 1939 bytes | 77602321add7d4a5a33b57e819d65625e431b0761465fbe0e7e73875aa8ff87d
++ docs/CHANGESET_20260714_V016_WORLD_SIMULATION.md | 2577 bytes | 3bb5eafca36ed29deecb42820beee654f1f94899071ce0945fc5ff1e532ebd7d
++ docs/DEPENDENCY_AUDIT_20260714_v016.json | 365 bytes | 8fee35452794eef584a48a7a8e7ec55e5654348f7c9a15a42edf89b7de312425
++ docs/REMAINING_SCOPE_20260714_V016.md | 1364 bytes | 8e4f201ca0f1672f2eb2a4a0ded525a3b4b895d2d4d605bf935e87398ca58e22
++ docs/RUNTIME_ATTEMPT_20260714_v016.txt | 284 bytes | 194cabb52626f2178b2312ce4ecc190381bb6398ba1d3183b884c9ee972b792e
++ docs/SIMULATION_20260714_v016.txt | 725 bytes | c8d5496a0a57806c857064c245ae7297b7c8b78ec7ff9449379482622fb009ce
++ docs/V016_STATUS.md | 863 bytes | 06b7095faaa2b0ee3847700ae94c673f2b45baca2aa69aa3860eee6343697c34
++ docs/VALIDATION_20260714_v016.txt | 2957 bytes | 07e9baaefb154515c33ba4feb8f72a527271580a8f36d5405024f655f6ecb1d3
++ scripts/run-simulation-tests.mjs | 3703 bytes | 2ed07cc4cf430169fdd7d65bd8538e021aa61b8a82a3407047e07a94663c1d09
++ src/components/Environment/SkyWeatherLayer.jsx | 2142 bytes | a1c5985fa72cfc5a748e7912c1549bb77837adadcbef661ba62519ae239fac60
++ src/components/UI/HomeInteriorPanel.jsx | 6543 bytes | 23efceddc431b659d5fa29344c8caa583e2c38ab83e43b6188dacab7531a0435
++ src/data/farmProgression.js | 3134 bytes | 60ebeb1e05ead73342c165045d8acb6343e205fd6975d2094eddb8eacbd01a95
++ src/services/FarmProgressionValidationService.js | 2285 bytes | 61711927d1d6ec5f0d1fae2a3ec1d054fbd43ead479625fae61ba4f4c6b190fe
++ src/systems/farmSimulation.js | 8094 bytes | a87dcf968ce8b14a2e5f6f1713a6f1961779feb2a2b0a228ac71196cc25d1a02
+
+MODIFIED
+~ dist/index.html | 1059->1059 bytes | e06b954ac95c6da5199bbedf62b31d1b96ddfc6f39fd1b7439b8de08067fce72 -> a13f7f2e075e8c5575dbdb1b6d6c8e8261fb4ad19ba6eea17c3e824d2fb72804
+~ docs/WORK_LEDGER.csv | 4815->7323 bytes | e2767913a8185ab32f29069f1f56d6370654de60204bbc3529c0824171dd84ba -> 734cbb593712c4cc3e7436a4c9fb22ee053a6d4d6279d11a80c2d4680a5e9807
+~ package-lock.json | 146861->146861 bytes | 105fd935b4961c2d160aaa3eee47d76c1680bd0ec83094a803b74b659435a7c3 -> 152f49157b7c21848f8c27ffb2eab7a9e7bfeb56f632942ee547b38a018fc046
+~ package.json | 816->880 bytes | 6f20c80c5be327a4b475c1d163f3152918068eafb73f87f174e34096e6759a77 -> ebaa00273f1bbba7ea0129fdcd646b44654f0dbdbca8c5b4767e651dffc3ff90
+~ scripts/run-audit.mjs | 5197->5823 bytes | 3c3f2de5a996d2cac5b1622bec34182f7e9f2dd67b923ac57e3c00046c694a56 -> 269bf06db317b5bd1880169081e83cd9c5a2193c656016073925b6f815914f13
+~ scripts/runtime-qa.mjs | 4477->5497 bytes | 7f5518483dc54d347190e92e9aada80bc497f41340abcba18c2a1f00ef33e90b -> b55872edb1ea70b6799e3f346489cd34c444f5ebfcc1bda90962075a3301ffae
+~ src/components/Environment/WorldEnvironment.jsx | 5568->6046 bytes | 16da7e240f02af51d8c6c6bd35feb0625d2963e5117bea3a3798b7956192382c -> 34ed64840d7792f9d16fd4079642f89fcd1e39202ea6f2ddbc8842e9dbde242f
+~ src/components/Farm/FarmScene.jsx | 11207->14377 bytes | 09260490fcf120d6f2579204b3ce7384f66d581a0e3da77d589a019021663df4 -> f2250f7f86bb1490a5cf8e6ea3ed4ff58bcb89e793e6aae29dae0b6c2b7543d5
+~ src/components/UI/BuildPanel.jsx | 4778->5333 bytes | 7f62b0f438e15ba70f8e636983c8ed819622fa6db1fb4d0f85019ab339fbe83e -> dbf333a3e15df0d14a83409370b8e2760543096c5869bef27d49c8ab095e95b9
+~ src/components/UI/CarpenterPanel.jsx | 1938->2586 bytes | 0da77d181ea343b695d345a5af001c9461204934934623ce6650206044f9bfe0 -> 6febb6fc0894f2c0f93f20268ae6b6df61e7cd98c5eb4a90cb07c82ffe6aee90
+~ src/components/UI/CharacterCreationPanel.jsx | 6587->7246 bytes | a3d5b0ea0c929de101862251b9526fdb7d0d8b0b77c754b3ef0d0f4509a8fde7 -> afb6ce7f6348e9c36affa4c52acd5d27e596e4a98592bc318606e8982cd5d770
+~ src/components/UI/GameMenu.jsx | 2312->2315 bytes | 25fc7af7e8538ee91d41abdb82c24ce45e1063ff8b64ceab74b74b68a41e5997 -> a66ad299ef67bb8de39be8e26d5267c92f6d3d572144a2fe83f0e95369b5e6a8
+~ src/components/UI/HomeDecorPanel.jsx | 2898->2427 bytes | c09490250ddb7cf1ce7eaa70ada37d800aabc74fadef334c714812ca7be31eae -> 75c428c69f4b4b5dbfb04d8b8a6a2ffc3a179443760f8df9108888a57f0b0a78
+~ src/components/UI/PanelHost.jsx | 1398->1516 bytes | 69d816eccdbbd41425989dae86734a6732c4f5764e030c428d6f8c025fc1437d -> 38c6374ce69689f307b045633d3deea647de5c812bf4eaa45834c21cea5d7548
+~ src/components/UI/SeedPickerPanel.jsx | 2024->2413 bytes | f0edbdc2b838e3a8f75aff7e1c1b83901f2b87aeb15ef66432551f0d2bb2592f -> c4dd4500180763f145d5003c588e9104c24172184ff8da03d8c93fd4a148a8fb
+~ src/components/World/FarmKit.jsx | 19350->25851 bytes | 99a0af7f76a40705c848263567e81ef0f67ec04f95761bf776569f61199e2bc5 -> 7dd6ce85d5b454ebe33eee4024bf8d83d80351f5bca55438c7725411fd78483f
+~ src/qa/QaBridge.jsx | 2232->3879 bytes | 6b35fe6524891678c5fae6981527c3196af90cc262a2b27f23fb06749828c158 -> 11c42f9205c6cea688081b5e87898bd20a71a161a761ae9129a4a87aa2d7851b
+~ src/store/farmStore.js | 10234->13786 bytes | 3cbf0951ed9188e77d08ede69c7fd9957e857580e37a596f820239fa0560264c -> 6f8a7a713987ad1a66f229946a20cb0ce72bb147c4c2fb4ada3ca52f0a4528ba
+~ src/store/useStore.js | 38972->40310 bytes | 22f265f04c9b1219dfe16a0bb0e4d424f08fa82a15cdab8191678bfee09fe7ce -> 398211fe06b83e351d382fb549cb0a9a6895645ac233758116864690cfd2a489
+
+DELETED
+- dist/assets/Boss-CC0k53-B.js | 14467 bytes | 195beb9b760c2170da2c5c968f969d96720028016987ae6bcb124eb2b24e2f5f
+- dist/assets/FarmScene-CM3PlRvc.js | 22785 bytes | fe82526f3e9dce2b64297f24eba96aec466957d0ae4ce6a6cfaeeeebefded285
+- dist/assets/RegionScene-svxU7Te7.js | 40702 bytes | abbac6cd4db6585e4ff7f683e1c3ead70041493ebcf5d2b20d5847151a902baf
+- dist/assets/SceneProps-B3SfZwBO.js | 2088 bytes | 7cc509afa36dce944b65f9183f491469d569882e53e65c58f4e92e3c3163a4d8
+- dist/assets/TrialTowerScene-CSjZ3Ft6.js | 4297 bytes | 2ef31043c943be16ccdcb3a5ee662c63f03d539c1b0eccc8f68782c23f890abe
+- dist/assets/WildernessScene--kH2q0zz.js | 7597 bytes | 9dfe21a466a6b64f7f271fc58dda305584c7491e633951b4bb801b20f101d662
+- dist/assets/index-0RXgdBOx.css | 56677 bytes | e9654acd37f5e2d34ea8c7712e802a24c3f3667036ad899489944c6d449673b7
+- dist/assets/index-BFs_zP-o.js | 247615 bytes | f71def8550ea57ec5ecf45844722dc51bd9f75607f1116498ccbbbae31567085

@@ -1,0 +1,8 @@
+{
+  "release": "0.22.0",
+  "baseline_release": "0.19.0",
+  "baseline_artifact": "mathquest-3d-v0.19.0-region-gameplay-differentiation-engineering-build.zip",
+  "baseline_sha256": "ecdd01d4b5c5c6112212739f9b03e702026f0b16c6579ebc8c6a7114f33e2d5f",
+  "scope": ["v0.20 combat and trial tower", "v0.21 child UI and accessibility", "v0.22 story NPC and learning"],
+  "deferred": "v0.17 sealing defects are explicitly deferred by user instruction"
+}

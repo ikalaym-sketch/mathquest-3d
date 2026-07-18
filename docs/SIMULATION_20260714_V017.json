@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-07-13T20:20:38.311Z",
+  "ok": true,
+  "cases": [
+    {
+      "id": "farm_levels_1_to_5",
+      "status": "PASSED"
+    },
+    {
+      "id": "crop_world_time_and_rain",
+      "status": "PASSED"
+    },
+    {
+      "id": "farm_level_5_climate_protection",
+      "status": "PASSED"
+    },
+    {
+      "id": "rain_only_counts_newly_watered_cells",
+      "status": "PASSED"
+    },
+    {
+      "id": "animal_product_cooldown",
+      "status": "PASSED"
+    },
+    {
+      "id": "rest_until_next_morning",
+      "status": "PASSED"
+    },
+    {
+      "id": "farm_store_upgrade_migration_path",
+      "status": "PASSED"
+    }
+  ]
+}

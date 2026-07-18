@@ -1,0 +1,1853 @@
+{
+  "schemaVersion": 1,
+  "release": "v0.35.0",
+  "generatedAt": "2026-07-15T20:56:02.612Z",
+  "runtimePreference": [
+    "ktx2",
+    "png"
+  ],
+  "ktx2": {
+    "encoder": "Basis Universal",
+    "mipmaps": true,
+    "transcoderPath": "basis/"
+  },
+  "atlases": [
+    {
+      "atlasId": "atlas_player",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "emissive",
+        "mask"
+      ],
+      "palette": [
+        "#4f83c5",
+        "#f0cf70",
+        "#704c38",
+        "#f0c9a5",
+        "#5b7d91",
+        "#8f66b2"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_player",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_player_baseColor.png",
+            "bytes": 919348,
+            "sha256": "ef83dce5472ab68c9d4af0fd5bfaec40c3b9a7dfe9a40eb59d99fcc554f3a967"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_player_baseColor.ktx2",
+            "bytes": 157789,
+            "sha256": "faec35ee1148d5774e03e4299cae56f822c5f9ddfdf4ed3e4806824452d5d0b1"
+          }
+        },
+        {
+          "atlasId": "atlas_player",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_player_normal.png",
+            "bytes": 1855551,
+            "sha256": "738c92cfef9379ab8eb533c9623c0f4327de16bff95cfcbce1d81f1b783b3921"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_player_normal.ktx2",
+            "bytes": 193934,
+            "sha256": "dd19d69fb729e965b1a0e25a64c2425bf7175fc311287561eebd60567ff7a7ae"
+          }
+        },
+        {
+          "atlasId": "atlas_player",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_player_orm.png",
+            "bytes": 1131258,
+            "sha256": "a3c571a258069ae73e26b0c2b4e457199057c84fa8e1187ba901a063422da624"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_player_orm.ktx2",
+            "bytes": 143291,
+            "sha256": "26e1ed05c1a4097a24bc2053a2622bb10ecd29c62b7e089cccabab4c41b95f24"
+          }
+        },
+        {
+          "atlasId": "atlas_player",
+          "channel": "emissive",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_player_emissive.png",
+            "bytes": 209363,
+            "sha256": "f13ff773a61603eaba98364e4799d3efc279e3bb588bcdfa19969d628102155f"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_player_emissive.ktx2",
+            "bytes": 48969,
+            "sha256": "699ca183e981dc4e21fd60dfb8c3459a7b00e60eb5a6404cf07165d824e76f02"
+          }
+        },
+        {
+          "atlasId": "atlas_player",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_player_mask.png",
+            "bytes": 1380686,
+            "sha256": "54b87a21787d51ac12573962a89155fa3141220f079193100aca7b6ccd62f99d"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_player_mask.ktx2",
+            "bytes": 198178,
+            "sha256": "5f56d0327b5763d73834c2f8be12c4b1bb71501fabc31eee90851ddf452a418c"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_residents",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "mask"
+      ],
+      "palette": [
+        "#7b6eb2",
+        "#4f8ba1",
+        "#7a4f3a",
+        "#4e8c68",
+        "#d36956",
+        "#c49a58"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_residents",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_residents_baseColor.png",
+            "bytes": 818231,
+            "sha256": "2fe3c89db0e70f495be4bc3e4079814825a66f831ad4c053576fac2184b23e3e"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_residents_baseColor.ktx2",
+            "bytes": 147921,
+            "sha256": "76f42c1fda1021c486fdea7285c0b132329c9e165aeb35c4c3457ba8d921191d"
+          }
+        },
+        {
+          "atlasId": "atlas_residents",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_residents_normal.png",
+            "bytes": 1855879,
+            "sha256": "03941e9497f217b6c4bbee9ca9453be31d9ab41c9178d84761ed9a8b14aecf48"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_residents_normal.ktx2",
+            "bytes": 194148,
+            "sha256": "b45ff4c037104173376ec42c4f90ad8f06a376f2b9a1a442af93dcd10477a003"
+          }
+        },
+        {
+          "atlasId": "atlas_residents",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_residents_orm.png",
+            "bytes": 1141419,
+            "sha256": "5754dca39f512f6d127cbc25b0c07f887e48dee57268fff6604ba809acc8adb5"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_residents_orm.ktx2",
+            "bytes": 143747,
+            "sha256": "73f114b016eace30f99b14324d3530701698b30a4b98f539431dd721dff3c346"
+          }
+        },
+        {
+          "atlasId": "atlas_residents",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_residents_mask.png",
+            "bytes": 1382816,
+            "sha256": "60b0abd4780b86f932b66479e0635ba1a3bf65d0e4c3bfc043fa0aaccef34090"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_residents_mask.ktx2",
+            "bytes": 197695,
+            "sha256": "81cb2bd0a6c808e5ecc32ea16c413bbe5842452e2cc688ed5cc8847cbbc33d32"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_companions",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "mask"
+      ],
+      "palette": [
+        "#9b7658",
+        "#f4eee6",
+        "#e78343",
+        "#b8c7d9",
+        "#8a6b50",
+        "#a94832"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_companions",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_companions_baseColor.png",
+            "bytes": 950704,
+            "sha256": "c0a59ac8a5d0ee9633fe064166da124a2e8ff5670e3c243958fca4b120e811ed"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_companions_baseColor.ktx2",
+            "bytes": 163757,
+            "sha256": "09aca71bf2da9878d845ee65cedf9d52c126f57b3bffd71e8932fade50a18357"
+          }
+        },
+        {
+          "atlasId": "atlas_companions",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_companions_normal.png",
+            "bytes": 1855880,
+            "sha256": "43af211993487dff218ba8369f65dcb3de0d94004d63cb6f49a638616e2a6077"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_companions_normal.ktx2",
+            "bytes": 193830,
+            "sha256": "b5f3ef34dace93b63f71c52837020a84bdefcea9d04473e26fae1e1bf10144f4"
+          }
+        },
+        {
+          "atlasId": "atlas_companions",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_companions_orm.png",
+            "bytes": 1134494,
+            "sha256": "90e92f35106c54cf516d294b29890c5491b6f2b86f6722472406c8439095e833"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_companions_orm.ktx2",
+            "bytes": 143795,
+            "sha256": "76f82957379f702f7f38a76e55bb4b87a21506fe5852f495eca4b008ae741377"
+          }
+        },
+        {
+          "atlasId": "atlas_companions",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_companions_mask.png",
+            "bytes": 1378284,
+            "sha256": "e9770dc16938b157b129d61d3348dae99c1bc2ccba0c29cf116091cbde9a7aaa"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_companions_mask.ktx2",
+            "bytes": 197938,
+            "sha256": "d29065d98b8df3bab7f7954f2fd0ed169bb04e80bd1faaa398c67fa4520160ad"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_village",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "emissive",
+        "mask"
+      ],
+      "palette": [
+        "#e8c882",
+        "#a36c45",
+        "#c85f52",
+        "#738e59",
+        "#76bdd1",
+        "#dba8c1"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_village",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_village_baseColor.png",
+            "bytes": 915789,
+            "sha256": "0244cc59264f6048d7dc214c44e732f0689a10446c2a75119255f9e4dcc5c090"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_village_baseColor.ktx2",
+            "bytes": 162530,
+            "sha256": "55931fd5a4c89fee64660eba188447be1b0e1859f7835dc359d5e7dc083a99be"
+          }
+        },
+        {
+          "atlasId": "atlas_village",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_village_normal.png",
+            "bytes": 1856197,
+            "sha256": "450ff533fff5b8fb918f57dc8587d3720158614852380b26ddba19b1bc7f1781"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_village_normal.ktx2",
+            "bytes": 193897,
+            "sha256": "f727f0fb557523447b9158b7e7e38429e8fef4f1efc106f14819bc0bd63b9f8d"
+          }
+        },
+        {
+          "atlasId": "atlas_village",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_village_orm.png",
+            "bytes": 1128453,
+            "sha256": "3a5a39460d602500de6d1fa2789e0c891c615b6eeb5f57cfd5f7d07cf01547c5"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_village_orm.ktx2",
+            "bytes": 143234,
+            "sha256": "1dcd2a316c936db4bf996909e79a1b2c3eb886345e104bf2898316845854ccf7"
+          }
+        },
+        {
+          "atlasId": "atlas_village",
+          "channel": "emissive",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_village_emissive.png",
+            "bytes": 216797,
+            "sha256": "431a1e50b58620cf4cedb4858a1ca5d6f10c85b2e590fb5ffb469fe3391aae3b"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_village_emissive.ktx2",
+            "bytes": 49365,
+            "sha256": "d56996063c919a718e5e819252496b821e114f47ccb49f1c17d62323707b7742"
+          }
+        },
+        {
+          "atlasId": "atlas_village",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_village_mask.png",
+            "bytes": 1377088,
+            "sha256": "bbfc957eabca271d8fa5af7432ec47ff857f68f827c5e1b30924568c411ca985"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_village_mask.ktx2",
+            "bytes": 198138,
+            "sha256": "4a89e40d8871bdcfaf1c543200d691e8ac71584f769073818ba7cf55abb1abb4"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_farm",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "mask"
+      ],
+      "palette": [
+        "#9f7146",
+        "#745038",
+        "#6b9d4b",
+        "#d4b765",
+        "#8fa9af",
+        "#c6674b"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_farm",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_farm_baseColor.png",
+            "bytes": 832360,
+            "sha256": "c36648bf960645d53b94e538168187892efa0821e7b4416a7b7b80964cbbfecb"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_farm_baseColor.ktx2",
+            "bytes": 155500,
+            "sha256": "4003b8f726ee182618e6614dfe9c065af53de90a48d204ba1a059623217b05bc"
+          }
+        },
+        {
+          "atlasId": "atlas_farm",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_farm_normal.png",
+            "bytes": 1857097,
+            "sha256": "b1b187715b28e13f030cee11648a97b4f24e7ee87c69937b3fdab1d29bac38d8"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_farm_normal.ktx2",
+            "bytes": 193763,
+            "sha256": "bae03dbd7bfe5360659a12e00a68df7f114136c3b73160440ca74c284b5cdb87"
+          }
+        },
+        {
+          "atlasId": "atlas_farm",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_farm_orm.png",
+            "bytes": 1141325,
+            "sha256": "26d9e00664e914698959734092630cbe380ebba53a24bee7e0e37f007e8e880a"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_farm_orm.ktx2",
+            "bytes": 143216,
+            "sha256": "bc72747bc24b5814a738d6587e67418597b088fa7444ba59a0a0088592651439"
+          }
+        },
+        {
+          "atlasId": "atlas_farm",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_farm_mask.png",
+            "bytes": 1378597,
+            "sha256": "a5dc6aa192cf1cc3ef97b62b2e02f69a632589ce38c425a47a6bd3fefe58c5d4"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_farm_mask.ktx2",
+            "bytes": 198003,
+            "sha256": "96f9c5a62bd35a6723433c985a1a18b8404f2d734f185dea56f3e4efac457c17"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_crop_animal",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "mask"
+      ],
+      "palette": [
+        "#4f9d50",
+        "#79b94d",
+        "#e4c74d",
+        "#dc654b",
+        "#e58d35",
+        "#d6a8a0"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_crop_animal",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_crop_animal_baseColor.png",
+            "bytes": 901316,
+            "sha256": "b14b7c164b5a7da61d6daae1d58cfc740ad4e7526aefb7c7a08a45e6a5dc9c52"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_crop_animal_baseColor.ktx2",
+            "bytes": 163930,
+            "sha256": "617ddbc8041949759a0e4ce8b8b28d22535fbb0287e77e89f897551b780f8168"
+          }
+        },
+        {
+          "atlasId": "atlas_crop_animal",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_crop_animal_normal.png",
+            "bytes": 1856297,
+            "sha256": "0c4f605f79d0b260b63116199506666c9aace69df7052fdc244e762da6d40461"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_crop_animal_normal.ktx2",
+            "bytes": 193886,
+            "sha256": "59d2fbaf264b577ba8b33953d3721dca00033e353f54d360cb9e2df4d8ff5764"
+          }
+        },
+        {
+          "atlasId": "atlas_crop_animal",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_crop_animal_orm.png",
+            "bytes": 1135456,
+            "sha256": "7f269d9a749f467a36c3fe1af267b1aea1074de359e6d2b67e121630e6399a4d"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_crop_animal_orm.ktx2",
+            "bytes": 142877,
+            "sha256": "e2ea6fbcba7ec52c97a2b92520136a67463066725be7a1c436bd8659d9776d5c"
+          }
+        },
+        {
+          "atlasId": "atlas_crop_animal",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_crop_animal_mask.png",
+            "bytes": 1377302,
+            "sha256": "52fef581ff8ca2f3b2bb7698670dcbe604b8983207cdea2a47a60aa6643734a4"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_crop_animal_mask.ktx2",
+            "bytes": 197311,
+            "sha256": "b4c398198ae2f1800e3a35710e1c7830c927823b2f4c11d3c7a058aa359ced1a"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_equipment_metal",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "emissive"
+      ],
+      "palette": [
+        "#9ca8ad",
+        "#5d6870",
+        "#d6b85d",
+        "#5592c7",
+        "#b26f72",
+        "#8d72bb"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_equipment_metal",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_equipment_metal_baseColor.png",
+            "bytes": 895034,
+            "sha256": "e65191dbc66eb2fc33876049ac0139007a0632fe290b748d055059db3b92ab4d"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_equipment_metal_baseColor.ktx2",
+            "bytes": 158065,
+            "sha256": "8aede34482726b25e6713bbab1be59d74318fa2a99f2bfbcd522e32fd7aecf39"
+          }
+        },
+        {
+          "atlasId": "atlas_equipment_metal",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_equipment_metal_normal.png",
+            "bytes": 1855235,
+            "sha256": "10b5759b7352d2dbb73775c8ecd1a88a9e5c804bca0e35bc766faf39816ba17c"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_equipment_metal_normal.ktx2",
+            "bytes": 193813,
+            "sha256": "10d46cb494a9d8f6db5264ed0080564ea6340c7dde000b233bd25e4bb8cc3bd7"
+          }
+        },
+        {
+          "atlasId": "atlas_equipment_metal",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_equipment_metal_orm.png",
+            "bytes": 1139267,
+            "sha256": "70d34aa65edf40cc6e7d24d6c71cb0e02a9e6fbff1f57feba800ac76fadc58e6"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_equipment_metal_orm.ktx2",
+            "bytes": 142984,
+            "sha256": "879e1ddc1ebac3c0c860d73f8f0febabe3c8139a3d0d2e7b18b50eeb859f50d6"
+          }
+        },
+        {
+          "atlasId": "atlas_equipment_metal",
+          "channel": "emissive",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_equipment_metal_emissive.png",
+            "bytes": 209835,
+            "sha256": "d774c8cb0ac1d7d7de57b06792ec675a0700db95ea1e51575baf50a3b186ab24"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_equipment_metal_emissive.ktx2",
+            "bytes": 48143,
+            "sha256": "9cff6f84b9e09850fbefcb689b6f4e991cdad8aff476bf371a7432e43977b32d"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_equipment_cloth",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "mask"
+      ],
+      "palette": [
+        "#8f633f",
+        "#796aaa",
+        "#66864e",
+        "#c55738",
+        "#4e7898",
+        "#72884d"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_equipment_cloth",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_equipment_cloth_baseColor.png",
+            "bytes": 785543,
+            "sha256": "9476af7efd187660be96e923fc7a609837ea87fddd7036832a6a35d5450801a7"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_equipment_cloth_baseColor.ktx2",
+            "bytes": 145895,
+            "sha256": "5c79175a7903ea5631ba34199bbfc2948a4e1acd1b39fa23aaaa00e270b7148c"
+          }
+        },
+        {
+          "atlasId": "atlas_equipment_cloth",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_equipment_cloth_normal.png",
+            "bytes": 1855854,
+            "sha256": "9c98ff4207cf95719372b06aa627d25c68adfe8a3512f33828a912e23bce0052"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_equipment_cloth_normal.ktx2",
+            "bytes": 193864,
+            "sha256": "aeded10d43e67f0ecbd441f09b7f91b25290d0826c03ce33f7b69f6fa1caf4d9"
+          }
+        },
+        {
+          "atlasId": "atlas_equipment_cloth",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_equipment_cloth_orm.png",
+            "bytes": 1143317,
+            "sha256": "b2ab225459eb07dbb8350a5d8a6465e3dd5694351c2e1ff1fd0a7a9a1aebf7b6"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_equipment_cloth_orm.ktx2",
+            "bytes": 143458,
+            "sha256": "dcfdb75e860bcc357f5c0f4c37966ea19cb7c799d3aa0ab63ee1f76dda81a578"
+          }
+        },
+        {
+          "atlasId": "atlas_equipment_cloth",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_equipment_cloth_mask.png",
+            "bytes": 1379420,
+            "sha256": "4a2bdc92aed6af844adeaca862c9e56d28b9a1999123c9cfc139492cddf72162"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_equipment_cloth_mask.ktx2",
+            "bytes": 197312,
+            "sha256": "f7ec1faefb7435ca3156f78368f46e71b91e5e0d458b91534897e18b8673aab4"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_forest",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "mask"
+      ],
+      "palette": [
+        "#527f4f",
+        "#86ad62",
+        "#6c523d",
+        "#b8d48a",
+        "#487a66",
+        "#d2c078"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_forest",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_forest_baseColor.png",
+            "bytes": 841917,
+            "sha256": "976b6bf80f4cf245379a245c2f0c79b1667d71b9b69b2ae2b69bbec2d0ca3ed4"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_forest_baseColor.ktx2",
+            "bytes": 155451,
+            "sha256": "d05905e0ba0762f02cf919b4932f11ece735ee3836b5724a975eaa1c57068a61"
+          }
+        },
+        {
+          "atlasId": "atlas_forest",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_forest_normal.png",
+            "bytes": 1856920,
+            "sha256": "80b42bfda56a7b68132718d709135ee66d89374f939f99c18f3cd05fe7f9bf6a"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_forest_normal.ktx2",
+            "bytes": 194385,
+            "sha256": "1d4f5e03bfdd55f51c21eda19ec20fd3bfdea6c4173caa84bd19ed912f52a78a"
+          }
+        },
+        {
+          "atlasId": "atlas_forest",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_forest_orm.png",
+            "bytes": 1141773,
+            "sha256": "ed78dec5550c46ea8a4711cd11ae272e596ec07875137b0073e92dc4f92e4a98"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_forest_orm.ktx2",
+            "bytes": 143421,
+            "sha256": "b99c5ae4c6a026c309f26bb948470a3e21574c7b3dca56e1369618adcc1d6e9f"
+          }
+        },
+        {
+          "atlasId": "atlas_forest",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_forest_mask.png",
+            "bytes": 1385425,
+            "sha256": "674eb7a42e15954a202a1ddb1a8f370a1f15bd53bd9e80043e327269e46c4f87"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_forest_mask.ktx2",
+            "bytes": 197455,
+            "sha256": "433bc45bbf6cfb58107097a5bc73eac8517431f44db38ca2d49c4916b8db649f"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_wind",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "emissive",
+        "mask"
+      ],
+      "palette": [
+        "#6fc7df",
+        "#d9f3ff",
+        "#78966b",
+        "#acd77d",
+        "#ffffff",
+        "#638cb1"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_wind",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_wind_baseColor.png",
+            "bytes": 978638,
+            "sha256": "a6ec3d374221a38b5510a2de6bd215d285cef496e4d3a99f1cd54bc1f896710f"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_wind_baseColor.ktx2",
+            "bytes": 172468,
+            "sha256": "a85efc1d61511aef34160ed92c5e704b6395611e4ab8b7c2964719b4c50b5f17"
+          }
+        },
+        {
+          "atlasId": "atlas_wind",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_wind_normal.png",
+            "bytes": 1858494,
+            "sha256": "5de9488d01b10c78f2360cf876c5f66ca15b34549a63e17da9fbc593ed79e3b2"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_wind_normal.ktx2",
+            "bytes": 194045,
+            "sha256": "74630619f72d8f575343d025eca472ec788ef53a94e5ed4382aa5a6fb3541353"
+          }
+        },
+        {
+          "atlasId": "atlas_wind",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_wind_orm.png",
+            "bytes": 1145305,
+            "sha256": "3fe7403fc3af0c080e3ade77c0141a36c63afed24e5647fcef0fc7fe44fc9113"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_wind_orm.ktx2",
+            "bytes": 142731,
+            "sha256": "a2bcc6917732c393289172e50fdd2b14740927b59b88002ab683c8e1a386801e"
+          }
+        },
+        {
+          "atlasId": "atlas_wind",
+          "channel": "emissive",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_wind_emissive.png",
+            "bytes": 234533,
+            "sha256": "22c3ed9e98a6f62be4c06efd8ba9004b2af84bb2c5e89fd720f29aced9fe1dbc"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_wind_emissive.ktx2",
+            "bytes": 52723,
+            "sha256": "30fa7466f026858f837db2d48ba6b163d23f27a693d72fc481f5ffe2e53d56a0"
+          }
+        },
+        {
+          "atlasId": "atlas_wind",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_wind_mask.png",
+            "bytes": 1380369,
+            "sha256": "6e0b5ee28ac6411efa1107ad4faad7cf77f44d53cce8a329e4ea07b89b28ecc6"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_wind_mask.ktx2",
+            "bytes": 197653,
+            "sha256": "03fecc6c6b07aa4c8fefafe76e778c565b973ee6c78f507a7958eb0178f84d00"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_snow",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "emissive",
+        "mask"
+      ],
+      "palette": [
+        "#a7e2ee",
+        "#eefcff",
+        "#789fb4",
+        "#c8dff1",
+        "#6fc2de",
+        "#ffffff"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_snow",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_snow_baseColor.png",
+            "bytes": 1074325,
+            "sha256": "0087ee27473bd1c6591499cc5e1ad6bbd152a8c8273e42ca2f300fe7817557fd"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_snow_baseColor.ktx2",
+            "bytes": 178129,
+            "sha256": "44404c65ebf93d522d1bb6e21bfaea0f05b1bc697f108d9d4c896f97cb91520c"
+          }
+        },
+        {
+          "atlasId": "atlas_snow",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_snow_normal.png",
+            "bytes": 1858218,
+            "sha256": "9a602c6c52646212c84ee27f3b8429a70c71aea4f5d3d7a3524e22e8d394bbd3"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_snow_normal.ktx2",
+            "bytes": 193709,
+            "sha256": "830e8fc2568a230d06b3985fbcd48bc762f4c3a537b0db7659cf1ff961e86ce2"
+          }
+        },
+        {
+          "atlasId": "atlas_snow",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_snow_orm.png",
+            "bytes": 1152278,
+            "sha256": "8008ea0936ee2db12c7c10831f2222e106bb06021bd42d220d7b3ceefe916c1e"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_snow_orm.ktx2",
+            "bytes": 144949,
+            "sha256": "6640aa7fedc1229b19133428b6169f62909c2b75b2c29afd8b6fae5ac6b39d6e"
+          }
+        },
+        {
+          "atlasId": "atlas_snow",
+          "channel": "emissive",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_snow_emissive.png",
+            "bytes": 254820,
+            "sha256": "939a432228af23bb539cd4100b15049e1e83f2b7ea4da4b00d7284674dbc0ac2"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_snow_emissive.ktx2",
+            "bytes": 53217,
+            "sha256": "77b7b2247ce6eb5229f2ff80714022711943529cf6ecbe0d4205babc383bdc4f"
+          }
+        },
+        {
+          "atlasId": "atlas_snow",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_snow_mask.png",
+            "bytes": 1384010,
+            "sha256": "30d740dc3793d74c3d60c0617687247cae06f34429b0cf9e27f1086e0e30ff33"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_snow_mask.ktx2",
+            "bytes": 197761,
+            "sha256": "c6fd9e4a8e7cf34c8a2624019584ecd2cf3ca0e6317331adeb391743025e3eba"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_crystal",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "emissive",
+        "mask"
+      ],
+      "palette": [
+        "#49d4d1",
+        "#8ba9f3",
+        "#a7eee0",
+        "#5eb4d8",
+        "#d7ffff",
+        "#637cca"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_crystal",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_crystal_baseColor.png",
+            "bytes": 1020554,
+            "sha256": "37543b230b65ee2fa9f25163dffdf5f2d79317a91cbcf3bdcbf11233a6ecb653"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_crystal_baseColor.ktx2",
+            "bytes": 174958,
+            "sha256": "1623e70e17f43a06a393e7062b3853e7581d35769da7757047f18bcde9fa8737"
+          }
+        },
+        {
+          "atlasId": "atlas_crystal",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_crystal_normal.png",
+            "bytes": 1855313,
+            "sha256": "8ee1bb6b1bbeec25e03db222616c1fd3392cb5c1c728eb02b9fb97bacbd37685"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_crystal_normal.ktx2",
+            "bytes": 193626,
+            "sha256": "165f36d5bd5ec28848af7805d19fdaefa220b19f13372ef862b93b9084f5b42c"
+          }
+        },
+        {
+          "atlasId": "atlas_crystal",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_crystal_orm.png",
+            "bytes": 1142539,
+            "sha256": "0af2a16089b2e14d2573c6f0afdb3cafdceee1df5c25a77d2222f4f38c64f769"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_crystal_orm.ktx2",
+            "bytes": 143388,
+            "sha256": "f2f8d0c89d899378dfd76c38d70d59e7bb4b0097bb10f4dc7e850e43c43721cd"
+          }
+        },
+        {
+          "atlasId": "atlas_crystal",
+          "channel": "emissive",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_crystal_emissive.png",
+            "bytes": 245011,
+            "sha256": "31d7fc278827b4229265c18a148439499b3334f5247ad13d1c2302b7df9ae52d"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_crystal_emissive.ktx2",
+            "bytes": 53830,
+            "sha256": "ba674f45465d8330431f4eb9e8e76254d641392734c504cba14def33bf6894bd"
+          }
+        },
+        {
+          "atlasId": "atlas_crystal",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_crystal_mask.png",
+            "bytes": 1377528,
+            "sha256": "2faf54af9c9c4fdb89c0c78a31d431564a020b26a9bcdf48a6721e5b097f5f3f"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_crystal_mask.ktx2",
+            "bytes": 197645,
+            "sha256": "34774abd67d9d14d68862190e02bb20f799488c097d7a97d1c6b1369753d8b26"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_canyon",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "emissive",
+        "mask"
+      ],
+      "palette": [
+        "#df8244",
+        "#edbd68",
+        "#86513a",
+        "#c76737",
+        "#f1d394",
+        "#607851"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_canyon",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_canyon_baseColor.png",
+            "bytes": 882580,
+            "sha256": "6c20e577867df2d225314a9e61b3aecf37388cfeb4709788dc0d486ebf299cff"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_canyon_baseColor.ktx2",
+            "bytes": 160303,
+            "sha256": "d0d5ea8e994dd28864c3588b74ed616203523d6a45b90c77bcd50da66aed4e02"
+          }
+        },
+        {
+          "atlasId": "atlas_canyon",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_canyon_normal.png",
+            "bytes": 1857063,
+            "sha256": "0aafa2a01f5cd20eed213384652fe92be4b123de704a748bee85173ff680f086"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_canyon_normal.ktx2",
+            "bytes": 194030,
+            "sha256": "994fcf66d123f1688ea00a594601a22fabe21d4277fe1be3daedd18cfc3420a5"
+          }
+        },
+        {
+          "atlasId": "atlas_canyon",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_canyon_orm.png",
+            "bytes": 1158798,
+            "sha256": "87ae5a9e914e1cc784c7735928e91744057351b7adf7b63fe3c165f8b31b7c0c"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_canyon_orm.ktx2",
+            "bytes": 144043,
+            "sha256": "1dd3378a0a72dc1ff3769bcb64bcd070e172cff6405d33bcb7bd9b50eaf3a5da"
+          }
+        },
+        {
+          "atlasId": "atlas_canyon",
+          "channel": "emissive",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_canyon_emissive.png",
+            "bytes": 203503,
+            "sha256": "9711e1ac2702845fc46c4c4d452395cfa3fc98f03f7635e96855d15f4224ebf1"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_canyon_emissive.ktx2",
+            "bytes": 48179,
+            "sha256": "ab01bd469fad5483886b9a9a89b16c61372175c43c211a53557b9184ab651fd1"
+          }
+        },
+        {
+          "atlasId": "atlas_canyon",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_canyon_mask.png",
+            "bytes": 1383113,
+            "sha256": "5cfb75260fdbf8ca765ddd069916b38bd10ad2860f0e8761b0181c24fcbcdce3"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_canyon_mask.ktx2",
+            "bytes": 197368,
+            "sha256": "b7a6c87907840597b296cea561a3d2b984c0b2c24766b29ca6bce25489fdc471"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_mushroom",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "emissive",
+        "mask"
+      ],
+      "palette": [
+        "#d967af",
+        "#8e71d1",
+        "#79ae73",
+        "#f0a7d4",
+        "#6bc4a0",
+        "#5c496f"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_mushroom",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_mushroom_baseColor.png",
+            "bytes": 944219,
+            "sha256": "bfc14e9fbdc4d242d5b18e0c565a538968d518b00cd38c1ca0a8992bbdd16b1f"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_mushroom_baseColor.ktx2",
+            "bytes": 158835,
+            "sha256": "5d51d231048195aa07a97fbcb0a56341127132576612c9b810791141ca007701"
+          }
+        },
+        {
+          "atlasId": "atlas_mushroom",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_mushroom_normal.png",
+            "bytes": 1856694,
+            "sha256": "d312110a3880f1f5e13037efbb9c13ee4ea7549da74bcc66bdf0e9347b6ce746"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_mushroom_normal.ktx2",
+            "bytes": 193549,
+            "sha256": "d2c9a978bce59ba9bc171c2c370a5102948609f41797f56a3a6eec575065c173"
+          }
+        },
+        {
+          "atlasId": "atlas_mushroom",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_mushroom_orm.png",
+            "bytes": 1136996,
+            "sha256": "cca44425bb15c96b779d2f260ae569755081ce7ec91721ce76ab5d23c3fbd5be"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_mushroom_orm.ktx2",
+            "bytes": 143611,
+            "sha256": "664843b9c8549a59b7ac89b6947e7777c78a133737d53cad7cfb6a93024d8a42"
+          }
+        },
+        {
+          "atlasId": "atlas_mushroom",
+          "channel": "emissive",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_mushroom_emissive.png",
+            "bytes": 217201,
+            "sha256": "8ebc26d197ff93aa055c9cacaeecda7f4a2f7a5e5ff2ec163ef5e528878f9d35"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_mushroom_emissive.ktx2",
+            "bytes": 49059,
+            "sha256": "7b7150b18ca4f5dccc6482748cd8814129c02cf1e4c2f44640a76ba1ad4342e5"
+          }
+        },
+        {
+          "atlasId": "atlas_mushroom",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_mushroom_mask.png",
+            "bytes": 1380924,
+            "sha256": "2fc0292b7b00abb9d131dbaec3991c96c24f7ec255eae7a7aa99e6db9041bb24"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_mushroom_mask.ktx2",
+            "bytes": 197694,
+            "sha256": "30603f182175cc830f61a0377a5dae118f167703a9c662671cec8a647038f239"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_clockwork",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "emissive",
+        "mask"
+      ],
+      "palette": [
+        "#c38a42",
+        "#76847d",
+        "#53646b",
+        "#d9b86c",
+        "#90b5a4",
+        "#3f484d"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_clockwork",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_clockwork_baseColor.png",
+            "bytes": 849333,
+            "sha256": "263f35a55eb70346e1abdb00cacdfdd4774591542a81c09d1a43faeb0a595b32"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_clockwork_baseColor.ktx2",
+            "bytes": 153543,
+            "sha256": "242f13b8cac662599a6b4bd611a8fa5b22d80172f35239fb4291c9d51d58c5b7"
+          }
+        },
+        {
+          "atlasId": "atlas_clockwork",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_clockwork_normal.png",
+            "bytes": 1857343,
+            "sha256": "b98bcb16a53e30b38bc599b3ec34c1d689d716960a6a698fb5c83fb2912bb092"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_clockwork_normal.ktx2",
+            "bytes": 194039,
+            "sha256": "93888c7abadf138bb10f37ff62e6573b48dcc2a0bca952577e5d57e51f05cb73"
+          }
+        },
+        {
+          "atlasId": "atlas_clockwork",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_clockwork_orm.png",
+            "bytes": 1146882,
+            "sha256": "6a47950b23cd5249805359a50dc08957248d3029311c0edf06ab747c24422db0"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_clockwork_orm.ktx2",
+            "bytes": 143768,
+            "sha256": "055eead49cf4e6f79b19d5403318d2b3bb57e340e65183a8af75153e6b46ffa9"
+          }
+        },
+        {
+          "atlasId": "atlas_clockwork",
+          "channel": "emissive",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_clockwork_emissive.png",
+            "bytes": 191183,
+            "sha256": "3098da21b2f45f3f1b038071d3c6ea69530c5176178613c997fda8559252eaaa"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_clockwork_emissive.ktx2",
+            "bytes": 46292,
+            "sha256": "9a154613b5a28dc876e2f94a0bc609ccdb89ef9f30389f757bd855dde69ba7e1"
+          }
+        },
+        {
+          "atlasId": "atlas_clockwork",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_clockwork_mask.png",
+            "bytes": 1381597,
+            "sha256": "5916c27b0fdd1aa0e0986a945ed48842656a89b3ca8a3e5f09f8883ceed6fd09"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_clockwork_mask.ktx2",
+            "bytes": 197474,
+            "sha256": "3faebcac2664ec880b8f7f0147bbaa8bec59ec1f0fb4587e7c0ad25766c1ea12"
+          }
+        }
+      ]
+    },
+    {
+      "atlasId": "atlas_interior_festival_tower",
+      "channels": [
+        "baseColor",
+        "normal",
+        "orm",
+        "emissive",
+        "mask"
+      ],
+      "palette": [
+        "#c99d65",
+        "#f0ce78",
+        "#63538f",
+        "#6cc4d6",
+        "#d96da8",
+        "#55606b"
+      ],
+      "tileGrid": [
+        4,
+        4
+      ],
+      "files": [
+        {
+          "atlasId": "atlas_interior_festival_tower",
+          "channel": "baseColor",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_interior_festival_tower_baseColor.png",
+            "bytes": 940780,
+            "sha256": "6d30d19be4c3cd107462e7d16cbbf0be4f96a1b033bdfecced1123fbdd899457"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_interior_festival_tower_baseColor.ktx2",
+            "bytes": 160056,
+            "sha256": "9e1da7a99f6390a350364d692b7f6b39db5f349692814c0fd038647b0496fc91"
+          }
+        },
+        {
+          "atlasId": "atlas_interior_festival_tower",
+          "channel": "normal",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_interior_festival_tower_normal.png",
+            "bytes": 1858399,
+            "sha256": "975f1c4fe27a430d0629263301fa749587d1266eee001e06d1221c8281c7165e"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_interior_festival_tower_normal.ktx2",
+            "bytes": 193966,
+            "sha256": "c0c9056b29aa811cc760e7b10730aef13a243a7c282eda2481a6997684cd046a"
+          }
+        },
+        {
+          "atlasId": "atlas_interior_festival_tower",
+          "channel": "orm",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_interior_festival_tower_orm.png",
+            "bytes": 1157881,
+            "sha256": "d3adf1ca9271b3466f3c831e8f6d673a860060c5e2b554aeb180b1b1a82074c7"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_interior_festival_tower_orm.ktx2",
+            "bytes": 143281,
+            "sha256": "7e0814007eb526af9a0d4ec1798ea9cf434e2251cee1c14105f66adf6591a96d"
+          }
+        },
+        {
+          "atlasId": "atlas_interior_festival_tower",
+          "channel": "emissive",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_interior_festival_tower_emissive.png",
+            "bytes": 213757,
+            "sha256": "46b4a02d56c2afe9677bcde5eef0d3b714d170075b7da84a992e50ff8869ba65"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_interior_festival_tower_emissive.ktx2",
+            "bytes": 49129,
+            "sha256": "2578a2e5fa298e08b7b3b998d1338c4b11048e9249909db80d8b940fcbfcc0cb"
+          }
+        },
+        {
+          "atlasId": "atlas_interior_festival_tower",
+          "channel": "mask",
+          "width": 1024,
+          "height": 1024,
+          "tileGrid": [
+            4,
+            4
+          ],
+          "png": {
+            "path": "textures/atlases/atlas_interior_festival_tower_mask.png",
+            "bytes": 1382417,
+            "sha256": "7a8c7046270f0cf050e8a29446995219d0f64f71a231faa4b1d12ebc1139ec9d"
+          },
+          "ktx2": {
+            "path": "textures/atlases/atlas_interior_festival_tower_mask.ktx2",
+            "bytes": 197659,
+            "sha256": "7b91ce80f3c133e51c65f191ab3bfc3c03831119132c657abdd60ee28513a7f2"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-07-14T13:05:38.387Z",
+  "version": "0.29.0-art-governance-foundation",
+  "ok": true,
+  "caseCount": 4,
+  "cases": [
+    {
+      "id": "canonical_registry_and_equipment_schema",
+      "status": "PASSED",
+      "result": {
+        "canonicalAssets": 134,
+        "targetAssets": 800,
+        "plannedNewOrReplacementCapacity": 666,
+        "equipmentSlots": 8,
+        "appearanceSlots": 6,
+        "atlasProfiles": 13,
+        "shaderProfiles": 14
+      }
+    },
+    {
+      "id": "shader_library_has_all_governed_profiles",
+      "status": "PASSED",
+      "result": {
+        "shaderProfiles": 14
+      }
+    },
+    {
+      "id": "procedural_texture_and_svg_manifest",
+      "status": "PASSED",
+      "result": {
+        "textures": 10,
+        "svgPatterns": 8,
+        "ktx2Status": "deferred-until-basisu-toolchain-is-installed-and-validated"
+      }
+    },
+    {
+      "id": "runtime_loader_boundary",
+      "status": "PASSED",
+      "result": {
+        "scannedSourceFiles": 257,
+        "permittedLoaders": 3
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

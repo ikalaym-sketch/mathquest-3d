@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-07-15T01:24:27.640Z",
+  "version": "0.30.0-village-farm-hero-art",
+  "ok": true,
+  "caseCount": 6,
+  "cases": [
+    {
+      "id": "canonical_registry_equipment_animation_contracts",
+      "status": "PASSED",
+      "result": {
+        "canonicalAssets": 282,
+        "targetAssets": 800,
+        "plannedNetNewAssets": 518,
+        "disposition": {
+          "keep": 24,
+          "rework": 82,
+          "replace": 28
+        },
+        "newAssets": 148,
+        "equipmentSlots": 8,
+        "appearanceSlots": 6,
+        "playerSockets": 15,
+        "combatArchetypes": 12,
+        "atlasProfiles": 16,
+        "shaderProfiles": 14,
+        "materialProfiles": 17
+      }
+    },
+    {
+      "id": "shader_library_has_all_governed_profiles",
+      "status": "PASSED",
+      "result": {
+        "shaderProfiles": 14,
+        "vertexColorBridge": true
+      }
+    },
+    {
+      "id": "procedural_texture_and_svg_manifest",
+      "status": "PASSED",
+      "result": {
+        "textures": 10,
+        "svgPatterns": 8,
+        "ktx2Status": "active-basis-universal-with-png-fallback"
+      }
+    },
+    {
+      "id": "runtime_atlas_ktx2_contract",
+      "status": "PASSED",
+      "result": {
+        "atlases": 3,
+        "ktx2Files": 13,
+        "pngFallback": true
+      }
+    },
+    {
+      "id": "runtime_loader_boundary",
+      "status": "PASSED",
+      "result": {
+        "scannedSourceFiles": 269,
+        "permittedLoaders": 4
+      }
+    },
+    {
+      "id": "canonical_art_pipeline_modules_and_adapters",
+      "status": "PASSED",
+      "result": {
+        "formalModules": 14,
+        "domainAdapters": 5
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

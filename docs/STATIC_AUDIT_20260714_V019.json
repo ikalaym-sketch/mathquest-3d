@@ -1,0 +1,307 @@
+{
+  "generatedAt": "2026-07-13T22:52:55.549Z",
+  "version": "0.19.0-region-gameplay-differentiation",
+  "ok": true,
+  "failureCount": 0,
+  "warningCount": 0,
+  "failures": [],
+  "warnings": [],
+  "checks": {
+    "village": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "placement": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "farm": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "forest": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "interiors": {
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "counts": {
+        "village": 11,
+        "farm": 2
+      }
+    },
+    "skillGraph": {
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "counts": {
+        "skills": 132,
+        "domains": 12
+      }
+    },
+    "trialTower": {
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "counts": {
+        "floors": 100,
+        "themes": 10,
+        "bosses": 10,
+        "milestones": 10
+      }
+    },
+    "farmProgression": {
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "counts": {
+        "levels": 5,
+        "maxPlots": 49
+      }
+    },
+    "regionProduction": {
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "regionCount": 8,
+      "subareaCount": 32,
+      "structureCount": 32,
+      "bridgeCount": 9,
+      "layouts": {
+        "wind_highlands": {
+          "ok": true,
+          "errors": [],
+          "warnings": []
+        },
+        "snow_valley": {
+          "ok": true,
+          "errors": [],
+          "warnings": []
+        },
+        "farm_plains": {
+          "ok": true,
+          "errors": [],
+          "warnings": []
+        },
+        "star_village": {
+          "ok": true,
+          "errors": [],
+          "warnings": []
+        },
+        "crystal_lake": {
+          "ok": true,
+          "errors": [],
+          "warnings": []
+        },
+        "sun_canyon": {
+          "ok": true,
+          "errors": [],
+          "warnings": []
+        },
+        "mushroom_grove": {
+          "ok": true,
+          "errors": [],
+          "warnings": []
+        },
+        "clockwork_ruins": {
+          "ok": true,
+          "errors": [],
+          "warnings": []
+        }
+      },
+      "catalog": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "topology": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    "characterPhysical": {
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "profileCount": 3
+    },
+    "productionRuntime": {
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "summary": {
+        "regions": 8,
+        "normalMonsters": 24,
+        "elites": 8,
+        "bosses": 8,
+        "structureAssets": 15,
+        "characterAssets": 3,
+        "encounterAssets": 40
+      }
+    },
+    "regionGameplay": {
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "summary": {
+        "regions": 8,
+        "mechanics": 8,
+        "mechanicNodes": 24,
+        "events": 24,
+        "eventSteps": 72,
+        "structureInteractions": 16,
+        "materials": 8,
+        "keepsakes": 8,
+        "mechanicChallenges": 24,
+        "dailyRiftDeterministic": true
+      }
+    },
+    "requiredFiles": {
+      "ok": true,
+      "files": {
+        "src/components/Environment/SurfaceDetailLayer.jsx": true,
+        "src/data/indoorZones.js": true,
+        "src/systems/npcSchedule.js": true,
+        "src/services/InteriorValidationService.js": true,
+        "src/data/interiorDefinitions.js": true,
+        "src/utils/placementGeometry.js": true,
+        "src/components/UI/CharacterCreationPanel.jsx": true,
+        "src/components/UI/DefeatPanel.jsx": true,
+        "src/hooks/useGamepad.js": true,
+        "src/qa/QaBridge.jsx": true,
+        "src/data/skillGraph.js": true,
+        "src/services/SkillGraphValidationService.js": true,
+        "src/services/TrialTowerValidationService.js": true,
+        "src/services/FarmProgressionValidationService.js": true,
+        "src/data/farmProgression.js": true,
+        "src/systems/farmSimulation.js": true,
+        "src/components/UI/HomeInteriorPanel.jsx": true,
+        "src/components/Environment/SkyWeatherLayer.jsx": true,
+        "src/components/World/RegionProductionKit.jsx": true,
+        "src/data/regionProductionLayouts.js": true,
+        "src/data/physicalObjectCatalog.js": true,
+        "src/services/RegionProductionValidationService.js": true,
+        "src/components/3D/CharacterActorRig.jsx": true,
+        "src/data/characterPhysicalProfiles.js": true,
+        "src/services/CharacterPhysicalValidationService.js": true,
+        "src/components/3D/AnimatedProductionModel.jsx": true,
+        "src/components/3D/RuntimeAcceptanceProbe.jsx": true,
+        "src/components/Entities/RegionEncounterLayer.jsx": true,
+        "src/data/regionEncounters.js": true,
+        "src/data/productionAssetCatalog.js": true,
+        "src/input/runtimeAcceptance.js": true,
+        "src/services/ProductionRuntimeValidationService.js": true,
+        "src/data/regionGameplayProfiles.js": true,
+        "src/data/regionMechanicChallenges.js": true,
+        "src/data/dailyRift.js": true,
+        "src/components/RegionMechanics/RegionMechanicChallengePanel.jsx": true,
+        "src/components/RegionMechanics/WindAngleChallenge.jsx": true,
+        "src/components/RegionMechanics/SnowTemperatureChallenge.jsx": true,
+        "src/components/RegionMechanics/FarmArrayChallenge.jsx": true,
+        "src/components/RegionMechanics/StarPatternChallenge.jsx": true,
+        "src/components/RegionMechanics/CrystalSymmetryChallenge.jsx": true,
+        "src/components/RegionMechanics/CanyonMeasurementChallenge.jsx": true,
+        "src/components/RegionMechanics/MushroomRhythmChallenge.jsx": true,
+        "src/components/RegionMechanics/ClockworkSequenceChallenge.jsx": true,
+        "src/services/RegionGameplayService.js": true,
+        "src/services/RegionGameplayValidationService.js": true,
+        "src/systems/regionLoot.js": true,
+        "src/components/World/RegionGameplayLayer.jsx": true,
+        "src/components/World/RegionSubareaTracker.jsx": true,
+        "src/components/World/RegionMechanicLayer.jsx": true,
+        "src/components/World/RegionGuideNPC.jsx": true,
+        "src/components/World/RegionStructureInteractionLayer.jsx": true,
+        "src/components/UI/RegionWorkshopPanel.jsx": true,
+        "src/components/UI/DailyRiftHUD.jsx": true,
+        "scripts/run-region-gameplay-tests.mjs": true,
+        "scripts/export-region-gameplay-manifest.mjs": true,
+        "public/manifests/region-gameplay-manifest.json": true,
+        "docs/REGION_GAMEPLAY_VALIDATION.json": true,
+        "docs/REGION_GAMEPLAY_MATRIX.csv": true,
+        "docs/RELEASE_NOTES_0.19.0.md": true,
+        "docs/REMAINING_SCOPE_0.19.0.md": true,
+        "docs/BASELINE_LOCK_V019.json": true,
+        "docs/FILE_DIFF_V018_TO_V019.txt": true,
+        "docs/FILE_DIFF_V018_TO_V019.json": true,
+        "docs/BUILD_20260714_V019.txt": true,
+        "docs/SIMULATION_20260714_V019.json": true,
+        "docs/REGION_PRODUCTION_TEST_20260714_V019.json": true,
+        "docs/PRODUCTION_RUNTIME_TEST_20260714_V019.json": true,
+        "docs/DEPENDENCY_AUDIT_PRODUCTION_20260714_V019.json": true,
+        "docs/DEPENDENCY_AUDIT_FULL_20260714_V019.json": true,
+        "docs/RUNTIME_HTTP_20260714_V019.txt": true,
+        "docs/RUNTIME_QA_STATUS_V019.md": true,
+        "docs/FILE_INVENTORY_V019_SHA256.txt": true,
+        "scripts/generate-production-assets.mjs": true,
+        "scripts/run-production-runtime-tests.mjs": true,
+        "scripts/export-runtime-production-manifest.mjs": true,
+        "scripts/runtime-qa-cdp.mjs": true,
+        "public/manifests/runtime-production-manifest.json": true,
+        "docs/PRODUCTION_RUNTIME_VALIDATION.json": true,
+        "docs/REGION_ENCOUNTER_MATRIX.csv": true,
+        "docs/RELEASE_NOTES_0.18.0.md": true,
+        "docs/RUNTIME_PRODUCTION_QA_BLOCKED.md": true,
+        "docs/BASELINE_LOCK_V018.json": true,
+        "docs/FILE_DIFF_V017_TO_V018.txt": true,
+        "docs/FILE_DIFF_V017_TO_V018.json": true,
+        "docs/runtime-production-qa/runtime-report.json": true,
+        "scripts/run-region-production-tests.mjs": true,
+        "scripts/export-production-manifests.mjs": true,
+        "public/manifests/region-production-manifest.json": true,
+        "public/manifests/character-production-manifest.json": true,
+        "docs/REGION_PRODUCTION_MATRIX.csv": true,
+        "docs/CHARACTER_PHYSICAL_MATRIX.csv": true,
+        "scripts/run-simulation-tests.mjs": true,
+        "scripts/runtime-qa.mjs": true,
+        "docs/CHANGESET_20260714_P1P5.md": true,
+        "docs/RUNTIME_20260714_BLOCKED.md": true,
+        "docs/REMAINING_SCOPE_20260714.md": true,
+        "docs/BASELINE_LOCK.json": true,
+        "docs/WORK_LEDGER.csv": true
+      }
+    },
+    "bossClickDamageRemoved": {
+      "ok": true
+    },
+    "authoredRegionSceneRouting": {
+      "ok": true
+    },
+    "regionGameplayRuntimeWiring": {
+      "ok": true
+    },
+    "uniqueRegionMechanicRouting": {
+      "ok": true
+    },
+    "pureRuntimeTestMode": {
+      "ok": true
+    },
+    "globalWorldEnvironment": {
+      "ok": true
+    },
+    "characterCreation": {
+      "ok": true
+    },
+    "childSafeDefeatFlow": {
+      "ok": true
+    },
+    "trialPuzzleRetry": {
+      "ok": true
+    },
+    "packageLockSync": {
+      "ok": true
+    },
+    "v019EvidenceChain": {
+      "ok": true
+    },
+    "evidenceChain": {
+      "ok": true
+    }
+  }
+}

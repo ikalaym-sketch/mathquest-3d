@@ -1,0 +1,26 @@
+
+> mathquest-3d@0.30.0 build
+> vite build
+
+[36mvite v8.1.4 [32mbuilding client environment for production...[36m[39m
+[2Ktransforming...✓ 1411 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                      1.55 kB │ gzip:   0.62 kB
+dist/assets/index-WkIxYcmy.css                      81.99 kB │ gzip:  13.99 kB
+dist/assets/rolldown-runtime-QTnfLwEv.js             0.69 kB │ gzip:   0.42 kB
+dist/assets/WildernessScene-B-3L9ZID.js              5.43 kB │ gzip:   2.17 kB
+dist/assets/TrialTowerScene-CIxFjhog.js             12.96 kB │ gzip:   5.09 kB
+dist/assets/SurfaceDetailLayer-yFDIa9gO.js          15.62 kB │ gzip:   5.97 kB
+dist/assets/Boss-CK4IoiwM.js                        22.67 kB │ gzip:   7.72 kB
+dist/assets/worldTime-CVS5nBiv.js                   28.33 kB │ gzip:   9.92 kB
+dist/assets/FarmScene-BkzKocqB.js                   30.46 kB │ gzip:   8.74 kB
+dist/assets/three-DDqraQrL.js                       56.35 kB │ gzip:  23.35 kB
+dist/assets/RegionScene-CqUz0ooM.js                 91.98 kB │ gzip:  27.27 kB
+dist/assets/AnimatedProductionModel-DUH46Ew2.js    246.72 kB │ gzip:  82.32 kB
+dist/assets/index-BXwEa7uu.js                      296.84 kB │ gzip:  91.73 kB
+dist/assets/charts-DPz_HH6G.js                     355.99 kB │ gzip:  95.19 kB
+dist/assets/drei-SMIc3QUK.js                     1,035.71 kB │ gzip: 286.11 kB
+dist/assets/physics-CqSQgJL9.js                  2,080.74 kB │ gzip: 780.12 kB
+
+[32m✓ built in 2.87s[39m

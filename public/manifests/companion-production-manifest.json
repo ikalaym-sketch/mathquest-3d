@@ -1,0 +1,107 @@
+{
+  "version": "0.28.0",
+  "contract": "MathQuestCompanionV1",
+  "companionCount": 8,
+  "requiredNodes": [
+    "CompanionRoot",
+    "BodyPivot",
+    "HeadPivot",
+    "TailPivot",
+    "COLLIDER_Main",
+    "SOCKET_Interaction",
+    "SOCKET_Home",
+    "SOCKET_Skill",
+    "SOCKET_Find"
+  ],
+  "requiredClips": [
+    "Idle",
+    "Walk",
+    "Happy",
+    "Skill",
+    "Sleep",
+    "Swim",
+    "Find",
+    "Greet"
+  ],
+  "companions": [
+    {
+      "id": "companion_tanuki",
+      "name": "圓圓",
+      "species": "狸貓",
+      "modelUrl": "/models/companions/tanuki.glb",
+      "acquisition": {
+        "type": "starter"
+      }
+    },
+    {
+      "id": "companion_rabbit",
+      "name": "米米",
+      "species": "小兔子",
+      "modelUrl": "/models/companions/rabbit.glb",
+      "acquisition": {
+        "type": "starter"
+      }
+    },
+    {
+      "id": "companion_fox",
+      "name": "焰尾",
+      "species": "小狐狸",
+      "modelUrl": "/models/companions/fox.glb",
+      "acquisition": {
+        "type": "starter"
+      }
+    },
+    {
+      "id": "companion_cat",
+      "name": "雲朵",
+      "species": "小貓",
+      "modelUrl": "/models/companions/cat.glb",
+      "acquisition": {
+        "type": "relationship",
+        "npcId": "resident_02",
+        "affinity": 50
+      }
+    },
+    {
+      "id": "companion_otter",
+      "name": "波波",
+      "species": "小水獺",
+      "modelUrl": "/models/companions/otter.glb",
+      "acquisition": {
+        "type": "boss",
+        "bossId": "crystal_boss"
+      }
+    },
+    {
+      "id": "companion_squirrel",
+      "name": "栗栗",
+      "species": "小松鼠",
+      "modelUrl": "/models/companions/squirrel.glb",
+      "acquisition": {
+        "type": "region_event",
+        "regionId": "forest_ruins",
+        "eventCount": 3
+      }
+    },
+    {
+      "id": "companion_chick",
+      "name": "啾啾",
+      "species": "星星小雞",
+      "modelUrl": "/models/companions/chick.glb",
+      "acquisition": {
+        "type": "farm_activity",
+        "animalProducts": 5
+      }
+    },
+    {
+      "id": "companion_red_panda",
+      "name": "豆豆",
+      "species": "小熊貓",
+      "modelUrl": "/models/companions/red_panda.glb",
+      "acquisition": {
+        "type": "boss",
+        "bossId": "clockwork_boss"
+      }
+    }
+  ]
+}

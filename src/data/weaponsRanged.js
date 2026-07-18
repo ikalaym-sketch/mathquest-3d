@@ -1,0 +1,130 @@
+// 遠程武器資料庫（10 種）
+// 每筆包含：id, name, type, rarity, stats, description, lv5_effect
+import { WEAPON_LV5_EFFECT_IDS } from './runtimeEffects.js';
+import { resolveWeaponCombatContract } from './combatArchetypes.js';
+export const WEAPONS_RANGED = [
+  {
+    id: 'wpn_r_01',
+    nameZh: '獵人弓',
+    name: 'Hunter Bow',
+    type: 'ranged',
+    rarity: 'Green',
+    stats: { atk: 7, atkSpeed: 1.0, range: 8, projectile: 'straight' },
+    description: '以穩定節奏進行遠距離攻擊。',
+    lv5_effect: '攻擊速度提高並增加 2 點基礎傷害。',
+  },
+  {
+    id: 'wpn_r_02',
+    nameZh: '追蹤法杖',
+    name: 'Tracking Staff',
+    type: 'ranged',
+    rarity: 'Orange',
+    stats: { atk: 12, atkSpeed: 0.8, range: 9, mpCost: 4, homing: true },
+    description: '消耗魔力發射會追蹤目標的法術。',
+    lv5_effect: '每次施放形成雙重追蹤攻擊，提高總傷害。',
+  },
+  {
+    id: 'wpn_r_03',
+    nameZh: '迴旋鏢',
+    name: 'Boomerang',
+    type: 'ranged',
+    rarity: 'Blue',
+    stats: { atk: 9, atkSpeed: 0.9, range: 6, returns: true },
+    description: '飛出與返回形成兩段傷害。',
+    lv5_effect: '返回階段傷害提高，總傷害明顯增加。',
+  },
+  {
+    id: 'wpn_r_04',
+    nameZh: '爆裂弩',
+    name: 'Explosive Crossbow',
+    type: 'ranged',
+    rarity: 'Orange',
+    stats: { atk: 15, atkSpeed: 0.6, range: 7, aoeRadius: 2, element: 'fire' },
+    description: '命中後造成火焰範圍傷害。',
+    lv5_effect: '爆炸範圍增加 50%，並附加 3 秒燃燒。',
+  },
+  {
+    id: 'wpn_r_05',
+    nameZh: '黑洞魔導書',
+    name: 'Black Hole Grimoire',
+    type: 'ranged',
+    rarity: 'Orange',
+    stats: { atk: 10, atkSpeed: 0.5, range: 8, mpCost: 8, pull: true },
+    description: '消耗魔力產生牽引範圍，聚集附近敵人。',
+    lv5_effect: '牽引範圍增大，並附加持續毒性傷害。',
+  },
+  {
+    id: 'wpn_r_06',
+    nameZh: '刺客飛刀',
+    name: 'Assassin Throwing Knives',
+    type: 'ranged',
+    rarity: 'Blue',
+    stats: { atk: 6, atkSpeed: 2.0, range: 5, projectile: 'straight' },
+    description: '單次傷害較低，但攻擊速度極快。',
+    lv5_effect: '每第 5 次攻擊必定造成強力一擊。',
+  },
+  {
+    id: 'wpn_r_07',
+    nameZh: '忍者手裏劍',
+    name: 'Ninja Shuriken',
+    type: 'ranged',
+    rarity: 'Blue',
+    stats: { atk: 5, atkSpeed: 1.2, range: 6, spread: 3 },
+    description: '以散射方式攻擊一群敵人。',
+    lv5_effect: '散射範圍與總傷害提升為五枚手裏劍效果。',
+  },
+  {
+    id: 'wpn_r_08',
+    nameZh: '毒針吹箭',
+    name: 'Poison Blowgun',
+    type: 'ranged',
+    rarity: 'Blue',
+    stats: { atk: 4, atkSpeed: 1.1, range: 6, poison: 4, duration: 5 },
+    description: '對敵人附加持續毒性傷害。',
+    lv5_effect: '毒素可疊加 3 層並持續 8 秒。',
+  },
+  {
+    id: 'wpn_r_09',
+    nameZh: '破甲飛斧',
+    name: 'Throwing Axe',
+    type: 'ranged',
+    rarity: 'Blue',
+    stats: { atk: 13, atkSpeed: 0.7, range: 5, armorBreak: 0.3 },
+    description: '沉重飛斧可降低敵人的防護能力。',
+    lv5_effect: '破甲提高至 30%，效果持續 4 秒。',
+  },
+  {
+    id: 'wpn_r_10',
+    nameZh: '元素寶珠',
+    name: 'Elemental Orb',
+    type: 'ranged',
+    rarity: 'Orange',
+    stats: { atk: 11, atkSpeed: 0.9, range: 8, element: 'random' },
+    description: '每次攻擊隨機使用火、冰或雷元素。',
+    lv5_effect: '每次命中都會觸發對應元素狀態。',
+  },
+];
+
+const RANGED_EQUIPMENT_PROFILES = Object.freeze({
+  wpn_r_01: { archetype: 'bow', handedness: 'two', animationSet: 'Bow' },
+  wpn_r_02: { archetype: 'staff', handedness: 'two', animationSet: 'StaffCast' },
+  wpn_r_03: { archetype: 'boomerang', handedness: 'one', animationSet: 'ThrowCatch' },
+  wpn_r_04: { archetype: 'crossbow', handedness: 'two', animationSet: 'Crossbow' },
+  wpn_r_05: { archetype: 'grimoire', handedness: 'one', animationSet: 'BookCast' },
+  wpn_r_06: { archetype: 'throwing_knives', handedness: 'dual', animationSet: 'DualThrow' },
+  wpn_r_07: { archetype: 'shuriken', handedness: 'one', animationSet: 'Throw' },
+  wpn_r_08: { archetype: 'blowgun', handedness: 'two', animationSet: 'Blowgun' },
+  wpn_r_09: { archetype: 'throwing_axe', handedness: 'one', animationSet: 'Throw' },
+  wpn_r_10: { archetype: 'orb', handedness: 'one', animationSet: 'OrbCast' },
+});
+
+WEAPONS_RANGED.forEach((weapon) => {
+  Object.assign(weapon, {
+    equipSlot: 'mainHand',
+    supportsOffHand: !['two', 'dual'].includes(RANGED_EQUIPMENT_PROFILES[weapon.id]?.handedness),
+    visualAssetId: `equipment:weapon:${RANGED_EQUIPMENT_PROFILES[weapon.id]?.archetype || 'ranged'}`,
+    ...RANGED_EQUIPMENT_PROFILES[weapon.id],
+    ...resolveWeaponCombatContract(weapon, RANGED_EQUIPMENT_PROFILES[weapon.id]?.archetype),
+  });
+  weapon.lv5EffectId = WEAPON_LV5_EFFECT_IDS[weapon.id] || null;
+});

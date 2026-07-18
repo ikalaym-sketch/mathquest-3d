@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "regionBossProfiles": 8,
+    "bossPhases": 24,
+    "eliteProfiles": 8,
+    "towerThemes": 10,
+    "towerRoomTypes": 10,
+    "towerFloors": 100,
+    "storyChapters": 8,
+    "storyQuests": 40,
+    "villageNpcProfiles": 4,
+    "uiPreferenceKeys": 10
+  }
+}

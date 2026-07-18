@@ -1,0 +1,9 @@
+{
+  "baseline_file": "mathquest-3d-v0.14.0-phase45-foundation-checkpoint.zip",
+  "sha256": "95cded26205ca781b4019df3c85f15c0e602f9b5dd6622eb14bf9565b2b8a626",
+  "project_version": "0.14.0",
+  "file_count": 215,
+  "src_file_count": 128,
+  "status": "LOCKED_FOR_AUDIT",
+  "rule": "No completion claim may be made without a changed-file list, build output, validator output, and runtime evidence."
+}
